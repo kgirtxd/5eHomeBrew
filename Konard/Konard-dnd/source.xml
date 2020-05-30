@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.1">
+			<file name="source.xml" url="https://raw.githubusercontent.com/community-elements/elements-reddit/master/reddit/reddit-dnd/source.xml" />
+		</update>
+	</info>
+	<element name="Konard" type="Source" source="Core" id="ID_RDDT_SOURCE_KONARD_DND">
+		<description>
+			<![CDATA[<p>Homebrew content made up by me or my friend group.</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">Kon</set>
+			!<set name="url"></set>
+			<set name="author" abbreviation="RDDT">Personal Homebrew</set>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+</elements>
