@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Deities</name>
+		<description>Deities from the Konards Homebrew.</description>
+		<author>Konard</author>
+		<update version="0.1">
+			<file name="deities.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/backgrounds/deities.xml" />
+		</update>
+	</info>
+	<element name="Nysos" type="Deity" source="Konard - Github" id="ID_KON_DEITY_AURIL">
+		<description>
+			<p class="flavor">God of Potent Liquids</p>
+		</description>
+		<setters>
+			<set name="setting">Forgotten Realms</set>
+			<set name="alignment">N</set>
+			<set name="domains">Blood, Alcohol, Semen</set>
+			<set name="symbol">Overflowing Wine Chalice</set>
+			<set name="gender">male</set>
+		</setters>
+		<sheet>
+			<description>God of Potent Liquids</description>
+		</sheet>
+	</element>
+</elements>
