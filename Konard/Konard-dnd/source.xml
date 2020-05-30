@@ -11,7 +11,7 @@
 		</description>
 		<setters>
 			<set name="abbreviation">Kon</set>
-			!<set name="url">https://github.com/kgirtxd/5eHomeBrew/</set>
+			<set name="url">https://github.com/kgirtxd/5eHomeBrew/</set>
 			<set name="author" abbreviation="Kon">Personal Homebrew</set>
 			<set name="homebrew">true</set>
 		</setters>
