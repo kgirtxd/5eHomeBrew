@@ -5,7 +5,7 @@
 			<file name="source.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/source.xml" />
 		</update>
 	</info>
-	<element name="Konard" type="Source" source="Core" id="ID_RDDT_SOURCE_KONARD_DND">
+	<element name="Konard" type="Source" source="Core" id="ID_KON_SOURCE_KONARD_DND">
 		<description>
 			<![CDATA[<p>Homebrew content made up by me or my friend group.</p>]]>
 		</description>
