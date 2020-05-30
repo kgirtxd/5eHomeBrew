@@ -9,7 +9,7 @@
 		</update>
 	</info>
 	
-	<element name="CombatMedic" type="Background" source="My Homebrew" id="ID_RDDT_BACKGROUND_COMBATMEDIC">
+	<element name="Combat Medic" type="Background" source="My Homebrew" id="ID_RDDT_BACKGROUND_COMBATMEDIC">
 		<description>
 			<p>You have spent your life protecting someone else’s. Perhaps it was a noble, or a powerful crime boss; maybe even a brutal warlord. Maybe instead of someone more powerful than you, it was a physically weaker companion or family member. Whatever the case, your life up to this point has been focused around protecting someone.</p>
 			<ul class="unstyled">
@@ -20,12 +20,15 @@
 			<div element="ID_RDDT_BACKGROUND_FEATURE_COMBATMEDIC_HEALER_OF_WAR" />
 			<h5>SUGGESTED CHARACTERISTICS</h5>
 			<p>Yay Flavor Text</p>
-		</description>		
+		</description>	
+		<setters>
+          <set name="short">Medicine, Insight / Survival, Healer's Kit, 2 Languages</set>
+        </setters>	
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" />
 			<select type="Proficiency" number="1" supports="ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_SURVIVAL" />
 			<select type="Language" name="Language (CombatMedic)" number="2"/>
-			<grant type="Background Feature" id="ID_RDDT_BACKGROUND_FEATURE_COMBATMEDIC_" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+			<grant type="Background Feature" id="ID_RDDT_BACKGROUND_FEATURE_COMBATMEDIC_HEALER_OF_WAR" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
 			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
 		</rules>			
 	</element>
