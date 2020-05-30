@@ -9,7 +9,7 @@
 		</update>
 	</info>
 	
-	<element name="Combat Medic" type="Background" source="My Homebrew" id="ID_RDDT_BACKGROUND_COMBATMEDIC">
+	<element name="Combat Medic" type="Background" source="Personal Homebrew" id="ID_RDDT_BACKGROUND_COMBATMEDIC">
 		<description>
 			<p>You have spent your life protecting someone else’s. Perhaps it was a noble, or a powerful crime boss; maybe even a brutal warlord. Maybe instead of someone more powerful than you, it was a physically weaker companion or family member. Whatever the case, your life up to this point has been focused around protecting someone.</p>
 			<ul class="unstyled">
@@ -33,7 +33,7 @@
 		</rules>			
 	</element>
 	
-	<element name="Feature: Healer of War" type="Background Feature" source="My Homebrew" id="ID_RDDT_BACKGROUND_FEATURE_COMBATMEDIC_HEALER_OF_WAR">
+	<element name="Feature: Healer of War" type="Background Feature" source="Personal Homebrew" id="ID_RDDT_BACKGROUND_FEATURE_COMBATMEDIC_HEALER_OF_WAR">
 		<supports>Background Feature</supports>
 		<description>
 			<p>Your time in the miltary has earned you the respect of soldiers and doctors alike.  Soldiers will view you favorably and medical workers will give you a discount on supplies.</p>
