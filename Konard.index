@@ -2,10 +2,10 @@
 <index>
 	<info>
 		<update version="0.0.1">
-			<file name="Konard.index" url="https://raw.githubusercontent.com/community-elements/elements-reddit/master/reddit.index" />
+			<file name="Konard.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard.index" />
 		</update>
 	</info>
 	<files>
-		<file name="Konard-DnD-HB.index" url="https://raw.githubusercontent.com/community-elements/elements-reddit/master/reddit/reddit-dnd.index" />
+		<file name="Konard-DnD.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd.index" />
 	</files>
 </index>
