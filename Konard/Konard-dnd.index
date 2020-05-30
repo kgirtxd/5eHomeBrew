@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>r/DnD</name>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="Konard-dnd.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd.index" />
 		</update>
 	</info>
@@ -11,7 +11,8 @@
 	
 		<!-- backgrounds -->
 		<file name="CombatMedic-bodyguard.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/backgrounds/background-CombatMedic.xml" />
-
+		<!-- Weapons -->
+		<file name="weapons-PolearmMaster.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/weapons/weapons-PolearmMaster.xml" />
 		<!-- Races -->
 		<!--file name="background-bodyguard.xml" url="https://raw.githubusercontent.com/community-elements/elements-reddit/master/reddit/reddit-dnd/backgrounds/background-bodyguard.xml" /-->
 	</files>
