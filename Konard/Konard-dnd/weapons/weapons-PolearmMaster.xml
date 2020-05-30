@@ -11,51 +11,52 @@
 	
 	<!-- simple -->
 
-	<element name="Glaive (PAM)" type="Weapon - Polearm Master" source="Konard - Github" id="ID_WOTC_PHB_WEAPON_GLAIVE_PAM">
+	<element name="Glaive (PAM)" type="Weapon" source="Konard - Github" id="ID_WOTC_PHB_WEAPON_GLAIVE_PAM">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
 		<description>
 			<p>When you take the attack action with a glaive, halberd, quarterstaff, or spear (Errata) you can use a bonus action to make a melee attack with the other end of the weapon. The damage die is a d4 (add attribute modifiers as normal) and deals bludgeoning damage. Otherwise, this attack functions just as if you attacked with the weapon in question.</p>
 		</description>
 		<setters>
-			<set name="category">Weapons - Polearm Master</set>
+			<set name="category">Weapons</set>
 			<set name="slot">twohand</set>
 			<set name="damage" type="blugeoning">1d4</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_GLAIVE</set>
 		</setters>
 	</element>
-	<element name="Halberd (PAM)" type="Weapon - Polearm Master" source="Konard - Github" id="ID_WOTC_PHB_WEAPON_HALBERD_PAM">
+	<element name="Halberd (PAM)" type="Weapon" source="Konard - Github" id="ID_WOTC_PHB_WEAPON_HALBERD_PAM">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
 		<description>
 			<p>When you take the attack action with a glaive, halberd, quarterstaff, or spear (Errata) you can use a bonus action to make a melee attack with the other end of the weapon. The damage die is a d4 (add attribute modifiers as normal) and deals bludgeoning damage. Otherwise, this attack functions just as if you attacked with the weapon in question.</p>
 		</description>
 		<setters>
-			<set name="category">Weapons - Polearm Master</set>
+			<set name="category">Weapons</set>
 			<set name="slot">twohand</set>
 			<set name="damage" type="bludgeoning">1d4</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_HALBERD</set>
 		</setters>
-	<element name="Spear (PAM)" type="Weapon - Polearm Master" source="Konard - Github" id="ID_WOTC_PHB_WEAPON_SPEAR_PAM">
+	</element>
+	<element name="Spear (PAM)" type="Weapon" source="Konard - Github" id="ID_WOTC_PHB_WEAPON_SPEAR_PAM">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_GROUP_SPEARS</supports>
 		<description>
 			<p>When you take the attack action with a glaive, halberd, quarterstaff, or spear (Errata) you can use a bonus action to make a melee attack with the other end of the weapon. The damage die is a d4 (add attribute modifiers as normal) and deals bludgeoning damage. Otherwise, this attack functions just as if you attacked with the weapon in question.</p>
 		</description>
 		<setters>
-			<set name="category">Weapons - Polearm Master</set>
+			<set name="category">Weapons</set>
 			<set name="slot">onehand</set>
 			<set name="damage" type="bludgeoning">1d4</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR</set>
 		</setters>
 	</element>
-	<element name="Quarterstaff (PAM)" type="Weapon - Polearm Master" source="Konard - Github" id="ID_WOTC_PHB_WEAPON_QUARTERSTAFF_PAM">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
+	<element name="Quarterstaff (PAM)" type="Weapon" source="Konard - Github" id="ID_WOTC_PHB_WEAPON_QUARTERSTAFF_PAM">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING</supports>
 		<description>
 			<p>When you take the attack action with a glaive, halberd, quarterstaff, or spear (Errata) you can use a bonus action to make a melee attack with the other end of the weapon. The damage die is a d4 (add attribute modifiers as normal) and deals bludgeoning damage. Otherwise, this attack functions just as if you attacked with the weapon in question.</p>
 		</description>
 		<setters>
-			<set name="category">Weapons - Polearm Master</set>
+			<set name="category">Weapons</set>
 			<set name="slot">onehand</set>
 			<set name="damage" type="bludgeoning">1d4</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF</set>
 		</setters>
 	</element>
-	</element></elements>
+</elements>
