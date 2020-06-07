@@ -4,7 +4,7 @@
 		<name>Deities</name>
 		<description>Deities from the Konards Homebrew.</description>
 		<author>Konard</author>
-		<update version="0.1">
+		<update version="0.2">
 			<file name="deities.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/backgrounds/deities.xml" />
 		</update>
 	</info>
@@ -13,7 +13,7 @@
 			<p class="flavor">God of Potent Liquids</p>
 		</description>
 		<setters>
-			<set name="setting">Forgotten Realms</set>
+			<set name="setting">Midcyru</set>
 			<set name="alignment">N</set>
 			<set name="domains">Blood, Alcohol, Semen</set>
 			<set name="symbol">Overflowing Wine Chalice</set>
@@ -22,5 +22,4 @@
 		<sheet>
 			<description>God of Potent Liquids</description>
 		</sheet>
-	</element>
 </elements>
