@@ -3,8 +3,8 @@
 	<info>
 		<name>Urchin(Kon Variant)</name>
 		<description>Urchin(Kon Variant) Background</description>
-		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
-		<update version="0.0.1">
+		<author>Konard</author>
+		<update version="0.0.2">
 			<file name="background-urchin-kon.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/backgrounds/background-urchin.xml" />
 		</update>
 	</info>
