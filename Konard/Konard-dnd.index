@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>r/DnD</name>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="Konard-dnd.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd.index" />
 		</update>
 	</info>
