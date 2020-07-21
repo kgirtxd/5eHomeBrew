@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>ArmorKon</name>
+		<description></description>
+		<author>Konard</author>
+		<update version="0.0.1">
+			<file name="items-armorKon.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/items-armorKon.xml" />
+		</update>
+	</info>
+
+	<!-- light armor -->
+
+
+	<!-- heavy armor -->
+
+
+	<!--shield-->
+	<element name="Shield (Arm)" type="Armor" source="Konard - Github" id="ID_WOTC_GEAR_SHIELD_ARM">
+		<supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
+		<description>
+			<p>A Shield (Arm) is made from wood or metal and is strapped to the offhand forearm. Wielding a Shield (Arm) increases your Armor Class by 1. Wearing a Shield (Arm) will cause you to lose proficiency bonus with two handed weapons.  You can benefit from only one Shield (Arm) at a time.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">6</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">forearm</set>
+			<set name="type">Shield(Arm)</set>
+			<set name="armor">Shield</set>
+			<set name="armorClass">+1</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD</set>
+		</setters>
+		<rules>
+			<stat name="ac:shield" value="1" bonus="shield" />
+		</rules>
+	</element>
+</elements>
