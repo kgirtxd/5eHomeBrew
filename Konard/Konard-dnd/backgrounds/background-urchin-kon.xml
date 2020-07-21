@@ -4,7 +4,7 @@
 		<name>Urchin(Kon Variant)</name>
 		<description>Urchin(Kon Variant) Background</description>
 		<author>Konard</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="background-urchin-kon.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/backgrounds/background-urchin.xml" />
 		</update>
 	</info>
@@ -16,7 +16,7 @@
 			<ul class="unstyled">
 				<li><strong>Skill Proficiencies:</strong> Sleight of Hand, Stealth</li>
 				<li><strong>Tool Proficiencies:</strong>thieves’ tools</li>
-				<li><strong>1 Common Language</li>
+				<li><strong>1 Common Language</strong></li>
 				<li><strong>Equipment:</strong> A small knife, a map of the city you grew up in, a pet mouse, a token to remember your parents by, a set of common clothes, and a belt pouch containing 10 gp</li>
 			</ul>
 			<div element="ID_BACKGROUND_FEATURE_CITY_SECRETS" />
