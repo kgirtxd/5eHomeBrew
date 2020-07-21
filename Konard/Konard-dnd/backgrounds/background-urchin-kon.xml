@@ -4,7 +4,7 @@
 		<name>Urchin(Kon Variant)</name>
 		<description>Urchin(Kon Variant) Background</description>
 		<author>Konard</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="background-urchin-kon.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/backgrounds/background-urchin.xml" />
 		</update>
 	</info>
@@ -33,7 +33,7 @@
 			<select type="Language" name="Language (Urchin)" supports="Standard" />
 			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_CITY_SECRETS" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
 			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
-			<select name="Personality Trait" type="List" number="2">
+			<select name="Personality Trait" type="List" number="2" optional="true">
 				<item id="1">I hide scraps of food and trinkets away in my pockets.</item>
 				<item id="2">I ask a lot of questions.</item>
 				<item id="3">I like to squeeze into small places where no one else can get to me.</item>
@@ -43,7 +43,7 @@
 				<item id="7">I don’t like to bathe.</item>
 				<item id="8">I bluntly say what other people are hinting at or hiding.</item>
 			</select>
-			<select name="Ideal" type="List">
+			<select name="Ideal" type="List" optional="true">
 				<item id="1">Respect. All people, rich or poor, deserve respect. (Good)</item>
 				<item id="2">Community. We have to take care of each other, because no one else is going to do it. (Lawful)</item>
 				<item id="3">Change. The low are lifted up, and the high and mighty are brought down. Change is the nature of things. (Chaotic)</item>
@@ -51,7 +51,7 @@
 				<item id="5">People. I help the people who help me—that’s what keeps us alive. (Neutral)</item>
 				<item id="6">Aspiration. I’m going to prove that I’m worthy of a better life.</item>
 			</select>
-			<select name="Bond" type="List">
+			<select name="Bond" type="List" optional="true">
 				<item id="1">My town or city is my home, and I’ll fight to defend it.</item>
 				<item id="2">I sponsor an orphanage to keep others from enduring what I was forced to endure.</item>
 				<item id="3">I owe my survival to another urchin who taught me to live on the streets.</item>
@@ -59,7 +59,7 @@
 				<item id="5">I escaped my life of poverty by robbing an important person, and I’m wanted for it.</item>
 				<item id="6">No one else should have to endure the hardships I’ve been through.</item>
 			</select>
-			<select name="Flaw" type="List">
+			<select name="Flaw" type="List" optional="true">
 				<item id="1">If I’m outnumbered, I will run away from a fight.</item>
 				<item id="2">Gold seems like a lot of money to me, and I’ll do just about anything for more of it.</item>
 				<item id="3">I will never fully trust anyone other than myself.</item>
