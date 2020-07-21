@@ -4,7 +4,7 @@
 		<name>Urchin(Kon Variant)</name>
 		<description>Urchin(Kon Variant) Background</description>
 		<author>Konard</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="background-urchin-kon.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/backgrounds/background-urchin.xml" />
 		</update>
 	</info>
@@ -15,7 +15,8 @@
 			<p class="indent">You begin your adventuring career with enough money to live modestly but securely for at least ten days. How did you come by that money? What allowed you to break free of your desperate circumstances and embark on a better life?</p>
 			<ul class="unstyled">
 				<li><strong>Skill Proficiencies:</strong> Sleight of Hand, Stealth</li>
-				<li><strong>Tool Proficiencies:</strong> Disguise kit, thieves’ tools</li>
+				<li><strong>Tool Proficiencies:</strong>thieves’ tools</li>
+				<li><strong>1 Common Language</li>
 				<li><strong>Equipment:</strong> A small knife, a map of the city you grew up in, a pet mouse, a token to remember your parents by, a set of common clothes, and a belt pouch containing 10 gp</li>
 			</ul>
 			<div element="ID_BACKGROUND_FEATURE_CITY_SECRETS" />
@@ -29,7 +30,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" />
-			<select type="Language" name="Language (Urchin)" supports="Standard||Exotic" />
+			<select type="Language" name="Language (Urchin)" supports="Standard" />
 			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_CITY_SECRETS" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
 			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
 			<select name="Personality Trait" type="List" number="2">
