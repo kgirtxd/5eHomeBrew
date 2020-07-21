@@ -4,12 +4,12 @@
 		<name>FeatsKon</name>
 		<description>Feats from Konard Hombrew.</description>
 		<author>Konard</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="featsKon.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/featsKon.xml" />
 		</update>
 	</info>
 
-	<element name="Shield Master - Shield(Arm) Variant" type="Feat" source="Konard - Github" id="ID_PHB_FEAT_SHIELDMASTER_Armshield">
+	<element name="Shield Master - Shield (Arm) Variant" type="Feat" source="Konard - Github" id="ID_PHB_FEAT_SHIELDMASTER_Armshield">
 		<description>
 			<p>You use shields not just for protection but also for offense. You gain the following benefits while you are wielding a shield:</p>
 			<ul>
