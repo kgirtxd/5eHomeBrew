@@ -12,9 +12,11 @@
 		<!-- backgrounds -->
 		<file name="CombatMedic-bodyguard.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/backgrounds/background-CombatMedic.xml" />
 		<file name="background-urchin-kon.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/backgrounds/background-urchin-kon.xml" />
-		<!-- Weapons -->
+		<!-- Weapons/Armor -->
 		<file name="weapons-PolearmMaster.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/weapons/weapons-PolearmMaster.xml" />
+		<file name="items-armorKon.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/items-armorKon.xml" />
 		<!-- Other -->
 		<file name="deities.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/backgrounds/deities.xml" />
+		<file name="featsKon.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/featsKon.xml" />
 	</files>
 </index>
