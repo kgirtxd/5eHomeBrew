@@ -4,7 +4,7 @@
 		<name>Deities</name>
 		<description>Deities from the Konards Homebrew.</description>
 		<author>Konard</author>
-		<update version="0.4">
+		<update version="0.5">
 			<file name="deities.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/backgrounds/deities.xml" />
 		</update>
 	</info>
@@ -51,10 +51,11 @@
 		<description>
 			<p class="flavor"><strong>Goddess of Frenzied War and Havoc</strong></p>
 			<p class="indent">Neamhain is one of the triple Goddesses in Celtic mythology called the three Morrígna.  Neamhain is the personification of the frenzied havoc of war, capable of producing a fear aura that has been known to drive enemies to impale themselves on their own weapons. Occasionally she appears as an ill-omen near rivers and creeks, washing the clothes or entrails of a doomed warrior.</p>
+			<p></p>
 			<p class="indent"><strong><em>Appearance.</em></strong> She is young, with long, flowing dark hair. Goes into battle wearing only war paint.</p>
 			<p class="indent"><strong><em>Alignment.</em></strong> Lawful Neutral</p>
-			<p class="indent"><strong><em>Domains.</em> Death, Order, War</strong> </p>
-			<p class="indent"><strong><em>Symbol.</em> Raven</strong> </p>
+			<p class="indent"><strong><em>Domains.</em> </strong> Death, Order, War</p>
+			<p class="indent"><strong><em>Symbol.</em> </strong> Raven</p>
 		</description>
 		<setters>
 			<set name="setting">Celtic</set>
