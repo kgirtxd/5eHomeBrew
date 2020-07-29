@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.1" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Deities</name>
@@ -10,17 +10,58 @@
 	</info>
 	<element name="Nysos" type="Deity" source="Konard - Github" id="ID_KON_DEITY_AURIL">
 		<description>
-			<p class="flavor">God of Potent Liquids</p>
+			<p class="flavor"><strong>God of Potent Liquids</strong></p>
+			<p class="indent">Nysos is the god of semen, blood and wine, and all potent liquids.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Neutral</p>
+			<p class="indent"><strong><em>Domains.</em></strong> Blood, Death, Life</p>
+			<p class="indent"><strong><em>Symbol.</em></strong> Overflowing Wine Chalice</p>
 		</description>
 		<setters>
 			<set name="setting">Midcyru</set>
 			<set name="alignment">N</set>
-			<set name="domains">Blood, Alcohol, Semen</set>
+			<set name="domains">Blood, Death, Life</set>
 			<set name="symbol">Overflowing Wine Chalice</set>
 			<set name="gender">male</set>
 		</setters>
 		<sheet>
 			<description>God of Potent Liquids</description>
 		</sheet>
+	</element>
+		<element name="Morrigan" type="Deity" source="Konard - Github" id="ID_KON_CELTIC-MORRIGAN">
+		<description>
+			<p class="flavor"><strong>Goddess of War, Vengeance, Crows, Prophecy, and Death  </strong></p>
+			<p class="indent">Morrigan is one of the triple Goddesses in Celtic mythology called the three Morrígna.  She is known to cause fear and confusion among soldiers to move the tide of battle to her favoured side. Morrigan may also appear prior to a battle to foreshadow the extent of the carnage to come, or to predict the death of a notable person.</p>
+			<p class="indent"><strong><em>Appearance.</em></strong> Morrigan is represented similarly in almost every artistic representation of her. She is young, with long, flowing dark hair. Her clothing is black and sometimes very revealing. Other times, she is cloaked so as not to show her face. Because she was a shape-shifter, she is often shown with one of the more common forms she would take on-the crow or raven. She is strikingly beautiful yet intimidating.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Chaotic Neutral</p>
+			<p class="indent"><strong><em>Domains.</em></strong> Death, Knowledge, Twilight, War</p>
+			<p class="indent"><strong><em>Symbol.</em></strong> Crow</p>
+			<p></p>
+			<p></p>
+			<a href="https://mythology.net/others/gods/the-morrigan/">More Information</a>
+		</description>
+		<setters>
+			<set name="setting">Celtic</set>
+			<set name="alignment">CN</set>
+			<set name="domains">Death, Knowledge, Twilight, War</set>
+			<set name="symbol">Crow</set>
+			<set name="gender">female</set>
+		</setters>
+	</element>
+		<element name="Neamhain" type="Deity" source="Konard - Github" id="ID_KON_CELTIC-NEAMHAIN">
+		<description>
+			<p class="flavor"><strong>Goddess of Frenzied War and Havoc</strong></p>
+			<p class="indent">Neamhain is one of the triple Goddesses in Celtic mythology called the three Morrígna.  Neamhain is the personification of the frenzied havoc of war, capable of producing a fear aura that has been known to drive enemies to impale themselves on their own weapons. Occasionally she appears as an ill-omen near rivers and creeks, washing the clothes or entrails of a doomed warrior.</p>
+			<p class="indent"><strong><em>Appearance.</em></strong> She is young, with long, flowing dark hair. Goes into battle wearing only war paint.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Lawful Neutral</p>
+			<p class="indent"><strong><em>Domains.</em> Death, Order, War</strong> </p>
+			<p class="indent"><strong><em>Symbol.</em> Raven</strong> </p>
+		</description>
+		<setters>
+			<set name="setting">Celtic</set>
+			<set name="alignment">LN</set>
+			<set name="domains">Death, Order, War</set>
+			<set name="symbol">Raven</set>
+			<set name="gender">female</set>
+		</setters>
 	</element>
 </elements>
