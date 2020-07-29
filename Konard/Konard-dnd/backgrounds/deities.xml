@@ -4,7 +4,7 @@
 		<name>Deities</name>
 		<description>Deities from the Konards Homebrew.</description>
 		<author>Konard</author>
-		<update version="0.2">
+		<update version="0.3">
 			<file name="deities.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/backgrounds/deities.xml" />
 		</update>
 	</info>
