@@ -11,7 +11,7 @@
 	<element name="Nysos" type="Deity" source="Konard - Github" id="ID_KON_DEITY_AURIL">
 		<description>
 			<p class="flavor"><strong>God of Potent Liquids</strong></p>
-			<p class="indent">Nysos is the god of semen, blood and wine, and all potent liquids.</p>
+			<p class="indent">Nysos is the god of semen, blood, wine, and all potent liquids.</p>
 			<p class="indent"><strong><em>Alignment.</em></strong> Neutral</p>
 			<p class="indent"><strong><em>Domains.</em></strong> Blood, Death, Life</p>
 			<p class="indent"><strong><em>Symbol.</em></strong> Overflowing Wine Chalice</p>
