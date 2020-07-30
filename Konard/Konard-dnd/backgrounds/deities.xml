@@ -4,7 +4,7 @@
 		<name>Deities</name>
 		<description>Deities from the Konards Homebrew.</description>
 		<author>Konard</author>
-		<update version="0.5">
+		<update version="0.6">
 			<file name="deities.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/backgrounds/deities.xml" />
 		</update>
 	</info>
@@ -52,7 +52,7 @@
 			<p class="flavor"><strong>Goddess of Frenzied War and Havoc</strong></p>
 			<p class="indent">Neamhain is one of the triple Goddesses in Celtic mythology called the three Morrígna.  Neamhain is the personification of the frenzied havoc of war, capable of producing a fear aura that has been known to drive enemies to impale themselves on their own weapons. Occasionally she appears as an ill-omen near rivers and creeks, washing the clothes or entrails of a doomed warrior.</p>
 			<p></p>
-			<p class="indent"><strong><em>Appearance.</em></strong> She is young, with long, flowing dark hair. Goes into battle wearing only war paint.</p>
+			<p class="indent"><strong><em>Appearance.</em></strong> She is young woman, with long, flowing dark hair. Goes into battle wearing only war paint.</p>
 			<p class="indent"><strong><em>Alignment.</em></strong> Lawful Neutral</p>
 			<p class="indent"><strong><em>Domains.</em> </strong> Death, Order, War</p>
 			<p class="indent"><strong><em>Symbol.</em> </strong> Raven</p>
@@ -65,4 +65,22 @@
 			<set name="gender">female</set>
 		</setters>
 	</element>
+		<element name="Macha" type="Deity" source="Konard - Github" id="ID_KON_CELTIC-MACHA">
+		<description>
+			<p class="flavor"><strong>Goddess of Sovereignty and War </strong></p>
+			<p class="indent">Macha is one of the triple Goddesses in Celtic mythology called the three Morrígna.  The fiery haired goddess is both a fearsome warrior and a decider of sovereign rulers, choosing who is worthy to lead her people and who is not. Her preferred method of combat is on horseback, and as such she shows favoritism toward those fighters that also ride into battles.</p>
+			<p class="indent"><strong><em>Appearance.</em></strong> She is young woman, with long, fiery red hair.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Lawful Neutral</p>
+			<p class="indent"><strong><em>Domains.</em></strong> Order, War</p>
+			<p class="indent"><strong><em>Symbol.</em></strong> Red Crow</p>
+		</description>
+		<setters>
+			<set name="setting">Celtic</set>
+			<set name="alignment">LN</set>
+			<set name="domains">Order, War</set>
+			<set name="symbol">Red Crow</set>
+			<set name="gender">female</set>
+		</setters>
+	</element>
+
 </elements>
