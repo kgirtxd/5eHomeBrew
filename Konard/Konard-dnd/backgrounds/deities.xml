@@ -4,7 +4,7 @@
 		<name>Deities</name>
 		<description>Deities from the Konards Homebrew.</description>
 		<author>Konard</author>
-		<update version="0.7">
+		<update version="0.8">
 			<file name="deities.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/backgrounds/deities.xml" />
 		</update>
 	</info>
@@ -86,7 +86,7 @@
 		<description>
 			<p class="flavor"><strong>Fey King of the Seelie Court </strong></p>
 			<p class="indent">Oberon is the King of the Seelie Court and consort to Titania.  He is known to be impulsive and a prankster.</p>
-			<p class="indent"><strong><em>Appearance.</em></strong> She is young woman, with long, fiery red hair.</p>
+			<p class="indent"><strong><em>Appearance.</em></strong> Oberon has a mostly humanoid form with the exception of his deer horns and deer hooves, which make him resemble a satyr. He has fair skin, yellow eyes and long, bushy, dark green hair that reaches beyond his back.</p>
 			<p class="indent"><strong><em>Alignment.</em></strong> Chaotic Good</p>
 			<p class="indent"><strong><em>Domains.</em></strong> Nature, Trickery</p>
 			<p class="indent"><strong><em>Symbol.</em></strong> White Stag Horns</p>
