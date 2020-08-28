@@ -4,7 +4,7 @@
 		<name>Weapons - Polearm Master</name>
 		<description></description>
 		<author>Konard</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Items-Weapons-PolearmMaster.xml" />
 		</update>
 	</info>

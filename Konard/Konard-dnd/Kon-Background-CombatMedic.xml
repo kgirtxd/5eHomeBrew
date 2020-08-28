@@ -4,7 +4,7 @@
 		<name>Combat Medic (WIP)</name>
 		<description>Combat Medic Background - Work in Progress</description>
 		<author>Konard</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="Kon-Background-CombatMedic.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Background-CombatMedic.xml" />
 		</update>
 	</info>
@@ -34,7 +34,7 @@
 	<element name="Feature: Healer of War" type="Background Feature" source="Konard's Bag of Stuff" id="ID_KON_BACKGROUND_FEATURE_COMBATMEDIC_HEALER_OF_WAR">
 		<supports>Background Feature</supports>
 		<description>
-			<p>Your time in the miltary has earned you the respect of soldiers and doctors alike.  Soldiers will view you favorably and medical workers will give you a discount on supplies.</p>
+			<p>Your time in the military has earned you the respect of soldiers and doctors alike.  Soldiers will view you favorably and medical workers will give you a discount on supplies.</p>
 		</description>
 		<sheet alt="Healer of War" />
 	</element>

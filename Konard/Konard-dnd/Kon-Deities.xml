@@ -4,7 +4,7 @@
 		<name>Deities</name>
 		<description>Deities from the Konard's Homebrew.</description>
 		<author>Konard</author>
-		<update version="0.9">
+		<update version="0.0.10">
 			<file name="deities.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Deities.xml" />
 		</update>
 	</info>
@@ -30,7 +30,7 @@
 		<element name="Morrigan" type="Deity" source="Konard's Bag of Stuff" id="ID_KON_CELTIC-MORRIGAN">
 		<description>
 			<p class="flavor"><strong>Goddess of War, Vengeance, Crows, Prophecy, and Death  </strong></p>
-			<p class="indent">Morrigan is one of the triple Goddesses in Celtic mythology called the three Morrígna.  She is known to cause fear and confusion among soldiers to move the tide of battle to her favoured side. Morrigan may also appear prior to a battle to foreshadow the extent of the carnage to come, or to predict the death of a notable person.</p>
+			<p class="indent">Morrigan is one of the triple Goddesses in Celtic mythology called the three Morrígna.  She is known to cause fear and confusion among soldiers to move the tide of battle to her favored side. Morrigan may also appear prior to a battle to foreshadow the extent of the carnage to come, or to predict the death of a notable person.</p>
 			<p class="indent"><strong><em>Appearance.</em></strong> Morrigan is represented similarly in almost every artistic representation of her. She is young, with long, flowing dark hair. Her clothing is black and sometimes very revealing. Other times, she is cloaked so as not to show her face. Because she was a shape-shifter, she is often shown with one of the more common forms she would take on-the crow or raven. She is strikingly beautiful yet intimidating.</p>
 			<p class="indent"><strong><em>Alignment.</em></strong> Chaotic Neutral</p>
 			<p class="indent"><strong><em>Domains.</em></strong> Death, Knowledge, Twilight, War</p>
