@@ -4,7 +4,7 @@
 		<name>Combat Medic (WIP)</name>
 		<description>Combat Medic Background - Work in Progress</description>
 		<author>Konard</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="Kon-Background-CombatMedic.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Background-CombatMedic.xml" />
 		</update>
 	</info>
