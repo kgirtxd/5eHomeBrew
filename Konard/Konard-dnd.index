@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Konard's Homebrew Material</name>
-		<update version="0.0.10">
+		<update version="0.0.11">
 			<file name="Konard-dnd.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd.index" />
 		</update>
 	</info>
@@ -19,13 +19,5 @@
 		<file name="Kon-Deities.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Deities.xml" />
 		<file name="Kon-Feats.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Feats.xml" />
 
-		<!-- Obsolete -->
-		<Obsolete name="CombatMedic-bodyguard.xml" />
-		<Obsolete name="background-CombatMedic.xml" />
-		<Obsolete name="Background-Urchin-Kon.xml" />
-		<Obsolete name="deities.xml" />
-		<Obsolete name="featsKon.xml" />
-		<Obsolete name="items-armorKon.xml" />
-		<Obsolete name="weapons-PolearmMaster.xml" />
 	</files>
 </index>
