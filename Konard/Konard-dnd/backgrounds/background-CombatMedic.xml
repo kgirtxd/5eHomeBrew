@@ -4,12 +4,12 @@
 		<name>Combat Medic</name>
 		<description>Combat Medic Background</description>
 		<author>Konard</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="background-CombatMedic.xml" url="https://raw.githubusercontent.com/community-elements/elements-reddit/master/reddit/reddit-dnd/backgrounds/background-CombatMedic.xml" />
 		</update>
 	</info>
 	
-	<element name="Combat Medic" type="Background" source="Konard - Github" id="ID_KON_BACKGROUND_COMBATMEDIC">
+	<element name="Combat Medic" type="Background" source="Konard's Bag of Stuff" id="ID_KON_BACKGROUND_COMBATMEDIC">
 		<description>
 			<p>You have spent your life protecting someone else’s. Perhaps it was a noble, or a powerful crime boss; maybe even a brutal warlord. Maybe instead of someone more powerful than you, it was a physically weaker companion or family member. Whatever the case, your life up to this point has been focused around protecting someone.</p>
 			<ul class="unstyled">

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.1">
+		<update version="0.2">
 			<file name="source.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/source.xml" />
 		</update>
 	</info>
-	<element name="Konard - Github" type="Source" source="Core" id="ID_KON_SOURCE_KONARD_DND">
+	<element name="Konard's Bag of Stuff" type="Source" source="Core" id="ID_KON_SOURCE_KONARD_DND">
 		<description>
 			<![CDATA[<p>Homebrew content made up by me or my friend group.</p>]]>
 		</description>

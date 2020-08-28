@@ -4,7 +4,7 @@
 		<name>ArmorKon</name>
 		<description></description>
 		<author>Konard</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="items-armorKon.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/items-armorKon.xml" />
 		</update>
 	</info>
@@ -16,7 +16,7 @@
 
 
 	<!--shield-->
-	<element name="Armshield" type="Armor" source="Konard - Github" id="ID_KON_GEAR_ARMSHIELD">
+	<element name="Armshield" type="Armor" source="Konard's Bag of Stuff" id="ID_KON_GEAR_ARMSHIELD">
 		<supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
 		<description>
 			<p>A armshield is made from wood or metal and is strapped to the offhand forearm. Wielding a armshield increases your Armor Class by 1. Wearing a armshield will cause you to lose proficiency bonus with two handed weapons.  You can benefit from only one armshield at a time.</p>

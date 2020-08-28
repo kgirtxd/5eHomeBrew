@@ -4,11 +4,11 @@
 		<name>Deities</name>
 		<description>Deities from the Konards Homebrew.</description>
 		<author>Konard</author>
-		<update version="0.8">
+		<update version="0.9">
 			<file name="deities.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/backgrounds/deities.xml" />
 		</update>
 	</info>
-	<element name="Nysos" type="Deity" source="Konard - Github" id="ID_KON_DEITY_AURIL">
+	<element name="Nysos" type="Deity" source="Konard's Bag of Stuff" id="ID_KON_DEITY_AURIL">
 		<description>
 			<p class="flavor"><strong>God of Potent Liquids</strong></p>
 			<p class="indent">Nysos is the god of semen, blood, wine, and all potent liquids.</p>
