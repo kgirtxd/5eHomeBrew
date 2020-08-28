@@ -2,7 +2,8 @@
 <index>
 	<info>
 		<name>Konard's Homebrew Material</name>
-		<update version="0.0.11">
+		<update version="0.0.12">
+
 			<file name="Konard-dnd.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd.index" />
 		</update>
 	</info>
@@ -12,12 +13,23 @@
 		<!-- backgrounds -->
 		<file name="Kon-Background-CombatMedic.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Background-CombatMedic.xml" />
 		<file name="Kon-Background-Urchin-Varient.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Background-Urchin-Varient.xml" />
+
 		<!-- Weapons/Armor -->
 		<file name="Kon-Items-Weapons-PolearmMaster.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Items-Weapons-PolearmMaster.xml" />
 		<file name="Kon-Items-Armor.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Items-Armor.xml" />
+
 		<!-- Other -->
 		<file name="Kon-Deities.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Deities.xml" />
 		<file name="Kon-Feats.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Feats.xml" />
 
+
+		<!-- Obsolete -->
+		<Obsolete name="CombatMedic-bodyguard.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/backgrounds/background-CombatMedic.xml" />
+		<Obsolete name="background-CombatMedic.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/backgrounds/background-CombatMedic.xml" />
+		<Obsolete name="Background-Urchin-Kon.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/backgrounds/background-urchin-kon.xml" />
+		<Obsolete name="deities.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/backgrounds/deities.xml" />
+		<Obsolete name="featsKon.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/featsKon.xml" />
+		<Obsolete name="items-armorKon.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/items-armorKon.xml" />
+		<Obsolete name="weapons-PolearmMaster.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/weapons/weapons-PolearmMaster.xml" />
 	</files>
 </index>
