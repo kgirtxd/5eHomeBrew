@@ -4,8 +4,8 @@
 		<name>Urchin(Kon Variant)</name>
 		<description>Urchin variant that replaces the disguise kit proficiency with a common language.</description>
 		<author>Konard</author>
-		<update version="0.0.7">
-			<file name="background-urchin-kon.xml" url="Kon-Background-Urchin-Varient.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Background-Urchin-Varient.xml" />
+		<update version="0.0.8">
+			<file name="Kon-Background-Urchin-Varient.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Background-Urchin-Varient.xml" />
 		</update>
 	</info>
 
