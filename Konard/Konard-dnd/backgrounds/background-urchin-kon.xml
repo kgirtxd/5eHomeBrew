@@ -2,9 +2,9 @@
 <elements>
 	<info>
 		<name>Urchin(Kon Variant)</name>
-		<description>Urchin(Kon Variant) Background</description>
+		<description>Urchin variant that replaces the disguise kit proficiency with a common language.</description>
 		<author>Konard</author>
-		<update version="0.0.6">
+		<update version="0.0.7">
 			<file name="background-urchin-kon.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/backgrounds/background-urchin.xml" />
 		</update>
 	</info>

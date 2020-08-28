@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Combat Medic</name>
-		<description>Combat Medic Background</description>
+		<name>Combat Medic (WIP)</name>
+		<description>Combat Medic Background - Work in Progress</description>
 		<author>Konard</author>
-		<update version="0.0.2">
-			<file name="background-CombatMedic.xml" url="https://raw.githubusercontent.com/community-elements/elements-reddit/master/reddit/reddit-dnd/backgrounds/background-CombatMedic.xml" />
+		<update version="0.0.3">
+			<file name="background-CombatMedic.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/backgrounds/background-CombatMedic.xml" />
 		</update>
 	</info>
 	
@@ -18,11 +18,9 @@
 				<li><strong>Equipment:</strong> A symbol or keepsake from from someone you saved, Healer's Kit, a set of traveler's clothes, and a belt pouch containing 10 gp</li>
 			</ul>
 			<div element="ID_KON_BACKGROUND_FEATURE_COMBATMEDIC_HEALER_OF_WAR" />
-			<h5>SUGGESTED CHARACTERISTICS</h5>
-			<p>Yay Flavor Text</p>
 		</description>	
 		<setters>
-          <set name="short">Medicine, Insight / Survival, Healer's Kit, 2 Languages</set>
+          <set name="short">Medicine, Insight / Survival, 2 Languages</set>
         </setters>	
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" />
@@ -33,7 +31,7 @@
 		</rules>			
 	</element>
 	
-	<element name="Feature: Healer of War" type="Background Feature" source="Konard - Github" id="ID_KON_BACKGROUND_FEATURE_COMBATMEDIC_HEALER_OF_WAR">
+	<element name="Feature: Healer of War" type="Background Feature" source="Konard's Bag of Stuff" id="ID_KON_BACKGROUND_FEATURE_COMBATMEDIC_HEALER_OF_WAR">
 		<supports>Background Feature</supports>
 		<description>
 			<p>Your time in the miltary has earned you the respect of soldiers and doctors alike.  Soldiers will view you favorably and medical workers will give you a discount on supplies.</p>
