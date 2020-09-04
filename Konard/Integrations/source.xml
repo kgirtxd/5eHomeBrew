@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.1">
+			<file name="source.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/source.xml" />
+		</update>
+	</info>
+	<element name="Konard's Integrations" type="Source" source="Core" id="ID_KON_SOURCE_KONARD_DND_INTEGRATIONS">
+		<description>
+			<![CDATA[<p>Content that Konard has integrated with Aurora</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">Kon</set>
+			<set name="url">https://github.com/kgirtxd/5eHomeBrew\Konard\Integrations</set>
+			<set name="author" abbreviation="Kon">Konard</set>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+</elements>
