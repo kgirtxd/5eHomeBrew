@@ -10,7 +10,7 @@
 			<![CDATA[<p>Homebrew content made up by me or my friend group.</p>]]>
 		</description>
 		<setters>
-			<set name="abbreviation">Kon</set>
+			<set name="abbreviation">KON</set>
 			<set name="url">https://github.com/kgirtxd/5eHomeBrew/</set>
 			<set name="author" abbreviation="Kon">Konard</set>
 			<set name="homebrew">true</set>
