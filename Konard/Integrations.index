@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Konard's Homebrew Material</name>
+		<update version="0.0.14">
+
+			<file name="Konard-dnd.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd.index" />
+		</update>
+	</info>
+	<files>
+		<file name="source.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/source.xml" />
+		<file name="Backgrounds Omnibus v2.3.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/Backgrounds%20Omnibus%20v2.3.xml" />
+	</files>
+</index>
