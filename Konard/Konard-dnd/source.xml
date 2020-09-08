@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.2">
+		<update version="0.3">
 			<file name="source.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/source.xml" />
 		</update>
 	</info>
@@ -14,6 +14,7 @@
 			<set name="url">https://github.com/kgirtxd/5eHomeBrew/</set>
 			<set name="author" abbreviation="Kon">Konard</set>
 			<set name="homebrew">true</set>
+			<set name="information">Check with your DM before adding any of this content.</set>
 		</setters>
 	</element>
 </elements>
