@@ -12,6 +12,7 @@
 		<setters>
 			<set name="abbreviation">KON</set>
 			<set name="url">https://github.com/kgirtxd/5eHomeBrew/</set>
+			<set name="image">https://gchs.org/wp-content/uploads/Image-Coming-Soon-Placeholder.png</set>
 			<set name="author" abbreviation="Kon">Konard</set>
 			<set name="homebrew">true</set>
 			<set name="information">Check with your DM before adding any of this content.</set>
