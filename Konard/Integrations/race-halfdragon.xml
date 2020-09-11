@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Half Dragon Race</name>
+		<description>Homebrew race with associated feats and epic boon</description>
+		<author url="https://www.reddit.com/r/UnearthedArcana/comments/clzo6h/half_dragon/">Konard</author>
+		<update version="1.2.1.1">
+			<file name="race-halfdragon.xml" url="https://www.reddit.com/r/UnearthedArcana/comments/clzo6h/half_dragon/" />
+		</update>
+	</info>
+	<element name="Half Dragon Race" type="Source" source="Half Dragon Race" id="ID_RDDT_HB_HALF_DRAGON_RACE">
+		<description>
+			<![CDATA[<p>Homebrew race with associated feats and epic boon</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">RDDT</set>
+			<set name="url">https://www.reddit.com/r/UnearthedArcana/comments/clzo6h/half_dragon/</set>
+			<set name="author" abbreviation="RDDT">u/nielspeterdejong, Inspired by u/IrishBandit, Integrated by Konard</set>
+			<set name="Homebrew">true</set>
+		</setters>
+	</element>
+	
+	<element name="Half-Dragon" type="Race" source="Half Dragon Race" id="ID_HB_RACE_HALF_DRAGON">
+		<description>
+			<p class="flavor">“HALF DRAGONS? YEAH, TOTAL FREAKS THOSE GUYS. IMAGINE Dragonborn but then more human. I guess some people will sleep around with just about anyone these days, even dragons. Still I had a few in my party, andI can't argue with their results. Once had a Silver one freeze a Ore solid before he could cleave my head Now, his look was hilarious!"<br/>— Thorzag, green dyed beardless Dwarf</p>
+			<p class="flavor">Many Dragons are not only fearsome beasts, but renowned masters of magic as welL As such, it is not uncommon for one to change shape and walk among the masses, or even take a mortal lover. The children of such unions are known as Half Dragons. Not quite as monstrous looking as the Dragonborn, but still very much recognizable due to it’s draconic traits.</p>
+			<h4>PROUD DRAGON HERITAGE</h4>
+			<p>Half Dragons look very similar to their mortal parent, except for the horns and partial scales that cover their bodies, as well as their draconic legs and and long tails. However, Half Dragons are more known for their dangerous elemental breaths, as well as the gift of transformation. While only a few Half Dragons can eventually ascend to True Dragonhood, some have been gifted with a "lesser" form that allows them a burst of power as well as the gift of flight for a short period of time.</p>
+			<p class="indent">Half Dragons color patterns are similar to their draconic parent, and in the case of two Half-Dragons having children the child will often be born in a color scheme of either parent. Though occasionally they instead look like one of the other draconic ancestors of the parents, as Half Dragons are strongly drawn to one another and known to quickly make families and communities. They are tall and strongly built, with males often standing close to 6 and a half feet tall and being taller and heavier than females. They also gain an advantage based on which draconic heritage is more dominant for them.</p>
+			<h4>CHALLENGING UPBRINGING</h4>
+			<p>Half Dragons share much of their draconic parent's strength, but they are also vulnerable in the early stages of their long lives. The lucky ones are raised by two Half Dragon parents, who raise them into protected communities. Others are abandoned by the draconic parent or both parents, forced to survive or hope they will get adopted by other Half Dragons or by Dragonborn. Though those with a Metallic Dragon parent are more often than not properly raised and cared for</p>
+			<p class="indent">Those adopted by Dragonborn are brought in as part of the clan, and are raised to show strong loyalty to their clan. A continual drive for self-improvement reflects the self sufficiency of the Dragonborn race as a whole, which is then reflected upon the Half Dragon. These Half Dragons value skill and excellence in all endeavors. They hate to fail, and they push themselves to extreme efforts before they give up on something. These Dragonborn raised Half Dragons hold mastery of a particular skill as a lifetime goal, alongside the desire to ascend to Dragonhood Members of other races who share the same commitment find it easy to earn their respect.</p>
+			<p class="indent">Eventually, all Half Dragons have a universal drive to become stronger. By gaining strength in a multitude of ways, they find that they become more in touch with their draconic heritage, which comes forward in the forms of mastering their elemental breath, or even transforming into a Dragon outright. This form is often not as strong as that of true dragons, except for those that are truly devoted and powerful. Such Half Dragons have "Ascended to Dragonhood", and become true dragons with all their terrifying might. This true dragon form however, is not easy to attain, and requires great devotion and resolve. Those who succeed however, are viewed in very high regards by Half Dragon society.</p>
+			<h4>A GROWING PEOPLE</h4>
+			<p>In the most recent years, Half Dragons have been forming communities at an increasing rate. This has created many Half Dragon families, and in turn many adventurers as well due to their drive to ascent to Dragonhood Usually however, many Half Dragons will start a family and have children, with the mother being persuaded to take care of the children, while the father goes out and provides for his family. Should the mother choose to become an adventurer, then the grandparents or one of the extended family will often take care of them. While they are few in number, they are rapidly increasing their numbers due to a high fertility rate and big families (contraception is taboo for them, as they have a instinctive desire for survival and feel that every number counts) These communities are protected by their elders, some of whom have already ascended to Dragonhood, and make for formidable opponents.</p>
+			<h4>HALF DRAGON NAMES</h4>
+			<p>Half Dragon names are usually based on the language of it's mortal parent, as Draconic names are often much harder to pronounce. Some Half Dragons who are adopted within Dragonborn clans will instead be given a Dragonborn name:</p>
+			<p>
+			<b>Male Names: </b>Arjhan, Balasar, Bharash, Donaar, Ghesh, Heskan, Kriv, Medrash, Mehen, Nadarr, Pandjed, Patrin, Rhogar, Shamash, Shedinn, Tarhun, Torinn
+			<br/>
+			<b>Female Names: </b>Akra, Biri, Daar, Farideh, Harann, Havilar, Jheri, Kava, Korinn, Mishann, Nala, Perra, Raiann, Sora, Surina, Thava, Uadjit
+			<br/>
+			<b>Childhood Names: </b>Climber, Earbender, Leaper, Pious, Shieldbiter, Zealous
+			<br/>
+			<b>Clan Names: </b>Clethtinthiallor, Daardendrian, Delmirev, Drachedandion, Fenkenkabradon, Kepeshkmolik, Kerrhylon, Kimbatuul Linxakasendalor, Myastan, Nemmonis, Norixius, Ophinshtalajiir, Prexijandilin, Shestendeliath, Turnuroth, Verthisathurgiesh, Yarjerit
+			<br/>
+			</p>
+			<h4>HALF DRAGON TRAITS</h4>
+			<p>Your draconic heritage manifests in a variety of traits you share with other Half Dragons.</p>
+			<p>
+			<span class="feature">Age.</span>Half Dragons mature at the same rate as their mortal parent's race, but they can live for hundreds of years, up to 1000 years old A few of those who have transcended into Dragonhood however, have been granted the gift of immortality. Making Dragonhood even more sought out after, but no less difficult to achieve.
+			<br />
+			<span class="feature">Alignment.</span>Most Half Dragons are similar to Dragonborn and tend to extremes, making a conscious choice for one side or the other in the cosmic war between good and evil (represented by Bahamut and Tiamat, respectively) Most Half Dragons are good, but those who side with Tiamat can be terrible villains.
+			<br />
+			<span class="feature">Size.</span>Half Dragons are often taller and heavier than humans, standing well over 6 feet tall, with males being noticeably bigger than females. Your size is Medium.
+			<br />
+			<span class="feature">Speed.</span>Your base walking speed is 30 feet.
+			<br />
+			<span class="feature">Breath Weapon.</span>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can't use it again until it's recharged At the start of your turn, roll a d6. On a 6, you regain the use of your breath weapon. Otherwise, your breath weapon recharges after 1 minute.
+			<br />
+			<span class="feature">Languages.</span>You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.
+			<br />
+			<span class="feature">Draconic Ancestry.</span>While most Half Dragons are mixed, they are always divided into a number of different colors that reflect their draconic ancestry, and provides them with unique abilities.Just like True Dragons these colors are not all equally powerful, and some colors have more niche abilities than others. However, no color is exceptionally different in power from others.These colors fall into two categories, the chromatics Black, Blue, Green, Red, and white - and the metallics - Brass, Bronze, Copper, Gold and Silver. Choose one of these subraces. Your breath weapon deals elemental damage of the type associated with your chosen subrace, and you gain Resistance against this damage type as welL In addition your Ability Score increases as described, and you gain an additional Draconic Trait.
+			<br />
+			</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Arjhan, Balasar, Bharash, Donaar, Ghesh, Heskan, Kriv, Medrash, Mehen, Nadarr, Pandjed, Patrin, Rhogar, Shamash, Shedinn, Tarhun, Torinn</set>
+			<set name="names" type="female">Akra, Biri, Daar, Farideh, Harann, Flavilar, Jheri, Kava, Korinn, Mishann, Nala, Perra, Raiann, Sora, Surina, Thava, Uadjit</set>
+			<set name="names" type="childhood">Climber, Earbender, Leaper, Pious, Shieldbiter, Zealous</set>
+			<set name="names" type="clan">Clethtinthiallor, Daardendrian, Delmirev, Drachedandion, Fenkenkabradon, Kepeshkmolik, Kerrhylon, Kimbatuul, Linxakasendalor, Myastan, Nemmonis, Norixius, Ophinshtalajiir, Prexijandilin, Shestendeliath, Turnuroth, Verthisathurgiesh, Yarjerit</set>
+			<set name="names-format">{{name}} {{clan}}</set>
+			<set name="height" modifier="2d8">6'</set>
+			<set name="weight" modifier="2d6">175 lb.</set>
+		</setters>
+		<rules>
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC" />
+			<grant type="Racial Trait" id="ID_HALF_DRAGON_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+			<grant type="Racial Trait" id="ID_HALF_DRAGON_RACIAL_TRAIT_BREATH_WEAPON" />
+			<grant type="Racial Trait" id="ID_HALF_DRAGON_RACIAL_TRAIT_DAMAGE_RESISTANCE" />
+			<select type="Race Variant" name="Half Dragon Variant" supports="Half Dragon" optional="true" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_DRACONIC_ANCESTRY">
+		<description>
+			<p>You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.</p>
+			<h5>DRACONIC ANCESTRY</h5>
+			<table>
+				<thead>
+					<tr><td>Dragon</td><td>Damage Type / Resistance</td><td>Breath Weapon</td></tr>
+				</thead>
+				<tr><td>Black</td><td>Acid</td><td>5 by 30 ft. line (Dex. save)</td></tr>
+				<tr><td>Blue</td><td>Lightning</td><td>5 by 30 ft. line (Dex. save)</td></tr>
+				<tr><td>Brass</td><td>Fire</td><td>5 by 30 ft. line (Dex. save)</td></tr>
+				<tr><td>Bronze</td><td>Lightning</td><td>5 by 30 ft. line (Dex. save)</td></tr>
+				<tr><td>Copper</td><td>Acid</td><td>5 by 30 ft. line (Dex. save)</td></tr>
+				<tr><td>Gold</td><td>Fire</td><td>15 ft. cone (Dex. save)</td></tr>
+				<tr><td>Green</td><td>Poison</td><td>15 ft. cone (Con. save)</td></tr>
+				<tr><td>Red</td><td>Fire</td><td>15 ft. cone (Dex. save)</td></tr>
+				<tr><td>Silver</td><td>Cold</td><td>15 ft. cone (Con. save)</td></tr>
+				<tr><td>White</td><td>Cold</td><td>15 ft. cone (Con. save)</td></tr>
+			</table>
+		</description>
+		<rules>
+			<select type="Racial Trait" name="Draconic Ancestry" supports="Draconic Ancestry - Half Dragon" />
+		</rules>
+	</element>
+	<element name="Breath Weapon" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_BREATH_WEAPON">
+		<description>
+			<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p>
+			<p>After you use your breath weapon, you can't use it again +until it's recharged At the start of your turn, roll a d6. On a 6, you regain the use of your breath weapon. Otherwise, your breath weapon recharges after1 minute.</p>
+		</description>
+		<sheet action="Action" usage="Recharge 6 on 1d6 or 1 minute">
+			<description>Exhale destructive energy. Your breath weapon does {{breath-weapon:dice count}}d{{breath-weapon:dice size}} {{draconic-ancestry:damage type}} damage in a {{draconic-ancestry:breath}} DC {{breath-weapon:dc}}</description>
+		</sheet>
+		<rules>
+			<stat name="breath-weapon:dc" value="8" />
+			<stat name="breath-weapon:dc" value="constitution:modifier" />
+			<stat name="breath-weapon:dc" value="proficiency" />
+			<stat name="breath-weapon:dice size" value="6" bonus="dice" />
+			<stat name="breath-weapon:dice count" value="2" level="1" />
+			<stat name="breath-weapon:dice count" value="1" level="6" />
+			<stat name="breath-weapon:dice count" value="1" level="11" />
+			<stat name="breath-weapon:dice count" value="1" level="16" />
+		</rules>
+	</element>
+	<element name="Damage Resistance" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_DAMAGE_RESISTANCE">
+		<description>
+			<p>You have resistance to the damage type associated with your draconic ancestry.</p>
+		</description>
+		<sheet>
+			<description>You have resistance to {{draconic-ancestry:damage type}}.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" requirements="ID_HALF_DRAGON_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLACK||ID_HALF_DRAGON_RACIAL_TRAIT_DRACONIC_ANCESTRY_COPPER" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" requirements="ID_HALF_DRAGON_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLUE||ID_HALF_DRAGON_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRONZE" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" requirements="ID_HALF_DRAGON_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRASS||ID_HALF_DRAGON_RACIAL_TRAIT_DRACONIC_ANCESTRY_GOLD||ID_HALF_DRAGON_RACIAL_TRAIT_DRACONIC_ANCESTRY_RED" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" requirements="ID_HALF_DRAGON_RACIAL_TRAIT_DRACONIC_ANCESTRY_GREEN" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" requirements="ID_HALF_DRAGON_RACIAL_TRAIT_DRACONIC_ANCESTRY_SILVER||ID_HALF_DRAGON_RACIAL_TRAIT_DRACONIC_ANCESTRY_WHITE" />
+		</rules>
+	</element>
+
+
+	<!-- Ancestry Colors (Subrace) -->
+	<element name="Draconic Ancestry (Black)" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLACK">
+		<supports>Draconic Ancestry - Half Dragon</supports>
+		<description>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Constitution modifier increases by 2, and your Strength modifier increases by 1.
+				<br />
+				<span class="feature">Unrelenting Force.</span>You add your Constitution modifier to the damage of your breath weapon. This value doubles while you are within your Dragon Form.
+				<br />
+			</p>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Black">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<grant type="Racial Trait" id="ID_HALF_DRAGON_RACIAL_TRAIT_UNRELENTING_FORCE" />
+			<stat name="constitution" value="2" />
+			<stat name="strength" value="1" />
+			<stat inline="true" name="draconic-ancestry" value="Black"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Acid" />
+			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Blue)" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLUE">
+		<supports>Draconic Ancestry - Half Dragon</supports>
+		<description>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Strength, Dexterity, and Constitution scores each increase by 1.
+				<br />
+				<span class="feature">Desert Predator.</span>You have a burrow speed of 15 feet. When you use the Hide action you may immediately burrow.
+				<br />
+			</p>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Blue">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<grant type="Racial Trait" id="ID_HALF_DRAGON_RACIAL_TRAIT_DESERT_PREDATOR" />
+			<stat name="dexterity" value="1" />
+			<stat name="strength" value="1" />
+			<stat name="constitution" value="1" />
+			<stat inline="true" name="draconic-ancestry" value="Blue"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Lightning" />
+			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Brass)" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRASS">
+		<supports>Draconic Ancestry - Half Dragon</supports>
+		<description>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Strength modifier increases by 2, and your Charisma modifier increases by 1.
+				<br />
+				<span class="feature">Boldly Talkative.</span>You have proficiency in Persuasion, and magic can’t put you to sleep.
+				<br />
+			</p>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Brass">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<grant type="Racial Trait" id="ID_HALF_DRAGON_RACIAL_TRAIT_BOLDLY_TALKATIVE" />
+			<stat name="strength" value="2" />
+			<stat name="charisma" value="1" />
+			<stat inline="true" name="draconic-ancestry" value="Brass"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Fire" />
+			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Bronze)" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRONZE">
+		<supports>Draconic Ancestry - Half Dragon</supports>
+		<description>
+			<span class="feature">Ability Score Increase.</span>Your Strength, Constitution, and Charisma scores each increase by 1.
+				<br />
+				<span class="feature">Dragon of the Coast.</span>You have a swim speed of 30 feet. You can breathe air and water.
+				<br />
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Bronze">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<grant type="Racial Trait" id="ID_HALF_DRAGON_RACIAL_TRAIT_DRAGON_OF_THE_COAST" />
+			<stat name="charisma" value="1" />
+			<stat name="strength" value="1" />
+			<stat name="constitution" value="1" />
+			<stat inline="true" name="draconic-ancestry" value="Bronze"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Lightning" />
+			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Copper)" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_DRACONIC_ANCESTRY_COPPER">
+		<supports>Draconic Ancestry - Half Dragon</supports>
+		<description>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Charisma modifier increases by 2, and your Strength  modifier increases by 1.
+				<br />
+				<span class="feature">Playful Host.</span>You have proficiency in Performance, and you know the vicious mockery cantrip. Charisma is your spell casting ability for this spell
+				<br />
+			</p>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Copper">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<grant type="Racial Trait" id="ID_HALF_DRAGON_RACIAL_TRAIT_PLAYFUL_HOST" />
+			<stat name="strength" value="1" />
+			<stat name="charisma" value="2" />
+			<stat inline="true" name="draconic-ancestry" value="Copper"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Acid" />
+			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Gold)" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_DRACONIC_ANCESTRY_GOLD">
+		<supports>Draconic Ancestry - Half Dragon</supports>
+		<description>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Wisdom score increases by 2, and your Strength score increases by 1.
+				<br />
+				<span class="feature">Reserved Companion.</span>You have proficiency in Insight. Your racial fire damage (including that in your (true) Dragon Form) becomes radiant damage against Fiends and Undead instead.
+				<br />
+			</p>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Gold">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<grant type="Racial Trait" id="ID_HALF_DRAGON_RACIAL_TRAIT_RESERVED_COMPANION" />
+			<stat name="strength" value="1" />
+			<stat name="wisdom" value="2" />
+			<stat inline="true" name="draconic-ancestry" value="Gold"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Fire" />
+			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Dex. save)" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Green)" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_DRACONIC_ANCESTRY_GREEN">
+		<supports>Draconic Ancestry - Half Dragon</supports>
+		<description>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Charisma score increases by 2, and your Strength score increases by 1.
+				<br />
+				<span class="feature">Gifted Trickster.</span>You have proficiency in Deception. You can cast the disguise self spell once with this trait, and regain the ability to cast it this way when you finish a short or long rest. Charisma is your spellcasting ability for this trait.
+				<br />
+			</p>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Green">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<grant type="Racial Trait" id="ID_HALF_DRAGON_RACIAL_TRAIT_GIFTED_TRICKSTER" />
+			<stat name="strength" value="1" />
+			<stat name="charisma" value="2" />
+			<stat inline="true" name="draconic-ancestry" value="Green"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Poison" />
+			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Con. save)" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Red)" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_DRACONIC_ANCESTRY_RED">
+		<supports>Draconic Ancestry - Half Dragon</supports>
+		<description>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Strength score increases by 2, and your Constitution score increases by 1.
+				<br />
+				<span class="feature">Indomitable.</span>You have advantage on saving throws to avoid being charmed or frightened.
+				<br />
+			</p>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Red">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<grant type="Racial Trait" id="ID_HALF_DRAGON_RACIAL_TRAIT_INDOMITABLE" />
+			<stat name="strength" value="2" />
+			<stat name="constitution" value="1" />
+			<stat inline="true" name="draconic-ancestry" value="Red"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Fire" />
+			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Dex. save)" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Silver)" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_DRACONIC_ANCESTRY_SILVER">
+		<supports>Draconic Ancestry - Half Dragon</supports>
+		<description>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Intelligence score increases by 2, and your Strength score increases by 1.
+				<br />
+				<span class="feature">Paralyzing Breath.</span>When using your breath weapon, you may instead choose to target a single creature within 15 feet with paralyzing gas. It doesn't suffer damage, but must succeed at the DC save or be paralyzed until the end of your next turn. Afterwards you may regain this trait after finishing a long rest.
+				<br />
+			</p>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Silver">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<grant type="Racial Trait" id="ID_HALF_DRAGON_RACIAL_TRAIT_PARALYZING_BREATH" />
+			<stat name="strength" value="1" />
+			<stat name="intelligence" value="2" />
+			<stat inline="true" name="draconic-ancestry" value="Silver"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Cold" />
+			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Con. save)" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (White)" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_DRACONIC_ANCESTRY_WHITE">
+		<supports>Draconic Ancestry - Half Dragon</supports>
+		<description>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Constitution score increases by 2, and your Strength score increases by 1.
+				<br />
+				<span class="feature">Skilled Hunter.</span>You have proficiency in Survival. As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.
+				<br />
+			</p>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="White">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<grant type="Racial Trait" id="ID_HALF_DRAGON_RACIAL_TRAIT_SKILLED_HUNTER" />
+			<stat name="strength" value="1" />
+			<stat name="constitution" value="2" />
+			<stat inline="true" name="draconic-ancestry" value="White"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Cold" />
+			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Con. save)" />
+		</rules>
+	</element>
+
+
+	<!-- Ancestry Abilities -->
+	<element name="Unrelenting Force" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_UNRELENTING_FORCE">
+		<description>
+			<p>You add your Constitution modifier to the damage of your breath weapon. This value doubles while you are within your Dragon Form.</p>
+		</description>
+		<sheet>
+			<description>You add {{constitution:modifier}} to the damage of your breath weapon. This value doubles while you are within your Dragon Form.</description>
+		</sheet>
+		<rules>
+			
+		</rules>
+	</element>
+	<element name="Desert Predator" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_DESERT_PREDATOR">
+		<description>
+			<p>You have a burrow speed of 15 feet. When you use the Hide action you may immediately burrow yourself just below the surface into sand or loose soil Creatures that attempt to detect you while you are burrowed take a -5 penalty to their ability checks to find you, as long as you remain there without moving or taking actions. While burrowed near the surface you have vision, may breathe freely, and may emerge as a bonus action.</p>
+		</description>
+		<sheet>
+			<description>You have a burrow speed of 15 feet. When you use the Hide action you may immediately burrow yourself just below the surface into sand or loose soil Creatures that attempt to detect you while you are burrowed take a -5 penalty to their ability checks to find you, as long as you remain there without moving or taking actions. While burrowed near the surface you have vision, may breathe freely, and may emerge as a bonus action.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed:burrow" value="15" bonus="base" />
+		</rules>
+	</element>
+	<element name="Boldly Talkative" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_BOLDLY_TALKATIVE">
+		<description>
+			<p>You have proficiency in Persuasion, and magic can’t put you to sleep.</p>
+		</description>
+		<sheet>
+			<description>You have proficiency in Persuasion, and magic can’t put you to sleep.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+		</rules>
+	</element>
+	<element name="Dragon of the Coast" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_DRAGON_OF_THE_COAST">
+		<description>
+			<p>You have a swim speed of 30 feet. You can breathe air and water.</p>
+		</description>
+		<sheet>
+			<description>You have a swim speed of 30 feet. You can breathe air and water.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed:swim" value="30" bonus="base" />
+		</rules>
+	</element>
+	<element name="Playful Host" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_PLAYFUL_HOST">
+		<description>
+			<p>You have proficiency in Performance, and you know the vicious mockery cantrip. Charisma is your spell casting ability for this spell.</p>
+		</description>
+		<sheet>
+			<description>You have proficiency in Performance, and you know the vicious mockery cantrip. Charisma is your spell casting ability for this spell.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" />
+			<grant type="Spell" id="ID_PHB_SPELL_VICIOUS_MOCKERY" level="1" />
+		</rules>
+	</element>
+	<element name="Reserved Companion" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_RESERVED_COMPANION">
+		<description>
+			<p>You have proficiency in Insight. Your racial fire damage (including that in your (true) Dragon Form) becomes radiant damage against Fiends and Undead instead.</p>
+		</description>
+		<sheet>
+			<description>You have proficiency in Insight. Your racial fire damage (including that in your (true) Dragon Form) becomes radiant damage against Fiends and Undead instead.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+		</rules>
+	</element>
+	<element name="Gifted Trickster" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_GIFTED_TRICKSTER">
+		<description>
+			<p>You have proficiency in Deception. You can cast the disguise self spell once with this trait, and regain the ability to cast it this way when you finish a short or long rest. Charisma is your spellcasting ability for this trait.</p>
+		</description>
+		<sheet>
+			<description>You have proficiency in Deception. You can cast the disguise self spell once with this trait, and regain the ability to cast it this way when you finish a short or long rest. Charisma is your spellcasting ability for this trait.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_DISGUISE_SELF" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
+		</rules>
+	</element>
+	<element name="Indomitable" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_INDOMITABLE">
+		<description>
+			<p>You have advantage on saving throws to avoid being charmed or frightened.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws to avoid being charmed or frightened.</description>
+		</sheet>
+		<rules>
+		</rules>
+	</element>
+	<element name="Paralyzing Breath" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_PARALYZING_BREATH">
+		<description>
+			<p>When using your breath weapon, you may instead choose to target a single creature within 15 feet with paralyzing gas. It doesn't suffer damage, but must succeed at the DC save or be paralyzed until the end of your next turn. Afterwards you may regain this trait after finishing a long rest.</p>
+		</description>
+		<sheet>
+			<description>When using your breath weapon, you may instead choose to target a single creature within 15 feet with paralyzing gas. It doesn't suffer damage, but must succeed at the DC save or be paralyzed until the end of your next turn. Afterwards you may regain this trait after finishing a long rest.</description>
+		</sheet>
+		<rules>
+		</rules>
+	</element>
+	<element name="Skilled Hunter" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_SKILLED_HUNTER">
+		<description>
+			<p>You have proficiency in Survival. As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.</p>
+		</description>
+		<sheet>
+			<description>You have proficiency in Survival. As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+		</rules>
+	</element>
+
+
+	<!-- Feats -->
+	<element name="Improved Breath Weapon" type="Feat" source="Half Dragon Race" id="ID_HALF_DRAGON_FEAT_IMPROVED_BREATH_WEAPON">
+		<prerequisite>Half-Dragon, 4th level</prerequisite>
+		<requirements>[level:4],ID_HB_RACE_HALF_DRAGON</requirements>
+		<description>
+			<p>Requirements: Half-Dragon, 4th Level</p>
+			<p>Extensive training has granted you greater control over your breath weapon, allowing you to use it more quickly and more frequently.</p>
+			<ul>
+				<li>You may use your breath weapon as a bonus action.</li>
+				<li>If you choose to use your action for your breath weapon instead of your bonus action, then it's damage is increased by 1d6 and it's range is doubled.</li>
+				<li>You regain the use of your breath weapon on a 5 or 6 on the d6 dice roll.</li>
+			</ul>
+			<p>You may not benefit from this feat during your True Dragon Form epic boon.</p>
+		</description>
+		<sheet>
+			<description>You may use your breath weapon as a bonus action. If you choose to use your action for your breath weapon instead of your bonus action, then it's damage is increased by 1d6 and it's range is doubled. You regain the use of your breath weapon on a 5 or 6 on the d6 dice roll. You may not benefit from this feat during your True Dragon Form epic boon.</description>
+		</sheet>
+	</element>
+	<element name="Dragon Form" type="Feat" source="Half Dragon Race" id="ID_HALF_DRAGON_FEAT_DRAGON_FORM">
+		<prerequisite>Half-Dragon, 4th level</prerequisite>
+		<requirements>[level:4],ID_HB_RACE_HALF_DRAGON</requirements>
+		<description>
+			<p>Requirements: Half-Dragon, 4th Level</p>
+			<p>You are blessed by either Bahamut or Tiamat, granting you a lesser Dragon form of your Draconic Ancestry's chosen dragon.</p>
+			<ul>
+				<li>You gain 10 ft blindsight.</li>
+				<li>You can use your bonus action to change into a 8 feet tall medium sized form of your ancestral dragon. Your transformation lasts for 1 minute or until you end it as a bonus action. During this form you gain a flying speed of 30 feet, your breath weapon deals 1d6 additional damage, and you gain a bite attack as a unarmed strike which deals 1d10 piercing damage. Your bite also counts as a finesse weapon. In addition, once per turn you may deal bonus damage of your chosen damage type to a single target you've damaged, for an amount equal to your level You may regain this form when you finish a long rest. During this transformation your AC and other defensive boons remain the same (your scaled body parts can be used as your shield) however your AC cannot be lower than 15 + your dexterity modifier. Your weapons merge with you, and the magical bonuses of your equipped melee weapon(s) are transferred to your bite attack. In addition, for each minute that you haven't entered combat while in this form, you may extend it's duration by 1 minute, up to 10 minutes total.</li>
+				<li>If you ascend to Dragonhood then your True Dragon form will replace this Dragon Form. In which case you may choose a new feat immediately instead of this one.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>You gain 10 ft blindsight. You can use your bonus action to change into a 8 feet tall medium sized form of your ancestral dragon. Your transformation lasts for 1 minute or until you end it as a bonus action. During this form you gain a flying speed of 30 feet, your breath weapon deals 1d6 additional damage, and you gain a bite attack as a unarmed strike which deals ldlO piercing damage. Your bite also counts as a finesse weapon. In addition, once per turn you may deal bonus damage of your chosen damage type to a single target you've damaged, for an amount equal to your level You may regain this form when you finish a long rest. During this transformation your AC and other defensive boons remain the same (your scaled body parts can be used as your shield) however your AC cannot be lower than 15+ your dexterity modifier. Your weapons merge with you, and the magical bonuses of your equipped melee weapon(s) are transferred to your bite attack. In addition, for each minute that you haven't entered combat while in this form, you may extend it's duration by 1 minute, up to 10 minutes total.</description>
+		</sheet>
+	</element>
+	<element name="True Dragon Form" type="Feat" source="Half Dragon Race" id="ID_HALF_DRAGON_FEAT_TRUE_DRAGON_FORM">
+		<prerequisite>Half-Dragon, 20th level</prerequisite>
+		<requirements>[level:20],ID_HB_RACE_HALF_DRAGON</requirements>
+		<description>
+			<p>Requirements: Half-Dragon, 20th Level</p>
+			<h4>Epic Boon: Ascending to Dragonhood</h4>
+			<p>All Half Dragons seek to ascend to their Dragonhood gaining the form and power of a true Dragon of their chosen draconic Ancestry type. The following boon is only granted with the permission of the DM, and as such the following rules are directed at him:</p>
+			<p>If you (the DM) are using the Epic Boons optional rule from the DMG, then once the half dragon player reaches level 20, you (the DM) may wish to allow them to begin research, training or tribulations which, if completed, would grant them the following Epic Boon:</p>
+			<h4>True Dragon Form</h4>
+			<ul>
+				<li>You may now cast true polymorph once without expending a spell slot, but it only targets yourself and you must change into your chosen Dragon type. You may exit this form as a bonus action, and after losing this form you regain the ability to cast the spell in this way when you finish a long rest.</li>
+				<li>This replaces your Dragon Form transformation if you have taken the Dragon Form feat.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>You may now cast true polymorph once without expending a spell slot, but it only targets yourself and you must change into your chosen Dragon type. You may exit this form as a bonus action, and after losing this form you regain the ability to cast the spell in this way when you finish a long rest.</description>
+		</sheet>
+	</element>
+
+
+</elements>
