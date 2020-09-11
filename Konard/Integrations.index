@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Konard's Aurora Integrations</name>
-		<update version="0.0.3">
+		<update version="0.1.0">
 			<file name="Integrations.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations.index" />
 		</update>
 	</info>
