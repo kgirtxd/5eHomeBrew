@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="backgrounds.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/KBP%20Unlikely%20Heroes/backgrounds.xml" />
+		</update>
+	</info>
+
+<!--  CANNIBAL HEADHUNTER -->
+	<element name="Cannibal Headhunter" type="Background" source="Unlikely Heroes" id="ID_KBP_UH_BACKGROUND_CANNIBAL_HEADHUNTER">
+		<description>
+			<p>You hail from a tribe that thrives far from civilized lands. Unlike other outlander settlements, your people hold to ancient ideals and traditions that others find deeply unsettling. You believe the consumption of sentient flesh brings insight, power, and guidance from the spirits. The ancestors of your tribe taught that knowledge and power gained in life suffuses the body, and that the tribe must keep that power within its own ranks. The funeral rites of your people involve consumption of the deceased. During times of warfare, some tribes devour their fallen foes in a similar ritual to take the strength and power from their vanquished foes. Cannibal headhunters always carry at least one totem bone from a previous ritual meal, and many wear elaborate tattoos signifying their gathered power.</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong> Intimidation, Survival</li>
+				<li><strong>Tool Proficiencies:</strong> Cook’s utensils</li>
+				<li><strong>Languages:</strong> One of your choice</li>
+				<li><strong>Equipment:</strong> A set of cook’s utensils, a carved humanoid bone totem, a set of traveler’s clothes, a hunting trap, and a pouch containing 5 gp.</li>
+			</ul>
+			<div element="ID_KBP_UH_FEATURE_GRIM_FEAST" />
+			<h5>SUGGESTED CHARACTERISTICS</h5>
+			<p>While unsettling to those who don’t share their practices, cannibal headhunters fit a variety of types. All hold their rituals sacred, though the personal reasons behind their devotion vary. Some seek power to better themselves and their communities. Others seek dominion over all other creatures, and they believe they consume spirit and strength along with flesh.</p>
+		</description>
+		<setters>
+			<set name="short">Intimidation, Survival, Cook’s utensils, 1 Language</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS" />
+			<select type="Language" number="1" name="Language (Cannibal Headhunter)" supports="Standard||Exotic" />
+			<grant type="Background Feature" id="ID_KBP_UH_FEATURE_GRIM_FEAST" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+
+			<select name="Personality Trait" type="List" number="2" optional="true">
+				<item id="1">I’m always hungry and never turn down a bite to eat.</item>
+				<item id="2">I expect others to adhere to their traditions as firmly as I do.</item>
+				<item id="3">I enjoy the discomfort the truth of my beliefs causes in others.</item>
+				<item id="4">Life among nonbelievers has made me self-conscious about my rituals.</item>
+				<item id="5">I always proudly display my totem bones.</item>
+				<item id="6">My totems are sacred, and I won’t allow outsiders to touch them.</item>
+				<item id="7">I’m oblivious to how my appearance and beliefs come across to outsiders.</item>
+				<item id="8">I take the time to show respect to anything I kill.</item>
+			</select>
+			<select name="Ideal" type="List" optional="true">
+				<item id="1">Tradition. My ancestors gave me prosperity. I would repay them poorly if I allow their teachings to die. (Lawful)</item>
+				<item id="2">Service. My strength grows for the betterment and protection of those I love. (Good)</item>
+				<item id="3">Change. We must grow to thrive, and our rituals encourage growth. (Chaotic)</item>
+				<item id="4">Community. Close fellows benefit from one another’s strength and stand firmer than individuals alone. (Neutral)</item>
+				<item id="5">Power. I will consume those who cross me and add their strength to my own. (Evil)</item>
+				<item id="6">Glory. I will earn glory for myself, my tribe, and my comrades. (Any)</item>
+			</select>
+			<select name="Bond" type="List" optional="true">
+				<item id="1">The most sacred of my tribe’s ancestor skull totems was stolen. I will stop at nothing to retrieve it. </item>
+				<item id="2">The shaman who taught me the rituals of our people is the most important person in my life</item>
+				<item id="3">All wealth and success I earn in my travels must benefit my tribe.</item>
+				<item id="4">I am searching for the perfect opponent to overcome, so that I may grow to my full potential.</item>
+				<item id="5">The spirits guide my actions, and I must venerate them.</item>
+				<item id="6">I’ll stop at nothing to protect my first “civilized” companion, who stopped a misinformed mob from hunting me down.</item>
+			</select>
+			<select name="Flaw" type="List" optional="true">
+				<item id="1">I will not abide disrespect of my skill and prowess.</item>
+				<item id="2">I focus on hunting powerful foes to the exclusion of other concerns.</item>
+				<item id="3">I am distrustful of civilized areas because of past persecution due to my beliefs.</item>
+				<item id="4">I am constantly on guard against others seeking to slay me for my power.</item>
+				<item id="5">I abhor weakness and those who can’t fend for themselves.</item>
+				<item id="6">I was exiled for slaying and consuming one of my own tribe.</item>
+			</select>
+		</rules>
+	</element>
+	<element name="Grim Feast" type="Background Feature" source="Unlikely Heroes" id="ID_KBP_UH_FEATURE_GRIM_FEAST">
+		<supports>Background Feature, HERE</supports>
+		<description>
+			<p>Whether as a funeral rite to honor fallen family and comrades, or as spoils of war or sacred hunts, you ritually consume a portion of slain humanoid bodies. Civilized people view this practice as taboo and horrific, and they are easily unsettled. While this unease can bring unwanted complications within urban or other civilized settings, you gain a measure of power and presence from your devotion that other savage, primitive, or tribal cultures esteem. When you present either your ritual practice or a direct result of it, such as your bone totem, to an intelligent creature with any kind of tribal or savage bent, your power affords you the chance to talk rather than fight. Orcs, gnolls, goblins, and other tribal warlike races might offer you respect and allow you the chance to sway them through talk (and Intimidation) rather than trying to kill you on sight. Additionally, you can engage in your rituals over the course of one day to gain inspiration.</p>
+		</description>
+		<sheet alt="Grim Feast" />
+	</element>
+
+<!--  PROPHET -->
+	<element name="Prophet" type="Background" source="Unlikely Heroes" id="ID_KBP_UH_BACKGROUND_PROPHET">
+		<description>
+			<p>Truth rings throughout the multiverse, and sometimes it finds a place to resonate loud and clear. You are one such point. There is a greater power at work in the world, and you can see pieces of its design. Unlike the faint glimpses of a fortuneteller or the twisted lies of a charlatan, your words stir something in those who hear your message. From the doomsday ravings of a filthy derelict on the street corner to the polished words of an urbane and refined cult mistress, a prophet is the servant of a higher power, setting the truth of that power into motion.</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong> Persuasion, Religion</li>
+				<li><strong>Tool Proficiencies:</strong> One of your choice between calligrapher’s supplies or painter’s supplies</li>
+				<li><strong>Languages:</strong> One of your choice from the following list appropriate to the power that grants your revelations: Abyssal, Celestial, Deep Speech, Draconic, Elemental (one dialect), Infernal, or Sylvan</li>
+				<li><strong>Equipment:</strong> A holy symbol or idol representing the higher power that grants your revelations, a set of common clothes, a collection of your recorded thoughts and philosophy, and a belt pouch containing 5 gp.</li>
+			</ul>
+			<div element="ID_KBP_UH_FEATURE_WORDSFROMONHIGH" />
+			<h5>SUGGESTED CHARACTERISTICS</h5>
+			<p>Prophets all have one trait in common—conviction. Whether they gleefully spread the good word of a benevolent deity or dire tidings of a coming darkness, the prophet knows in her bones that what she sees, and says, is true. Some may fear this internal certainly. Thy might attempt to hide their light beneath a bushel and deny the calling. It may take years for a prophet to accept herself, but in the end she can’t deny the truth.</p>
+		</description>
+		<setters>
+			<set name="short">Persuasion, Religion, calligrapher’s supplies or painter’s supplies, 1 Language from list</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
+			<select type="Proficiency" name="Tool (Prophet)" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES | ID_PROFICIENCY_TOOL_PROFICIENCY_PAINTERS_SUPPLIES" number="1" />
+			<select type="Language" number="1" name="Language (Prophet)" supports="ID_MM_LANGUAGE_AURAN | ID_MM_LANGUAGE_TERRAN | ID_MM_LANGUAGE_AQUAN | ID_MM_LANGUAGE_IGNAN | ID_LANGUAGE_ABYSSAL | ID_LANGUAGE_DEEP_SPEECH | ID_LANGUAGE_INFERNAL | ID_LANGUAGE_SYLVAN | ID_LANGUAGE_DRACONIC | ID_LANGUAGE_CELESTIAL " />
+			<grant type="Background Feature" id="ID_KBP_UH_FEATURE_WORDSFROMONHIGH" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+
+			<select name="Personality Trait" type="List" number="2" optional="true">
+				<item id="1">I am usually soft-spoken, but I become invigorated when spreading my word.</item>
+				<item id="2">My followers are like my family.</item>
+				<item id="3">I enjoy debating the finer points of my revelations, especially with nonbelievers.</item>
+				<item id="4">Nonbelievers sadden me when they deny my words.</item>
+				<item id="5">I see the truth of my words at work in everyday things.</item>
+				<item id="6">I am uncomfortable outside the confines of a place devoted to my faith.</item>
+				<item id="7">My temper is short when my visions are challenged.</item>
+				<item id="8">Those who refuse to believe in higher powers that govern the world confuse me.</item>
+			</select>
+			<select name="Ideal" type="List" optional="true">
+				<item id="1">Tenacity. Th truth must ring throughout the world. (Any)</item>
+				<item id="2">Revolution. Th word brings change that can’t be denied. (Chaotic)</item>
+				<item id="3">Dominion. Mine is the voice that speaks truth, and mine is the word all shall heed. (Evil)</item>
+				<item id="4">Stability. My teachings offer the promise of a better life, and I seek to build that life for those who share my belief. (Lawful)</item>
+				<item id="5">Hope. My revelations bring light to the dark corners of the world. (Good)</item>
+				<item id="6">Fortitude. The message I bear upsets me, but I trust in my higher power. (Neutral)</item>
+			</select>
+			<select name="Bond" type="List" optional="true">
+				<item id="1">I must protect the scrap of ancient writing that fist revealed the truth to me at all costs.</item>
+				<item id="2">The person who stood by my side when the truth fist came upon me is the person I hold most dear in this world.</item>
+				<item id="3">I will have revenge on the rival who turned my church against my revelation.</item>
+				<item id="4">I was a sinner before my revelation, and I work tirelessly to make up for my dark past.</item>
+				<item id="5">I know that a rival faith is based on lies, and I seek to enlighten its believers through my revelation.</item>
+				<item id="6">An entire order within my faith once preached the truth of my revelation, but I am the last of them.</item>
+			</select>
+			<select name="Flaw" type="List" optional="true">
+				<item id="1">In the depths of my soul I am wracked with doubt. If I can’t reconcile my beliefs, my following will suffer.</item>
+				<item id="2">My devotion to my revelations overrides all else, even to the point of jeopardizing my own safety.</item>
+				<item id="3">I have done something terrible in defense of my revelations that remains secret. For now.</item>
+				<item id="4">I am completely dismissive of anyone who doesn’t accept my revelations.</item>
+				<item id="5">I secretly hope that someone will silence me before the dread truth I speak comes to pass.</item>
+				<item id="6">A rival of my faith speaks out against my revelations with a contradictory prophecy and hunts me across the land.</item>
+			</select>
+		</rules>
+	</element>
+	<element name="Words from on High" type="Background Feature" source="Unlikely Heroes" id="ID_KBP_UH_FEATURE_WORDSFROMONHIGH">
+		<supports>Background Feature, Prophet</supports>
+		<description>
+			<p>You have seen the truth, and your word brings that truth into the world. More important, that truth stirs others to action. People who hear and accept your words are moved to action. Such individuals will lend aid and offer their services toward your cause, whether that involves building a new temple, clearing storm damage, or feeding the hungry. Thy won’t take undue risk, however. Temples and other religious organizations commonly accept prophets of their faith, but noble houses, merchants, trade guilds, and any other organization might share their resources.</p>
+			<p>Additionally, you can secure audiences with powerful individuals or invitations to events that normally exist above your station. From those who fear or oppose your vision you can expect social hostility, though some might fear to act directly against you.</p>
+			<p>Work with the DM to determine the source and subject of your revelations, and what sorts of people they appeal to or offend.</p>
+		</description>
+		<sheet alt="Words from on High" />
+	</element>
+
+<!--  SCAVENGER -->
+	<element name="Scavenger" type="Background" source="Unlikely Heroes" id="ID_KBP_UH_BACKGROUND_SCAVENGER">
+		<description>
+			<p>Waste not, want not, that’s your motto. It never sat well with you how many perfectly useful things are cast of every day in your home town, and you are determined to set that right. From broken tools and weapons to ramshackle structures just waiting for the elements to knock them over, there’s always a way to breathe more life into the things that others forget. You have a talent.</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong>  Investigation, Perception</li>
+				<li><strong>Tool Proficiencies:</strong> Thieves’ tools</li>
+				<li><strong>Languages:</strong> One of your choice</li>
+				<li><strong>Equipment:</strong> One piece of equipment worth 10 gp or less, a set of common clothes, and a belt pouch containing 10 gp.</li>
+			</ul>
+			<div element="ID_KBP_UH_FEATURE_FINDERSKEEPERS" />
+			<h5>SUGGESTED CHARACTERISTICS</h5>
+			<p>An eccentric inventor in a bustling metropolis looking for just the right size gears. A stranger swathed in oil-stained robes gathering scrap metal to trade for food. Th nervous fellow who always seems to know where to find the perfect glass bottle. Scavengers arise from all walks of life, but no matter how different they are, they share an insatiable curiosity.</p>
+		</description>
+		<setters>
+			<set name="short"> Investigation, Perception, Thieves’ tools, 1 Language</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INVESTIGATION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" />
+			<select type="Language" number="1" name="Language (Scavenger)" supports="Standard||Exotic" />
+			<grant type="Background Feature" id="ID_KBP_UH_FEATURE_FINDERSKEEPERS" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+
+			<select name="Personality Trait" type="List" number="2" optional="true">
+				<item id="1">Why spend perfectly good money on something that someone else gave away?</item>
+				<item id="2">I’m a packrat who fills every pocket with bits and baubles.</item>
+				<item id="3">I keep a close eye on anyone who gets close. Thy might want my stuff.</item>
+				<item id="4">Everybody else calls it junk, but I know it’s treasure.</item>
+				<item id="5">I’m very particular about organizing my collection.</item>
+				<item id="6">I’m always on the lookout for a new source of material.</item>
+				<item id="7">Bartering is better than buying, and finding is better than bartering.</item>
+				<item id="8">I sometimes forget I’m talking to others and end up talking to myself.</item>
+			</select>
+			<select name="Ideal" type="List" optional="true">
+				<item id="1">Novelty. New things are the best things! Always look for new things. (Chaotic)</item>
+				<item id="2">Sincerity. I’m straightforward in my dealings and work to clear up misunderstandings. (Any)</item>
+				<item id="3">Desire. Someone has to have all the stuff might as well be me. (Evil)</item>
+				<item id="4">Meticulous. I’m deliberate and ordered in everything I do. (Lawful)</item>
+				<item id="5">Service. I like to make myself useful, and I’m always looking for a chance to do so. (Good)</item>
+				<item id="6">Bargaining. I like to bargain for a better deal, though sometimes I’ll trade away a treasure to the right person or for the right gossip. It’s not always about money. (Neutral)</item>
+			</select>
+			<select name="Bond" type="List" optional="true">
+				<item id="1">I lost something precious, so now I collect everything I can to try to fill that void.</item>
+				<item id="2">The places I go to collect are holy ground to me.</item>
+				<item id="3">Someone stole something from my collection, and I’m tracking them down to get it back.</item>
+				<item id="4">Crafters who can make new things out of the stuff I collect fascinate me.</item>
+				<item id="5">My collection is more important to me than my family.</item>
+				<item id="6">Someday I’d like to have something from every major city in my collection.</item>
+			</select>
+			<select name="Flaw" type="List" optional="true">
+				<item id="1">If someone holds my collection hostage, I’ll do just about anything to get it back.</item>
+				<item id="2">I’m oblivious when others don’t want to hear about my collection and tend to drive people away with my chatter.</item>
+				<item id="3">I don’t trust new things that haven’t been broken in. I must put them through their paces before I’m comfortable with using them.</item>
+				<item id="4">I view anything left sitting as fair game, whether individual objects or something I can break down for parts.</item>
+				<item id="5">I borrowed the wrong thing, and now bad people are looking for me.</item>
+				<item id="6">My temper is volatile if anyone messes with my collection.</item>
+			</select>
+		</rules>
+	</element>
+	<element name="Finders Keepers" type="Background Feature" source="Unlikely Heroes" id="ID_KBP_UH_FEATURE_FINDERSKEEPERS">
+		<supports>Background Feature, Scavenger</supports>
+		<description>
+			<p>You have an extraordinary knack for locating castoff but still useful material. When in a settlement, you can spend 1d3 hours searching junk piles, dumps, alleys, and abandoned buildings. After this time you discover some piece of useful equipment (generally nothing more valuable than 2 gp), enough food to feed yourself for a day, or a small quantity of raw materials. These materials are obviously used, old, or flawed in some way, but they are sturdy enough for use in crafting or building. Depending on the complexity or size of your project, you might have to spend multiple attempts to gather enough material. Th resulting product using these materials always shows some sign of the material’s secondhand origin, even though it may be fully functional. You can use the items located with this feature, you can’t sell them due to their heavily worn nature.</p>
+			<p>You also know who to ask to locate rare or exotic items. Given enough time, you can locate a place to purchase or sell strange objects or materials.</p>
+		</description>
+		<sheet alt="Finders Keepers" />
+	</element>
+
+<!--  SEER -->
+	<element name="Seer" type="Background" source="Unlikely Heroes" id="ID_KBP_UH_BACKGROUND_SEER">
+		<description>
+			<p>Th stars guide all footsteps on the path. Seers are rare individuals endowed with the gift to see beyond the mundane veil cloaking the world to the truth illuminated by those stars. Cause and effect run in scattered lines to a seer’s eyes, linking individuals and events seemingly unrelated to the casual observer. Only a fool discounts the word of one who sees the twists of fate.</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong> Arcana, Perception</li>
+				<li><strong>Tool Proficiencies:</strong> One gaming set of your choice (cards, dice, or some other divination tool)</li>
+				<li><strong>Languages:</strong> One of your choice</li>
+				<li><strong>Equipment:</strong> A gaming set of your choice, a token of appreciation from a past client, a set of common clothes, and a belt pouch containing 5 gp.</li>
+			</ul>
+			<div element="ID_KBP_UH_FEATURE_GLIMPSEOFFORTUNE" />
+			<h5>SUGGESTED CHARACTERISTICS</h5>
+			<p>Seers are a disparate lot. Some embrace their gift and seek to share their knowledge, while others fear the unbidden insights they receive. Seers are resigned to the whim of happenstance, and they see design where others would see coincidence.</p>
+		</description>
+		<setters>
+			<set name="short">Arcana, Perception, Gaming Set, 1 Language</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+			<select type="Proficiency" name=" Divination Tool (Seer)" supports="Gaming Set" number="1" />
+			<select type="Language" number="1" name="Language (Seer)" supports="Standard||Exotic" />
+			<grant type="Background Feature" id="ID_KBP_UH_FEATURE_GLIMPSEOFFORTUNE" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+
+			<select name="Personality Trait" type="List" number="2" optional="true">
+				<item id="1"> I see signs in every little detail of life.</item>
+				<item id="2">Unexpected events rarely faze me and sometimes feel oddly familiar.</item>
+				<item id="3">I try to ensure that everyone around me pays attention to what I see.</item>
+				<item id="4">I compulsively play with a card, coin, or other tool of my trade.</item>
+				<item id="5">My optimism never wavers. I’ve seen that things will turn out well in the end, one way or another.</item>
+				<item id="6">While I enjoy sharing my insights, I never give them away for free.</item>
+				<item id="7">My glimpses of the future frighten me and I try to avoid them at all costs.</item>
+				<item id="8">When a vision is upon me, I have little control over what I say.</item>
+			</select>
+			<select name="Ideal" type="List" optional="true">
+				<item id="1">Aspiration. I’ve seen a hint of greatness in my future, and I work hard to achieve it. (Any)</item>
+				<item id="2">Manipulation. My gift give me the perfect leverage to move others to my tune. (Evil)</item>
+				<item id="3">Freedom. Knowledge of what may come allows for greater choice. (Chaotic)</item>
+				<item id="4">Serenity. I seek fulfillment with whatever I see in the future. (Neutral)</item>
+				<item id="5">Truth. I am a servant of the truth, and I will share it for good or ill. (Lawful)</item>
+				<item id="6">Compassion. My gift can bring comfort to the suffering and peace to the troubled. (Good)</item>
+			</select>
+			<select name="Bond" type="List" optional="true">
+				<item id="1">I told the fortune of the man who then destroyed my family, but I ignored the warning. I must find him and put it right.</item>
+				<item id="2">My grandmother passed a token to me when she explained our gift of the sight. It’s my most prized possession.</item>
+				<item id="3">I told one fortune whose meaning I still can’t understand, but I know it has great importance.</item>
+				<item id="4">My family travels the land, and I send most of the money I earn to them.</item>
+				<item id="5">I told the fortune of the person I loved, and that led them to the arms of another.</item>
+				<item id="6">I’m driven to read the fortune of powerful people.</item>
+			</select>
+			<select name="Flaw" type="List" optional="true">
+				<item id="1">I saw a truth once that I refused to speak, and tragedy was the result. It haunts me to this day.</item>
+				<item id="2">I have terrible nightmares about the dark futures I’ve glimpsed.</item>
+				<item id="3">No matter how I try, no one ever believes my fortunes.</item>
+				<item id="4">I can’t resist embellishing a fortune to try to earn a few more coins.</item>
+				<item id="5">I loathe charlatans and tricksters who take advantage of those who seek their fortunes, and I do what I can to discredit them.</item>
+				<item id="6">I’m terribly jealous of any positive fortune I read, since I can read any palm but my own.</item>
+			</select>
+		</rules>
+	</element>
+	<element name="Glimpse of Fortune" type="Background Feature" source="Unlikely Heroes" id="ID_KBP_UH_FEATURE_GLIMPSEOFFORTUNE">
+		<supports>Background Feature, Seer</supports>
+		<description>
+			<p>Using a minor method of divination, you are able to see glimpses of a target’s future. You must spend one hour in conversation with the subject and consultation with your divination method. At the end of this time you can offer insight into the subject’s possible future. These details are always vague, but the reading affords you the chance to gain insight into your subject and possibly enter their good graces. After giving a reading, you can expect a client to be more relaxed and willing to favorably consider any proposal you make.</p>
+			<p>Additionally, you can receive minor favors or consideration from past subjects in a variety of locations. Assume you can find at least one friendly contact in a city that you have spent at least some time in the past.</p>
+		</description>
+		<sheet alt="Glimpse of Fortune" />
+	</element>
+
+<!--  VARIANT GUILD ARTISAN: TINKER -->
+	<element name="Tinker" type="Background" source="Unlikely Heroes" id="ID_KBP_UH_BACKGROUND_TINKER">
+		<description>
+			<p>You are a crafter who focuses on repairing a wide variety of items rather than specializing in a specific trade. You are familiar with a wide variety of tools and techniques, enough to get by at just about any crafting trade at an apprentice level. Tinkers are much beloved by people who aren’t wealthy enough to outright replace anything that breaks, and smaller settlements rejoice when a tinker rolls into town.</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong>Insight, Persuasion</li>
+				<li><strong>Tool Proficiencies:</strong>One type of artisan’s tools</li>
+				<li><strong>Languages:</strong>One of your choice</li>
+				<li><strong>Equipment:</strong>A set of artisan’s tools (one of your choice), a letter of introduction from your guild, a set of traveler’s clothes, and a belt pouch containing 15 gp</li>
+			</ul>
+			<div element="ID_KBP_UH_FEATURE_JURYRIG" />
+		</description>
+		<setters>
+			<set name="short">Insight, Persuasion, Artisan’s Tool, Language</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+			<select type="Proficiency" name="Tool Proficiency (Tinker)" supports="Artisan tools" />
+			<select type="Language" name="Language (Tinker)" supports="Standard||Exotic" />
+			<grant type="Background Feature" id="ID_KBP_UH_FEATURE_JURYRIG" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<select name="Personality Trait" type="List" number="2">
+				<item id="1">I believe that anything worth doing is worth doing right. I can’t help it— I’m a perfectionist.</item>
+				<item id="2">I’m a snob who looks down on those who can’t appreciate fine art.</item>
+				<item id="3">I always want to know how things work and what makes people tick.</item>
+				<item id="4">I’m full of witty aphorisms and have a proverb for every occasion.</item>
+				<item id="5">I’m rude to people who lack my commitment to hard work and fair play.</item>
+				<item id="6">I like to talk at length about my profession.</item>
+				<item id="7">I don’t part with my money easily and will haggle tirelessly to get the best deal possible.</item>
+				<item id="8">I’m well known for my work, and I want to make sure everyone appreciates it. I’m always taken aback when people haven’t heard of me.</item>
+			</select>
+			<select name="Ideal" type="List">
+				<item id="1">Community. It is the duty of all civilized people to strengthen the bonds of community and the security of civilization. (Lawful)</item>
+				<item id="2">Generosity. My talents were given to me so that I could use them to benefit the world. (Good)</item>
+				<item id="3">Freedom. Everyone should be free to pursue his or her own livelihood. (Chaotic)</item>
+				<item id="4">Greed. I’m only in it for the money. (Evil)</item>
+				<item id="5">People. I’m committed to the people I care about, not to ideals. (Neutral)</item>
+				<item id="6">Aspiration. I work hard to be the best there is at my craft.</item>
+			</select>
+			<select name="Bond" type="List">
+				<item id="1">The workshop where I learned my trade is the most important place in the world to me.</item>
+				<item id="2">I created a great work for someone, and then found them unworthy to receive it. I’m still looking for someone worthy.</item>
+				<item id="3">I owe my guild a great debt for forging me into the person I am today.</item>
+				<item id="4">I pursue wealth to secure someone’s love.</item>
+				<item id="5">One day I will return to my guild and prove that I am the greatest artisan of them all.</item>
+				<item id="6">I will get revenge on the evil forces that destroyed my place of business and ruined my livelihood.</item>
+			</select>
+			<select name="Flaw" type="List">
+				<item id="1">I’ll do anything to get my hands on something rare or priceless.</item>
+				<item id="2">I’m quick to assume that someone is trying to cheat me.</item>
+				<item id="3">No one must ever learn that I once stole money from guild coffers.</item>
+				<item id="4">I’m never satisfied with what I have— I always want more.</item>
+				<item id="5">I would kill to acquire a noble title.</item>
+				<item id="6">I’m horribly jealous of anyone who can outshine my handiwork. Everywhere I go, I’m surrounded by rivals.</item>
+			</select>
+		</rules>
+	</element>
+
+	<element name="Jury Rig" type="Background Feature" source="Unlikely Heroes" id="ID_KBP_UH_FEATURE_JURYRIG">
+		<supports>Background Feature, Guild Artisan</supports>
+		<description>
+			<p>Your experience fixing odds and ends as well as your familiarity with a wide variety of tools grants you the ability to make quick repairs on damaged equipment. You can spend two hours during a long rest or downtime working on a damaged object using tinker’s tools. Once you’ve finished, anyone using the object for its intended purpose can ignore any penalties that arise from damage to the object. These repairs are temporary and last a number of days equal to your Intelligence modifier (minimum of 1). You can repair the item again after the fist repairs wear off but each additional time you jury rig the object reduces the number of days the repairs last by 1. Eventually the object must be replaced or professionally repaired by a skilled craftsman with the appropriate tools.</p>
+			<p>Additionally, you can jury rig minor mechanical objects such as locks or simple traps. It takes two hours of work with tinker’s tools, and you need access to a supply of materials. Any such object you create is of fair quality at best and doesn’t last forever. A jury rigged object functions for a number of days equal to your Intelligence modifier (minimum of 1) before it jams, falls apart, or otherwise ceases to function.</p>
+			<p>Tinkers are welcomed in rustic communities. You can trade work for food and lodging by doing odd jobs and minor repairs for people.</p>
+		</description>
+		<sheet alt="Jury Rig" />
+	</element>
+
+<!--  VARIANT URCHIN: BEGGAR -->
+	<element name="Beggar" type="Background" source="Unlikely Heroes" id="ID_KBP_UH_BACKGROUND_BEGGAR">
+		<description>
+			<p>You grew up on the streets alone, orphaned, and poor. You had no one to watch over you or to provide for you, so you learned to provide for yourself. You fought fiercely over food and kept a constant watch out for other desperate souls who might steal from you. You slept on rooftops and in alleyways, exposed to the elements, and endured sickness without the advantage of medicine or a place to recuperate. You’ve survived despite all odds, and did so through cunning, strength, speed, or some combination of each.</p>
+			<p class="indent">You begin your adventuring career with enough money to live modestly but securely for at least ten days. How did you come by that money? What allowed you to break free of your desperate circumstances and embark on a better life?</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong> Deception, Persuasion</li>
+				<li><strong>Tool Proficiencies:</strong> Disguise Kit, Thieves’ Tools</li>
+				<li><strong>Equipment:</strong> A small knife, a map of the city you grew up in, a pet mouse, a token to remember your parents by, a set of common clothes, and a belt pouch containing 10 gp</li>
+			</ul>
+			<div element="ID_KBP_UH_FEATURE_ANYTHINGYOUCANSPARE" />
+			<h5>SUGGESTED CHARACTERISTICS</h5>
+			<p>Wherever people thrive in a civilization, there are always some who exist on the fringes of society—a lower caste trapped by poverty. These poor souls fade into the background even as they desperately seek compassion from the more prosperous citizens around them.’ You spent a significant portion of your life living in the lowest station of your home city, dependent on the charity of others to survive. You’ve learned to fade into the background, and you know how to use the proper expression and tone of voice to leverage a mark into letting go of a few coins. Use the following variant skill proficiencies and features in place of those normally granted by the urchin background.</p>
+		</description>
+		<setters>
+			<set name="short">Deception, Persuasion, Disguise Kit, Thieves’ Tools</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_Deception" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_Persuasion" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" />
+			<grant type="Background Feature" id="ID_KBP_UH_FEATURE_ANYTHINGYOUCANSPARE" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+
+			<select name="Personality Trait" type="List" number="2">
+				<item id="1">I hide scraps of food and trinkets away in my pockets.</item>
+				<item id="2">I ask a lot of questions.</item>
+				<item id="3">I like to squeeze into small places where no one else can get to me.</item>
+				<item id="4">I sleep with my back to a wall or tree, with everything I own wrapped in a bundle in my arms.</item>
+				<item id="5">I eat like a pig and have bad manners.</item>
+				<item id="6">I think anyone who’s nice to me is hiding evil intent.</item>
+				<item id="7">I don’t like to bathe.</item>
+				<item id="8">I bluntly say what other people are hinting at or hiding.</item>
+			</select>
+			<select name="Ideal" type="List">
+				<item id="1">Respect. All people, rich or poor, deserve respect. (Good)</item>
+				<item id="2">Community. We have to take care of each other, because no one else is going to do it. (Lawful)</item>
+				<item id="3">Change. The low are lifted up, and the high and mighty are brought down. Change is the nature of things. (Chaotic)</item>
+				<item id="4">Retribution. The rich need to be shown what life and death are like in the gutters. (Evil)</item>
+				<item id="5">People. I help the people who help me—that’s what keeps us alive. (Neutral)</item>
+				<item id="6">Aspiration. I’m going to prove that I’m worthy of a better life.</item>
+			</select>
+			<select name="Bond" type="List">
+				<item id="1">My town or city is my home, and I’ll fight to defend it.</item>
+				<item id="2">I sponsor an orphanage to keep others from enduring what I was forced to endure.</item>
+				<item id="3">I owe my survival to another urchin who taught me to live on the streets.</item>
+				<item id="4">I owe a debt I can never repay to the person who took pity on me.</item>
+				<item id="5">I escaped my life of poverty by robbing an important person, and I’m wanted for it.</item>
+				<item id="6">No one else should have to endure the hardships I’ve been through.</item>
+			</select>
+			<select name="Flaw" type="List">
+				<item id="1">If I’m outnumbered, I will run away from a fight.</item>
+				<item id="2">Gold seems like a lot of money to me, and I’ll do just about anything for more of it.</item>
+				<item id="3">I will never fully trust anyone other than myself.</item>
+				<item id="4">I’d rather kill someone in their sleep then fight fair.</item>
+				<item id="5">It’s not stealing if I need it more than someone else.</item>
+				<item id="6">People who can’t take care of themselves get what they deserve.</item>
+			</select>
+		</rules>
+	</element>
+	<element name="Anything You Can Spare" type="Background Feature" source="Unlikely Heroes" id="ID_KBP_UH_FEATURE_ANYTHINGYOUCANSPARE">
+		<supports>Background Feature, Beggar</supports>
+		<description>
+			<p>Having spent much of your life with no home, money, or real possessions to your name, you learned to stretch a meager amount of money much further than it should normally go. By spending several hours a day seeking out alms from affluent, or at least comfortable citizens, you can maintain a living while within an urban setting. You can maintain a poor lifestyle without spending the required coin. This lifestyle represents earning a few meager coins through begging and spending that money on “bargain” staples.</p>
+			<p>Additionally, you know several places where you can acquire food, lodging, and basic equipment (DMs discretion as to what equipment is available at any given time) for 75% of their normal price. You can’t leverage these sources frequently, and it might be several days or weeks before you can make another discounted purchase.</p>
+		</description>
+		<sheet alt="Anything You Can Spare" />
+	</element>
+</elements>

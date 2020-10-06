@@ -4,8 +4,8 @@
 		<name>Backgrounds Omnibus v2.3</name>
 		<description>An expanded array of backgrounds for the world's greatest role-playing game</description>
 		<author>Konard</author>
-		<update version="2.3.1">
-			<file name="Backgrounds Omnibus v2.3.xml" url="https://www.reddit.com/r/UnearthedArcana/comments/awwpi2/backgrounds_omnibus_v2_a_compilation_of_19/" />
+		<update version="2.3.2">
+			<file name="Backgrounds Omnibus v2.3.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/Backgrounds%20Omnibus%20v2.3.xml" />
 		</update>
 	</info>
 

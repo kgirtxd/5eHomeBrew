@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Kobold Press Unlikely Heroes</name>
+		<update version="0.0.1">
+			<file name="KBP Unlikely Heroes.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/KBP%20Unlikely%20Heroes.index" />
+		</update>
+	</info>
+	<files>
+		<file name="backgrounds.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/KBP%20Unlikely%20Heroes/backgrounds.xml" />
+		<file name="race-derro.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/KBP%20Unlikely%20Heroes/race-derro.xml" />
+		<file name="race-dhampir.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/KBP%20Unlikely%20Heroes/race-dhampir.xml" />
+		<file name="race-dustgoblin.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/KBP%20Unlikely%20Heroes/race-dustgoblin.xml" />
+		<file name="race-jinnborn.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/KBP%20Unlikely%20Heroes/race-jinnborn.xml" />
+		<file name="race-kijani.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/KBP%20Unlikely%20Heroes/race-kijani.xml" />
+		<file name="race-lamia.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/KBP%20Unlikely%20Heroes/race-lamia.xml" />
+		<file name="race-ramag.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/KBP%20Unlikely%20Heroes/race-ramag.xml" />
+		<file name="race-sahuagin.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/KBP%20Unlikely%20Heroes/race-sahuagin.xml" />
+		<file name="source.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/KBP%20Unlikely%20Heroes/source.xml" />
+	</files>
+</index>

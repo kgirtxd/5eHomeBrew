@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="race-dustgoblin.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/KBP%20Unlikely%20Heroes/race-dustgoblin.xml" />
+		</update>
+	</info>
+
+	<element name="Dust Goblin" type="Race" source="Unlikely Heroes" id="ID_KBP_UH_RACE_DUST_GOBLIN">
+		<description>
+			<p class="flavor">In the midst of a blasted wasteland whose every stone is corrupted by the Great Old Ones’ touch, few natural creatures thrive. Dust goblins are the most robust exceptions. These creatures were once ordinary goblins, but the cataclysm that turned their home into wasteland forced them to adapt to the taint poisoning the land.</p>
+			<p class="flavor">Twisted in both body and mind, the dust goblins spread across the badlands. Thy survive through cunning, ruthlessness, and a strange affinity for other creatures rejected by the natural world. Dust goblins thrive in the everlasting gloom of their desolate homeland, living among the rotting remains of destroyed cities, in roaming caravan villages, or in networks of tunnels.</p>
+			<h4>TWISTED FLESH</h4>
+			<p>Dust goblins are a corrupt, twisted breed of goblin. Their bodies are emaciated to the point that they appear almost skeletal. Their lips and gums have shriveled away, revealing yellowed, interlocking grins made of teeth ritually filed to points. Their skin ranges in tone from dusky gray to dark green and is marred by cracks, lesions, or tumorous growths. Their eyes gleam blood-red or bright gold when they catch a stray mote of light and glow in the darkness.</p>
+			<p class="indent">Barely reaching over 3 feet tall, dust goblins are shrunken and thin. Th largest among them weigh barely 40 pounds, and most look like they’re teetering on the brink of starvation. Thy wear piecemeal armor and patchwork clothing, and their garments hang loose around the midsection—their bellies distend and bulge disturbingly after dust goblins gorge on flesh.</p>
+			<h4>TRIBAL RELATIONS</h4>
+			<p>Tribes of dust goblins spread across the blasted badlands once the magical cataclysm passed. The vast majority of their kind congregates in the eastern reaches of the wastes, in such great numbers that the area is known as the Goblin Wastes. Th various tribes are extremely insular and keep their secrets from outsiders including the names of their tribes. Explorers from beyond the wastes label the tribes with various names for their convenience. Though the goblins find these pseudonyms insulting, they grudgingly use them with outsiders. Thy believe that revealing the true name of the tribe would give away its power. Outsiders are sometimes surprised to discover that dust goblins carry themselves with a proud, severe bearing, as opposed to their more common cousins.</p>
+			<p class="indent">Despite their distrustful tendencies, dust goblin tribes aren’t completely unapproachable. Their survival skills are exceptional, as the most successful of the few sentient races that thrive in the wastelands. Outsiders who approach a dust goblin tribe with respect—and perhaps useful offerings—can secure their services as guides to lost ruins or for safe passage through the badlands. Some dust goblins even leave the “safety” of their homeland and join adventuring bands. In these cases, some extraordinary circumstance forged a trust between the dust goblin and the outsiders. As long as that trust isn’t abused, the dust goblin’s loyalty is assured.</p>
+			<h4>ABERRANT ZEALOTS</h4>
+			<p>Not all dust goblins in the wastes are as open minded. Other, stranger tribes are more twisted in mind and even soul. These wretches find kinship with the misshapen aberrations that arise in the wastes. Thy form disturbing symbiotic relationships with the corrupt creatures and even live alongside them. As living idols of the dark gods the mad goblins worship, even perceived threats to these abominations can whip an entire tribe in to a murder frenzy</p>
+			<p class="indent">These corrupted dust goblins actively seek to spread the malign influence of their mad masters. Raiding parties strike at more civilized dust goblin tribes as well as settlements and caravans of other races. Th raiders take anything useful, but their primary goal is prisoners. These unfortunate captives endure nights of horrific torture in the name of the mad gods, while blasphemous litanies drown out their screams.</p>
+			<h4>ANCIENT GODS, MAD GODS</h4>
+			<p>Dust goblins who retain their sanity practice a form on ancestor worship combined with a strange veneration of nature—such as it exists within the badlands. Sacred circles of stones or groves of wasteland scrub host rituals that promote bonding within the tribe. Names of great heroes from the tribe’s past are recounted in tales told in song and carved in stones in the dust goblins’ indecipherable script. Druids and rangers are the most common adventurers from tribes who worship in this fashion.</p>
+			<p class="indent">The mad tribes walk a darker path. These goblins venerate the unknowable deities from between the stars, beings of insanity and darkness that worm their way into the minds of mortals who stray where they shouldn’t. Th Great Old Ones have their tentacles wrapped around these dust goblins, and they feed on the wretches’ madness and depravity. Warlocks often lead these tribes, carrying out heinous rights in the name of their mad patrons in exchange for power.</p>
+
+			<h4>DUST GOBLIN NAMES</h4>
+			<p>Dust goblin names vary by tribe. Famous names are passed down from history, with those of powerful warriors or great leaders granted to favored children. Great deeds can generate an accolade that augments or even replaces a dust goblin’s original name.</p>
+			<p>The mad tribes that follow the Great Old Ones have stranger names. Thy cobble words together from bits of blasphemous tongues. Other names derive from whispers in nightmare to the warlock shamans who lead the tribes.</p>
+			<p>Tribal names are always kept secret from outsiders to the tribe, but most tribes in the wastes are saddled with pseudonyms from explorers that the dust goblins reluctantly use when necessary.</p>
+			<p>
+				<b>Male Names:</b>Akath, Breath-Breaker, Draag, Eversharp, Kaath, Lukat, Mishil, Morz, Namer, Oorshil, Pirkit, Reesh, Twilight, Volik<br/>
+				<b>Female Names:</b>Aala, Brel, Borsi, Dawnbright, Ethea, Gursi, Halash, Kera, Light Step, Ostra, Quick Blood, Sacril, Sysla, Umira<br/>
+				<b>Tribe Names (True):</b>Ashborn, Cth’Kaash, Faarthuk, Gust Howl, Living Scream, Muurlak, Stone Seal, Water Blade<br/>
+				<b>Tribe Names (Outsider):</b>Bloody Tusk, Bonewraiths, Dust Diggers, Ghost Goblins, Maimed Ones, River Rats, Sand Bird’s Disciples, Scarlet Rovers<br/>
+			</p>
+
+			<h4>DUST GOBLIN TRAITS</h4>
+			<p>Your dust goblin character has a number of characteristics derived from your wasteland heritage.</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Dexterity score increases by 2, and your Constitution score increases by 1.<br/>
+				<span class="feature">Age.</span>Dust goblins generally reach maturity by the age of 12, but their environment and physical variations make it nearly impossible to draw conclusions about their lifespan. There are reliable reports of dust goblins as old as 40, but they rarely die of old age.<br/>
+				<span class="feature">Alignment.</span>Dust goblins have a marked tendency toward neutrality and evil, especially among those tribes that are most fanatical in their worship of the Great Old Ones. These dust goblins on the fringes of the Wastes who enjoy trade with other races, however, see a larger occurrence of neutrality and occasional good tendencies<br/>
+				<span class="feature">Size.</span>Dust goblins stand just over 3 feet tall and are slender and emaciated. Your size is Small.<br/>
+				<span class="feature">Speed.</span>Dust goblins are quick on their feet for their size. Your base walking speed is 30 feet.<br/>
+				<span class="feature">Darkvision.</span>Accustomed to life in the gloom, you can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.<br/>
+				<span class="feature">Alien Mind.</span>You have advantage on saving throws against being charmed or frightened.<br/>
+				<span class="feature">Strange and Deadly Surroundings.</span>You have proficiency in the Stealth and Survival skills.<br/>
+				<span class="feature">Twisted.</span>When you attack a creature from hiding, the creature must succeed on a Wisdom saving throw (DC 8 + your proficiency bonus + your Dexterity modifier) or be frightened of you until the end of its next turn.<br/>
+				<span class="feature">Languages.</span>You can speak, read, and write Common and Goblin. The written form of the dust goblin dialect of Goblin is photographic and capable of remarkable subtlety, though it is largely impenetrable to outsiders.<br/>  
+			</p>
+		</description>
+		<sheet display="false"/>
+		<setters>
+			<set name="names" type="male">Akath, Breath-Breaker, Draag, Eversharp, Kaath, Lukat, Mishil, Morz, Namer, Oorshil, Pirkit, Reesh, Twilight, Volik</set>
+			<set name="names" type="female">Aala, Brel, Borsi, Dawnbright, Ethea, Gursi, Halash, Kera, Light Step, Ostra, Quick Blood, Sacril, Sysla, Umira</set>
+			<set name="names" type="tribe (True)">Ashborn, Cth’Kaash, Faarthuk, Gust Howl, Living Scream, Muurlak, Stone Seal, Water Blade</set>
+			<set name="names" type="tribe (Outsider)">Bloody Tusk, Bonewraiths, Dust Diggers, Ghost Goblins, Maimed Ones, River Rats, Sand Bird’s Disciples, Scarlet Rovers</set>
+			<set name="height" modifier="2d4">2'4"</set>
+			<set name="weight" modifier="1 lb">30 lb.</set>    
+		</setters>
+		<rules>
+			<stat name="Dexterity" value="2" />
+			<stat name="constitution" value="1" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_GOBLIN" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_ALIEN_MIND" />
+			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_STRANGE_AND_DEADLY_SURROUNDINGS" />
+			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_TWISTED" />
+		</rules>
+	</element>
+
+	<element name="Alien Mind" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_ALIEN_MIND">
+		<description>
+			<p>You have advantage on saving throws against being charmed or frightened.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws against being charmed or frightened.</description>
+		</sheet>
+	</element>
+
+	<element name="Strange and Deadly Surroundings" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_STRANGE_AND_DEADLY_SURROUNDINGS">
+		<description>
+			<p>You have proficiency in the Stealth and Survival skills.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in the Stealth and Survival skills.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+		</rules>
+	</element>
+
+	<element name="Twisted" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_TWISTED">
+		<description>
+			<p>When you attack a creature from hiding, the creature must succeed on a Wisdom saving throw (DC 8 + your proficiency bonus + your Dexterity modifier) or be frightened of you until the end of its next turn.</p>
+		</description>
+		<sheet>
+			<description>When you attack a creature from hiding, the creature must succeed on a Wisdom saving throw (DC {{Twisted:DC}}) or be frightened of you until the end of its next turn.</description>
+		</sheet>
+		<rules>
+			<stat name="Twisted:DC" value="8"/>
+			<stat name="Twisted:DC" value="proficiency" />
+			<stat name="Twisted:DC" value="Dexterity:modifier"/>
+		</rules>
+	</element>
+</elements>

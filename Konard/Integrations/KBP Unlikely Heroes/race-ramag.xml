@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="race-ramag.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/KBP%20Unlikely%20Heroes/race-ramag.xml" />
+		</update>
+	</info>
+	<element name="Ramag" type="Race" source="Unlikely Heroes" id="ID_KBP_UH_RACE_RAMAG">
+		<description>
+			<p class="flavor">The enigmatic ramag thrive in the heart of a land once ruled by an empire of titans. In that bygone age, the ramag served the titans. The race’s natural affinity for manipulating magic made the ramag essential to tending a vast web of magical energy. This web channeled power to the farthest corners of the empire and powered the titans’ wonders. When the titans fell to madness, everything fell apart. As these powerful creatures turned on one another and tore their empire down stone by stone, the web fractured. Wonders failed or went haywire. Magical gates once used to link far-flung outposts went dark or conjured horrors. Uncontrolled magical energy spilled across the land, wreaking unpredictable havoc.</p>
+			<p class="flavor">Now, the ramag live in the ruins of that glory. Changed by the energies of the shattered web, they devote themselves to policing the remaining titan wonders and keeping the rampant energies in check.</p>
+			<h4>WARPED BY MAGIC</h4>
+			<p>Ramag superficially resemble humans, but long exposure to unpredictable magical currents has warped their physical forms. Males stand close to 6 feet tall with females only slightly shorter, but their body proportions are unique. Ramag limbs are very long and lanky, while their torsos are smaller and more compact. As a result they seem strangely angular and spindly, as if both stretched and compressed at the same time.</p>
+			<p class="indent">Their hair is another oddity—every strand of hair is unusually thick, each about the width of a finger. Ramag tie their hair back with distinctive clasps, the decorations indicating where a given ramag comes from. Facial features are somewhat pinched and angular. Ramag eyes and skin tone tend toward darker shades, as does their hair color, but large variation exists. A stoic people, ramag dress in muted colors in public and save flamboyant or daring outfits for family, friends, or private gatherings.</p>
+			<h4>SCATTERED REMNANTS</h4>
+			<p>The ramag race lives in the remains of a sprawling city that was their capital in the glorious age past. Called Ramagani, or “home” in the ramag dialect, the city exists as nearly a dozen separate districts scattered across their continent. Collectively these districts are all considered a single metropolis. Transit between the far-flung districts is feasible by means of the monoliths—massive stone constructs that once guided and stabilized the flows of magical power in the ancient empire. The monoliths still maintain flows of magical energy to this day, and they serve as portals for travel between districts.</p>
+			<p class="indent">Once there were more districts of Ramagani, but tragedies since the fall of the empire have taken their toll on the city. The most prominent of these disasters was a magical plague called the arcane wasting that ripped through a land near one of Ramagani’s districts. The naturally magical ramag were highly susceptible to the disease, and it ravaged the inhabitants of the local district so swiftly that the only hope for the rest of the city was to cut off the transit gates leading there. Collapsing the monoliths that powered the portals to the district might well have saved the race, but it doomed many of their people. Each remaining district holds a yearly memorial festival in the honor of those lost souls.</p>
+			<h4>CULTURAL CORNERSTONES</h4>
+			<p>Ramag culture revolves around the guardianship and maintenance of the magical monoliths that connect their precious city. The creation of a new monolith is a monumental two-step process. After the physical monolith is constructed, the first step is an incantation that all ramag learn as a rite of passage. It binds their souls to the new monolith, even after death. The second step occurs after a ramag’s death, when his or her remains are interred within the appropriate monolith. Many years pass between these steps, so successfully empowering a new monolith is a cause for great celebration.</p>
+			<p class="indent">New monoliths provide additional stability for the magical flows of energy that crisscross the land, or replace a damaged or failing monolith that supports one of the many gates of Ramagani. All told, the monolith network powers two or three gateway arches in each district of the city, and the portals all link to Ramagani’s primary site.  Should the wrong monoliths fail, entire districts of the city could be cut off from the rest of their race for unknown stretches of time.</p>
+			<h4>CONTROL AND DEFENSE</h4>
+			<p>Ramag rarely become adventurers, but they maintain several groups that cultivate similar skills. These groups come into contact with adventurers both within Ramagani and in the surrounding lands. The Wardens are specialists who travel the land following the flows of magic. The Wardens maintain the monoliths away from the city and are responsible for taming threads of the ancient magical web that become unstable. Many Wardens are wizards who dedicate their lives to the study of the web. Another group called the Scaled Keepers, comprised primarily of rangers, incubates pterodactyl eggs and rears the young. They train the creatures to serve as flying mounts for messengers and scouts.</p>
+			<p class="indent">The other specialized ramag orders remain mostly within the city. First among them is the Stormwatch a garrison that watches the walls of each Ramagani node. Its members operate magical lightning ballistae that help secure the city. Powered by the monoliths and fed by the magical flows, these siege engines give the city’s districts a deadly edge. Stormwatch members join the garrison for life, and each is considered vital from the lowest ranks to the highest echelons of command. The other major group centered within Ramagani is the Gatekeepers, overseers who keep watch over the Wall of Gates. The Wall bears a range of ancient portals that occasionally spark to life, reopening lost paths and exposing the city to both lost artifacts and knowledge and sudden peril. The Gatekeepers drive back threats that emerge from the gates and occasionally oversee expeditions through stable portals.</p>
+			<h4>RAMAG NAMES</h4>
+			<p>Ramag names borrow heavily from the history of the titan empire scattered throughout Ramagani and other ruins, and from tales passed down through the ages.</p>
+			<p>
+				<b>Male Names:</b>Baarkhul, Dirjahat, Fakharizan, Irkuat, Jirindehkal, Suuldjarat, Uan, Zinchera<br/>
+				<b>Female Names:</b>Akharafa, Edjirasifa, Gihranasya, Hayat, Matkhendush, Nadirharat, Riyasha, Xirienda<br/>
+			</p>
+			<h4>RAMAG TRAITS</h4>
+			<p>Your ramag character has certain characteristics in common with all other ramag.</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Intelligence score increases by 2, and your Dexterity score increases by 1.<br/>
+				<span class="feature">Age.</span>Ramag reach maturity at 15 years and can live to 90.<br/>
+				<span class="feature">Alignment.</span>Ramag tend toward lawfulness, since their survival depends on adhering to their laws and customs.<br/>
+				<span class="feature">Size.</span>Despite their overlong limbs, ramag stand between 5 and 6 feet tall. Your size is Medium.<br/>
+				<span class="feature">Speed.</span>Your base walking speed is 30 feet.<br/>
+				<span class="feature">Arcane Heritage.</span>You can ignore class requirements when attuning to a magic item.<br/>
+				<span class="feature">Mystical Understanding.</span>You have proficiency in the Arcana skill.<br/>
+				<span class="feature">Spell Damping.</span>You have advantage on Strength and Dexterity saving throws against spells.<br/>
+				<span class="feature">Languages.</span>You can speak, read, and write Common and Giant.<br/>  
+			</p>
+		</description>
+		<sheet display="false"/>
+		<setters>
+			<set name="names" type="male">Baarkhul, Dirjahat, Fakharizan, Irkuat, Jirindehkal, Suuldjarat, Uan, Zinchera</set>
+			<set name="names" type="female">Akharafa, Edjirasifa, Gihranasya, Hayat, Matkhendush, Nadirharat, Riyasha, Xirienda</set>
+			<set name="height" modifier="2d8">5'0"</set>
+			<set name="weight" modifier="2d4">80 lb.</set>    
+		</setters>
+		<rules>
+			<stat name="Intelligence" value="2" />
+			<stat name="Dexterity" value="1" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_GIANT" />
+			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_ARCANE_HERITAGE" />
+			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_MYSTICAL_UNDERSTANDING" />
+			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_SPELL_DAMPING" />
+		</rules>
+	</element>
+	<element name="Arcane Heritage" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_ARCANE_HERITAGE">
+		<description>
+			<p>You can ignore class requirements when attuning to a magic item.</p>
+		</description>
+		<sheet>
+			<description>You can ignore class requirements when attuning to a magic item.</description>
+		</sheet>
+	</element>
+	<element name="Mystical Understanding" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_MYSTICAL_UNDERSTANDING">
+		<description>
+			<p>You have proficiency in the Arcana skill.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in the Arcana skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
+		</rules>
+	</element>
+	<element name="Spell Damping" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_SPELL_DAMPING">
+		<description>
+			<p>You have advantage on Strength and Dexterity saving throws against spells.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on Strength and Dexterity saving throws against spells.</description>
+		</sheet>
+	</element>
+</elements>

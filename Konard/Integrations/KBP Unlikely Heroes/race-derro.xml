@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="race-derro.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/KBP%20Unlikely%20Heroes/race-derro.xml" />
+		</update>
+	</info>
+	<element name="Derro" type="Race" source="Unlikely Heroes" id="ID_KBP_UH_RACE_DERRO">
+		<description>
+			<p class="flavor">Deep beneath the earth, the derro wait in twisted cities built by their mad architects. These insane humanoids live, work, and somehow thrive in the lightless depths. Thy understand the truth about the uncaring gods that dwell between the stars, and they abandoned sanity long ago to save themselves. Th derro hide within their insanity in the hope that the dark gods they fear will turn their attention to other, saner races fist.</p>
+			<p class="flavor">Despite the great distances between their Underdark cities and the surface, derro outposts can be found in the underworld and slums of many cities, both above and below ground. Occasionally, a derro discovers the wider world and finds a path out of the madness.</p>
+			<h4>PALE AND STUNTED</h4>
+			<p>Th derro are stunted, dwarf-like humanoids, small of stature with wide shoulders and stubby limbs. Thy stand between 3 and 4 feet tall, with males only slighter taller than females on average. Their slender builds rarely weigh more than 40 pounds. Their pale skin is nearly translucent, revealing a ghostly web of blue veins. Their large, pure white staring eyes gleam in the dark.</p>
+			<p class="indent">Shorter than surface dwarves, derro are quick and erratic in their movements. Their elaborately braided or styled hair ranges from white to a pale straw color. Males take great pride in their prodigious mustaches, which are often braided and waxed.</p>
+			<h4>HISTORY OF MADNESS</h4>
+			<p>The true history of the derro is an incomprehensible tangle. Th entire race is insane, so even when derro keep records, their accounts conflict with each other and with observable reality. Th various cults and clans of the derro embrace a wide variety of myths, mostly passed along by oral tradition and mind-bending artwork. Every new teller of a given tale twists or rewrites portions of the story to fit their own warped view of the world</p>
+			<p class="indent">The derro have existed for ages, perhaps thriving even before the spread of humans across the surface. Th more reliable histories of other races agree that the derro have always served the drow as enforcers and slave masters. Th drow regard them with a strange type of favor, almost like dim-witted children. The aboleths and duergar have likewise historically used and abused the derro. Th derro know no actual friends, but they are overawed by power and dominance. Thy serve beings whose assumed superiority impresses them.</p>
+			<h4>Culture and Rule</h4>
+			<p>Love as other races know it is unheard of in the bizarre core family unit of the derro. Derro children are born sane, but they are deliberately driven mad by their relatives, usually by age four. Parents feed, clothe, and protect their children not out of a sense of love or tenderness, but because they know that every derro awakened to the mind-bending truth of their race brings them glory. The horrific rituals that break a young derro’s sanity vary by tribe and even year to year. Details are sparse, but known ritual names include Staring into the Void, Enduring the Heartless Fire, and the First Drink of True Knowledge.</p>
+			<p class="indent">Derro are paranoid, unstable, and jittery, and many suffer powerful delusions of grandeur as well. Madness compels them to commit acts of cruelty against their companions or pets, and these acts ignite constant infighting among them. A few, however, muster enough restraint and control to keep the entirety of derro society from crumbling. Savants are powerful sorcerers who hold their madness at bay long enough to cobble together coherent plans, though even they are dangerously unpredictable. Th most powerful leaders are the derro anti-paladins. These terrifying engines of crazed destruction have looked deep into the void between stars and survived, and even the savants respect them for that.</p>
+			<h4>GODS OF THE DERRO</h4>
+			<p>The derro worship a horde of bizarre and terrible beings. Derro ancestral gods such as Addrikah, the Mother of Madness, are common figures of veneration, as are demon lords. Perhaps the most disturbing of their deities are the Great Old Ones whose mere symbolic presence melts minds and corrupts the world. Derro worshipers venerate Nyarlathotep and Shub-Niggurath the Black Goat of the Woods in particular. There is no patten or reason that governs which dark being will catch a given derro’s fancy, and devotees are violently hostile to worshipers of other entities.</p>
+			<p class="indent">Derro consider themselves the most exalted servants of the blasphemous figures they venerate, the only beings in the entire multiverse who can truly understand their glory. Specific rituals vary from cult to cult, but the unifying thread of derro faith asserts that their racial madness is a gift that makes communion with these deities possible. Further, the derro believe they are the harbingers of the end of time, and that they alone will inherit the shattered husk of creation.</p>
+			<h4>DERRO NAMES</h4>
+			<p>Names are thrust upon derro children haphazardly and with no clear general customs. Derro who worship an ancestor god might give their children a variation on the exalted figure's name or title, or a child might grow almost to maturity before any adult bothers to call them by the same jumble of sounds twice. Clan, tribe, and family names also lack any discernible patten, though occasionally they form a coherent description.</p>
+			<p>
+				<b>Male Names:</b>Akrath, Avrik, Brosh’Kal, Byrgryg, Crok’Til, Cyzyk, Daagrath, Durvin, Farq’shul, Folvig, Gaargrth, Grolesh, Haaskrin, Hvorig, Korzh, Lormaq, Orvuld, Ostvyrk, Perk’rasz, Pulver’Kash, Quirth, Qvaalak, Saasqar, Vorqaar<br/>
+				<b>Female Names:</b>Aazha, Artriss, Bruen, Bylir, Dal’lyn, Drussil, Ealla, Erkytl, Grunhaas, Gvarla, Heldraag, Hylala, Muerna, Mzish, Ophella, Ortys, Rushal, Synder, Thyka, Tonlix, Ulga, Veraka, Vilya, Wulfada, Xanka<br/>
+				<b>Tribe Names:</b>Aardsyn, Blackreach, Balerock, Crystaaq, Daash’Void, Guundhold, Hellsreach, Iirdvank, Laash’Kath, Moldheim, Nyar’Ryk, Ovildhaash, Rylstaaq, Slys’Kath, Xaalyf<br/>
+			</p>
+
+			<h4>DERRO TRAITS</h4>
+			<p>Your derro character has certain characteristics in common with all other derro.</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Dexterity score increases by 2, and your Constitution score increases by 1.<br/>
+				<span class="feature">Age.</span>Derro reach maturity by the age of 15 and live to be around 75.<br/>
+				<span class="feature">Alignment.</span>They're naturally unhinged minds are nearly always chaotic, and many but not all are evil.<br/>
+				<span class="feature">Size.</span>Derro stand between 3 and 4 feet tall with slender limbs but wide shoulders. Your size is Small.<br/>
+				<span class="feature">Speed.</span>Derro are fast for their size. Your base walking speed is 30 feet.<br/>
+				<span class="feature">Superior Darkvision.</span>Accustomed to life underground, you can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray<br/>
+				<span class="feature">Insanity.</span>You have advantage on saving throws against being charmed or frightened<br/>
+				<span class="feature">Eldritch Resilience.</span>You have advantage on Constitution saving throws against spells<br/>
+				<span class="feature">Sunlight Sensitivity.</span>You have disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.<br/>
+				<span class="feature">Languages.</span>You can speak, read, and write Dwarvish and your choice between Common and Undercommon.<br/>  
+			</p>
+		</description>
+		<sheet display="false"/>
+		<setters>
+			<set name="names" type="male">Akrath, Avrik, Brosh’Kal, Byrgryg, Crok’Til, Cyzyk, Daagrath, Durvin, Farq’shul, Folvig, Gaargrth, Grolesh, Haaskrin, Hvorig, Korzh, Lormaq, Orvuld, Ostvyrk, Perk’rasz, Pulver’Kash, Quirth, Qvaalak, Saasqar, Vorqaar</set>
+			<set name="names" type="female">Aazha, Artriss, Bruen, Bylir, Dal’lyn, Drussil, Ealla, Erkytl, Grunhaas, Gvarla, Heldraag, Hylala, Muerna, Mzish, Ophella, Ortys, Rushal, Synder, Thyka, Tonlix, Ulga, Veraka, Vilya, Wulfada, Xanka</set>
+			<set name="names" type="tribe">Aardsyn, Blackreach, Balerock, Crystaaq, Daash’Void, Guundhold, Hellsreach, Iirdvank, Laash’Kath, Moldheim, Nyar’Ryk, Ovildhaash, Rylstaaq, Slys’Kath, Xaalyf</set>
+			<set name="height" modifier="2d4">3'2"</set>
+			<set name="weight" modifier="1 lb.">37 lb.</set>    
+		</setters>
+		<rules>
+			<stat name="dexterity" value="2" />
+			<stat name="constitution" value="1" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<grant type="Language" id="ID_LANGUAGE_DWARVISH" />
+			<select type="Language" name="Language (Derro)" supports="ID_LANGUAGE_COMMON|ID_LANGUAGE_UNDERCOMMON" />
+			<grant type="Vision" id="ID_VISION_SUPERIORDARKVISION" />
+			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_INSANITY" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SUNLIGHT_SENSITIVITY" />
+			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_ELDRITCH_RESILIENCE" />
+		</rules>
+	</element>
+	<element name="Insanity" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_INSANITY">
+		<description>
+			<p>You have advantage on saving throws against being charmed or frightened.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws against being charmed or frightened.</description>
+		</sheet>
+	</element>
+	<element name="Eldritch Resilience" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_ELDRITCH_RESILIENCE">
+		<description>
+			<p>You have advantage on ConstitutionYou have advantage on Constitution saving throws against spells saving throws against spells.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on Constitution saving throws against spells.</description>
+		</sheet>
+		<rules>
+		</rules>
+	</element>
+</elements>

@@ -4,8 +4,8 @@
 		<name>Half Dragon Race</name>
 		<description>Homebrew race with associated feats and epic boon</description>
 		<author url="https://www.reddit.com/r/UnearthedArcana/comments/clzo6h/half_dragon/">Konard</author>
-		<update version="1.2.1.2">
-			<file name="race-halfdragon.xml" url="https://www.reddit.com/r/UnearthedArcana/comments/clzo6h/half_dragon/" />
+		<update version="1.2.1.3">
+			<file name="race-halfdragon.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/race-halfdragon.xml" />
 		</update>
 	</info>
 	<element name="Half Dragon Race" type="Source" source="Half Dragon Race" id="ID_RDDT_HB_HALF_DRAGON_RACE">

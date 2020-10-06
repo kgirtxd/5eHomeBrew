@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="race-kijani.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/KBP%20Unlikely%20Heroes/race-kijani.xml" />
+		</update>
+	</info>
+
+	<element name="Kijani" type="Race" source="Unlikely Heroes" id="ID_KBP_UH_RACE_KIJANI">
+		<description>
+			<p class="flavor">Outwardly serene, the kijani resemble slender humanoids with a great affinity for their jungle home. Despite their mostly humanoid appearance, the kijani are plant creatures. Much like their physical appearance, their air of calm contemplation is likewise a veneer that conceals the truth—the kijani harbor a deep furnace of fury. Nearly destroyed by a tragedy long ago, the entire race carries the embers of that brush with oblivion and must constantly struggle against letting that rage consume them.</p>
+			<p class="flavor">The kijani are truly hospitable despite their deep emotional scars, and any creature that treats the plantfolk with courtesy and respect can quickly make lifelong allies.</p>
+			<h4>SWAYING BLOSSOMS</h4>
+			<p>Kijani are slender creatures; males stand around 5 and a half feet tall and females just shy of 5 feet. In spite of their lithe build and thin, long limbs, kijani are solidly built. As plant creatures, their bodies are compact and heavier than their silhouette would suggest. Males easily weigh over 190 pounds and females around 160. Skin and hair immediately give away the truth of a kijani’s nature, as both are rich green in color.</p>
+			<p class="indent">Thy are beautiful creatures, with stunning features and smooth skin. Their eyes are large and dominated by solid green pupils. Kijani move with easy grace, like saplings swaying in a warm breeze. Though they are capable of great bursts of speed and agility when needed, the plantfolk normally move sinuously. Their motions are generally deliberate and seductive, as if slowly dancing their way through life.</p>
+			<h4>HISTORY AND CHANGE</h4>
+			<p>For eons the kijani plantfolk dwelled peacefully in the dense jungle, barely noted by the powerful beings whose empire covered the world in ancient times. Upheaval came with the arrival of a circle of human druids. Th kijani embraced the newcomers and welcomed them, sharing their deep, intimate knowledge of the natural world and the magic that flows through nature’s veins. Their kindness spelled disaster. Using kijani knowledge, the foolish druids summoned a mighty avatar of nature that ravaged and dominated the mighty jungles, using them like its personal playthings. Th kijani fled the beast’s mutating and controlling power, but fully half the race was lost. These left behind or captured were twisted into the thing’s mindless servants, and the rest sought sanctuary in jungles far to the south.</p>
+			<p class="indent">This exodus left the kijani deeply scarred. Thy maintain their peaceful kinship with other living things to this day, but the breaking of their race ignited the cinders of the boiling fury that plagues them. Tormented by equal parts fear and rage toward the great beast, the kijani strive to mend themselves by changing their nature. Thy call this plan the Great Change: Thy intend to leave their plant nature behind completely and become mammals.</p>
+			<h4>LIFE AND GROWTH</h4>
+			<p>Th kijani start life in a very different state from most humanoids. When the plantfolk create a child, a single parent produces a seedling, a vinelike plant that symbolically bonds with a host. Traditionally the parent hosts the seedling, which draws nutrients and even a small amount of life force directly from its host. Th process is essentially harmless, resulting in little more than occasional fatigue and increased appetite for the host. Th seedling gestates in this way, growing slightly larger over the course of a decade or so, until one day it detaches and begins its transformation into the adult stage. This process is rapid, and a fully adult kijani emerges 24 hours later.</p>
+			<p class="indent">Now, the kijani seek out a new way to perpetuate their species. While many plantfolk parents still serve as hosts to their seedling children, some seek out willing mammalian humanoid surrogates to host their seedlings for them. This is a crucial part of their Great Change—drawing energy, nutrition, and life from humanoids to incorporate into their children. As a society the kijani never force or trick others to serve as seedling hosts, but they welcome any willing surrogates into their culture with open arms and boundless gratitude.</p>
+			<h4>CULTURE AND RELATION</h4>
+			<p>To keep their roiling base urges in check, the kijani strive to be as serene and controlled as possible. Kijani band together in organizations known as clusters—groups of individual plantfolk who work together for the common good. Each cluster is guided by a single kijani known as a speaker. Though individual kijani are warm, personable, welcoming, and even seductive, clusters project a different attitude. Thy can be close-minded and clannish, with a tendency to prioritize their collective interests above individual concerns.</p>
+			<p class="indent">Despite their generally amiable nature, all kijani have a breaking point. Th contained fury within them will eventually have its due, and when pushed past endurance, the kijani lash out with terrible ferocity</p>
+			<p class="indent"> kijani lash out with terrible ferocity. Mammalian humanoids completely fascinate the plantfolk. Thy work hard to understand human and other races’ customs when they make contact with outsiders, and they commonly adopt those customs into their culture. Despite their group tendency to band together, kijani have a great reverence for life and can always find a way to relate with other living beings. One universal exception exists druids. Plantfolk have a difficult time trusting druids given their race’s history and fear of repeating the past disaster. Given their respect for life, they also abhor the undead and stop at nothing to exterminate them.</p>
+
+			<h4>KIJANI NAMES</h4>
+			<p>Kijani favor multisyllabic names with multiple vowels. Their names are very difficult for outsiders to pronounce correctly, so the plantfolk use a shortened version as a nickname when in non-kijani company</p>
+			<p>
+				<b>Male Names:</b>Afaonarwel, Dyclacelyn, Gwripryderin, Iantoilar, Ysbaddaden<br/>
+				<b>Female Names:</b>Aderynonwy, Brialenefa, Gwenhyvach, Marillewella, Talaithaonwen<br/>
+			</p>
+
+			<h4>KIJANI TRAITS</h4>
+			<p>Your kijani character has certain characteristics derived from your plantlike heritage.</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Wisdom score increases by 2 and one other ability score of your choice increases by 1.<br/>
+				<span class="feature">Age.</span>Kijani reach maturity at age 12 and live up to 40 years.<br/>
+				<span class="feature">Alignment.</span>Most kijani are neutral, with a strong pull toward good.<br/>
+				<span class="feature">Size.</span>Kijani stand between 5 and 6 feet tall with limber but dense builds. Your size is Medium.<br/>
+				<span class="feature">Speed.</span>Your base walking speed is 30 feet.<br/>
+				<span class="feature">Type.</span>You are of the plant type<br/>
+				<span class="feature">Darkvision.</span>You can see in dim light within 60 feet as though it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.<br/>
+				<span class="feature">Contained Fury.</span>When you’re badly hurt, your base urges send you into a fury. While below half your maximum hit points, you have access to the the following options: Once per turn when you hit with a weapon attack, you deal an extra 2 (1d4) weapon damage. As a reaction, when you are hit by an attack during your fury, you can add 2 to your AC against that attack. You must be able to see the attacker to take this reaction.<br/>
+				<span class="feature">Plantborn.</span>Though you enter a state of dormancy during long rests similar to the way other creatures sleep, you are immune to any effect that would put you to sleep. When you reach 7th level, you can cast the speak with plants spell as a 3rd-level spell once with this trait and regain the ability to do so when you finish a long rest. Wisdom is your spellcasting ability for this spell.<br/>
+				<span class="feature">Roots of the Past.</span>You have proficiency in one of the following skills of your choice: Arcana, History, Nature, or Religion.<br/>
+				<span class="feature">Languages.</span>You can speak, read, and write Common and Sylvan.<br/>  
+			</p>
+		</description>
+		<sheet display="false"/>
+		<setters>
+			<set name="names" type="male">Afaonarwel, Dyclacelyn, Gwripryderin, Iantoilar, Ysbaddaden</set>
+			<set name="names" type="female">Aderynonwy, Brialenefa, Gwenhyvach, Marillewella, Talaithaonwen</set>
+			<set name="height" modifier="2d8">4'8"</set>
+			<set name="weight" modifier="2d4">105 lb.</set>    
+		</setters>
+		<rules>
+			<stat name="Wisdom" value="2" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_SYLVAN" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<select type="Ability Score Improvement" name="Ability Score Increase, Kijani" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_CONSTITUTION|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_CHARISMA" />
+			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_CONTAINED_FURY" />
+			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_PLANTBORN" />
+			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_ROOTS_OF_THE_PAST" />
+		</rules>
+	</element>
+
+	<element name="Contained Fury" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_CONTAINED_FURY">
+		<description>
+			<p>When you’re badly hurt, your base urges send you into a fury. While below half your maximum hit points, you have access to the following options: Once per turn when you hit with a weapon attack, you deal an extra 2 (1d4) weapon damage. As a reaction, when you are hit by an attack during your fury, you can add 2 to your AC against that attack. You must be able to see the attacker to take this reaction.</p>
+		</description>
+		<sheet>
+			<description>
+				<p>While below half your maximum hit points, you have access to the following options: </p> 
+				<ul>
+					<li>Once per turn when you hit with a weapon attack, you deal an extra 2 (1d4) weapon damage.</li>
+					<li>As a reaction, when you are hit by an attack during your fury, you can add 2 to your AC against that attack. You must be able to see the attacker to take this reaction.</li>
+				</ul>
+			</description>
+		</sheet>
+	</element>
+	<element name="Plantborn" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_PLANTBORN">
+		<description>
+			<p>Though you enter a state of dormancy during long rests similar to the way other creatures sleep, you are immune to any effect that would put you to sleep. When you reach 7th level, you can cast the speak with plants spell as a 3rd-level spell once with this trait and regain the ability to do so when you finish a long rest. Wisdom is your spellcasting ability for this spell.</p>
+		</description>
+		<sheet>
+			<description> 
+				<p> You are immune to any effect that would put you to sleep.</p>
+				<p> When you reach 7th level, you can cast the speak with plants spell as a 3rd-level spell once with this trait and regain the ability to do so when you finish a long rest. Wisdom is your spellcasting ability for this spell.</p>
+			</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_PLANTS" level="7" />
+		</rules>
+	</element>
+	<element name="Roots of the Past" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_ROOTS_OF_THE_PAST">
+		<description>
+			<p>You have proficiency in one of the following skills of your choice: Arcana, History, Nature, or Religion.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in one of the following skills of your choice: Arcana, History, Nature, or Religion.</description>
+		</sheet>
+		<rules>
+			<select type="Proficiency" name="Skill Proficiency (Kijani)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_RELIGION" number="1" />
+		</rules>
+	</element>
+</elements>

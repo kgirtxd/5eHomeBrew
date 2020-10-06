@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="race-sahuagin.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/KBP%20Unlikely%20Heroes/race-sahuagin.xml" />
+		</update>
+	</info>
+	<element name="Sahuagin" type="Race" source="Unlikely Heroes" id="ID_KBP_UH_RACE_SAHUAGIN">
+		<description>
+			<p class="flavor">Death rises from the depths to claim intruders with the mournful wail of conch shell horns, shadows beneath the waves, and fins slicing through the water. The cruel and ravenous sahuagin—also known as sea devils—thrive where other aquatic races founder. A wickedly perfect fusion of humanoid and shark, sahuagin glide through the ocean in search of prey and conquest.</p>
+			<p class="flavor">Great cities darken the ocean floors where the sea devils dwell, and coastal fortresses in shallower waters and reefs expand their influence to the boundary between sea and land. Bloodthirsty yet methodical, the sahuagin brutally defend their territory beneath the waves, primarily against the aquatic elves, their ancient foes. Sharks are drawn to the sea devils and easily fall beneath their sway, creating a tide of fins and fangs and blood to sweep over the world’s oceans.</p>
+			<h4>TOOTH AND FIN</h4>
+			<p>About 7 feet tall and weighing over 250 pounds, sahuagin are built to hunt. Solidly muscular, the sea devils are humanoid in basic shape with horns and membranes that form frills down the spine and along a powerful, lashing tail. Similar structures form distinctive ear frills on the sides of their heads, and their hand and feet are webbed. Fingers end in hard claws, and a sahuagin’s wide mouth is filled with multiple rows of sharklike teeth.</p>
+			<p class="indent">Their skin is incredibly thick, rivaling leather armor in terms of protection. Sahuagin skin tones range from dark green to dusty blue along the back of the body, fading to lighter shades on the creature’s underbelly. Frills and fins can be yellow, red, orange, or pink, in contrast to the base skin color. Sometimes mutations occur, and the more powerful and feared sahuagin warlords sport four arms or sharklike tails instead of legs. Primarily aquatic, sahuagin can survive for several hours at a time on dry land, though they are extremely uncomfortable out of water.</p>
+			<h4>CIRCLING BENEATH THE WAVES</h4>
+			<p>Although they can survive in fresh water, sahuagin prefer warm bodies of salt water at depths of at least 100 feet. Temperature and pressure are no obstacle to them, and they build great settlements of stone and coral on the lightless ocean floor. Sahuagin cities are honeycombed with spherical chambers and cylindrical tunnels. Most structures in a sahuagin settlement sport doors and corridors wide enough to accommodate swimming sharks. If the city is close enough to the surface to catch light, sahuagin cultivate beds of seaweed to provide padding and comfort in their otherwise unfurnished living chambers.</p>
+			<p class="indent">Despite their monstrous appearance and bloodthirsty nature, sahuagin are highly civilized, and they prize intellect, order, and structure. The most powerful sahuagin in a city or settlement rules under the title of “Lord of Blood and Battle,” and the remainder of the society breaks into two main castes: nobles and commoners. Despite the social strata a given sahaugin is born into, all sea devils receive a mandatory education. Most of this training revolves around battle and tactics, but the sahuagin keep a meticulous oral history. Sahuagin life is cruel and brutal within this rigid structure, filled with the constant struggle of the weak brutalized by the strong.</p>
+			<h4>DEEP DEVOTION</h4>
+			<p>The clergy represents a notable exception to the caste system that dominates sahuagin society. Only female sahuagin are seen as worth of channeling divine power, and male sahuagin clerics are unheard of. The chief concern of sahuagin clergy is the interpretation and maintenance of the tlalloc, an ancient and extremely accurate calendar. The tlalloc is a massive stone or coral disc covered in intricate carvings that also serves as the altar. The priestesses track significant events and preside over holy rites during momentous moments.</p>
+			<p class="indent">The sahuagin religion claims that the first shark people came from a strange place in the deepest trenches of the ocean. Supposedly, these ancient sahuagin carried the first tlalloc calendar stone with them when they emerged from the crushing black depths. Sharks are venerated as the perfect symbol of power, hunger, and dominion over the oceans. Temple structures serve as hatcheries for schools of sharks, and the creatures cluster around the temples awaiting the bidding of the sea devils.</p>
+			<h4>PREDATORS AND PREY</h4>
+			<p>Sahuagin rule their territory ruthlessly and efficiently, demonstrating the most dangerous qualities of intelligent beings and sharks. The sea devils rarely form alliances with outsiders or even other aquatic races of similar temperament, viewing all other ocean-dwellers as competition for food and territory. Parties of sahuagin patrol up to 50 miles from their home settlements on hunting, scouting, and raiding excursions. Non-sahuagin encountered can expect an inhospitable welcome.</p>
+			<p class="indent">No other race that crosses currents with the sahuagin kindles such extreme and undying hatred in them as the aquatic elves. War between these two races is frequent, prolonged, and bloody. The reason for this mutual hatred is shrouded in mystery, but a connection between the races certainly exists, proved by the existence of the malenti. Malenti are rare sahuagin, sometimes born when a settlement of sea elves exists within close proximity to a sahuagin community. The malenti, though racially sahuagin, look exactly like aquatic elves. Most are killed at birth, but a few survive to serve as spies and assassins who can slip into the ranks of the sea devils’ ancient foes.</p>
+
+			<h4>SAHUAGIN NAMES</h4>
+			<p>Sahuagin have a single name that starts with a single syllable at birth and grows more complex over the course of their lives. The core of the name is a short, personal one, occasionally with an addition due to a powerful lineage or ancestor. Deeds throughout a sahuagin’s life add new syllables, culminating in a lengthy, complex title that conveys great glory and prestige.</p>
+			<p>
+				<b>Sahuagin Names:</b>Anaklaton, Anhual, No’chilok, Shalekol, Tesozomoc, Toltacayotl, Ultolnnok, Vol’Ocaan, Xoltalol<br/>
+			</p>
+			<h4>SAHUAGIN TRAITS</h4>
+			<p>Your sahuagin character has certain characteristics in common with all other sahuagin.</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Strength score increases by 2, and your Wisdom score increases by 1.<br/>
+				<span class="feature">Age.</span>Sahuagin come of age in their late teens. Though age takes its toll, there is no known upper limit to sahuagin lifespan.<br/>
+				<span class="feature">Alignment.</span>Their regimented nature marks sahuagin as universally lawful, and nearly all are evil. Sea devils who buck these trends are either killed or exiled, accounting for the occasional sahuagin adventurer.<br/>
+				<span class="feature">Size.</span> Sahuagin can reach a height of 6 to 7 feet and sport muscular builds. Your size is Medium.<br/>
+				<span class="feature">Speed.</span>Your base walking speed is 30 feet, and you have a swim speed of 40 feet.<br/>
+				<span class="feature">Superior Darkvision.</span>Accustomed to living in the dark depths of the ocean, you can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You cannot discern color in darkness, only shades of gray.<br/>
+				<span class="feature">Blood Frenzy.</span>As a bonus action, you can enter a blood frenzy until the end of your turn. While in blood frenzy you have advantage on melee attack rolls against any creature that doesn’t have all its hit points. You can use this ability a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest.<br/>
+				<span class="feature">Limited Amphibiousness.</span>You can breathe air and water, but you need to be submerged at least once every 4 hours or you begin suffocating.<br/>
+				<span class="feature">Natural Armor.</span>Your thick hide grants you an AC of 12 + your Dexterity modifier.<br/>
+				<span class="feature">Natural Attacks.</span>You have proficiency with your claws and bite. Your claws deal 1d4 slashing damage, and your bite deals 1d4 piercing damage.<br/>
+				<span class="feature">Shark Telepathy.</span>You can magically command one shark within 120 feet of you using limited telepathy. This command is limited to simple concepts such as “come here,” “defend me,” or “attack this target.”<br/>
+				<span class="feature">Languages.</span>You can speak, read, and write Aquan and Common.<br/>  
+			</p>
+		</description>
+		<sheet display="false"/>
+		<setters>
+			<set name="names" type="sahuagin">Anaklaton, Anhual, No’chilok, Shalekol, Tesozomoc, Toltacayotl, Ultolnnok, Vol’Ocaan, Xoltalol</set>
+			<set name="height" modifier="2d6">6'6"</set>
+			<set name="weight" modifier="2d10">150 lb.</set>    
+		</setters>
+		<rules>
+			<stat name="Strength" value="2" />
+			<stat name="Wisdom" value="1" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<stat name="innate speed:swim" value="40" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Vision" id="ID_VISION_SUPERIORDARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_MM_LANGUAGE_AQUAN" />
+			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_BLOOD_FRENZY" />
+			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_NATURAL_ARMOR" />
+			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_LIMITED_AMPHIBIOUSNESS" />
+			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_NATURAL_ATTACKS" />
+			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_SHARK_TELEPATHY" />
+		</rules>
+	</element>
+	<element name="Blood Frenzy" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_BLOOD_FRENZY">
+		<description>
+			<p>As a bonus action, you can enter a blood frenzy until the end of your turn. While in blood frenzy you have advantage on melee attack rolls against any creature that doesn’t have all its hit points. You can use this ability a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet action="Bonus Action" usage="{{Blood Frenzy:usage}}/Long Rest">
+			<description>You can enter a blood frenzy until the end of your turn. While in blood frenzy you have advantage on melee attack rolls against any creature that doesn’t have all its hit points.</description>
+		</sheet>
+		<rules>
+			<stat name="Blood Frenzy:usage" value="1" bonus="base" />
+			<stat name="Blood Frenzy:usage" value="constitution:modifier" bonus="base" />
+		</rules>
+	</element>
+	<element name="Natural Armor" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_NATURAL_ARMOR">
+		<description>
+			<p>Your thick hide grants you an AC of 12 + your Dexterity modifier.</p>
+		</description>
+		<sheet>
+			<description>Your thick hide grants you an AC of 12 + your Dexterity modifier.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:natural armor Sahuagin:base" value="12" />
+			<stat name="ac:natural armor Sahuagin:dexterity" value="dexterity:modifier" />
+			<stat name="ac:natural armor Sahuagin" value="ac:natural armor Sahuagin:base" />
+			<stat name="ac:natural armor Sahuagin" value="ac:natural armor Sahuagin:dexterity" />
+			<stat name="ac:calculation" value="ac:natural armor sahuagin" bonus="calculation" equipped="[armor:none]" alt="Natural Armor (Sahuagin)" />
+		</rules>
+	</element>
+	<element name="Limited Amphibiousness" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_LIMITED_AMPHIBIOUSNESS">
+		<description>
+			<p>You can breathe air and water, but you need to be submerged at least once every 4 hours or you begin suffocating.</p>
+		</description>
+		<sheet>
+			<description>You can breathe air and water, but you need to be submerged at least once every 4 hours or you begin suffocating.</description>
+		</sheet>
+	</element>
+	<element name="Natural Attacks" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_NATURAL_ATTACKS">
+		<description>
+			<p>You have proficiency with your claws and bite. Your claws deal 1d4 slashing damage, and your bite deals 1d4 piercing damage.</p>
+		</description>
+		<sheet>
+			<description>You have proficiency with your claws and bite. Your claws deal 1d4 slashing damage, and your bite deals 1d4 piercing damage.</description>
+		</sheet>
+	</element>
+	<element name="Shark Telepathy" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_SHARK_TELEPATHY">
+		<description>
+			<p>You can magically command one shark within 120 feet of you using limited telepathy. This command is limited to simple concepts such as “come here,” “defend me,” or “attack this target.”</p>
+		</description>
+		<sheet>
+			<description>You can magically command one shark within 120 feet of you using limited telepathy. This command is limited to simple concepts such as “come here,” “defend me,” or “attack this target.”</description>
+		</sheet>
+	</element>
+</elements>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="race-lamia.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/KBP%20Unlikely%20Heroes/race-lamia.xml" />
+		</update>
+	</info>
+	<element name="Lamia" type="Race" source="Unlikely Heroes" id="ID_KBP_UH_RACE_LAMIA">
+		<description>
+			<p class="flavor">Sensuous and seductive, the serpent-tailed lamias are born into a life consumed by bitterness. The race’s origins lie with humanity, but an ancient curse twisted them into half-human, half-animal forms. No matter what victories lamias achieve, they can’t fill the gaping hole in their souls the curse left behind. This unquenchable longing drives lamias to embrace excess and overindulgence. They indulge in lust, luxury, gory feasts, and violent trysts in a vain attempt to salve their emptiness.</p>
+			<p class="flavor">Some lamias, however, see this hedonism for the corruption it truly is and reject it. They face a constant struggle against these urges, and that resistance fervently drives them to do what they know is right, rather than what will numb their pain.</p>
+			<h4>SEDUCTIVE AND SERPENTINE</h4>
+			<p>A lamia’s upper body is that of a beautiful, statuesque human. Slender and well formed, lamias are uniformly alluring despite a dangerous, exotic edge flavoring that beauty. From the waist down, however, lamias bear great serpent tails. When drawn up to their full height they stand about as tall as humans, reaching 5 or 6 feet tall. The musculature of their tails makes them heavy despite their lean, muscular torsos and arms.</p>
+			<p class="indent">Skin and hair tones run the wide range seen among humans. Lamia eyes are large and liquid, presenting a full range of colors. Their snake tails are covered in glossy scales that whisper when they move. Beautiful hypnotic patterns of curves or diamond shapes are just as likely as tails of a uniform color. Common colors include bright green, dull red, glossy black, pale gold, and dusty tan. Tattoos are common, and many lamias ink mystic symbols into the flesh of their arms and chests</p>
+			<h4>DEMONIC ORIGINS</h4>
+			<p>The curse that brought the lamias into existence originated in the Abyss. The stain of that corrupt demonic power left its mark on the lamias, and they are prone to both evil and chaos. Even those who reject their nature and strive for the light struggle with their heritage, and all are prone to sudden mood shifts and outbursts. As a result of this otherworldly touch, their flesh remains unblighted by age. Once lamias reach maturity they show little physical sign of aging, even as they near the end of their lifespans. They aren’t immortal, but lamias remain beautiful until the grave swallows them.</p>
+			<p class="indent">Reflecting this frozen beauty, the race suffers from a stunted capacity to create. True artists are almost unheard of, and those lamias who make the attempt often resort to stealing inspiration from others only to produce works that showcase the race’s psychological scars. Anything created by a lamia shows a bent toward the grotesque, evoking cruelty or pain. To cover their creative lack, lamias become avid collectors of all kinds of art and patrons of artists. Good-aligned lamias strive to surround themselves with things they find truly beautiful, but even they fall prey to reflecting darker appetites in their collections. Lamias who embrace their dark nature create collections that glorify lust, violence, and power.</p>
+			<h4>LIFE AMONG THE LAMIAS</h4>
+			<p>Lamia culture is cutthroat at the best of times. Dominated by the powerful matriarchs, lamia society is characterized by self-interest, pleasure-seeking, and deadly one upmanship. Concepts like remorse and compassion are alien to most lamias, forcing any who recognize the twisted nature of their existence to hide their qualms or flee. Concepts like monogamy and familial affection are likewise all but unknown. Although both male and female lamias exist, females outnumber males by three to one.</p>
+			<p class="indent">As a result of their gender ratios combined with their highly matriarchal nature, trysts between female lamias are as common as between male and female. Assignations between lamias occur for power and pleasure, never for love—a concept revolting to most of the race. Even pairings that produce offspring have no special significance to the parents. Young lamias are left to fend for themselves almost immediately after birth, since their culture emphasizes that survival engenders strength.</p>
+			<h4>RELATIONS AND RELIGION</h4>
+			<p>Lamias have abysmal relationships with other races, who rightly view them with fear and revulsion despite their intense beauty. The lamias see other creatures as little more than playthings yet to be broken. They might form temporary alliances to pursue a common agenda or even take a lover of another race they find attractive or interesting, but such dalliances never last. The so-called “false lamias,” those with lower bodies of great cats, drive lamias into a murderous frenzy. Serpentine lamias will go to any lengths to destroy these pretenders.</p>
+			<p class="indent">Lamia society has little use for religion or gods, and clerics and other representatives of the divine are unheard of among them. Magic and mysticism, however, is deeply ingrained in lamia culture. Practitioners of arcane magic are as common as divine spellcasters are rare. Lamias show reverence to only one thing—the moon. Many of their rites center around the moon and take place under its light. Those lamias who reject their corrupt upbringing reject the racial hatred of the divine and seek comfort in devotion to deities, particularly those associated with the moon.</p>
+			<h4>LAMIA NAMES</h4>
+			<p>Unlike most other creatures, lamias don’t differentiate between male and female names. The lack of a racial language means many of their names are combinations of words culled from Draconic and Abyssal, meant to complement their sibilant accent.</p>
+			<p>
+				<b>Names:</b>Ashaa’siir, Ces’ka, Haashlas, Ka’reesh, Losh’vesh, N’vek, Shalesh, Ssthal, Val’vek, Vesha<br/>
+			</p>
+			<h4>LAMIA TRAITS</h4>
+			<p>Your lamia character has certain characteristics resulting from your blighted heritage.</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Strength score increases by 2, and your Charisma score increases by 1<br/>
+				<span class="feature">Age.</span>Lamias reach adulthood at 20 years old and can live to be over 150.<br/>
+				<span class="feature">Alignment.</span>Lamias are overwhelmingly evil and almost never lawful. Exceptions exist, but their demonic heritage strongly influences the race.<br/>
+				<span class="feature">Size.</span>Lamias are slighter and shorter than humans, and they range from 4 feet to just shy of 6 feet tall. Your size is Medium.<br/>
+				<span class="feature">Speed.</span>Your base walking speed is 30 feet. You also have a climb speed of 20 feet and a swim speed of 20 feet.<br/>
+				<span class="feature">Type.</span>You are of the monstrosity type.<br/>
+				<span class="feature">Dangerous Beauty.</span>You have proficiency in the Deception and Intimidation skills.<br/>
+				<span class="feature">Serpent Strike.</span>You have advantage on attack rolls against a creature you have surprised, or that is charmed by you or your allies.<br/>
+				<span class="feature">Snake Body.</span> You have advantage on saving throws and ability checks against being knocked prone. You can’t benefit from anything that requires legs or feet (such as magical footwear).<br/>
+				<span class="feature">Languages.</span> You can speak, read, and write Abyssal and Common.<br/>  
+			</p>
+		</description>
+		<sheet display="false"/>
+		<setters>
+			<set name="names" type="lamia">Ashaa’siir, Ces’ka, Haashlas, Ka’reesh, Losh’vesh, N’vek, Shalesh, Ssthal, Val’vek, Vesha</set>
+			<set name="height" modifier="2d8">5'4"</set>
+			<set name="weight" modifier="2d4">110 lb.</set>    
+		</setters>
+		<rules>
+			<stat name="strength" value="2" />
+			<stat name="Charisma" value="1" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<stat name="innate speed:climb" value="20" bonus="base" />
+			<stat name="innate speed:swim" value="20" bonus="base" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_ABYSSAL" />
+			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_DANGEROUS_BEAUTY" />
+			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_SERPENT_STRIKE" />
+			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_SNAKE_BODY" /> 
+		</rules>
+	</element> 
+	<element name="Dangerous Beauty" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_DANGEROUS_BEAUTY">
+		<description>
+			<p>You have proficiency in the Deception and Intimidation skills.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+		</rules>
+	</element>
+	<element name="Serpent Strike" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_SERPENT_STRIKE">
+		<description>
+			<p>You have advantage on attack rolls against a creature you have surprised, or that is charmed by you or your allies.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on attack rolls against a creature you have surprised, or that is charmed by you or your allies.</description>
+		</sheet>
+	</element>
+	<element name="Snake Body" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_SNAKE_BODY">
+		<description>
+			<p>You have advantage on saving throws and ability checks against being knocked prone. You can’t benefit from anything that requires legs or feet (such as magical footwear).</p>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws and ability checks against being knocked prone. You can’t benefit from anything that requires legs or feet (such as magical footwear).</description>
+		</sheet>
+	</element>
+</elements>

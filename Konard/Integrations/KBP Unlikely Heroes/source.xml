@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="source.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/KBP%20Unlikely%20Heroes/source.xml" />
+		</update>
+	</info>
+	<element name="Unlikely Heroes" type="Source" source="Unlikely Heroes" id="ID_KBP_UH_SOURCE_UNLIKELY_HEROES">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="abbreviation">UH</set>
+			<set name="url">https://koboldpress.com/kpstore/product/unlikely-heroes-for-5th-edition/</set>
+			<set name="image">https://koboldpress.com/kpstore/wp-content/uploads/H3-Unlikely-Heroes-COVER.png</set>
+			<set name="author" abbreviation="KBP" url="https://koboldpress.com/">Kobald Press</set>
+			<set name="third-party">true</set>
+		</setters>
+	</element>
+</elements>

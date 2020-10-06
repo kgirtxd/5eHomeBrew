@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="race-jinnborn.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/KBP%20Unlikely%20Heroes/race-jinnborn.xml" />
+		</update>
+	</info>
+
+	<element name="Jinnborn" type="Race" source="Unlikely Heroes" id="ID_KBP_UH_RACE_JINNBORN">
+		<description>
+			<p class="flavor">Native people from the deepest deserts, the jinnborn claim they were the fist mortals to walk the world. They say that in the beginning, all the world was a vast desert beneath a fiery sun; in those times, the jinnborn wandered where they willed, and ruled over all they saw. They refer to themselves as the sab siraat, or “people of the path.” Descended from powerful elemental creatures call jinn (singular jinni), the jinnborn manifest gift through their lineage that help them survive their harsh home environment.</p>
+			<p class="flavor">Passionate people, the jinnborn seek wealth when they can, revel in revenge when they must, and cherish close companionship always. Outsiders label them as capricious or even savage, never fully aware of the veil that hides the jinnborn’s true nature.</p>
+			<h4>TOUCH OF THE JINN</h4>
+			<p>Jinnborn are somewhat shorter than humans, rarely growing taller than 6 feet. Their shorter stature leaves them stocky of build, and their frames are muscular and hardy— adults can easily weigh in excess of 170 pounds. Jinnborn skin tone comes in a wide range of colors from sky blue to light violet and from golden to brick red.</p>
+			<p class="indent">Secondary features such as nub horns, pointed teeth, or elemental gleams flickering deep within their eyes all mark the otherworldly heritage of the jinnborn. Nearly all jinnborn sport pointed ears, and they are fond of decorating themselves with precious metal and stone jewelry. Thy prefer brightly colored, loose and flowing clothing, appropriate to the burning desert days and brisk nights</p>
+			<h4>PATHS TO PLENTY</h4>
+			<p>Th core philosophy that drives all jinnborn regardless of their station is siraati a mystical path that jinnborn believe is their spiritual and cultural guide. Intrinsic to being sab siraat is the belief that the jinni who created the tribes set them on a path that would lead ultimately to the Hidden World, a place beyond the toil of normal existence. Th Hidden World is a land of plenty and fulfilled desire, free of the harsh realities of the desert and unspoiled by the plots and greed of the pathless. Sab siraat are divided along elemental lines, like the jinn themselves, and tribes tend to adhere to a single elemental path.</p>
+			<p class="indent">Although every jinnborn tribe holds these paths sacred, no two agree on the specifics. Some common elements persist between siraati of different tribes, however, based on the elemental nature of the paths themselves. Air sab siraat are proud and aloof. Fire-based sab siraat are vicious and draconian. Water sab siraat are carefree but mercurial, and earth sab siraat are stoic and driven. Even with these tendencies, tribes exhibit great diversity in customs, laws, stories, and mannerisms. Some tribes boast multiple patron jinn and might therefore represent multiple forms of the siraati. Other tribes absorb members through conquest or marriage, and likewise have access to more than one elemental path. Once a jinnborn sets his or her mind upon a siraati, however, only the patron jinni’s intervention can change it.</p>
+			<h4>LIFE ON THE PATH</h4> 
+			<p>Tribes of jinnborn take the concept of mystical paths very seriously, and they follow a nomadic lifestyle in accordance with those paths. Whether a given tribe herds camels or other livestock and follows the supply of fresh water from oasis to river, or another tribe rides as a family caravan seeking wealth through trade, literal and philosophical paths govern all. Th tribes follow the physical paths their elders set down, knowing that these safe routes will lead them around dangerous sands, past beguiling mirages, and to safety and sustenance. Other jinnborn tribes make their way as mercenaries, selling their spells and blades as guards, soldiers-for-hire, or even turning to banditry. This is their path to the Hidden World.</p>
+			<p class="indent">Few jinnborn turn their back on the paths that lead them through the desert, and with good reasons. Outsiders frequently misread the jinnborn, though that is not entirely their fault. Th jinnborn keep their word meticulously between themselves, but when dealing with the pathless outsiders, the line between what is said and what is meant blurs like the desert horizon at noon. Th jinnborn rarely lie outright, but they speak in terms that allow them to twist their meaning.</p>
+			<p class="indent">Also, the jinnborn who leave the open sands of the desert lose part of themselves. Th longer they dwell in cities, they more they take on strange quirks and mannerisms. Remain away from the desert long enough, and their oddities develop into full-blown madness.</p>
+			<h4>PATRON JINN</h4>
+			<p>Jinn share many traits with genies—the most well known of the powerful elementals—but they are vastly more powerful still. Immortal beings older than recorded history, the jinn could easily contend with the sultans and emirs of the genie courts. Th patrons of the oldest jinnborn tribes even approach demigod status. Although the material plane tribes might worship the jinn, they are not gods or even godlings, and they grant no spells or true divine powers through belief alone. Jinnborn rarely worship any gods, for to do so marks a jinnborn as having strayed from the path.</p>
+			<p class="indent">Jinn are tied to one of the four elements, and they dwell on the corresponding elemental plane. Thy eschew the material plane except in rare occasions, either to duel a rival on neutral ground or to visit their patron tribes. So ancient are the jinn that most no longer use their names. Thy do have formal names, and these names have been kept safe by the patron’s tribes. Jinnborn keep the name of the patron a close secret, and it is a deadly insult for a jinnborn to speak the name of another tribe’s patron.</p>
+
+			<h4>JINNBORN NAMES</h4>
+			<p>Jinnborn names borrow words from the elemental tongues and tend to contain few syllables.</p>
+			<p>
+				<b>Male Names:</b>Artis, Bel’ar, Djal, Fershul, Grunz, Jorlat, Masad, Parfal, Ri’un, Yvris<br/>
+				<b>Female Names:</b>Alana, Bea’l, Cassal, Evelys, Falma, Himyra, Kayala, Nuli, Oshaa, Somnya<br/>
+			</p>
+
+			<h4>JINNBORN TRAITS</h4>
+			<p>Your jinnborn character has certain characteristics in common with all other jinnborn.</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Constitution score increases by 2.<br/>
+				<span class="feature">Age.</span> Jinnborn reach maturity at age 16 and can live to be over 150.<br/>
+				<span class="feature">Alignment.</span>There is no single alignment among the jinnborn that typifies them all.<br/>
+				<span class="feature">Size.</span>Jinnborn are as tall as humans with stout, well-muscled builds. Your size is Medium.<br/>
+				<span class="feature">Speed.</span>Your base walking speed is 30 feet.<br/>
+				<span class="feature">Darkvision.</span>Thanks to your jinn blood, you can see in dim light within 60 feet as though it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.<br/>
+				<span class="feature">Desert Dependent.</span>For every month you remain away from the desert, you must make a DC 15 Charisma saving throw. On a failed save, you are afflicted with indefinite madness (see Madness; SRD). Roll on the table or work with your DM to determine the nature of your madness.<br/>
+				<span class="feature">Negotiator.</span>You have proficiency in the Persuasion skill.<br/>
+				<span class="feature">Siraati.</span>All jinnborn have an affinity for mystic paths, depending on the jinn patron of their tribe. Choose one of the following siraati: air, earth, fie, or water.<br/>
+				<span class="feature">Languages.</span>You can speak, read, and write Common and one of the four elemental languages (Auran, Aquan, Ignan, or Terran). Th elemental language must conform to your siraati.<br/>  
+				<span class="feature">Subrace.</span>Jinnborn are divided into subraces depending on the innate touch of the jinn.<br/> 
+			</p>
+		</description>
+		<sheet display="false"/>
+		<setters>
+			<set name="names" type="male">Artis, Bel’ar, Djal, Fershul, Grunz, Jorlat, Masad, Parfal, Ri’un, Yvris</set>
+			<set name="names" type="female">Alana, Bea’l, Cassal, Evelys, Falma, Himyra, Kayala, Nuli, Oshaa, Somnya</set>
+			<set name="height" modifier="2d10">4'6"</set>
+			<set name="weight" modifier="2d6">120 lb.</set>    
+		</setters>
+		<rules>
+			<stat name="constitution" value="2" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_DESERT_DEPENDENT" />
+			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_NEGOTIATOR" />
+			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_SIRAATI" />
+			<select type="Sub Race" name="Jinnborn Subrace" supports="Jinnborn" />
+		</rules>
+	</element>
+	<element name="Desert Dependent" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_DESERT_DEPENDENT">
+		<description>
+			<p>For every month you remain away from the desert, you must make a DC 15 Charisma saving throw. On a failed save, you are afflicted with indefinite madness (see Madness; SRD). Roll on the table or work with your DM to determine the nature of your madness.</p>
+		</description>
+		<sheet>
+			<description>For every month you remain away from the desert, you must make a DC 15 Charisma saving throw. On a failed save, you are afflicted with indefinite madness.</description>
+		</sheet>
+	</element>
+	<element name="Negotiator" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_NEGOTIATOR">
+		<description>
+			<p>You have proficiency in the Persuasion skill</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in the Persuasion skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+		</rules>
+	</element>
+	<element name="Siraati" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_SIRAATI">
+		<description>
+			<p>All jinnborn have an affinity for mystic paths, depending on the jinn patron of their tribe. Choose one of the following siraati: air, earth, fie, or water.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Racial Trait" name="Siraati Patron" supports="Siraati" />
+		</rules>
+	</element>
+	<element name="Air Siraati" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_AIR_SIRAATI">
+		<supports>Siraati</supports>
+		<description>
+			<p>You learn the elemental language of your siraati patron.</p>
+		</description>
+		<sheet>
+			<description></description>
+		</sheet>
+		<rules>
+			<grant type="Language" id="ID_MM_LANGUAGE_AURAN" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" requirements="ID_KBP_UH_RACIAL_TRAIT_PROTECTION_OF_THE_JINN" />
+			<stat inline="true" name="Siraati:resistance type" value="Lightning" />
+		</rules>
+	</element>
+	<element name="Earth Siraati" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_EARTH_SIRAATI">
+		<supports>Siraati</supports>
+		<description>
+			<p>You learn the elemental language of your siraati patron.</p>
+		</description>
+		<sheet>
+			<description></description>
+		</sheet>
+		<rules>
+			<grant type="Language" id="ID_MM_LANGUAGE_TERRAN" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" requirements="ID_KBP_UH_RACIAL_TRAIT_PROTECTION_OF_THE_JINN" />
+			<stat inline="true" name="Siraati:resistance type" value="Acid" />
+		</rules>
+	</element>
+	<element name="Fire Siraati" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_FIRE_SIRAATI">
+		<supports>Siraati</supports>
+		<description>
+			<p>You learn the elemental language of your siraati patron.</p>
+		</description>
+		<sheet>
+			<description></description>
+		</sheet>
+		<rules>
+			<grant type="Language" id="ID_MM_LANGUAGE_IGNAN" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" requirements="ID_KBP_UH_RACIAL_TRAIT_PROTECTION_OF_THE_JINN" />
+			<stat inline="true" name="Siraati:resistance type" value="Fire" />
+		</rules>
+	</element>
+	<element name="Water Siraati" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_WATER_SIRAATI">
+		<supports>Siraati</supports>
+		<description>
+			<p>You learn the elemental language of your siraati patron.</p>
+		</description>
+		<sheet>
+			<description></description>
+		</sheet>
+		<rules>
+			<grant type="Language" id="ID_MM_LANGUAGE_AQUAN" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" requirements="ID_KBP_UH_RACIAL_TRAIT_PROTECTION_OF_THE_JINN" />
+			<stat inline="true" name="Siraati:resistance type" value="Cold" />
+		</rules>
+	</element>
+	<element name="Speaker Jinnborn" type="Sub Race" source="Unlikely Heroes" id="ID_KBP_UH_SUB_RACE_SPEAKER_JINNBORN">
+		<supports>Jinnborn</supports>
+		<description>
+			<p>Speaker jinnborn bear the mark of their jinni patron, and the world must stand up and take notice. Thy are the guides, elders, and leaders of their tribes, as well as scouts and seekers of paths.</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Wisdom score increases by 1.<br/>
+				<span class="feature">Favor of the Jinn.</span>You can call upon your jinn patron to gain advantage on a saving throw or ability check, or to impose disadvantage on an attack roll against you. You must decide to use this ability before the relevant d20 roll. You can use this ability a number of times equal to your Wisdom modifier (minimum of 1). You regain all expended uses when you finish a long rest.<br/>
+				<span class="feature">Walker.</span>You have advantage on saving throws against being stunned and extreme environments, and on ability checks made to navigate the wilderness and avoid losing your way.<br/>
+			</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<stat name="wisdom" value="1" />
+			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_FAVOR_OF_THE_JINN" />
+			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_WALKER" />
+		</rules>
+	</element>
+	<element name="Shaper Jinnborn" type="Sub Race" source="Unlikely Heroes" id="ID_KBP_UH_SUB_RACE_SHAPER_JINNBORN">
+		<supports>Jinnborn</supports>
+		<description>
+			<p>The shaper jinnborn channel the elemental power of their tribe’s siraati. Shapers form the majority of a tribe’s warriors and protectors, and they ensure the safety of their charges with deadly dedication.</p>
+			<span class="feature">Ability Score Increase.</span>Your Strength score increases by 1.<br/>
+			<span class="feature">Elemental Strike.</span>Once on your turn when you hit with a melee attack, you can deal an additional 1d6 damage. The damage type corresponds to your siraati (lightning for air, acid for earth, fie for fie, cold for water). You can use this ability a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses after finishing a long rest.<br/>
+			<span class="feature">Protection of the Jinn.</span>You have resistance against a type of damage that corresponds to your siraati (lightning for air, acid for earth, fie for fie, cold for water)<br/>  
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<stat name="strength" value="1" />
+			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_ELEMENTAL_STRIKE" />
+			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_PROTECTION_OF_THE_JINN" />
+		</rules>
+	</element>
+	<element name="Favor of the Jinn" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_FAVOR_OF_THE_JINN">
+		<description>
+			<p>You can call upon your jinn patron to gain advantage on a saving throw or ability check, or to impose disadvantage on an attack roll against you. You must decide to use this ability before the relevant d20 roll.</p>
+			<p>You can use this ability a number of times equal to your Wisdom modifier (minimum of 1). You regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet usage="{{Favor of the Jinn:usage}}/Long Rest">
+			<description>You can call upon your jinn patron to gain advantage on a saving throw or ability check, or to impose disadvantage on an attack roll against you. You must decide to use this ability before the relevant d20 roll.</description>
+		</sheet>
+		<rules>
+			<stat name="Favor of the Jinn:usage" value="1" bonus="base" />
+			<stat name="Favor of the Jinn:usage" value="Wisdom:modifier" bonus="base" />
+		</rules>
+	</element>
+	<element name="Walker" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_WALKER">
+		<description>
+			<p>You have advantage on saving throws against being stunned and extreme environments, and on ability checks made to navigate the wilderness and avoid losing your way.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws against being stunned and extreme environments, and on ability checks made to navigate the wilderness and avoid losing your way.</description>
+		</sheet>
+	</element>
+	<element name="Elemental Strike" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_ELEMENTAL_STRIKE">
+		<description>
+			<p>Once on your turn when you hit with a melee attack, you can deal an additional 1d6 damage. The damage type corresponds to your siraati (lightning for air, acid for earth, fie for fie, cold for water). You can use this ability a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses after finishing a long rest.</p>
+		</description>
+		<sheet usage="{{constitution:modifier}}/Long Rest">
+			<description>Once on your turn when you hit with a melee attack, you can deal an additional 1d6 {{Siraati:resistance type}} damage.</description>
+		</sheet>
+		<rules>
+		</rules>
+	</element>
+	<element name="Protection of the Jinn" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_PROTECTION_OF_THE_JINN">
+		<description>
+			<p>You have resistance against a type of damage that corresponds to your siraati (lightning for air, acid for earth, fie for fie, cold for water)</p>
+		</description>
+		<sheet>
+			<description>Your siraati gives you resistance to {{Siraati:resistance type}} damage.</description>
+		</sheet>
+		<rules>
+		</rules>
+	</element>
+</elements>
