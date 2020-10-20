@@ -4,7 +4,7 @@
 		<name>Backgrounds Omnibus v2.3</name>
 		<description>An expanded array of backgrounds for the world's greatest role-playing game</description>
 		<author>Konard</author>
-		<update version="2.3.2">
+		<update version="2.3.3">
 			<file name="Backgrounds Omnibus v2.3.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/Backgrounds%20Omnibus%20v2.3.xml" />
 		</update>
 	</info>
@@ -1486,13 +1486,13 @@
 		</description>
 		<sheet alt="Nomad: Craftsman" />
 		<rules>
-			<grant type="Feat" id="ID_BACKGROUND_OMNIBUS_FEAT_EXPERTCRAFTSMAN" />
+			<grant type="Class Feature" id="ID_BACKGROUND_OMNIBUS_CLASS_FEATURE_EXPERTCRAFTSMAN" />
 		</rules>
 		<sheet>
 			<description>Your proficiency bonus is doubled for any ability check you make that uses the tool granted as a expert craftsman.</description>
 		</sheet>
 	</element>
-	<element name="Expert Craftsman" type="Feat" source="Backgrounds Omnibus" id="ID_BACKGROUND_OMNIBUS_FEAT_EXPERTCRAFTSMAN" requirements="ID_BACKGROUND_OMNIBUS_VARIANT_CRAFTSMAN">
+	<element name="Expert Craftsman" type="Class Feature" source="Backgrounds Omnibus" id="ID_BACKGROUND_OMNIBUS_CLASS_FEATURE_EXPERTCRAFTSMAN" requirements="ID_BACKGROUND_OMNIBUS_VARIANT_CRAFTSMAN">
 		<description>
 			<description>Your proficiency bonus is doubled for any ability check you make that uses the tool granted as a expert craftsman.</description>
 		</description>
