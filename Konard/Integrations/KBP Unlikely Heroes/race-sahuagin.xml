@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="race-sahuagin.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/KBP%20Unlikely%20Heroes/race-sahuagin.xml" />
 		</update>
 	</info>
@@ -51,14 +51,17 @@
 			<set name="weight" modifier="2d10">150 lb.</set>    
 		</setters>
 		<rules>
-			<stat name="Strength" value="2" />
-			<stat name="Wisdom" value="1" />
+			<stat name="Strength" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="Wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Sahuagin)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Sahuagin)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<stat name="innate speed" value="30" bonus="base" />
 			<stat name="innate speed:swim" value="40" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Vision" id="ID_VISION_SUPERIORDARKVISION" />
-			<grant type="Language" id="ID_LANGUAGE_COMMON" />
-			<grant type="Language" id="ID_MM_LANGUAGE_AQUAN" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_MM_LANGUAGE_AQUAN" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language||Sahuagin Language" number="2"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_BLOOD_FRENZY" />
 			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_NATURAL_ARMOR" />
 			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_LIMITED_AMPHIBIOUSNESS" />
@@ -66,6 +69,9 @@
 			<grant type="Racial Trait" id="ID_KBP_UH_RACIAL_TRAIT_SHARK_TELEPATHY" />
 		</rules>
 	</element>
+	<append id="ID_MM_LANGUAGE_AQUAN">
+		<supports>Sahuagin Language</supports>
+	</append>
 	<element name="Blood Frenzy" type="Racial Trait" source="Unlikely Heroes" id="ID_KBP_UH_RACIAL_TRAIT_BLOOD_FRENZY">
 		<description>
 			<p>As a bonus action, you can enter a blood frenzy until the end of your turn. While in blood frenzy you have advantage on melee attack rolls against any creature that doesn’t have all its hit points. You can use this ability a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest.</p>
