@@ -4,7 +4,7 @@
 		<name>Half Dragon Race</name>
 		<description>Homebrew race with associated feats and epic boon</description>
 		<author url="https://www.reddit.com/r/UnearthedArcana/comments/clzo6h/half_dragon/">Konard</author>
-		<update version="1.2.1.3">
+		<update version="1.2.1.4">
 			<file name="race-halfdragon.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/race-halfdragon.xml" />
 		</update>
 	</info>
@@ -77,8 +77,9 @@
 		<rules>
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
-			<grant type="Language" id="ID_LANGUAGE_COMMON" />
-			<grant type="Language" id="ID_LANGUAGE_DRACONIC" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<grant type="Racial Trait" id="ID_HALF_DRAGON_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
 			<grant type="Racial Trait" id="ID_HALF_DRAGON_RACIAL_TRAIT_BREATH_WEAPON" />
 			<grant type="Racial Trait" id="ID_HALF_DRAGON_RACIAL_TRAIT_DAMAGE_RESISTANCE" />
@@ -162,8 +163,10 @@
 		</sheet>
 		<rules>
 			<grant type="Racial Trait" id="ID_HALF_DRAGON_RACIAL_TRAIT_UNRELENTING_FORCE" />
-			<stat name="constitution" value="2" />
-			<stat name="strength" value="1" />
+			<stat name="constitution" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Half Dragon - Black)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Half Dragon - Black)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<stat inline="true" name="draconic-ancestry" value="Black"/>
 			<stat inline="true" name="draconic-ancestry:damage type" value="Acid" />
 			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
@@ -185,9 +188,10 @@
 		</sheet>
 		<rules>
 			<grant type="Racial Trait" id="ID_HALF_DRAGON_RACIAL_TRAIT_DESERT_PREDATOR" />
-			<stat name="dexterity" value="1" />
-			<stat name="strength" value="1" />
-			<stat name="constitution" value="1" />
+			<stat name="dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Half Dragon - Blue)" number="3" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<stat inline="true" name="draconic-ancestry" value="Blue"/>
 			<stat inline="true" name="draconic-ancestry:damage type" value="Lightning" />
 			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
@@ -209,8 +213,10 @@
 		</sheet>
 		<rules>
 			<grant type="Racial Trait" id="ID_HALF_DRAGON_RACIAL_TRAIT_BOLDLY_TALKATIVE" />
-			<stat name="strength" value="2" />
-			<stat name="charisma" value="1" />
+			<stat name="strength" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Half Dragon - Brass)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Half Dragon - Brass)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<stat inline="true" name="draconic-ancestry" value="Brass"/>
 			<stat inline="true" name="draconic-ancestry:damage type" value="Fire" />
 			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
@@ -230,9 +236,10 @@
 		</sheet>
 		<rules>
 			<grant type="Racial Trait" id="ID_HALF_DRAGON_RACIAL_TRAIT_DRAGON_OF_THE_COAST" />
-			<stat name="charisma" value="1" />
-			<stat name="strength" value="1" />
-			<stat name="constitution" value="1" />
+			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Half Dragon - Bronze)" number="3" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<stat inline="true" name="draconic-ancestry" value="Bronze"/>
 			<stat inline="true" name="draconic-ancestry:damage type" value="Lightning" />
 			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
@@ -254,8 +261,10 @@
 		</sheet>
 		<rules>
 			<grant type="Racial Trait" id="ID_HALF_DRAGON_RACIAL_TRAIT_PLAYFUL_HOST" />
-			<stat name="strength" value="1" />
-			<stat name="charisma" value="2" />
+			<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Half Dragon - Copper)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Half Dragon - Copper)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<stat inline="true" name="draconic-ancestry" value="Copper"/>
 			<stat inline="true" name="draconic-ancestry:damage type" value="Acid" />
 			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
@@ -277,8 +286,10 @@
 		</sheet>
 		<rules>
 			<grant type="Racial Trait" id="ID_HALF_DRAGON_RACIAL_TRAIT_RESERVED_COMPANION" />
-			<stat name="strength" value="1" />
-			<stat name="wisdom" value="2" />
+			<stat name="wisdom" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Half Dragon - Gold)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Half Dragon - Gold)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<stat inline="true" name="draconic-ancestry" value="Gold"/>
 			<stat inline="true" name="draconic-ancestry:damage type" value="Fire" />
 			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Dex. save)" />
@@ -300,8 +311,10 @@
 		</sheet>
 		<rules>
 			<grant type="Racial Trait" id="ID_HALF_DRAGON_RACIAL_TRAIT_GIFTED_TRICKSTER" />
-			<stat name="strength" value="1" />
-			<stat name="charisma" value="2" />
+			<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Half Dragon - Green)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Half Dragon - Green)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<stat inline="true" name="draconic-ancestry" value="Green"/>
 			<stat inline="true" name="draconic-ancestry:damage type" value="Poison" />
 			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Con. save)" />
@@ -323,8 +336,10 @@
 		</sheet>
 		<rules>
 			<grant type="Racial Trait" id="ID_HALF_DRAGON_RACIAL_TRAIT_INDOMITABLE" />
-			<stat name="strength" value="2" />
-			<stat name="constitution" value="1" />
+			<stat name="strength" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Half Dragon - Red)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Half Dragon - Red)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<stat inline="true" name="draconic-ancestry" value="Red"/>
 			<stat inline="true" name="draconic-ancestry:damage type" value="Fire" />
 			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Dex. save)" />
@@ -346,8 +361,10 @@
 		</sheet>
 		<rules>
 			<grant type="Racial Trait" id="ID_HALF_DRAGON_RACIAL_TRAIT_PARALYZING_BREATH" />
-			<stat name="strength" value="1" />
-			<stat name="intelligence" value="2" />
+			<stat name="intelligence" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Half Dragon - Silver)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Half Dragon - Silver)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<stat inline="true" name="draconic-ancestry" value="Silver"/>
 			<stat inline="true" name="draconic-ancestry:damage type" value="Cold" />
 			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Con. save)" />
@@ -369,8 +386,10 @@
 		</sheet>
 		<rules>
 			<grant type="Racial Trait" id="ID_HALF_DRAGON_RACIAL_TRAIT_SKILLED_HUNTER" />
-			<stat name="strength" value="1" />
-			<stat name="constitution" value="2" />
+			<stat name="constitution" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Half Dragon - White)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Half Dragon - White)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<stat inline="true" name="draconic-ancestry" value="White"/>
 			<stat inline="true" name="draconic-ancestry:damage type" value="Cold" />
 			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Con. save)" />
@@ -386,9 +405,6 @@
 		<sheet>
 			<description>You add {{constitution:modifier}} to the damage of your breath weapon. This value doubles while you are within your Dragon Form.</description>
 		</sheet>
-		<rules>
-			
-		</rules>
 	</element>
 	<element name="Desert Predator" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_DESERT_PREDATOR">
 		<description>
@@ -409,7 +425,8 @@
 			<description>You have proficiency in Persuasion, and magic can’t put you to sleep.</description>
 		</sheet>
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency (Boldly Talkative)" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 		</rules>
 	</element>
 	<element name="Dragon of the Coast" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_DRAGON_OF_THE_COAST">
@@ -431,7 +448,8 @@
 			<description>You have proficiency in Performance, and you know the vicious mockery cantrip. Charisma is your spell casting ability for this spell.</description>
 		</sheet>
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency (Playful Host)" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 			<grant type="Spell" id="ID_PHB_SPELL_VICIOUS_MOCKERY" level="1" />
 		</rules>
 	</element>
@@ -443,7 +461,8 @@
 			<description>You have proficiency in Insight. Your racial fire damage (including that in your (true) Dragon Form) becomes radiant damage against Fiends and Undead instead.</description>
 		</sheet>
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency (Reserved Companion)" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 		</rules>
 	</element>
 	<element name="Gifted Trickster" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_GIFTED_TRICKSTER">
@@ -455,7 +474,8 @@
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_PHB_SPELL_DISGUISE_SELF" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency (Gifted Trickster)" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 		</rules>
 	</element>
 	<element name="Indomitable" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_INDOMITABLE">
@@ -465,8 +485,6 @@
 		<sheet>
 			<description>You have advantage on saving throws to avoid being charmed or frightened.</description>
 		</sheet>
-		<rules>
-		</rules>
 	</element>
 	<element name="Paralyzing Breath" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_PARALYZING_BREATH">
 		<description>
@@ -475,8 +493,6 @@
 		<sheet>
 			<description>When using your breath weapon, you may instead choose to target a single creature within 15 feet with paralyzing gas. It doesn't suffer damage, but must succeed at the DC save or be paralyzed until the end of your next turn. Afterwards you may regain this trait after finishing a long rest.</description>
 		</sheet>
-		<rules>
-		</rules>
 	</element>
 	<element name="Skilled Hunter" type="Racial Trait" source="Half Dragon Race" id="ID_HALF_DRAGON_RACIAL_TRAIT_SKILLED_HUNTER">
 		<description>
@@ -486,7 +502,8 @@
 			<description>You have proficiency in Survival. As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.</description>
 		</sheet>
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency (Skilled Hunter)" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 		</rules>
 	</element>
 
@@ -543,6 +560,4 @@
 			<description>You may now cast true polymorph once without expending a spell slot, but it only targets yourself and you must change into your chosen Dragon type. You may exit this form as a bonus action, and after losing this form you regain the ability to cast the spell in this way when you finish a long rest.</description>
 		</sheet>
 	</element>
-
-
 </elements>
