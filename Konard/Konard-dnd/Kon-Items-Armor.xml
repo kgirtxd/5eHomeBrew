@@ -4,7 +4,7 @@
 		<name>ArmorKon</name>
 		<description></description>
 		<author>Konard</author>
-		<update version="0.0.6">
+		<update version="0.0.7">
 			<file name="Kon-Items-Armor.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Items-Armor.xml" />
 		</update>
 	</info>
