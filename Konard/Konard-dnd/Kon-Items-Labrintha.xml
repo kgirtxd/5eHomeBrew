@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Labrintha Campaign Magic Items</name>
+		<description></description>
+		<author>Konard</author>
+		<update version="0.0.1">
+			<file name="Kon-Items-Labrintha.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Items-Armor.xml" />
+		</update>
+	</info>
+
+	<!-- Magic Items -->
+	<element name="Waldin's Knit Cap" type="Magic Item" source="Konard's Bag of Stuff" id="ID_KON_LAB_ITEM_WALDINS_KNIT_CAP">
+		<description>
+			<p>While wearing this cap you are able to hide in plain sight.</p>
+			<p class="indent">As an action you can gain a Passive Stealth bonus of 10 + your Stealth modifier. Furthermore while in this state, whenever you make an Dexterity(Stealth) check, you can treat a d20 roll of 9 or lower as a 10.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="slot">head</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+	</element>
+
+	<element name="Crown of Three Forces" type="Magic Item" source="Konard's Bag of Stuff" id="ID_KON_LAB_ITEM_CROWN_OF_DREAD_CROWN_OF_THREE_FORCES">
+		<description>
+			<p>A golden crown with magical potential.</p>
+			<p class="indent">The crown has 3 slots to add magic gems.  The gems can only be placed by someone skilled with jewelers tools.</p>
+			<p class="indent">The crown must be re-attuned whenever a gem is added or removed.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="slot">head</set>
+			<set name="rarity">uncommon</set>
+		</setters>
+		<rules>
+			<grant type="Class Feature" id="ID_KON_LAB_CLASS_FEATURE_CROWN_OF_DREAD_CROWN_OF_THREE_FORCES" />
+		</rules>
+	</element>
+
+	<element name="Crown of Three Forces" type="Class Feature" source="Konard's Bag of Stuff" id="ID_KON_LAB_CLASS_FEATURE_CROWN_OF_DREAD_CROWN_OF_THREE_FORCES">
+		<description>
+			<p>While wearing this cap you are able to hide in plain sight.</p>
+			<p class="indent">The crown has 3 slots to add magic gems.  The gems can only be placed by someone skilled with jewelers tools.</p>
+			<p class="indent">The crown must be re-attuned whenever a gem is added or removed.</p>
+		</description>
+		<sheet>
+			<description>When more than one type of elemental gem is in this crown, only the last type of elemental damage received will be resisted.</description>
+		</sheet>
+		<rules>
+			<select type="Class Feature" name="Crown of Three Forces gem slot" number="3" supports="Labrintha Gem" />
+		</rules>
+	</element>
+
+	<element name="Prismatic Scarf" type="Magic Item" source="Konard's Bag of Stuff" id="ID_KON_LAB_ITEM_PRISMATIC_SCARF">
+		<description>
+			<p>A rainbow scarf that changes colors depending on the viewing angle.</p>
+			<p class="indent">When hit by the spell Prismatic Spray, the first hit will cause the scarf to glow that color. Once glowing, you are immune to all other color effects of the spells Prismatic Spray and Prismatic Wall.</p>
+			<p class="indent">The scarf will continue to glow until you dismiss the effect as an action or lose attunement.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="slot">shoulders</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+	</element>
+
+	<element name="Diplomats Knit Cap" type="Magic Item" source="Konard's Bag of Stuff" id="ID_KON_LAB_ITEM_DIPLOMATS_KNIT_CAP">
+		<description>
+			<p>While wearing and attuned to this cap you gain the effects of the spell Tongues.</p>
+			<div element="ID_PHB_SPELL_TONGUES" />
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="slot">head</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+	</element>
+
+	<!-- Magic Weapon Metals -->
+	<element name="Sunmetal" type="Magic Item" source="Konard's Bag of Stuff" id="KON_LAB_MAGIC_ITEM_SUNMETAL">
+		<description>
+			<p>When dealing damage 50% (rounded up) becomes radiant damage.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="keywords">radiant, damage</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any melee">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_KON_INTERNAL_WEAPON_GREATESTSWORD</set>
+			<set name="name-format">Sunmetal {{parent}}</set>
+		</setters>
+	</element>
+
+	<element name="Deadmetal" type="Magic Item" source="Konard's Bag of Stuff" id="KON_LAB_MAGIC_ITEM_DEADMETAL">
+		<description>
+			<p>When dealing damage 50% (rounded up) becomes necrotic damage.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="keywords">necrotic, damage</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any melee">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_KON_INTERNAL_WEAPON_GREATESTSWORD</set>
+			<set name="name-format">Deadmetal {{parent}}</set>
+		</setters>
+	</element>
+
+	<element name="Stormetal" type="Magic Item" source="Konard's Bag of Stuff" id="KON_LAB_MAGIC_ITEM_STORMETAL">
+		<description>
+			<p>When dealing damage 50% (rounded up) becomes lightning damage.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="keywords">lightning, damage</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any melee">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_KON_INTERNAL_WEAPON_GREATESTSWORD</set>
+			<set name="name-format">Stormetal {{parent}}</set>
+		</setters>
+	</element>
+
+	<element name="Plaguemetal" type="Magic Item" source="Konard's Bag of Stuff" id="KON_LAB_MAGIC_ITEM_PLAGUEMETAL">
+		<description>
+			<p>When dealing damage 50% (rounded up) becomes poison damage.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="keywords">poison, damage</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any melee">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_KON_INTERNAL_WEAPON_GREATESTSWORD</set>
+			<set name="name-format">Plaguemetal {{parent}}</set>
+		</setters>
+	</element>
+
+	<element name="Boomite" type="Magic Item" source="Konard's Bag of Stuff" id="KON_LAB_MAGIC_ITEM_BOOMITE">
+		<description>
+			<p>When dealing damage 50% (rounded up) becomes thunder damage.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="keywords">thunder, damage</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any melee">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_KON_INTERNAL_WEAPON_GREATESTSWORD</set>
+			<set name="name-format">Boomite {{parent}}</set>
+		</setters>
+	</element>
+
+	<element name="Corrodium" type="Magic Item" source="Konard's Bag of Stuff" id="KON_LAB_MAGIC_ITEM_CORRODIUM">
+		<description>
+			<p>When dealing damage 50% (rounded up) becomes acid damage.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="keywords">acid, damage</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any melee">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_KON_INTERNAL_WEAPON_GREATESTSWORD</set>
+			<set name="name-format">Corrodium {{parent}}</set>
+		</setters>
+	</element>
+
+	<!-- Magic Armor Metals -->
+	<element name="Sunmetal Armor" type="Magic Item" source="Konard's Bag of Stuff" id="KON_LAB_MAGIC_ITEM_SUNMETAL_ARMOR">
+		<supports>Armor</supports>
+		<description>
+			<p>This armor is reinforced with sunmetal. While you're wearing it you have resistance to radiant damage.</p>
+		</description>
+		<setters>
+			<set name="keywords">medium, heavy, shield</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">body</set>
+			<set name="type" addition="shields, medium, or heavy, but not hide">Armor</set>
+			<set name="rarity">Uncommon</set>
+			<set name="armor">(ID_INTERNAL_ARMOR_GROUP_SHIELD||ID_INTERNAL_ARMOR_GROUP_MEDIUM||ID_INTERNAL_ARMOR_GROUP_HEAVY),!Hide</set>
+			<set name="name-format">Sunmetal {{parent}}</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" />
+		</rules>
+	</element>
+
+	<element name="Deadmetal Armor" type="Magic Item" source="Konard's Bag of Stuff" id="KON_LAB_MAGIC_ITEM_DEADMETAL_ARMOR">
+		<supports>Armor</supports>
+		<description>
+			<p>This armor is reinforced with deadmetal. While you're wearing it you have resistance to necrotic damage.</p>
+		</description>
+		<setters>
+			<set name="keywords">medium, heavy, shield</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">body</set>
+			<set name="type" addition="shields, medium, or heavy, but not hide">Armor</set>
+			<set name="rarity">Uncommon</set>
+			<set name="armor">(ID_INTERNAL_ARMOR_GROUP_SHIELD||ID_INTERNAL_ARMOR_GROUP_MEDIUM||ID_INTERNAL_ARMOR_GROUP_HEAVY),!Hide</set>
+			<set name="name-format">Deadmetal {{parent}}</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+		</rules>
+	</element>
+
+	<element name="Stormetal Armor" type="Magic Item" source="Konard's Bag of Stuff" id="KON_LAB_MAGIC_ITEM_STORMETAL_ARMOR">
+		<supports>Armor</supports>
+		<description>
+			<p>This armor is reinforced with stormetal. While you're wearing it you have resistance to lightning damage.</p>
+		</description>
+		<setters>
+			<set name="keywords">medium, heavy, shield</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">body</set>
+			<set name="type" addition="shields, medium, or heavy, but not hide">Armor</set>
+			<set name="rarity">Uncommon</set>
+			<set name="armor">(ID_INTERNAL_ARMOR_GROUP_SHIELD||ID_INTERNAL_ARMOR_GROUP_MEDIUM||ID_INTERNAL_ARMOR_GROUP_HEAVY),!Hide</set>
+			<set name="name-format">Stormetal {{parent}}</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
+		</rules>
+	</element>
+
+	<element name="Plaguemetal Armor" type="Magic Item" source="Konard's Bag of Stuff" id="KON_LAB_MAGIC_ITEM_PLAGUEMETAL_ARMOR">
+		<supports>Armor</supports>
+		<description>
+			<p>This armor is reinforced with plaguemetal. While you're wearing it you have resistance to poison damage.</p>
+		</description>
+		<setters>
+			<set name="keywords">medium, heavy, shield</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">body</set>
+			<set name="type" addition="shields, medium, or heavy, but not hide">Armor</set>
+			<set name="rarity">Uncommon</set>
+			<set name="armor">(ID_INTERNAL_ARMOR_GROUP_SHIELD||ID_INTERNAL_ARMOR_GROUP_MEDIUM||ID_INTERNAL_ARMOR_GROUP_HEAVY),!Hide</set>
+			<set name="name-format">Plaguemetal {{parent}}</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+		</rules>
+	</element>
+
+	<element name="Boomite Armor" type="Magic Item" source="Konard's Bag of Stuff" id="KON_LAB_MAGIC_ITEM_BOOMITE_ARMOR">
+		<supports>Armor</supports>
+		<description>
+			<p>This armor is reinforced with boomite. While you're wearing it you have resistance to thunder damage.</p>
+		</description>
+		<setters>
+			<set name="keywords">medium, heavy, shield</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">body</set>
+			<set name="type" addition="shields, medium, or heavy, but not hide">Armor</set>
+			<set name="rarity">Uncommon</set>
+			<set name="armor">(ID_INTERNAL_ARMOR_GROUP_SHIELD||ID_INTERNAL_ARMOR_GROUP_MEDIUM||ID_INTERNAL_ARMOR_GROUP_HEAVY),!Hide</set>
+			<set name="name-format">Boomite {{parent}}</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER" />
+		</rules>
+	</element>
+
+	<element name="Corrodium Armor" type="Magic Item" source="Konard's Bag of Stuff" id="KON_LAB_MAGIC_ITEM_CORRODIUM_ARMOR">
+		<supports>Armor</supports>
+		<description>
+			<p>This armor is reinforced with corrodium. While you're wearing it you have resistance to acid damage.</p>
+		</description>
+		<setters>
+			<set name="keywords">medium, heavy, shield</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">body</set>
+			<set name="type" addition="shields, medium, or heavy, but not hide">Armor</set>
+			<set name="rarity">Uncommon</set>
+			<set name="armor">(ID_INTERNAL_ARMOR_GROUP_SHIELD||ID_INTERNAL_ARMOR_GROUP_MEDIUM||ID_INTERNAL_ARMOR_GROUP_HEAVY),!Hide</set>
+			<set name="name-format">Corrodium {{parent}}</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" />
+		</rules>
+	</element>
+
+	<!--Magic Gems-->
+	<element name="Flame Ruby" type="Magic Item" source="Konard's Bag of Stuff" id="ID_KON_LAB_FLAME_RUBY">
+		<description>
+			<p>A red hot gem that when placed in jewelery can give protection against cold.</p>
+			<p class="indent">When more than one type of elemental gem is in the same piece of jewelry, only the last type of elemental damage received will be resisted.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+
+	<element name="Frosted Sapphire" type="Magic Item" source="Konard's Bag of Stuff" id="ID_KON_LAB_FROSTED_SAPPHIRE">
+		<description>
+			<p>A cold blue gem that when placed in jewelery can give protection against fire.</p>
+			<p class="indent">When more than one type of elemental gem is in the same piece of jewelry, only the last type of elemental damage received will be resisted.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+
+	<element name="Warp" type="Magic Item" source="Konard's Bag of Stuff" id="ID_KON_LAB_WARP">
+		<description>
+			<p>A pulsing purple gem that when placed in jewelery can give protection against psychic damage.</p>
+			<p class="indent">When more than one type of elemental gem is in the same piece of jewelry, only the last type of elemental damage received will be resisted.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+
+	<element name="Phaze" type="Magic Item" source="Konard's Bag of Stuff" id="ID_KON_LAB_PHAZE ">
+		<description>
+			<p>A pulsing purple gem that when placed in jewelery can give protection against force damage.</p>
+			<p class="indent">When more than one type of elemental gem is in the same piece of jewelry, only the last type of elemental damage received will be resisted.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+
+	<!--Gem Slots-->
+	<element name="Flame Ruby" type="Class Feature" source="Konard's Bag of Stuff" id="ID_KON_LAB_FLAME_RUBY_SLOT">
+		<supports>Labrintha Gem</supports>
+		<description>
+			<p>A red hot gem that when placed in jewelery can give protection against cold.</p>
+			<p class="indent">When more than one type of elemental gem is in the same piece of jewelry, only the last type of elemental damage received will be resisted.</p>
+		</description>
+		<sheet>
+			<description>Can add resitance to cold.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" requirements="!ID_KON_LAB_FROSTED_SAPPHIRE_SLOT, !ID_KON_LAB_WARP_SLOT" />
+		</rules>
+	</element>
+
+	<element name="Frosted Sapphire" type="Class Feature" source="Konard's Bag of Stuff" id="ID_KON_LAB_FROSTED_SAPPHIRE_SLOT, !ID_KON_LAB_PHAZE_SLOT">
+		<supports>Labrintha Gem</supports>
+		<description>
+			<p>A cold blue gem that when placed in jewelery can give protection against fire.</p>
+			<p class="indent">When more than one type of elemental gem is in the same piece of jewelry, only the last type of elemental damage received will be resisted.</p>
+		</description>
+		<sheet>
+			<description>Can add resitance to fire.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" requirements="!ID_KON_LAB_FLAME_RUBY_SLOT, !ID_KON_LAB_WARP_SLOT, !ID_KON_LAB_PHAZE_SLOT" />
+		</rules>
+	</element>
+
+	<element name="Warp" type="Class Feature" source="Konard's Bag of Stuff" id="ID_KON_LAB_WARP_SLOT">
+		<supports>Labrintha Gem</supports>
+		<description>
+			<p>A pulsing purple gem that when placed in jewelery can give protection against psychic.</p>
+			<p class="indent">When more than one type of elemental gem is in the same piece of jewelry, only the last type of elemental damage received will be resisted.</p>
+		</description>
+		<sheet>
+			<description>Can add resitance to psychic.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" requirements="!ID_KON_LAB_FROSTED_SAPPHIRE_SLOT, !ID_KON_LAB_FLAME_RUBY_SLOT, !ID_KON_LAB_PHAZE_SLOT" />
+		</rules>
+	</element>
+
+	<element name="Phaze" type="Class Feature" source="Konard's Bag of Stuff" id="ID_KON_LAB_PHAZE_SLOT">
+		<supports>Labrintha Gem</supports>
+		<description>
+			<p>A pulsing clear gem that when placed in jewelery can give protection against force.</p>
+			<p class="indent">When more than one type of elemental gem is in the same piece of jewelry, only the last type of elemental damage received will be resisted.</p>
+		</description>
+		<sheet>
+			<description>Can add resitance to force.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FORCE" requirements="!ID_KON_LAB_FROSTED_SAPPHIRE_SLOT, !ID_KON_LAB_FLAME_RUBY_SLOT, !ID_KON_LAB_WARP_SLOT" />
+		</rules>
+	</element>
+</elements>

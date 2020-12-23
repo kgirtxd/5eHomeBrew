@@ -4,8 +4,8 @@
 		<name>FeatsKon</name>
 		<description>Feats from Konard Homebrew.</description>
 		<author>Konard</author>
-		<update version="0.0.6">
-			<file name="featsKon.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Feats.xml" />
+		<update version="0.0.7">
+			<file name="Kon-Feats.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Feats.xml" />
 		</update>
 	</info>
 
