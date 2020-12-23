@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>ArmorKon</name>
+		<description></description>
+		<author>Konard</author>
+		<update version="0.0.1">
+			<file name="Kon-Items-Weapons.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Items-Weapons.xml" />
+		</update>
+	</info>
+
+	<element name="Greatestsword" type="Weapon" source="Konard's Bag of Stuff" id="ID_KON_WEAPON_GREATESTSWORD">
+		<supports>ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SWORDS, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_KON_PROFICIENCY_SPECIAL_GREATESTSWORD, ID_KON_INTERNAL_WEAPON_GREATESTSWORD</supports>
+		<description>
+			<p></p>
+			<div element="ID_KON_PROFICIENCY_SPECIAL_GREATESTSWORD" />			
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="15">15 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="range">10 ft</set>
+			<set name="damage" type="slashing">3d6</set>
+			<set name="proficiency">ID_KON_PROFICIENCY_WEAPON_PROFICIENCY_GREATESTSWORD</set>
+		</setters>
+	</element>
+	<element name="Kon Greatestsword" type="Weapon Category" source="Internal" id="ID_KON_INTERNAL_WEAPON_GREATESTSWORD" />
+	
+	<element name="Weapon Proficiency (Greatestsword)" type="Proficiency" source="Konard's Bag of Stuff" id="ID_KON_PROFICIENCY_WEAPON_GREATESTSWORD">
+		<supports>Weapon, Melee, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SWORDS, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL,ID_KON_PROFICIENCY_SPECIAL_GREATESTSWORD, ID_KON_INTERNAL_WEAPON_GREATESTSWORD</supports>
+	</element>
+	<element name="Special (Greatestsword)" type="Weapon Property" source="Internal" id="ID_KON_PROFICIENCY_SPECIAL_GREATESTSWORD">
+		<description>
+			<p>This type of greatsword is abnormally long and broad. It therefore is unusable in spaces that don't allow for full swings. (Need to have 3 of your 4 facing squares unobstructed by structures out to 10ft, or 4/6 hexes.</p>
+		</description>
+	</element>
+
+</elements>

@@ -4,8 +4,8 @@
 		<name>Deities</name>
 		<description>Deities from the Konard's Homebrew.</description>
 		<author>Konard</author>
-		<update version="0.0.10">
-			<file name="deities.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Deities.xml" />
+		<update version="0.0.11">
+			<file name="Kon-Deities.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Deities.xml" />
 		</update>
 	</info>
 	<element name="Nysos" type="Deity" source="Konard's Bag of Stuff" id="ID_KON_DEITY_AURIL">
