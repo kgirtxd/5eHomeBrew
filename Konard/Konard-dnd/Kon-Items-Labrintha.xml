@@ -4,7 +4,7 @@
 		<name>Labrintha Campaign Magic Items</name>
 		<description></description>
 		<author>Konard</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="Kon-Items-Labrintha.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Items-Labrintha.xml" />
 		</update>
 	</info>
@@ -90,6 +90,20 @@
 			<set name="attunement">true</set>
 			<set name="slot">head</set>
 			<set name="rarity">Legendary</set>
+		</setters>
+	</element>
+
+	<element name="Ring of Health Delivery" type="Magic Item" source="Konard's Bag of Stuff" id="ID_KON_LAB_ITEM_RING_OF_HEALING_DELIVERY">
+		<description>
+			<p>Use one charge to summon a mage hand that lasts for 10 minutes. The mage hand can deliver your touch spells to a willing creature within 30ft.</p>
+			<p class="indent">The ring has 4 charges and recovers 1d4+1 charges at dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="slot">ring</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
 		</setters>
 	</element>
 
