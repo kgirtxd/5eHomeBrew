@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Half Dragon Race</name>
+		<description>Homebrew race</description>
+		<author url="https://www.gmbinder.com/share/-Ln7gMKnjydkgXsm_3Xg">Maostyle</author>
+		<update version="4.0.0.1">
+			<file name="race-kijin.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/race-kijin.xml" />
+		</update>
+	</info>
+	<element name="Kijin Race" type="Source" source="Kijin Race" id="ID_GMB_HB_KIJIN_RACE">
+		<description>
+			<![CDATA[<p>Homebrew race</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">GMB</set>
+			<set name="url">https://www.gmbinder.com/share/-Ln7gMKnjydkgXsm_3Xg</set>
+			<set name="author" abbreviation="GMB">Maostyle</set>
+			<set name="Homebrew">true</set>
+		</setters>
+	</element>
+	
+	<element name="Kijin" type="Race" source="Kijin Race" id="ID_GMB_HB_RACE_KIJIN">
+		<description>
+			<p class="flavor">The Kijin are a race of medium sized humanoids with demon-like features and a chaotic magical affinity. They are unpredictable and proud creatures with special demonic quirks. Kijin have a normal humanoid skin tone but they have a couple of unnatural features like, hornsthat come from the sides of their head, claws, glowing eyes, and weird skin effects that are proof of the demonic blood that runs through their veins.</p>
+			<h4>ABOUT KIJIN</h4>
+			<p class="flavor">Lacking a homeland, Kijin know that they have to make their own way in the world and that they have to be strong to survive. They are not quick to trust anyone who claims to be a friend, but when a Kijin's companions demonstrate that they trust him or her, the Kijin learns to extend the same trust to them. Kijin have a very unstable connection to their demonic origin,meaning when they use their demonic abilities sometimes unwanted things happen.</p>
+			<p>Half Dragons look very similar to their mortal parent, except for the horns and partial scales that cover their bodies, as well as their draconic legs and long tails. However, Half Dragons are more known for their dangerous elemental breaths, as well as the gift of transformation. While only a few Half Dragons can eventually ascend to True Dragonhood, some have been gifted with a "lesser" form that allows them a burst of power as well as the gift of flight for a short period of time.</p>
+			<p class="indent">The Kijin are usually a rare sight and as such are treated cautiously by people, some fear them and the stories of the anomalies they bring, others see them as a bad omen, there are also people that admire them and see them as powerful allies and worthy adversaries. Kijin communities are not common but they exist in many major towns and cities in the world.</p>
+			<h4>Kijin Features</h4>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Constitution score increases by 1, and your Dexterity score increases by 2.<br />
+				<span class="feature">Age.</span>Kijin mature at the same rate as humans but live a few years longer. <br />
+				<span class="feature">Alignment.</span>Kijin might not have an innate tendency toward evil, but many of them end up there. Evil or not, an independent nature inclines many kijin toward a chaotic alignment.<br />
+				<span class="feature">Size.</span>Kijin are about the same size and build as humans. Your size is Medium.<br />
+				<span class="feature">Speed.</span>Your base walking speed is 30 feet.<br />
+				<span class="feature">Languages.</span>You can speak, read, and write Common and Abyssal.<br />
+				<span class="feature">Darkvision.</span>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.<br />
+				<span class="feature">Abyssal Telepathy.</span>You can speak telepathically to any creature you can see within 30 feet of you that understands your language.<br />
+				<span class="feature">Child of a Demon.</span>You know the Thaumaturgy cantrip, and you have resistance to fire damage.<br />
+				<span class="feature">Demon Flair (Demon).</span>Once you reach 3rd level, you can use your action to cast the find familiar spell (no material components needed). When cast in this way, the familiar has a demonic appearance and it can only stay for the duration of 1d6 hours. In addition, your familiar can take the special form of a quasit instead of a regular familiar form. At the end of the duration roll on the Chaos Surge Table.<br />
+			</p>
+			<h4>CHAOS SURGE TABLE</h4>
+			<p>Due to your unstable Demonic nature after you use your demonic abilities a chaotic power surge happens, roll a d12 to determine the demonic effect produced. If the chaos surge table requires a saving throw, the DC equals (8 + your proficiency bonus + your Constitution modifier)</p>
+			<table>
+				<thead>
+					<tr><td>d12</td><td>Effect</td></tr>
+				</thead>
+				<tr><td>1</td><td>Madness seeps into your mind and you become Paralyzed for 1 d6 rounds. The effect ends if you take any damage.</td></tr>
+				<tr><td>2</td><td>A force of shadow explodes from inside you. Each creature in a 20 feet sphere originating from you must make a strength saving throw or be knocked prone.</td></tr>
+				<tr><td>3</td><td>A third demonic eye grows in your forehead giving you advantage on Wisdom (perception) checks related to sight for 1 hour.</td></tr>
+				<tr><td>4</td><td>You suddenly witness a memory from your demonic ancestor, giving you advantage on your next ability check.</td></tr>
+				<tr><td>5</td><td>Your shadow detaches from you and becomes a shadow (the creature), and is hostile to everyone.</td></tr>
+				<tr><td>6</td><td>You body becomes shadowy and demonic and you can only speak in abyssal for 1 d4 hours.</td></tr>
+				<tr><td>7</td><td>You gain a surge of unnatural speed you get +1 0 movement speed for 1 minute.</td></tr>
+				<tr><td>8</td><td>Thousands of flies pour out of your mouth, heavily obscuring everything within a 20 feet sphere originating from you, for 1 d4 rounds.</td></tr>
+				<tr><td>9</td><td>An abyssal hole opens in your body and it launches an Aganazzar’s Scorcher spell in a random direction around you (DM's Choice).</td></tr>
+				<tr><td>10</td><td>You are driven mad by your demonic essence, causing you to go into a barbarian rage for 1 minute.</td></tr>
+				<tr><td>11</td><td>A slender demonic arm grows from your side, giving you advantage to Dexterity (sleight of hand) checks for 1 hour.</td></tr>
+				<tr><td>12</td><td>Your eyes become pools of darkness, you are blinded, but you gain blindsight of 15 feet for 10 minutes.</td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">4'8"</set>
+			<set name="weight" modifier="2d4">110 lb.</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="2" requirements="!(ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI, ID_GMB_HB_GRANT_KIJIN_VARIANT)" />
+			<stat name="dexterity" value="1" requirements="!(ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI, ID_GMB_HB_GRANT_KIJIN_VARIANT)" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_ABYSSAL" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Racial Trait" id="ID_GMB_HB_KIJIN_RACE_FEATURE_ABYSSAL_TELEPATHY" />
+			<grant type="Racial Trait" id="ID_GMB_HB_KIJIN_RACE_FEATURE_CHILD_OF_DEMON" requirements="!ID_GMB_HB_GRANT_KIJIN_VARIANT" />
+			<grant type="Racial Trait" id="ID_GMB_HB_KIJIN_RACE_FEATURE_DEMON_FLAIR_DEMON" level="3" requirements="!ID_GMB_HB_GRANT_KIJIN_VARIANT" />
+			<select type="Race Variant" name="Kijin Variant" supports="Kijin" optional="true" />
+			<stat name="demon flair:dc" value="8" />
+			<stat name="demon flair:dc" value="proficiency" />
+			<stat name="demon flair:dc" value="constitution:modifier" />
+		</rules>
+	</element>
+	<element name="Kijin Variant" type="Grant" source="Internal" id="ID_GMB_HB_GRANT_KIJIN_VARIANT" />
+
+	<element name="Abyssal Telepathy" type="Racial Trait" source="Kijin Race" id="ID_GMB_HB_KIJIN_RACE_FEATURE_ABYSSAL_TELEPATHY">
+		<description>
+			<p>You can speak telepathically to any creature you can see within 30 feet of you that understands your language.</p>
+		</description>
+		<sheet>
+			<description>You can speak telepathically to any creature you can see within 30 feet of you that understands your language.</description>
+		</sheet>
+	</element>
+
+	<element name="Child of a Demon" type="Racial Trait" source="Kijin Race" id="ID_GMB_HB_KIJIN_RACE_FEATURE_CHILD_OF_DEMON">
+		<description>You know the Thaumaturgy cantrip, and you have resistance to fire damage.</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_THAUMATURGY" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+		</rules>
+	</element>
+
+	<element name="Demon Flair (Demon)" type="Racial Trait" source="Kijin Race" id="ID_GMB_HB_KIJIN_RACE_FEATURE_DEMON_FLAIR_DEMON">
+		<description>
+			<p>Once you reach 3rd level, you can use your action to cast the find familiar spell (no material components needed). When cast in this way, the familiar has a demonic appearance and it can only stay for the duration of 1d6 hours. In addition, your familiar can take the special form of a quasit instead of a regular familiar form. After the diration roll on the Chaos Surge Table.</p>
+		</description>
+		<sheet>
+			<description>You can use your action to cast the find familiar spell (no material components needed). When cast in this way, the familiar has a demonic appearance and it can only stay for the duration of 1d6 hours. In addition, your familiar can take the special form of a quasit instead of a regular familiar form. After the diration roll on the Chaos Surge Table. (DC: {{demon flair:dc}})</description>
+		</sheet>
+	</element>
+
+	<!--Variants-->
+
+	<!--Demogorgon-->
+	<element name="Demogorgon Bloodline" type="Race Variant" source="Kijin Race" id="ID_GMB_HB_GRANT_KIJIN_VARIANT_DEMOGORGON">
+		<supports>Kijin</supports>
+		<description>
+			<p class="flavor">You carry the corruption of the Prince of Demons a being of pure rage and violence, the mightiest of the demon lords.</p>
+			<p class="indent">Kijin with the Demogorgon bloodline are vicious, larger and stronger than most other Kijin, they usually feature glowing orange eyes and some have an ambient orange glow emanating from cracks around their body.</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Constitution score increases by 1, and your Strength score increases by 2.<br />
+				<span class="feature">Child of a Demogorgon.</span>You know the Thaumaturgy cantrip, and you have resistance to fire damage.<br />
+				<span class="feature">Demon Flair (Demogorgon).</span>Once you reach 3rd level, you can use your action to cast the find familiar spell (no material components needed). When cast in this way, the familiar has a demonic appearance and it can only stay for the duration of 1d6 hours. In addition, your familiar can take the special form of a quasit instead of a regular familiar form. At the end of the duration roll on the Chaos Surge Table.<br />
+			</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">4'8"</set>
+			<set name="weight" modifier="2d4">110 lb.</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_GMB_HB_GRANT_KIJIN_VARIANT" />
+			<stat name="strength" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_GMB_HB_KIJIN_RACE_FEATURE_ABYSSAL_TELEPATHY" />
+			<grant type="Racial Trait" id="ID_GMB_HB_KIJIN_RACE_FEATURE_CHILD_OF_DEMOGORGON" />
+			<grant type="Racial Trait" id="ID_GMB_HB_KIJIN_RACE_FEATURE_DEMON_FLAIR_DEMOGORGON" level="3" />
+		</rules>
+	</element>
+</elements>
