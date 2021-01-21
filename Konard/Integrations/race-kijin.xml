@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Half Dragon Race</name>
+		<name>Kijin Race</name>
 		<description>Homebrew race</description>
 		<author url="https://www.gmbinder.com/share/-Ln7gMKnjydkgXsm_3Xg">Maostyle</author>
 		<update version="4.0.0.1">
@@ -66,8 +66,10 @@
 			<set name="weight" modifier="2d4">110 lb.</set>
 		</setters>
 		<rules>
-			<stat name="constitution" value="2" requirements="!(ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI, ID_GMB_HB_GRANT_KIJIN_VARIANT)" />
-			<stat name="dexterity" value="1" requirements="!(ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI, ID_GMB_HB_GRANT_KIJIN_VARIANT)" />
+			<stat name="constitution" value="2" requirements="!(ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI | ID_GMB_HB_GRANT_KIJIN_VARIANT)" />
+			<stat name="dexterity" value="1" requirements="!(ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI | ID_GMB_HB_GRANT_KIJIN_VARIANT)" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Kijin)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI, !ID_GMB_HB_GRANT_KIJIN_VARIANT" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Kijin)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI, !ID_GMB_HB_GRANT_KIJIN_VARIANT" />
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
@@ -115,29 +117,42 @@
 	<!--Variants-->
 
 	<!--Demogorgon-->
-	<element name="Demogorgon Bloodline" type="Race Variant" source="Kijin Race" id="ID_GMB_HB_GRANT_KIJIN_VARIANT_DEMOGORGON">
+	<element name="Demogorgon Bloodline Kijin" type="Race Variant" source="Kijin Race" id="ID_GMB_HB_GRANT_KIJIN_VARIANT_DEMOGORGON">
 		<supports>Kijin</supports>
 		<description>
 			<p class="flavor">You carry the corruption of the Prince of Demons a being of pure rage and violence, the mightiest of the demon lords.</p>
 			<p class="indent">Kijin with the Demogorgon bloodline are vicious, larger and stronger than most other Kijin, they usually feature glowing orange eyes and some have an ambient orange glow emanating from cracks around their body.</p>
 			<p>
 				<span class="feature">Ability Score Increase.</span>Your Constitution score increases by 1, and your Strength score increases by 2.<br />
-				<span class="feature">Child of a Demogorgon.</span>You know the Thaumaturgy cantrip, and you have resistance to fire damage.<br />
-				<span class="feature">Demon Flair (Demogorgon).</span>Once you reach 3rd level, you can use your action to cast the find familiar spell (no material components needed). When cast in this way, the familiar has a demonic appearance and it can only stay for the duration of 1d6 hours. In addition, your familiar can take the special form of a quasit instead of a regular familiar form. At the end of the duration roll on the Chaos Surge Table.<br />
+				<span class="feature">Child of a Demogorgon.</span>You have advantage at saving throws against being frightened.<br />
+				<span class="feature">Demon Flair (Demogorgon).</span>Once you reach 3rd level, you can use your action to transform your hand into a huge tentacle for 1 minute. It counts as a simple melee weapon with which you are proficient. It deals 2d8 bludgeoning damage on a hit, and once on each of your turns that you hit a creature, it must succeed on a Dexterity saving throw or become grappled by you.<br />
 			</p>
 		</description>
 		<sheet display="false" />
-		<setters>
-			<set name="height" modifier="2d10">4'8"</set>
-			<set name="weight" modifier="2d4">110 lb.</set>
-		</setters>
 		<rules>
 			<grant type="Grants" id="ID_GMB_HB_GRANT_KIJIN_VARIANT" />
 			<stat name="strength" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<grant type="Racial Trait" id="ID_GMB_HB_KIJIN_RACE_FEATURE_ABYSSAL_TELEPATHY" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Demogorgon)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Demogorgon)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<grant type="Racial Trait" id="ID_GMB_HB_KIJIN_RACE_FEATURE_CHILD_OF_DEMOGORGON" />
 			<grant type="Racial Trait" id="ID_GMB_HB_KIJIN_RACE_FEATURE_DEMON_FLAIR_DEMOGORGON" level="3" />
 		</rules>
+	</element>
+
+	<element name="Child of a Demogorgon" type="Racial Trait" source="Kijin Race" id="ID_GMB_HB_KIJIN_RACE_FEATURE_CHILD_OF_DEMOGORGON">
+		<description>You have advantage at saving throws against being frightened.</description>
+		<sheet>
+			<description>You have advantage at saving throws against being frightened.</description>
+		</sheet>
+	</element>
+
+	<element name="Demon Flair (Demogorgon)" type="Racial Trait" source="Kijin Race" id="ID_GMB_HB_KIJIN_RACE_FEATURE_DEMON_FLAIR_DEMOGORGON">
+		<description>
+			<p>Once you reach 3rd level, you can use your action to transform your hand into a huge tentacle for 1 minute. It counts as a simple melee weapon with which you are proficient. It deals 2d8 bludgeoning damage on a hit, and once on each of your turns that you hit a creature, it must succeed on a Dexterity saving throw or become grappled by you. After the diration roll on the Chaos Surge Table.</p>
+		</description>
+		<sheet usage="Action">
+			<description>You can transform your hand into a huge tentacle for 1 minute. It counts as a simple melee weapon with which you are proficient. It deals 2d8 bludgeoning damage on a hit, and once on each of your turns that you hit a creature, it must succeed on a Dexterity saving throw or become grappled by you. (DC: {{demon flair:dc}})</description>
+		</sheet>
 	</element>
 </elements>
