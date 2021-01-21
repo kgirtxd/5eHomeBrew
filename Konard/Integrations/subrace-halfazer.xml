@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Half-Azer Subrace</name>
+		<description>Homebrew Subrace</description>
+		<author url="https://www.reddit.com/r/UnearthedArcana/comments/l19t6w/halfazer_a_dwarven_subrace_driven_by_the_fiery/">/u/TheArenaGuy</author>
+		<update version="1.0.0.1">
+			<file name="subrace-halfazer.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/subrace-halfazer.xml" />
+		</update>
+	</info>
+
+	<element name="Half-Azer" type="Sub Race" source="Reddit: Unearthed Arcana" id="ID_RDDT_HB_SUBRACE_HALF_AZER">
+		<supports>Dwarf</supports>
+		<description>
+			<p>As a half-azer, you are locked in a constant struggle between worlds that of your ancient dwarven lineage, and that of your relentless elemental cousins. Your brethren, the azers, are now truly beings of pure elemental fire, but you belong to a rare line of dwarves who escaped the bonds of slavery before their blazing corruption by their fire giant captors could be fully realized.</p>
+			<p class="indent">When you are angry, your hair becomes hot to the touch, and in sunlight, your skin shines with a brassy glow, often leading you to be ostracized by your dwarven relatives. Even still, your natural affinity for fire drives you to a life of adventure as you kindle your inner flame.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 1.</p>
+			<p class="indent"><strong><em>Fire Resistance.</em></strong> You have resistance to fire damage.</p>
+			<p class="indent"><strong><em>Heat Weapon.</em></strong> As a bonus action, you can cause one metal melee weapon you are holding to ignite for 1 minute. For the duration, the weapon sheds bright light in a 10-foot radius and dim light for an additional 10 feet, and when you hit a creature with that weapon, the target takes extra fire damage equal to half your proficiency bonus (rounded down). Once you use this trait, you can’t use it again until you finish a long rest.</p>
+			<p class="indent"><strong><em>Extra Language.</em></strong> You can speak, read, and write Ignan.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Half-Azer)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Language" id="ID_MM_LANGUAGE_IGNAN" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language||Half-Azer Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Racial Trait" id="ID_RDDT_HB_SUBRACE_HALF_AZER_FIRE_RESISTANCE" />
+			<grant type="Racial Trait" id="ID_RDDT_HB_SUBRACE_HALF_AZER_HEAT_WEAPON" />
+		</rules>
+	</element>
+	<append id="ID_MM_LANGUAGE_IGNAN">
+		<supports>Half-Azer Language</supports>
+	</append>
+	<element name="Fire Resistance" type="Racial Trait" source="Reddit: Unearthed Arcana" id="ID_RDDT_HB_SUBRACE_HALF_AZER_FIRE_RESISTANCE">
+		<description>
+			<p>You have resistance to fire damage.</p>
+		</description>
+		<sheet display="false">
+			<description>You have resistance to fire damage.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+		</rules>
+	</element>
+	<element name="Heat Weapon" type="Racial Trait" source="Reddit: Unearthed Arcana" id="ID_RDDT_HB_SUBRACE_HALF_AZER_HEAT_WEAPON">
+		<description>
+			<p>As a bonus action, you can cause one metal melee weapon you are holding to ignite for 1 minute. For the duration, the weapon sheds bright light in a 10-foot radius and dim light for an additional 10 feet, and when you hit a creature with that weapon, the target takes extra fire damage equal to half your proficiency bonus (rounded down).</p>
+			<p class="indent">Once you use this trait, you can’t use it again until you finish a long rest.</p>
+		</description>
+		<sheet action="Bonus Action" usage="1/Long Rest">
+			<description>You can cause one metal melee weapon you are holding to ignite for 1 minute. For the duration, the weapon sheds bright light in a 10-foot radius and dim light for an additional 10 feet, and when you hit a creature with that weapon, the target takes {{azer heat weapon}} extra fire damage .</description>
+		</sheet>
+		<rules>
+			<stat name="azer heat weapon" value="proficiency:half" />
+		</rules>
+	</element>
+</elements>

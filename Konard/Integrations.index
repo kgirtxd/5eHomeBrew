@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Konard's Aurora Integrations</name>
-		<update version="0.1.2">
+		<update version="0.1.3">
 			<file name="Integrations.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations.index" />
 		</update>
 	</info>
@@ -11,6 +11,7 @@
 		<file name="Backgrounds Omnibus v2.3.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/Backgrounds%20Omnibus%20v2.3.xml" />
 		<file name="race-halfdragon.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/race-halfdragon.xml" />
 		<file name="race-kijin.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/race-kijin.xml" />
+		<file name="subrace-halfazer.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/subrace-halfazer.xml" />
 		<file name="KBP Unlikely Heroes.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/KBP%20Unlikely%20Heroes.index" />
 	</files>
 </index>
