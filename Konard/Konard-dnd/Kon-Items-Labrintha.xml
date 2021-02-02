@@ -4,7 +4,7 @@
 		<name>Labrintha Campaign Magic Items</name>
 		<description></description>
 		<author>Konard</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="Kon-Items-Labrintha.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Items-Labrintha.xml" />
 		</update>
 	</info>
@@ -106,6 +106,58 @@
 			<set name="rarity">Rare</set>
 		</setters>
 	</element>
+
+	<element name="Sentinel Armshield" type="Armor" source="Konard's Bag of Stuff" id="ID_KON_LAB_GEAR_ARMSHIELD_SENTINEL">
+		<supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
+		<description>
+			<p>While holding this shield, you have advantage on initiative rolls and Wisdom (Perception) checks. The shield is emblazoned with a symbol of an eye. A armshield is made from wood or metal and is strapped to the offhand forearm. Wielding a armshield increases your Armor Class by 1. Wearing a armshield will cause you to lose proficiency bonus with two handed weapons.  You can benefit from only one armshield at a time.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">6</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">forearm, secondary</set>
+			<set name="type">Armshield</set>
+			<set name="armor">Shield</set>
+			<set name="armorClass">+1</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD</set>
+		</setters>
+		<rules>
+			<stat name="ac:shield" value="1" bonus="shield" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_INITIATIVE_ADVANTAGE" />
+		</rules>
+	</element>
+
+	<element name="Torc (Drizzle)" type="Magic Item" source="Konard's Bag of Stuff" id="ID_KON_LAB_ITEM_TORC_DRIZZLE">
+		<description>
+			<p>A golden crown with magical potential.</p>
+			<p class="indent">While attuned to this item you have minor control over the arches in Labrintha</p>
+			<p class="indent">While you're wearing this item, any critical hit against you becomes a normal hit.</p>
+			<p class="indent">While wearing this item, you gain a +3 bonus to AC, you are immune to fire damage, and you can understand and speak Primordial. In addition, you can stand on and walk across molten rock as if it were solid ground.</p>
+			<p class="indent">While you aren’t wearing armor, the tattoo grants you an Armor Class of 12 + your Dexterity modifier. You can use a shield and still gain this benefit.</p>
+			<p class="indent">You gain +1 AC.</p>
+			<p class="indent"></p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="slot">misc</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:enhancement" value="4" bonus="enhancement" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_FIRE" />
+			<grant type="Language" id="ID_LANGUAGE_PRIMORDIAL" />
+			<stat name="ac:uncommon barrier tattoo" value="16" />
+			<stat name="ac:uncommon barrier tattoo" value="dexterity:modifier" />
+			<stat name="ac:calculation" value="ac:uncommon barrier tattoo" bonus="calculation" equipped="[armor:none]" alt="Protection (Barrier Tattoo)" />
+		</rules>
+	</element>
+
+
 
 	<!-- Magic Weapon Metals -->
 	<element name="Sunmetal" type="Magic Item" source="Konard's Bag of Stuff" id="KON_LAB_MAGIC_ITEM_SUNMETAL">
