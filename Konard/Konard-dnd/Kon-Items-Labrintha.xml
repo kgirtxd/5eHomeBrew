@@ -484,4 +484,52 @@
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FORCE" requirements="!ID_KON_LAB_FROSTED_SAPPHIRE_SLOT, !ID_KON_LAB_FLAME_RUBY_SLOT, !ID_KON_LAB_WARP_SLOT" />
 		</rules>
 	</element>
+
+	<!-- Mook-->
+	<element name="Mook" type="Magic Item" source="Konard's Bag of Stuff" id="ID_KON_LAB_MOOK ">
+		<description>
+			<p>An adorable slime that comes in many different colors.</p>
+			<div class="reference">
+				<div element="ID_KON_LAB_MOOK_STATBLOCK" />
+			</div>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	
+	<element name="Mook" type="Information" source="Konard's Bag of Stuff" id="ID_KON_LAB_MOOK_STATBLOCK">
+		<description>
+			<p><em>Small ooze</em></p>
+			<ul class="unstyled mb">
+			<li><strong>Armor Class</strong> 1</li>
+			<li><strong>Hit Points</strong>1</li>
+			<li><strong>Speed</strong> 10 ft.</li>
+			</ul>
+			<table style="text-align:center">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>10 (+0)</td><td>10 (+0)</td><td>10 (+0)</td><td>1 (-5)</td><td>6 (-2)</td><td>15 (+3)</td></tr>
+			</table>
+			<ul class="unstyled mb">
+				<li><strong>Condition Immunities</strong> Blinded, Charmed, Deafened, Exhaustion, Frightened, Prone</li>
+				<li><strong>Senses</strong> Blindsight 60 ft., passive Perception 8</li>
+				<li><strong>Languages</strong> Understands the languages you speak</li>
+				<li><strong>Challenge</strong> — 	<strong>Proficiency Bonus</strong> equals your bonus.</li>
+			</ul>
+			<p><strong><em>Love.</em></strong> Loves the last person that held it unconditionally.</p>
+			<p><strong><em>Multiply.</em></strong> When fed 8gp worth food (of its color) and water will grow and split into 2 seperate creatures over 1 day.</p>
+			<p><strong><em>Explosion.</em></strong> When killed will violently explode into a 10ft by 10ft square, painting everything within the color of the mook. If thrown the mook will take 1 damage upon landing.</p>
+		</description>
+	</element>
+
+
+
+
 </elements>
+
+
+

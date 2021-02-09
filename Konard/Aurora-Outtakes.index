@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Konard's Aurora Integrations</name>
+		<update version="0.0.1">
+			<file name="Aurora-Outtakes.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Aurora-Outtakes.index" />
+		</update>
+	</info>
+	<files>
+		<file name="deities.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Aurora-Outtakes/deities.xml" />
+		<file name="background-custom.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Aurora-Outtakes/background-custom.xml" />
+	</files>
+</index>
