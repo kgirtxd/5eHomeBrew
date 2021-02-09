@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="Konard.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard.index" />
 		</update>
 	</info>
 	<files>
 		<file name="Konard-DnD.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd.index" />
+		<file name="Basic-DnD.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Basic-dnd.index" />
 		<file name="Integrations.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations.index" />
 		<file name="Aurora-Outtakes.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Aurora-Outtakes.index" />
 	</files>
