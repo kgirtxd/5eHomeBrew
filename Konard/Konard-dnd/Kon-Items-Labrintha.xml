@@ -4,7 +4,7 @@
 		<name>Labrintha Campaign Magic Items</name>
 		<description></description>
 		<author>Konard</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="Kon-Items-Labrintha.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Items-Labrintha.xml" />
 		</update>
 	</info>
@@ -499,6 +499,7 @@
 			<set name="weight" lb="0.5">0.5 lb.</set>
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
 		</setters>
 	</element>
 	
@@ -525,11 +526,4 @@
 			<p><strong><em>Explosion.</em></strong> When killed will violently explode into a 10ft by 10ft square, painting everything within the color of the mook. If thrown the mook will take 1 damage upon landing.</p>
 		</description>
 	</element>
-
-
-
-
 </elements>
-
-
-
