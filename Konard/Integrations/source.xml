@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.6">
+		<update version="0.6.1">
 			<file name="source.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/source.xml" />
 		</update>
 	</info>
 	<element name="Konard's Integrations" type="Source" source="Core" id="ID_KON_SOURCE_KONARD_DND_INTEGRATIONS">
 		<description>
-			<![CDATA[<p>Content that Konard has integrated with Aurora</p><p><strong><em>Included Content:</em></strong></p><ul><li>Backgrounds Omnibus</li><ul><li>KBP Unlikely Heroes</li><ul><li>Half Dragon Race</li><ul><li>Half Azer Dwarf Subrace</li></ul>]]>
+			<![CDATA[<p>Content that Konard has integrated with Aurora</p>
+
+			<p>
+				<strong>
+					<em>Included Content:</em>
+				</strong>
+			</p>
+			<ul>
+				<li>Backgrounds Omnibus</li>
+				<li>KBP Unlikely Heroes</li>
+				<li>Half Dragon Race</li>
+				<li>Half Azer Dwarf Subrace</li>
+			</ul>]]>
 		</description>
 		<setters>
 			<set name="abbreviation">Kon</set>
