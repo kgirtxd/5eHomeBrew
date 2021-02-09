@@ -11,7 +11,7 @@
 		</description>
 		<setters>
 			<set name="abbreviation"></set>
-			<set name="url">https://github.com/kgirtxd/5eHomeBrew/Basic-dnd</set>
+			<set name="url">https://github.com/kgirtxd/5eHomeBrew/tree/master/Konard/Basic-dnd</set>
 			<set name="image">https://gchs.org/wp-content/uploads/Image-Coming-Soon-Placeholder.png</set>
 			<set name="author" abbreviation="B126">Basic126</set>
 			<set name="homebrew">true</set>
