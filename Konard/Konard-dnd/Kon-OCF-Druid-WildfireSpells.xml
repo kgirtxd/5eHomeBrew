@@ -65,7 +65,7 @@
 			<set name="inventory-hidden">true</set>
 		</setters>
 		<rules>
-			<grant type="Class Feature" id="ID_KON_OCF_WILDFIRE_CIRCLE_SPELLS" requirements="[level:druid:2]"/>
+			<grant type="Class Feature" id="ID_KON_OCF_WILDFIRE_CIRCLE_SPELLS" requirements="[level:druid:2], ID_WOTC_TCOE_ARCHETYPE_DRUID_CIRCLE_OF_WILDFIRE"/>
 		</rules>
 	</element>
 
