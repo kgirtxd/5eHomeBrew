@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Konard's Homebrew Material</name>
-		<update version="0.0.16">
+		<update version="0.0.17">
 
 			<file name="Konard-dnd.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd.index" />
 		</update>
@@ -18,6 +18,9 @@
 		<file name="Kon-Items-Weapons-PolearmMaster.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Items-Weapons-PolearmMaster.xml" />
 		<file name="Kon-Items-Weapons.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Items-Weapons.xml" />
 		<file name="Kon-Items-Armor.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Items-Armor.xml" />
+
+		<!-- OCF -->
+		<file name="Kon-OCF-Druid-WildfireSpells.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-OCF-Druid-WildfireSpells.xml" />
 
 		<!-- Other -->
 		<file name="Kon-Deities.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Deities.xml" />
