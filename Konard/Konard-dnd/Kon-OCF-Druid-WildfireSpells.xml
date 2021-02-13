@@ -36,7 +36,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_CURE_WOUNDS" level="2" spellcasting="Druid" prepared="true" />
 			<select type="Spell" name="Wildfire Healing Spell" level="3" spellcasting="Druid" prepared="true" supports="ID_XGTE_SPELL_HEALING_SPIRIT|ID_PHB_SPELL_LESSER_RESTORATION" />
 			<select type="Spell" name="Wildfire Fire Spell" level="3" spellcasting="Druid" prepared="true" supports="ID_PHB_SPELL_SCORCHING_RAY|ID_PHB_SPELL_FLAMING_SPHERE" />
-			<select type="Spell" name="Wildfire Spell" level="5" spellcasting="Druid" prepared="true" supports="ID_PHB_SPELL_REVIVIFY|ID_PHB_SPELL_PLANT_GROWTH" />
+			<select type="Spell" name="Wildfire Growth Spell" level="5" spellcasting="Druid" prepared="true" supports="ID_PHB_SPELL_REVIVIFY|ID_PHB_SPELL_PLANT_GROWTH" />
 			<grant type="Spell" id="ID_PHB_SPELL_FIREBALL" level="5" spellcasting="Druid" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_AURA_OF_LIFE" level="7" spellcasting="Druid" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_FIRE_SHIELD" level="7" spellcasting="Druid" prepared="true" />
@@ -59,7 +59,7 @@
 			</div>
 		</description>
 		<setters>
-			<set name="category">Optional Class Feature</set>
+			<set name="category">Optional Class Features</set>
 			<set name="keywords">OCF, Druid, first level, 2nd level, spellcasting</set>
 			<set name="slot">misc</set>
 			<set name="inventory-hidden">true</set>
