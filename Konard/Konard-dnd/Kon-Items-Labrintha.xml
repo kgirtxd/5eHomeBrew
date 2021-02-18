@@ -4,7 +4,7 @@
 		<name>Labrintha Campaign Magic Items</name>
 		<description></description>
 		<author>Konard</author>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="Kon-Items-Labrintha.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Items-Labrintha.xml" />
 		</update>
 	</info>
@@ -157,6 +157,36 @@
 		</rules>
 	</element>
 
+	<element name="Coin Case of Holding" type="Magic Item" source="Konard's Bag of Stuff" id="ID_KON_LAB_ITEM_COIN_CASE_OF_HOLDING">
+		<description>
+			<p>Small scroll case with a coin slot that can hold 25,000 coins.</p>
+			<p class="indent">If the case is overloaded, pierced, or broken, it ruptures and is destroyed, and its contents are scattered in the Astral Plane.</p>
+			<p class="indent">Placing a <em>coin case of holding</em> inside an extradimensional space created by a <em>handy haversack</em>, <em>portable hole</em>, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+
+	<element name="Knit Clothing of Protection from Evil and Good" type="Magic Item" source="Konard's Bag of Stuff" id="ID_KON_LAB_ITEM_KNIT_CLOTHING_OF_PROTECTION_FROM_EVIL_AND_GOOD">
+		<description>
+			<p>While wearing this item you can cast Protection from Evil and Good 3 times without somatic or a material components.  Charges are replenished at sunrise. </p>
+			<div element="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD" />
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">misc</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
 
 
 	<!-- Magic Weapon Metals -->
