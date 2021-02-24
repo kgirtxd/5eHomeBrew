@@ -4,13 +4,26 @@
 		<name>Labrintha Campaign Magic Items</name>
 		<description></description>
 		<author>Konard</author>
-		<update version="0.0.6">
-			<file name="Kon-Items-Labrintha.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Items-Labrintha.xml" />
+		<update version="0.0.1">
+			<file name="Campaign-Labrintha.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Campaigns/Campaign-Labrintha.xml" />
 		</update>
 	</info>
 
+	<element name="Ouroboros: LABRINTHA" type="Source" source="Core" id="ID_KON_SOURCE_LABRINTHA">
+		<description>
+			<![CDATA[<p>Approved special items for the Labrintha campaign.</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">KON</set>
+			<set name="url">https://github.com/kgirtxd/5eHomeBrew/tree/master/Konard/Campaigns</set>
+			<set name="image">https://gchs.org/wp-content/uploads/Image-Coming-Soon-Placeholder.png</set>
+			<set name="author" abbreviation="LAB">Ouroboros Crew</set>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+
 	<!-- Magic Items -->
-	<element name="Waldin's Knit Cap" type="Magic Item" source="Konard's Bag of Stuff" id="ID_KON_LAB_ITEM_WALDINS_KNIT_CAP">
+	<element name="Waldin's Knit Cap" type="Magic Item" source="Ouroboros: LABRINTHA" id="ID_KON_LAB_ITEM_WALDINS_KNIT_CAP">
 		<description>
 			<p>While wearing this cap you are able to hide in plain sight.</p>
 			<p class="indent">As an action you can gain a Passive Stealth bonus of 10 + your Stealth modifier. Furthermore while in this state, whenever you make an Dexterity(Stealth) check, you can treat a d20 roll of 9 or lower as a 10.</p>
@@ -26,7 +39,7 @@
 		</setters>
 	</element>
 
-	<element name="Crown of Three Forces" type="Magic Item" source="Konard's Bag of Stuff" id="ID_KON_LAB_ITEM_CROWN_OF_DREAD_CROWN_OF_THREE_FORCES">
+	<element name="Crown of Three Forces" type="Magic Item" source="Ouroboros: LABRINTHA" id="ID_KON_LAB_ITEM_CROWN_OF_DREAD_CROWN_OF_THREE_FORCES">
 		<description>
 			<p>A golden crown with magical potential.</p>
 			<p class="indent">The crown has 3 slots to add magic gems.  The gems can only be placed by someone skilled with jewelers tools.</p>
@@ -46,7 +59,7 @@
 		</rules>
 	</element>
 
-	<element name="Crown of Three Forces" type="Class Feature" source="Konard's Bag of Stuff" id="ID_KON_LAB_CLASS_FEATURE_CROWN_OF_DREAD_CROWN_OF_THREE_FORCES">
+	<element name="Crown of Three Forces" type="Class Feature" source="Ouroboros: LABRINTHA" id="ID_KON_LAB_CLASS_FEATURE_CROWN_OF_DREAD_CROWN_OF_THREE_FORCES">
 		<description>
 			<p>While wearing this cap you are able to hide in plain sight.</p>
 			<p class="indent">The crown has 3 slots to add magic gems.  The gems can only be placed by someone skilled with jewelers tools.</p>
@@ -60,7 +73,7 @@
 		</rules>
 	</element>
 
-	<element name="Prismatic Scarf" type="Magic Item" source="Konard's Bag of Stuff" id="ID_KON_LAB_ITEM_PRISMATIC_SCARF">
+	<element name="Prismatic Scarf" type="Magic Item" source="Ouroboros: LABRINTHA" id="ID_KON_LAB_ITEM_PRISMATIC_SCARF">
 		<description>
 			<p>A rainbow scarf that changes colors depending on the viewing angle.</p>
 			<p class="indent">When hit by the spell Prismatic Spray, the first hit will cause the scarf to glow that color. Once glowing, you are immune to all other color effects of the spells Prismatic Spray and Prismatic Wall.</p>
@@ -77,7 +90,7 @@
 		</setters>
 	</element>
 
-	<element name="Diplomats Knit Cap" type="Magic Item" source="Konard's Bag of Stuff" id="ID_KON_LAB_ITEM_DIPLOMATS_KNIT_CAP">
+	<element name="Diplomats Knit Cap" type="Magic Item" source="Ouroboros: LABRINTHA" id="ID_KON_LAB_ITEM_DIPLOMATS_KNIT_CAP">
 		<description>
 			<p>While wearing and attuned to this cap you gain the effects of the spell Tongues.</p>
 			<div element="ID_PHB_SPELL_TONGUES" />
@@ -93,7 +106,7 @@
 		</setters>
 	</element>
 
-	<element name="Ring of Health Delivery" type="Magic Item" source="Konard's Bag of Stuff" id="ID_KON_LAB_ITEM_RING_OF_HEALING_DELIVERY">
+	<element name="Ring of Health Delivery" type="Magic Item" source="Ouroboros: LABRINTHA" id="ID_KON_LAB_ITEM_RING_OF_HEALING_DELIVERY">
 		<description>
 			<p>Use one charge to summon a mage hand that lasts for 10 minutes. The mage hand can deliver your touch spells to a willing creature within 30ft.</p>
 			<p class="indent">The ring has 4 charges and recovers 1d4+1 charges at dawn.</p>
@@ -107,30 +120,28 @@
 		</setters>
 	</element>
 
-	<element name="Sentinel Armshield" type="Armor" source="Konard's Bag of Stuff" id="ID_KON_LAB_GEAR_ARMSHIELD_SENTINEL">
-		<supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
+	<element name="Fleet's Sentinel Armshield +2" type="Magic Item" source="Ouroboros: LABRINTHA" id="ID_KON_LAB_GEAR_ARMSHIELD_SENTINEL_FLEET">
 		<description>
-			<p>While holding this shield, you have advantage on initiative rolls and Wisdom (Perception) checks. The shield is emblazoned with a symbol of an eye. A armshield is made from wood or metal and is strapped to the offhand forearm. Wielding a armshield increases your Armor Class by 1. Wearing a armshield will cause you to lose proficiency bonus with two handed weapons.  You can benefit from only one armshield at a time.</p>
+			<p>While holding this shield, you have advantage on initiative rolls and Wisdom (Perception) checks. The shield is emblazoned with a symbol of an eye. A armshield is made from wood or metal and is strapped to the offhand forearm. Wielding ths armshield increases your Armor Class by 3. Wearing a armshield will cause you to lose proficiency bonus with two handed weapons.  You can benefit from only one armshield at a time.</p>
 		</description>
 		<setters>
-			<set name="category">Armor</set>
-			<set name="cost" currency="gp">6</set>
+			<set name="category">Magic Armor</set>
 			<set name="weight" lb="4">4 lb.</set>
 			<set name="slot">forearm, secondary</set>
-			<set name="type">Armshield</set>
-			<set name="armor">Shield</set>
-			<set name="armorClass">+1</set>
-			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD</set>
+			<set name="type" addition="armshield">Armor</set>
+			<set name="rarity">Rare</set>
+			<set name="armor">Armshield</set>
+			<set name="enhancement">2</set>
 		</setters>
 		<rules>
-			<stat name="ac:shield" value="1" bonus="shield" />
+			<stat name="ac:shield" value="2" bonus="enhancement" />
 			<grant type="Grants" id="ID_INTERNAL_GRANTS_INITIATIVE_ADVANTAGE" />
 		</rules>
 	</element>
 
-	<element name="Torc (Drizzle)" type="Magic Item" source="Konard's Bag of Stuff" id="ID_KON_LAB_ITEM_TORC_DRIZZLE">
+	<element name="Torc (Drizzle)" type="Magic Item" source="Ouroboros: LABRINTHA" id="ID_KON_LAB_ITEM_TORC_DRIZZLE">
 		<description>
-			<p>A golden crown with magical potential.</p>
+			<p>A golden torc with magical potential.</p>
 			<p class="indent">While attuned to this item you have minor control over the arches in Labrintha</p>
 			<p class="indent">While you're wearing this item, any critical hit against you becomes a normal hit.</p>
 			<p class="indent">While wearing this item, you gain a +3 bonus to AC, you are immune to fire damage, and you can understand and speak Primordial. In addition, you can stand on and walk across molten rock as if it were solid ground.</p>
@@ -157,7 +168,7 @@
 		</rules>
 	</element>
 
-	<element name="Coin Case of Holding" type="Magic Item" source="Konard's Bag of Stuff" id="ID_KON_LAB_ITEM_COIN_CASE_OF_HOLDING">
+	<element name="Coin Case of Holding" type="Magic Item" source="Ouroboros: LABRINTHA" id="ID_KON_LAB_ITEM_COIN_CASE_OF_HOLDING">
 		<description>
 			<p>Small scroll case with a coin slot that can hold 25,000 coins.</p>
 			<p class="indent">If the case is overloaded, pierced, or broken, it ruptures and is destroyed, and its contents are scattered in the Astral Plane.</p>
@@ -173,7 +184,7 @@
 		</setters>
 	</element>
 
-	<element name="Knit Clothing of Protection from Evil and Good" type="Magic Item" source="Konard's Bag of Stuff" id="ID_KON_LAB_ITEM_KNIT_CLOTHING_OF_PROTECTION_FROM_EVIL_AND_GOOD">
+	<element name="Knit Clothing of Protection from Evil and Good" type="Magic Item" source="Ouroboros: LABRINTHA" id="ID_KON_LAB_ITEM_KNIT_CLOTHING_OF_PROTECTION_FROM_EVIL_AND_GOOD">
 		<description>
 			<p>While wearing this item you can cast Protection from Evil and Good 3 times without somatic or a material components.  Charges are replenished at sunrise. </p>
 			<div element="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD" />
@@ -190,7 +201,7 @@
 
 
 	<!-- Magic Weapon Metals -->
-	<element name="Sunmetal" type="Magic Item" source="Konard's Bag of Stuff" id="KON_LAB_MAGIC_ITEM_SUNMETAL">
+	<element name="Sunmetal" type="Magic Item" source="Ouroboros: LABRINTHA" id="KON_LAB_MAGIC_ITEM_SUNMETAL">
 		<description>
 			<p>When dealing damage 50% (rounded up) becomes radiant damage.</p>
 		</description>
@@ -205,7 +216,7 @@
 		</setters>
 	</element>
 
-	<element name="Deadmetal" type="Magic Item" source="Konard's Bag of Stuff" id="KON_LAB_MAGIC_ITEM_DEADMETAL">
+	<element name="Deadmetal" type="Magic Item" source="Ouroboros: LABRINTHA" id="KON_LAB_MAGIC_ITEM_DEADMETAL">
 		<description>
 			<p>When dealing damage 50% (rounded up) becomes necrotic damage.</p>
 		</description>
@@ -220,7 +231,7 @@
 		</setters>
 	</element>
 
-	<element name="Stormetal" type="Magic Item" source="Konard's Bag of Stuff" id="KON_LAB_MAGIC_ITEM_STORMETAL">
+	<element name="Stormetal" type="Magic Item" source="Ouroboros: LABRINTHA" id="KON_LAB_MAGIC_ITEM_STORMETAL">
 		<description>
 			<p>When dealing damage 50% (rounded up) becomes lightning damage.</p>
 		</description>
@@ -235,7 +246,7 @@
 		</setters>
 	</element>
 
-	<element name="Plaguemetal" type="Magic Item" source="Konard's Bag of Stuff" id="KON_LAB_MAGIC_ITEM_PLAGUEMETAL">
+	<element name="Plaguemetal" type="Magic Item" source="Ouroboros: LABRINTHA" id="KON_LAB_MAGIC_ITEM_PLAGUEMETAL">
 		<description>
 			<p>When dealing damage 50% (rounded up) becomes poison damage.</p>
 		</description>
@@ -250,7 +261,7 @@
 		</setters>
 	</element>
 
-	<element name="Boomite" type="Magic Item" source="Konard's Bag of Stuff" id="KON_LAB_MAGIC_ITEM_BOOMITE">
+	<element name="Boomite" type="Magic Item" source="Ouroboros: LABRINTHA" id="KON_LAB_MAGIC_ITEM_BOOMITE">
 		<description>
 			<p>When dealing damage 50% (rounded up) becomes thunder damage.</p>
 		</description>
@@ -265,7 +276,7 @@
 		</setters>
 	</element>
 
-	<element name="Corrodium" type="Magic Item" source="Konard's Bag of Stuff" id="KON_LAB_MAGIC_ITEM_CORRODIUM">
+	<element name="Corrodium" type="Magic Item" source="Ouroboros: LABRINTHA" id="KON_LAB_MAGIC_ITEM_CORRODIUM">
 		<description>
 			<p>When dealing damage 50% (rounded up) becomes acid damage.</p>
 		</description>
@@ -281,7 +292,7 @@
 	</element>
 
 	<!-- Magic Armor Metals -->
-	<element name="Sunmetal Armor" type="Magic Item" source="Konard's Bag of Stuff" id="KON_LAB_MAGIC_ITEM_SUNMETAL_ARMOR">
+	<element name="Sunmetal Armor" type="Magic Item" source="Ouroboros: LABRINTHA" id="KON_LAB_MAGIC_ITEM_SUNMETAL_ARMOR">
 		<supports>Armor</supports>
 		<description>
 			<p>This armor is reinforced with sunmetal. While you're wearing it you have resistance to radiant damage.</p>
@@ -301,7 +312,7 @@
 		</rules>
 	</element>
 
-	<element name="Deadmetal Armor" type="Magic Item" source="Konard's Bag of Stuff" id="KON_LAB_MAGIC_ITEM_DEADMETAL_ARMOR">
+	<element name="Deadmetal Armor" type="Magic Item" source="Ouroboros: LABRINTHA" id="KON_LAB_MAGIC_ITEM_DEADMETAL_ARMOR">
 		<supports>Armor</supports>
 		<description>
 			<p>This armor is reinforced with deadmetal. While you're wearing it you have resistance to necrotic damage.</p>
@@ -321,7 +332,7 @@
 		</rules>
 	</element>
 
-	<element name="Stormetal Armor" type="Magic Item" source="Konard's Bag of Stuff" id="KON_LAB_MAGIC_ITEM_STORMETAL_ARMOR">
+	<element name="Stormetal Armor" type="Magic Item" source="Ouroboros: LABRINTHA" id="KON_LAB_MAGIC_ITEM_STORMETAL_ARMOR">
 		<supports>Armor</supports>
 		<description>
 			<p>This armor is reinforced with stormetal. While you're wearing it you have resistance to lightning damage.</p>
@@ -341,7 +352,7 @@
 		</rules>
 	</element>
 
-	<element name="Plaguemetal Armor" type="Magic Item" source="Konard's Bag of Stuff" id="KON_LAB_MAGIC_ITEM_PLAGUEMETAL_ARMOR">
+	<element name="Plaguemetal Armor" type="Magic Item" source="Ouroboros: LABRINTHA" id="KON_LAB_MAGIC_ITEM_PLAGUEMETAL_ARMOR">
 		<supports>Armor</supports>
 		<description>
 			<p>This armor is reinforced with plaguemetal. While you're wearing it you have resistance to poison damage.</p>
@@ -361,7 +372,7 @@
 		</rules>
 	</element>
 
-	<element name="Boomite Armor" type="Magic Item" source="Konard's Bag of Stuff" id="KON_LAB_MAGIC_ITEM_BOOMITE_ARMOR">
+	<element name="Boomite Armor" type="Magic Item" source="Ouroboros: LABRINTHA" id="KON_LAB_MAGIC_ITEM_BOOMITE_ARMOR">
 		<supports>Armor</supports>
 		<description>
 			<p>This armor is reinforced with boomite. While you're wearing it you have resistance to thunder damage.</p>
@@ -381,7 +392,7 @@
 		</rules>
 	</element>
 
-	<element name="Corrodium Armor" type="Magic Item" source="Konard's Bag of Stuff" id="KON_LAB_MAGIC_ITEM_CORRODIUM_ARMOR">
+	<element name="Corrodium Armor" type="Magic Item" source="Ouroboros: LABRINTHA" id="KON_LAB_MAGIC_ITEM_CORRODIUM_ARMOR">
 		<supports>Armor</supports>
 		<description>
 			<p>This armor is reinforced with corrodium. While you're wearing it you have resistance to acid damage.</p>
@@ -402,7 +413,7 @@
 	</element>
 
 	<!--Magic Gems-->
-	<element name="Flame Ruby" type="Magic Item" source="Konard's Bag of Stuff" id="ID_KON_LAB_FLAME_RUBY">
+	<element name="Flame Ruby" type="Magic Item" source="Ouroboros: LABRINTHA" id="ID_KON_LAB_FLAME_RUBY">
 		<description>
 			<p>A red hot gem that when placed in jewelery can give protection against cold.</p>
 			<p class="indent">When more than one type of elemental gem is in the same piece of jewelry, only the last type of elemental damage received will be resisted.</p>
@@ -416,7 +427,7 @@
 		</setters>
 	</element>
 
-	<element name="Frosted Sapphire" type="Magic Item" source="Konard's Bag of Stuff" id="ID_KON_LAB_FROSTED_SAPPHIRE">
+	<element name="Frosted Sapphire" type="Magic Item" source="Ouroboros: LABRINTHA" id="ID_KON_LAB_FROSTED_SAPPHIRE">
 		<description>
 			<p>A cold blue gem that when placed in jewelery can give protection against fire.</p>
 			<p class="indent">When more than one type of elemental gem is in the same piece of jewelry, only the last type of elemental damage received will be resisted.</p>
@@ -430,7 +441,7 @@
 		</setters>
 	</element>
 
-	<element name="Warp" type="Magic Item" source="Konard's Bag of Stuff" id="ID_KON_LAB_WARP">
+	<element name="Warp" type="Magic Item" source="Ouroboros: LABRINTHA" id="ID_KON_LAB_WARP">
 		<description>
 			<p>A pulsing purple gem that when placed in jewelery can give protection against psychic damage.</p>
 			<p class="indent">When more than one type of elemental gem is in the same piece of jewelry, only the last type of elemental damage received will be resisted.</p>
@@ -444,7 +455,7 @@
 		</setters>
 	</element>
 
-	<element name="Phaze" type="Magic Item" source="Konard's Bag of Stuff" id="ID_KON_LAB_PHAZE ">
+	<element name="Phaze" type="Magic Item" source="Ouroboros: LABRINTHA" id="ID_KON_LAB_PHAZE ">
 		<description>
 			<p>A pulsing purple gem that when placed in jewelery can give protection against force damage.</p>
 			<p class="indent">When more than one type of elemental gem is in the same piece of jewelry, only the last type of elemental damage received will be resisted.</p>
@@ -459,7 +470,7 @@
 	</element>
 
 	<!--Gem Slots-->
-	<element name="Flame Ruby" type="Class Feature" source="Konard's Bag of Stuff" id="ID_KON_LAB_FLAME_RUBY_SLOT">
+	<element name="Flame Ruby" type="Class Feature" source="Ouroboros: LABRINTHA" id="ID_KON_LAB_FLAME_RUBY_SLOT">
 		<supports>Labrintha Gem</supports>
 		<description>
 			<p>A red hot gem that when placed in jewelery can give protection against cold.</p>
@@ -473,7 +484,7 @@
 		</rules>
 	</element>
 
-	<element name="Frosted Sapphire" type="Class Feature" source="Konard's Bag of Stuff" id="ID_KON_LAB_FROSTED_SAPPHIRE_SLOT, !ID_KON_LAB_PHAZE_SLOT">
+	<element name="Frosted Sapphire" type="Class Feature" source="Ouroboros: LABRINTHA" id="ID_KON_LAB_FROSTED_SAPPHIRE_SLOT, !ID_KON_LAB_PHAZE_SLOT">
 		<supports>Labrintha Gem</supports>
 		<description>
 			<p>A cold blue gem that when placed in jewelery can give protection against fire.</p>
@@ -487,7 +498,7 @@
 		</rules>
 	</element>
 
-	<element name="Warp" type="Class Feature" source="Konard's Bag of Stuff" id="ID_KON_LAB_WARP_SLOT">
+	<element name="Warp" type="Class Feature" source="Ouroboros: LABRINTHA" id="ID_KON_LAB_WARP_SLOT">
 		<supports>Labrintha Gem</supports>
 		<description>
 			<p>A pulsing purple gem that when placed in jewelery can give protection against psychic.</p>
@@ -501,7 +512,7 @@
 		</rules>
 	</element>
 
-	<element name="Phaze" type="Class Feature" source="Konard's Bag of Stuff" id="ID_KON_LAB_PHAZE_SLOT">
+	<element name="Phaze" type="Class Feature" source="Ouroboros: LABRINTHA" id="ID_KON_LAB_PHAZE_SLOT">
 		<supports>Labrintha Gem</supports>
 		<description>
 			<p>A pulsing clear gem that when placed in jewelery can give protection against force.</p>
@@ -516,7 +527,7 @@
 	</element>
 
 	<!-- Mook-->
-	<element name="Mook" type="Magic Item" source="Konard's Bag of Stuff" id="ID_KON_LAB_MOOK ">
+	<element name="Mook" type="Magic Item" source="Ouroboros: LABRINTHA" id="ID_KON_LAB_MOOK ">
 		<description>
 			<p>An adorable slime that comes in many different colors.</p>
 			<div class="reference">
@@ -533,7 +544,7 @@
 		</setters>
 	</element>
 	
-	<element name="Mook" type="Information" source="Konard's Bag of Stuff" id="ID_KON_LAB_MOOK_STATBLOCK">
+	<element name="Mook" type="Information" source="Ouroboros: LABRINTHA" id="ID_KON_LAB_MOOK_STATBLOCK">
 		<description>
 			<p><em>Small ooze</em></p>
 			<ul class="unstyled mb">
