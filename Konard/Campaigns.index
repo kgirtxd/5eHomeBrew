@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Homebrew Campaign Material</name>
+		<update version="0.0.1">
+			<file name="Campaigns.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Campaigns.index" />
+		</update>
+	</info>
+	<files>	
+		<!-- DM - Ziphmose -->
+		<file name="Campaign-Labrintha.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Campaigns/Campaign-Labrintha.xml" />
+	</files>
+</index>

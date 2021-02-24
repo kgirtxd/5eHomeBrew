@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="Konard.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard.index" />
 		</update>
 	</info>
@@ -10,5 +10,6 @@
 		<file name="Basic-DnD.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Basic-dnd.index" />
 		<file name="Integrations.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations.index" />
 		<file name="Aurora-Outtakes.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Aurora-Outtakes.index" />
+		<file name="Campaigns.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Campaigns.index" />
 	</files>
 </index>

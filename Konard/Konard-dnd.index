@@ -2,8 +2,7 @@
 <index>
 	<info>
 		<name>Konard's Homebrew Material</name>
-		<update version="0.0.17">
-
+		<update version="0.0.18">
 			<file name="Konard-dnd.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd.index" />
 		</update>
 	</info>
@@ -25,13 +24,12 @@
 		<!-- Other -->
 		<file name="Kon-Deities.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Deities.xml" />
 		<file name="Kon-Feats.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Feats.xml" />
-		<file name="Kon-Items-Labrintha.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Items-Labrintha.xml" />
-
 
 		<!-- Obsolete-->
 		<obsolete name="items-weapons.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Items-Weapons-PolearmMaster.xml" />
 		<obsolete name="items-armorKon.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Items-Armor.xml" />
 		<obsolete name="featsKon.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Feats.xml" />
 		<obsolete name="deities.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Deities.xml" />
+		<obsolete name="Kon-Items-Labrintha.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Items-Labrintha.xml" />
 	</files>
 </index>
