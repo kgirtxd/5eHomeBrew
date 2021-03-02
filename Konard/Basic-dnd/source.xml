@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="source.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Basic-dnd/source.xml" />
 		</update>
 	</info>
+		
 	<element name="Basic's Box O' Fixes" type="Source" source="Core" id="ID_B126_SOURCE_BASIC_DND">
 		<description>
 			<![CDATA[<p>Homebrew content made up by me or my friend group.</p>]]>
@@ -12,7 +13,7 @@
 		<setters>
 			<set name="abbreviation"></set>
 			<set name="url">https://github.com/kgirtxd/5eHomeBrew/tree/master/Konard/Basic-dnd</set>
-			<set name="image">https://gchs.org/wp-content/uploads/Image-Coming-Soon-Placeholder.png</set>
+			<set name="image">https://i.imgur.com/SnadqGf.png</set>
 			<set name="author" abbreviation="B126">Basic126</set>
 			<set name="homebrew">true</set>
 			<set name="information">Check with your DM before adding any of this content.</set>
