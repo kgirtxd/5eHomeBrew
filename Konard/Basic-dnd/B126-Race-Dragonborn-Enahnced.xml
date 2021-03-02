@@ -4,7 +4,7 @@
 		<name>Dragonborn Enhanced</name>
 		<description></description>
 		<author>Basic126</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="B126-Race-Dragonborn-Enahnced.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Basic-dnd/B126-Race-Dragonborn-Enahnced.xml" />
 		</update>
 	</info>
@@ -76,13 +76,33 @@
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
 			<grant type="Language" id="ID_LANGUAGE_DRACONIC" />
+			<grant type="Vision" id="ID_B126_VISION_DRAGON_SIGHT" />
+			<grant type="Racial Trait" id="ID_B126_RACIAL_TRAIT_DRAGON_TALONS" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
 			<grant type="Racial Trait" id="ID_B126_RACIAL_TRAIT_ENHANCED_BREATH_WEAPON" />
-			<grant type="Racial Trait" id="ID_B126_RACIAL_TRAIT_DRAGONBORN_ENHANCED_CLAWS" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DAMAGE_RESISTANCE" requirements="!ID_WOTC_EGTW_GRANTS_DRAGONBORN_VARIANT" />
 			<select type="Race Variant" name="Dragonborn Variant" supports="Dragonborn" optional="true" />
 		</rules>
   </element>
+    <element name="Dragon Sight" type="Vision" source="Basics Box O' Fixes" id="ID_B126_VISION_DRAGON_SIGHT">
+    <description>
+      <p>Many creatures in the worlds of D&amp;D, especially those that dwell underground, have darkvision. Within a specified range, a creature with darkvision can see in darkness as if the darkness were dim light, so areas of darkness are only lightly obscured as far as that creature is concerned. However, the creature can’t discern color in darkness, only shades of gray.</p>
+    </description>
+    <sheet>
+      <description>You can see in dim light within {{dragonsight:range}} feet of you as if it were bright light, and in darkness as if it were dim light.</description>
+    </sheet>
+    <rules>
+      <stat name="dragonsight:range" value="30" bonus="base" />
+    </rules>
+  </element>
+  <element name="Dragon Talons" type="Racial Trait" source="Basics Box O' Fixes" id="ID_B126_RACIAL_TRAIT_DRAGON_TALONS">
+		<description>
+			<p>Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+		</description>
+		<sheet>
+			<description>Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4+{{strength:modifier}}, instead of the bludgeoning damage normal for an unarmed strike.</description>
+		</sheet>
+	</element>
   <element name="Breath Weapon" type="Racial Trait" source="Basics Box O' Fixes" id="ID_B126_RACIAL_TRAIT_ENHANCED_BREATH_WEAPON">
 		<description>
 			<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p>
@@ -106,13 +126,5 @@
 			<stat name="breath-weapon:dice size" value="10" bonus="dice" level="12" />
 			<stat name="breath-weapon:dice count" value="1" level="16" />
 		</rules>
-	</element>
-	<element name="Dragon Talons" type="Racial Trait" source="Basics Box O' Fixes" id="ID_B126_RACIAL_TRAIT_DRAGONBORN_ENHANCED_CLAWS">
-		<description>
-			<p>Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
-		</description>
-		<sheet>
-			<description>Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4+{{strength:modifier}}, instead of the bludgeoning damage normal for an unarmed strike.</description>
-		</sheet>
 	</element>
 </elements>
