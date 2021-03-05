@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Basic126's Homebrew Material</name>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="Basic-dnd.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Basic-dnd.index" />
 		</update>
 	</info>
@@ -19,6 +19,7 @@
 		<file name="B126-Items-Armor.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Basic-dnd/B126-Items-Armor.xml" />
 
 		<!-- Other -->
+		<file name="B126-Items-Mooks.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Basic-dnd/B126-Items-Mooks.xml" />
 
 		<!-- Obsolete-->
 

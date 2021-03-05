@@ -4,7 +4,7 @@
 		<name>ItemsB126</name>
 		<description></description>
 		<author>Basic126</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="B126-Items-Armor.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Basic-dnd/B126-Items-Armor.xml" />
 		</update>
 	</info>
@@ -41,6 +41,7 @@
 			<set name="weight" lb="6">6 lb.</set>
 			<set name="slot">body</set>
 			<set name="armor">Medium</set>
+			<set name="stealth">Disadvantage</set>
 			<set name="armorClass">15 + Dex modifier (max 2)</set>
 			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_HALF_PLATE</set>
 		</setters>
@@ -62,6 +63,8 @@
 			<set name="weight" lb="20">20 lb.</set>
 			<set name="slot">body</set>
 			<set name="armor">Heavy</set>
+			<set name="strength">15</set>
+			<set name="stealth">Disadvantage</set>
 			<set name="armorClass">18</set>
 			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_PLATE</set>
 		</setters>
