@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Oni Race</name>
+		<update version="0.0.1">
+			<file name="race-oni.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/race-oni.xml" />
+		</update>
+	</info>
+
+	<element name="Oni" type="Race" source="Kon TBN" id="ID_KON_TBN_RACE_ONI">
+		<description>
+			<p></p>
+			<h4>HEADING</h4>
+			<p></p>
+			<p class="indent"></p>
+			<h4>HEADING</h4>
+			<p></p>
+			<p class="indent"></p>
+			<h4>name Traits</h4>
+			<p></p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength Score increases by 2.</p>
+			<p class="indent"><strong><em>Age.</em></strong> A healthy oni will usually live 800-1000 years before death.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Almost all oni are lawful in some way, however some lean more towards evil and others good.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Your size is medium, anywhere beteen 4-8 feet tall.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your speed is 30ft.</p>
+			<p class="indent"><strong><em>Superior Darkvision.</em></strong> Thanks to your fiendish heritage, you have superior vision in dark and dim conditions, You can see in dim light within 120 feet as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Oni Weapon Training.</em></strong> You are proficient in the Kanabo.</p>
+			<p class="indent"><strong><em>Savage Attacks.</em></strong> Once per turn when you roll damage far a melee weapon attack, you can reroll the weapon's damage die and use either total.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common, Infernal, and Giant.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="2" />
+			<grant type="Vision" id="ID_VISION_SUPERIORDARKVISION" />
+			<grant type="Racial Trait" id="ID____" />
+			<grant type="Racial Trait" id="ID____" />
+		</rules>
+	</element>
+
+
+
+</elements>
+
+
+
+
+
