@@ -3,7 +3,7 @@
 	<info>
 		<name>Dragonforged Race</name>
 		<description>Dragonforged Race from Children of the Dragon.</description>
-		<author>Konard</author>
+		<author>Niels de Jong</author>
 		<update version="0.0.1">
 			<file name="race-dragonforged.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/Children%20of%20the%20Dragon/race-dragonforged.xml" />
 		</update>
