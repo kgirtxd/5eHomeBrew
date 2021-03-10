@@ -4,7 +4,7 @@
 		<name>Dragonborn Enhanced</name>
 		<description></description>
 		<author>Basic126</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="B126-Race-Dragonborn-Enahnced.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Basic-dnd/B126-Race-Dragonborn-Enahnced.xml" />
 		</update>
 	</info>
@@ -65,7 +65,7 @@
 			<set name="names" type="female">Akra, Biri, Daar, Farideh, Harann, Flavilar, Jheri, Kava, Korinn, Mishann, Nala, Perra, Raiann, Sora, Surina, Thava, Uadjit</set>
 			<set name="names" type="childhood">Climber, Earbender, Leaper, Pious, Shieldbiter, Zealous</set>
 			<set name="names" type="clan">Clethtinthiallor, Daardendrian, Delmirev, Drachedandion, Fenkenkabradon, Kepeshkmolik, Kerrhylon, Kimbatuul, Linxakasendalor, Myastan, Nemmonis, Norixius, Ophinshtalajiir, Prexijandilin, Shestendeliath, Turnuroth, Verthisathurgiesh, Yarjerit</set>
-			<set name="names-format">{{name}} {{clan}}</set>
+			<set name="names-format">{{clan}} {{name}}</set>
 			<set name="height" modifier="2d8">5'6"</set>
 			<set name="weight" modifier="2d6">175 lb.</set>
 		</setters>
