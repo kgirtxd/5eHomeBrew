@@ -56,7 +56,7 @@
 			<grant type="Language" id="ID_LANGUAGE_DRACONIC" />
 			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
 			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_BREATH_WEAPON" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DAMAGE_RESISTANCE" requirements="!ID_WOTC_EGTW_GRANTS_DRAGONBORN_VARIANT" />
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_DAMAGE_RESISTANCE" />
 			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_NATURAL_WEAPONS" />
 			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_DRAGONBORN_SUBRACE" />
 		</rules>
@@ -347,7 +347,7 @@
 		<description>
 			<p>Your tail can be used to push or trip up opponents. You can use your bonus action to shove a creature within 5 feet of you. You can use this trait a number of times equal to your Strength modifier (minimum of 1). You regain all expended uses when you finish a long rest.</p>
 		</description>
-		<sheet action="Bonus Action" usage="Str. Mod/Long Rest">
+		<sheet action="Bonus Action" usage="{{strength:modifier}}/Long Rest">
 			<description>Your tail can be used to push or trip up opponents. You can use your bonus action to shove a creature within 5 feet of you. You can use this trait {{tail-lash:uses}} times. You regain all expended uses when you finish a long rest.</description>
 		</sheet>
 		<rules>
@@ -373,7 +373,7 @@
 			<p>You gain a +1 bonus to your AC while not wearing heavy armor. Instead of this bonus, you can calculate your AC as 13 + your Dexterity modifier. A shield’s benefits apply as normal on top of either option.</p>
 		</description>
 		<sheet>
-			<description></description>
+			<description>You gain a +1 bonus to your AC while not wearing heavy armor. Instead of this bonus, you can calculate your AC as 13 + your Dexterity modifier if you are not wearing armor of any type.</description>
 		</sheet>
 		<rules>
 			<stat name="ac:hardened-scales:base" value="12" />
@@ -412,7 +412,9 @@
 			<p>You have draconic wings sprouting from your shoulder blades. When falling you can use your reaction to slow your descent, as if under the effects of a feather fall spell. However you can move one foot horizontally for each foot that you fall. At 6th level you can grant yourself a flying speed of 30 feet as a bonus action for a duration of 1 minute. Afterwards you must finish a long rest before you can use this flight again. At 14th level you can instead fly indefinitely at a speed of 30 feet. If you already possess a flying speed then this flying speed will instead increase by 20 feet. Your clothes and armor have to be modified to accommodate your wings, and you can't use your wings while wearing heavy armor.</p>
 		</description>
 		<sheet>
-			<description>When falling you can use your reaction to slow your descent, as if under the effects of a feather fall spell. At 6th level you can grant yourself a flying speed of 30ft for 1 minute. At 14th level you can instead fly indefinitely at a speed of 30 feet. You can't use your wings while wearing heavy armor.</description>
+			<description>When falling you can use your reaction to slow your descent, as if under the effects of a feather fall spell. You can't use your wings while wearing heavy armor.</description>
+			<description level="6">When falling you can use your reaction to slow your descent, as if under the effects of a feather fall spell. Additonally you can grant yourself a flying speed of 30ft for 1 minute. You can't use your wings while wearing heavy armor.</description>
+			<description level="14">When falling you can use your reaction to slow your descent, as if under the effects of a feather fall spell. Additonally you can instead fly indefinitely at a speed of 30 feet. You can't use your wings while wearing heavy armor.</description>
 		</sheet>
 	</element>
 	<element name="Hardened Resistance" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_HARDENED_RESISTANCE">
