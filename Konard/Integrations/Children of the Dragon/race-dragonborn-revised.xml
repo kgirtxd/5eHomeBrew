@@ -247,7 +247,7 @@
 		<description>
 			<div element="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
 		</description>
-		<sheet alt="White">
+		<sheet alt="Red">
 			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
 		</sheet>
 		<rules>
@@ -258,7 +258,7 @@
 			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Red Dragonborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry (Silver)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_Silver">
+	<element name="Draconic Ancestry (Silver)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_SILVER">
 		<supports>Draconic Ancestry Revised</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
@@ -348,11 +348,8 @@
 			<p>Your tail can be used to push or trip up opponents. You can use your bonus action to shove a creature within 5 feet of you. You can use this trait a number of times equal to your Strength modifier (minimum of 1). You regain all expended uses when you finish a long rest.</p>
 		</description>
 		<sheet action="Bonus Action" usage="{{strength:modifier}}/Long Rest">
-			<description>Your tail can be used to push or trip up opponents. You can use your bonus action to shove a creature within 5 feet of you. You can use this trait {{tail-lash:uses}} times. You regain all expended uses when you finish a long rest.</description>
+			<description>Your tail can be used to push or trip up opponents. You can use your bonus action to shove a creature within 5 feet of you.</description>
 		</sheet>
-		<rules>
-			<stat name="tail-lash:uses" value="strength:modifier" />
-		</rules>
 	</element>
 	
 	<element name="Steelscale Dragonborn" type="Sub Race" source="Children of the Dragon" id="ID_DMSG_COTD_SUB_RACE_STEELSCALE">
@@ -391,7 +388,6 @@
 		<sheet action="Bonus Action" usage="1/Short Rest">
 			<description>On a successful melee or breath weapon attack you may use your bite attack this deals 1d6+{{strength:modifier}} instead of the usual d4.</description>
 		</sheet>
-		<rules></rules>
 	</element>
 	
 	<element name="Wayfarer Dragonborn" type="Sub Race" source="Children of the Dragon" id="ID_DMSG_COTD_SUB_RACE_WATFARER">
