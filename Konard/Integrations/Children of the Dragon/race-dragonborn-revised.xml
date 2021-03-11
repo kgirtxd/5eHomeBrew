@@ -50,11 +50,12 @@
 		</setters>
 		<rules>
 			<stat name="strength" value="2" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Derro)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Dragonborn (Revised))" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
-			<grant type="Language" id="ID_LANGUAGE_COMMON" />
-			<grant type="Language" id="ID_LANGUAGE_DRACONIC" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+            <grant type="Language" id="ID_LANGUAGE_DRACONIC" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+            <select type="Language" name="Customized Language" supports="Custom Race Language" number="2"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
 			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_BREATH_WEAPON" />
 			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_DAMAGE_RESISTANCE" />
