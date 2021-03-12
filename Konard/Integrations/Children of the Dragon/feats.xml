@@ -14,21 +14,48 @@
 		<prerequisite>Kobold (Revised), Skilled Trapper</prerequisite>
 		<requirements>(ID_DMSG_COTD_RACE_KOBOLD_REVISED||ID_WOTC_TCOE_RACE_CUSTOM_LINEAGE), ID_DMSG_COTD_RACIAL_TRAIT_SKILLED_TRAPPER</requirements>
 		<description>
-			<p></p>
+			<p>You are resourceful and clever for a kobold, although quite eccentric as well. You gain the following benefits:</p>
+			<ul>
+				<li>Your created traps (found on page 84 of Xanathar's Guide to Everything) deal double the standard damage. You can create a trap once outside your short rests, and within 1 minute. You regain the ability to make a trap this way after finishing a short or long rest.</li>
+				<li>You carry six of your inventions with you, and you can use each of the options listed in the Kobold Invention table as an action once. Their DC is 8 + your proficiency bonus + your Intelligence modifier. All initial damage caused by your inventions increases by an additional 1d6 at 8th level, 12th level, 16th level and 20th level. You also add your proficiency bonus to the attack rolls of your insect swarms. You can choose to panic and use one of your inventions as a bonus action instead of an action, however you must then roll a d6 die to determine which invention you use. If you roll a used invention, then nothing happens. While using an invention this way, you can choose not to cause its effects. You can only use one invention each turn. After finishing a long rest, and spending 10 minutes to forage and prepare, you can regain all expended uses of your inventions.</li>
+			</ul>
+			<p>These inventions look like a mess of scrap or alchemy, therefore others are unwilling to purchase them. Other creatures are unable to use your inventions.</p>
 		</description>
 		<sheet>
-			<description></description>
+			<description>Your time spent wielding a pickaxe allows you to wield it with devastating efficiency. You gain the following benefits: &#13;
+				• Your created traps (found on page 84 of Xanathar's Guide to Everything) deal double the standard damage. You can create a trap once outside your short rests, and within 1 minute. You regain the ability to make a trap this way after finishing a short or long rest. &#13;
+				• You carry six of your inventions with you, and you can use each of the options listed in the Kobold Invention table as an action once. DC {{kobold inventor:dc}}. You also add your proficiency bonus to the attack rolls of your insect swarms. You can choose to panic and use one of your inventions as a bonus action instead of an action, however you must then roll a d6 die to determine which invention you use. If you roll a used invention, then nothing happens. While using an invention this way, you can choose not to cause its effects. You can only use one invention each turn. After finishing a long rest, and spending 10 minutes to forage and prepare, you can regain all expended uses of your inventions. &#13;
+				These inventions look like a mess of scrap or alchemy, therefore others are unwilling to purchase them. Other creatures are unable to use your inventions.</description>
+				<description level="8" >Your time spent wielding a pickaxe allows you to wield it with devastating efficiency. You gain the following benefits: &#13;
+				• Your created traps (found on page 84 of Xanathar's Guide to Everything) deal double the standard damage. You can create a trap once outside your short rests, and within 1 minute. You regain the ability to make a trap this way after finishing a short or long rest. &#13;
+				• You carry six of your inventions with you, and you can use each of the options listed in the Kobold Invention table as an action once. DC {{kobold inventor:dc}}. All initial damage caused by your inventions increases by an additional {{kobold inventor:damagedie}}d6. You also add your proficiency bonus to the attack rolls of your insect swarms. You can choose to panic and use one of your inventions as a bonus action instead of an action, however you must then roll a d6 die to determine which invention you use. If you roll a used invention, then nothing happens. While using an invention this way, you can choose not to cause its effects. You can only use one invention each turn. After finishing a long rest, and spending 10 minutes to forage and prepare, you can regain all expended uses of your inventions. &#13;
+				These inventions look like a mess of scrap or alchemy, therefore others are unwilling to purchase them. Other creatures are unable to use your inventions.</description>
 		</sheet>
+		<rules>
+			<stat name="kobold inventor:dc" value="8" />
+			<stat name="kobold inventor:dc" value="intelligence:modifier"  />
+			<stat name="kobold inventor:dc" value="proficiency" />
+			<stat name="kobold inventor:damagedie" value="1" level="8" />
+			<stat name="kobold inventor:damagedie" value="1" level="12" />
+			<stat name="kobold inventor:damagedie" value="1" level="16" />
+			<stat name="kobold inventor:damagedie" value="1" level="20" />
+		</rules>
 	</element>
 
 	<element name="Pack Tactics" type="Feat" source="Children of the Dragon" id="ID_DMSG_COTD_FEAT_PACK_TACTICS">
 		<prerequisite>Kobold (Revised)</prerequisite>
 		<requirements>ID_DMSG_COTD_RACE_KOBOLD_REVISED||ID_WOTC_TCOE_RACE_CUSTOM_LINEAGE</requirements>
 		<description>
-			<p></p>
+			<p>You excel at teamwork, fighting side by side against all odds.</p>
+			<ul>
+				<li>You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn’t incapacitated. You can only benefit from this feature once on each of your own turns.</li>
+				<li>Whenever you would gain the benefit of your Fleeting Courage racial trait, you can use your reaction to grant this boon to an ally who can see you instead.</li>
+			</ul>
 		</description>
 		<sheet>
-			<description></description>
+			<description>You excel at teamwork, fighting side by side against all odds. &#13;
+				• You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn’t incapacitated. You can only benefit from this feature once on each of your own turns. &#13;
+				• Whenever you would gain the benefit of your Fleeting Courage racial trait, you can use your reaction to grant this boon to an ally who can see you instead. &#13;</description>
 		</sheet>
 	</element>
 
@@ -44,15 +71,15 @@
 			</ul>
 		</description>
 		<sheet>
-			<description>
+			<description>Your time spent wielding a pickaxe allows you to wield it with devastating efficiency. You gain the following benefits: &#13;
 				• You can use a pickaxe as a melee weapon with the finesse and versatile properties, which deals 1d8 piercing damage (1d10 when used with two hands). You are proficient with pickaxes used this way, and you gain a +1 bonus to attack rolls you make with the weapon. &#13;
 				• Whenever you attack with a pickaxe, you can swing wildly, causing your attack to have disadvantage. If you hit, you deal additional damage equal to double your proficiency bonus. &#13;
 				• Whenever you have disadvantage on an attack roll you make with a pickaxe, the target still takes {{pickaxe master:damage}} piercing damage if the attack misses but the higher of the two d20 rolls would have hit. &#13;
 			</description>
 		</sheet>
 		<rules>
-			<stat name="pickaxe master:damage" value="dexterity:modifier" />
-			<stat name="pickaxe master:damage" value="strength:modifier" />
+			<stat name="pickaxe master:damage" value="dexterity:modifier" bonus="ability" />
+			<stat name="pickaxe master:damage" value="strength:modifier" bonus="ability" />
 		</rules>
 	</element>
 
