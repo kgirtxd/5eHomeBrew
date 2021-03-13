@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Kobold (Revised) Race</name>
+		<description>Kobold (Revised) Race from Children of the Dragon.</description>
+		<author>Niels de Jong</author>
+		<update version="0.0.1">
+			<file name="race-kobold-revised.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/Children%20of%20the%20Dragon/race-kobold-revised.xml" />
+		</update>
+	</info>
+
+	<element name="Kobold (Revised)" type="Race" source="Children of the Dragon" id="ID_DMSG_COTD_RACE_KOBOLD_REVISED">
+		<description>
+			<p class="flavor">“KOBOLDS ARE A LOT LESS CUTE WHEN THEY LEARN HOW TO CAST FIREBALLS”<br/>— Volothamp Geddarm</p>
+			<p class="indent">Kobolds are often dismissed as cowardly, foolish, and weak, but these little reptilian creatures are clever with their hands, and viciously work together in order to overcome their physical limitations. Kobold are short in stature, despite the draconic blood running in their veins, with the tallest of them barely reaching 3 feet and weighing no more than 35 pounds. Because of their small size, kobold often have to adopt unorthodox means of achieving victory. This usually leads to traps, which kobold are well known for crafting.</p>
+			<p class="indent">Unlike the true dragons they worship, kobolds don't have set colors that reflect certain personality traits. Whole tribes usually are the same one or two colors, and the color of a kobold has no bearing on its abilities or skill set. Kobolds display many of the traits that true dragons display, and are often either proud, or vain (or both). While individual kobolds prefer to run away from a fight, they know that there is greatness within them and are proud that they were chosen to be the blood-kin of dragons. Despite this, a typical kobold acknowledges its weakness in the face of a hostile world. However, a kobold finds satisfaction in its work, the survival of its tribe, and the knowledge that it shares a heritage with mighty dragons. While the individual kobold can be cowardly, this changes when they fight directly alongside their tribe. They believe that they will be rewarded in the afterlife if they die in the service of their tribe, and as such are far less fearful. Kobolds, aside from the occasional adventurer, are also quite content with their lives, provided they can mine and be with their families, and receive the occasional praise from dragons.</p>
+			<p class="indent">Kobolds are renowned for their worship of dragons, in which case they cast aside any pride they have and willingly and proudly serve such mighty creatures without a thought of treason. If the dragon expresses cruelty, they will tolerate it or simply go away instead of seeking revenge. They even display strong acts of courage while within their service. Strangely, they have the same sentiment towards dragonborn and half dragons, whom they consider to be dragons. This often leads to the annoyance of dragonborn, many of whom hold resentment towards dragons for past slavery. However, their obsessive loyalty and devotion, and their skill at handling the sewage of draconic communities, causes the other draconic races to tolerate their presence. And those that are able to put their pride aside acknowledge that more than one draconic community has been saved by using the kobolds overwhelming numbers and unorthodox way of fighting. Kobolds are naturally skilled at tunneling. Similar to dwarves, they have a near-instinctive sense of what sections of stone or earth are strong or weak, are bearing a load or are safe to excavate, or are likely to contain minerals or offer access to water. This ability enables them to fashion secure homes in places where other creatures wouldn't feel safe. Their favorite past time is bathing, and they seek out natural springs and hot springs. The latter also being quite popular with half dragons.</p>
+			<p class="indent">Kobolds take advantage of their size by creating small-diameter tunnels that they can easily pass through, but that require larger creatures to hunch or even crawl to make progress. Due to their small size, many kobold often feel that there's safety in numbers. As such they rarely strike out on their own, unless it's a mission of great importance or they are serving or proving themselves to a dragon.</p>
+			<p class="indent">A kobold can be fooled with smooth words or a quick wit, but when the kobold figures out it has been tricked, it remembers the affront. And when possible will retaliate against that person somehow, even if merely in a petty way.</p>
+			<p class="indent">Though they are far less grudgeful against draconic races, feeling that they act so because they must prove their worth.</p>
+			<h4>Kobold Names</h4>
+			<p>Kobold names are derived from the Draconic tongue and usually relate to a characteristic of the owner, such as scale color, distinctive body parts, or typical behavior. For example, "Red Foot, "White Claw" and "Scurry" are Common translations of often-used names. A kobold might change its name when it becomes an adult, or add additional word-syllables after important events such as completing its first hunt, laying its first egg, or surviving its first battle. Because kobolds can change sex to suit a tribe's needs, they don't differentiate between male or female names.</p>
+			<p class="indent"><b>Kobold Names:</b> Arix, Eks, Ett, Galax, Garu, Hagnar, Hox, Irtos, Kashak, Meepo, Molo, Ohsoss, Rotom, Sagin, Sik, Sniv, Taklak, Tes, Urak, Varn.</p>
+			<h4>Kobold (Revised) Traits</h4>
+			<p></p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 2, and your Intelligence or Charisma score increases by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Kobolds reach adulthood at age 6 and can live up to 120 years, but rarely do so. Those that live within or near draconic communities tend to live longer.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Kobolds rely on the strength of their group, which makes them tend toward law. Kobolds living within or near draconic communities are often Neutral.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Kobold are between 2 and 3 feet tall and weigh between 25 and 35 pounds. Your size is Small.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light, but only shades of gray.</p>
+			<p class="indent"><strong><em>Burrower.</em></strong> As an action while holding a pickaxe, you can grant yourself a burrow speed of 15 feet through non-rock earth until the end of your turn. When you use your burrow speed with this trait, you clear the path behind you.</p>
+			<p class="indent"><strong><em>Center of Attention.</em></strong> As an action you can distract nearby foes. This can be done by cowering pathetically, shrieking furiously, boasting arrogantly, or through different means. Until the start of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that can see you. At 6th level you can use this trait as a bonus action, but you can't benefit from this trait's advantage yourself. Once you use this trait, you can't use it again until you finish a short or long rest.</p>
+			<p class="indent"><strong><em>Skilled Trapper.</em></strong> You gain proficiency with the thieves' tools, and whenever you make an ability check to create traps (Xanathar's Guide to Everything, p.84) your proficiency bonus is doubled.</p>
+			<p class="indent"><strong><em>Fleeting Courage.</em></strong> When you succeed on a saving throw, your next attack roll or saving throw you make before the end of your next turn has advantage.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Kobold (Revised))" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Kobold (Revised))" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_BURROWER" requirements="!ID_DMSG_COTD_RACE_VARIANT_DRAGONWROUGHT_KOBOLD" />
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_CENTER_OF_ATTENTION" requirements="!ID_DMSG_COTD_RACE_VARIANT_DRAGONWROUGHT_KOBOLD" />
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_SKILLED_TRAPPER" requirements="!ID_DMSG_COTD_RACE_VARIANT_DRAGONWROUGHT_KOBOLD" />
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_FLEETING_COURAGE" />
+			<select type="Race Variant" name="Kobold (Revised) Variant" supports="Kobold Revised" optional="true" />
+		</rules>
+	</element>
+
+	<element name="Burrower" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_BURROWER">
+		<description>
+			<p>As an action while holding a pickaxe, you can grant yourself a burrow speed of 15 feet through non-rock earth until the end of your turn. When you use your burrow speed with this trait, you clear the path behind you.</p>
+		</description>
+		<sheet action="Action">
+			<description>While holding a pickaxe, you can grant yourself a burrow speed of 15 feet through non-rock earth until the end of your turn. When you use your burrow speed with this trait, you clear the path behind you.</description>
+		</sheet>
+	</element>
+
+	<element name="Center of Attention" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_CENTER_OF_ATTENTION">
+		<description>
+			<p>As an action you can distract nearby foes. This can be done by cowering pathetically, shrieking furiously, boasting arrogantly, or through different means. Until the start of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that can see you. At 6th level you can use this trait as a bonus action, but you can't benefit from this trait's advantage yourself.</p>
+			<p>Once you use this trait, you can't use it again until you finish a short or long rest.</p>
+		</description>
+		<sheet  usage="1/Short or Long Rest">
+			<description action="Action">You can distract nearby foes. Until the start of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that can see you.</description>
+			<description action="Bonus Action" level="6">You can distract nearby foes. Until the start of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that can see you, but you can't benefit from this trait's advantage yourself.</description>
+		</sheet>
+	</element>
+
+	<element name="Skilled Trapper" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_SKILLED_TRAPPER">
+		<description>
+			<p>You gain proficiency with the thieves' tools, and whenever you make an ability check to create traps (Xanathar's Guide to Everything, p.84) your proficiency bonus is doubled.</p>
+		</description>
+		<sheet>
+			<description>Whenever you make an ability check to create traps (Xanathar's Guide to Everything, p.84) your proficiency bonus is doubled.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" />
+		</rules>
+	</element>
+
+	<element name="Fleeting Courage" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_FLEETING_COURAGE">
+		<description>
+			<p>When you succeed on a saving throw, your next attack roll or saving throw you make before the end of your next turn has advantage.</p>
+		</description>
+		<sheet>
+			<description>When you succeed on a saving throw, your next attack roll or saving throw you make before the end of your next turn has advantage.</description>
+		</sheet>
+	</element>
+
+	<element name="Dragonwrought Kobold" type="Race Variant" source="Children of the Dragon" id="ID_DMSG_COTD_RACE_VARIANT_DRAGONWROUGHT_KOBOLD">
+		<supports>Kobold Revised</supports>
+		<requirements>ID_INTERNAL_OPTION_ALLOW_FEATS</requirements>
+		<description>
+			<p>You may choose to play as a regular dragonwrought kobold, born with wings from a special egg.</p>
+			<p>If you choose this variant, you gain the Urd Feat at 1 st level, but you lose the following racial traits: Burrower, Center of Attention. and Skilled Trapper.</p>
+			<p>
+				<span class="feature">Urd Feat.</span>You gain access to the Urd feat.<br />
+			</p>
+			<div element="ID_DMSG_COTD_FEAT_URD" />
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Feat" id="ID_DMSG_COTD_FEAT_URD" />
+		</rules>
+	</element>
+
+	<!--Kobold Ancestry Colors-->
+	<element name="Draconic Ancestry" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_KOBOLD_DRACONIC_ANCESTRY">
+		<description>
+			<p>You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your damage resistance is determined by the dragon type.</p>
+			<h5>DRACONIC ANCESTRY</h5>
+			<table>
+				<thead>
+					<tr><td>Dragon</td><td>Resistance Type</td></tr>
+				</thead>
+				<tr><td>Black</td><td>Acid</td></tr>
+				<tr><td>Blue</td><td>Lightning</td></tr>
+				<tr><td>Brass</td><td>Fire</td></tr>
+				<tr><td>Bronze</td><td>Lightning</td></tr>
+				<tr><td>Copper</td><td>Acid</td></tr>
+				<tr><td>Gold</td><td>Fire</td></tr>
+				<tr><td>Green</td><td>Poison</td></tr>
+				<tr><td>Red</td><td>Fire</td></tr>
+				<tr><td>Silver</td><td>Cold</td></tr>
+				<tr><td>White</td><td>Cold</td></tr>
+			</table>
+		</description>
+		<rules>
+			<select type="Racial Trait" name="Draconic Ancestry" supports="Draconic Ancestry Revised" />
+		</rules>
+	</element>
+
+	<element name="Draconic Ancestry (Black)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_KOBOLD_DRACONIC_ANCESTRY_BLACK">
+		<supports>Kobold Draconic Ancestry</supports>
+		<description>
+			<div element="ID_DMSG_COTD_RACIAL_TRAIT_KOBOLD_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet>
+			<description>You are descended from Black dragons.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Blue)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_KOBOLD_DRACONIC_ANCESTRY_BLUE">
+		<supports>Kobold Draconic Ancestry</supports>
+		<description>
+			<div element="ID_DMSG_COTD_RACIAL_TRAIT_KOBOLD_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet>
+			<description>You are descended from Blue dragons.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Brass)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_KOBOLD_DRACONIC_ANCESTRY_BRASS">
+		<supports>Kobold Draconic Ancestry</supports>
+		<description>
+			<div element="ID_DMSG_COTD_RACIAL_TRAIT_KOBOLD_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet>
+			<description>You are descended from Brass dragons.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Bronze)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_KOBOLD_DRACONIC_ANCESTRY_BRONZE">
+		<supports>Kobold Draconic Ancestry</supports>
+		<description>
+			<div element="ID_DMSG_COTD_RACIAL_TRAIT_KOBOLD_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet>
+			<description>You are descended from Bronze dragons.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Copper)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_KOBOLD_DRACONIC_ANCESTRY_COPPER">
+		<supports>Kobold Draconic Ancestry</supports>
+		<description>
+			<div element="ID_DMSG_COTD_RACIAL_TRAIT_KOBOLD_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet>
+			<description>You are descended from Copper dragons.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Gold)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_KOBOLD_DRACONIC_ANCESTRY_GOLD">
+		<supports>Kobold Draconic Ancestry</supports>
+		<description>
+			<div element="ID_DMSG_COTD_RACIAL_TRAIT_KOBOLD_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet>
+			<description>You are descended from Gold dragons.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Green)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_KOBOLD_DRACONIC_ANCESTRY_GREEN">
+		<supports>Kobold Draconic Ancestry</supports>
+		<description>
+			<div element="ID_DMSG_COTD_RACIAL_TRAIT_KOBOLD_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet>
+			<description>You are descended from Green dragons.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Red)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_KOBOLD_DRACONIC_ANCESTRY_RED">
+		<supports>Kobold Draconic Ancestry</supports>
+		<description>
+			<div element="ID_DMSG_COTD_RACIAL_TRAIT_KOBOLD_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet>
+			<description>You are descended from Red dragons.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Silver)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_KOBOLD_DRACONIC_ANCESTRY_SILVER">
+		<supports>Kobold Draconic Ancestry</supports>
+		<description>
+			<div element="ID_DMSG_COTD_RACIAL_TRAIT_KOBOLD_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet>
+			<description>You are descended from Silver dragons.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+		</rules>
+	</element> -->
+	<element name="Draconic Ancestry (White)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_KOBOLD_DRACONIC_ANCESTRY_WHITE">
+		<supports>Kobold Draconic Ancestry</supports>
+		<description>
+			<div element="ID_DMSG_COTD_RACIAL_TRAIT_KOBOLD_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet>
+			<description>You are descended from White dragons.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+		</rules>
+	</element>
+
+
+</elements>
