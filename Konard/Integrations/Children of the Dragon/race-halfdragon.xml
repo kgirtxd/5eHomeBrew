@@ -105,7 +105,7 @@
 		</description>
 		<sheet action="Action" usage="Recharge 6 on 1d6 or 1 minute">
 			<description>Your breath weapon does {{breath-weapon:dice count}}d{{breath-weapon:dice size}} {{draconic-ancestry:damage type}} damage in a {{draconic-ancestry:breath}} DC {{breath-weapon:dc}} &#13;
-			After you use your breath weapon, you can't use it again until it's recharged At the start of your turn, roll a d6. On a 6, you regain the use of your breath weapon. Otherwise, your breath weapon recharges after 1 minute.</description>
+			After you use your breath weapon, you can't use it again until it's recharged. After you use your breath weapon, roll a d6 at the start of each of your turns, on a 6 you regain the use of your breath weapon.</description>
 		</sheet>
 		<rules>
 			<stat name="breath-weapon:dc" value="8" />
@@ -429,7 +429,7 @@
 		</description>
 		<sheet>
 			<description>You can breathe air and water.  &#13;
-			When using your breath weapon, you can instead choose to use repulsion gas with the same range. DC {{repulsion gas:dc}}. This gas doesn't deal damage but instead imposes a Strength saving throw. Those who fail it are pushed back 15 feet from you.</description>
+			When using your breath weapon, you can instead choose to use repulsion gas with the same range. DC {{repulsion gas:dc}}. This gas doesn't deal damage but instead imposes a Strength saving throw. On a failed save, you push the target up to 15 feet away from you.</description>
 		</sheet>
 		<rules>
 			<stat name="innate speed:swim" value="30" bonus="base" />
@@ -443,8 +443,7 @@
 			<p>You gain proficiency in the Performance skill. You know the vicious mockery cantrip, and when you take the Dash action on your turn you can cast it as a bonus action. Charisma is your spellcasting ability for this spell.</p>
 		</description>
 		<sheet>
-			<description>You know the vicious mockery cantrip. Charisma is your spell casting ability for this spell. &#13;
-			When you take the Dash action on your turn you can cast it as a bonus action.</description>
+			<description>When you take the Dash action on your turn you can cast vicious mockery as a bonus action. Charisma is your spell casting ability for this spell.</description>
 		</sheet>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
