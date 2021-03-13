@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Half Dragon Race</name>
+		<description>Half Dragon Race from Children of the Dragon</description>
+		<author>Niels de Jong</author>
+		<update version="0.0.1">
+			<file name="race-halfdragon.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/Children%20of%20the%20Dragon/race-halfdragon.xml" />
+		</update>
+	</info>
+	
+	<element name="Half-Dragon" type="Race" source="Children of the Dragon" id="ID_DMSG_COTD_RACE_HALF_DRAGON">
+		<description>
+			<p class="flavor">“HALF DRAGONS? YEAH, TOTAL FREAKS THOSE GUYS. IMAGINE Dragonborn but then more human. I guess some people will sleep around with just about anyone these days, even dragons. Still I had a few in my party, and I can't argue with their results. Once had a Silver one freeze an Orc solid before he could cleave my head. Now, his look was hilarious!"<br/>— Thorzag, green dyed beardless Dwarf</p>
+			<p class="flavor">Many Dragons are not only fearsome beasts, but renowned masters of magic as well. As such, it is not uncommon for one to change shape and walk among the masses, or even take a mortal lover. The children of such unions are known as Half Dragons. Not quite as monstrous looking as the Dragonborn, but still very much recognizable due to its draconic traits.</p>
+			<h4>PROUD DRAGON HERITAGE</h4>
+			<p>Half Dragons look very similar to their mortal parent, except for the horns and partial scales that cover their bodies, as well as their draconic legs and long tails. However, Half Dragons are more known for their dangerous elemental breaths, as well as the gift of transformation. While only a few Half Dragons can eventually ascend to True Dragonhood, some have been gifted with a "lesser" form that allows them a burst of power as well as the gift of flight for a short period of time.</p>
+			<p class="indent">Half Dragons color patterns are similar to their draconic parent, and in the case of two Half-Dragons having children the child will often be born in a color scheme of either parent. Though occasionally they instead look like one of the other draconic ancestors of the parents, as Half Dragons are strongly drawn to one another and known to quickly make families and communities. They are tall and strongly built, with males often standing close to 6 and a half feet tall and being taller and heavier than females. They also gain an advantage based on which draconic heritage is more dominant for them.</p>
+			<h4>CHALLENGING UPBRINGING</h4>
+			<p>Half Dragons share much of their draconic parent's strength, but they are also vulnerable in the early stages of their long lives. The lucky ones are raised by two Half Dragon parents, who raise them into protected communities. Others are abandoned by the draconic parent or both parents, forced to survive or hope they will get adopted by other Half Dragons or by Dragonborn. Though those with a Metallic Dragon parent are more often than not properly raised and cared for.</p>
+			<p class="indent">Those adopted by Dragonborn are brought in as part of the clan, and are raised to show strong loyalty to their clan. A continual drive for self-improvement reflects the self-sufficiency of the Dragonborn race as a whole, which is then reflected upon the Half Dragon. These Half Dragons value skill and excellence in all endeavors. They hate to fail, and they push themselves to extreme efforts before they give up on something. These Dragonborn raised Half Dragons hold mastery of a particular skill as a lifetime goal, alongside the desire to ascend to Dragonhood. Members of other races who share the same commitment find it easy to earn their respect.</p>
+			<p class="indent">Eventually, all Half Dragons have a universal drive to become stronger. By gaining strength in a multitude of ways, they find that they become more in touch with their draconic heritage, which comes forward in the forms of mastering their elemental breath, or even transforming into a Dragon outright. This form is often not as strong as that of true dragons, except for those that are truly devoted and powerful. Such Half Dragons have "Ascended to Dragonhood", and become true dragons with all their terrifying might. This true dragon form however, is not easy to attain, and requires great devotion and resolve. Those who succeed however, are viewed in very high regards by Half Dragon society.</p>
+			<h4>A GROWING PEOPLE</h4>
+			<p>In the most recent years, Half Dragons have been forming communities at an increasing rate. This has created many Half Dragon families, and in turn many adventurers as well due to their drive to ascent to Dragonhood. Usually however, many Half Dragons will start a family and have children, with the mother being persuaded to take care of the children, while the father goes out and provides for his family. Should the mother choose to become an adventurer, then the grandparents or one of the extended family will often take care of them. While they are few in number, they are rapidly increasing their numbers due to a high fertility rate and big families (contraception is taboo for them, as they have an instinctive desire for survival and feel that every number counts) These communities are protected by their elders, some of whom have already ascended to Dragonhood, and make for formidable opponents.</p>
+			<h4>HALF DRAGON NAMES</h4>
+			<p>Half Dragon names are usually based on the language of its mortal parent, as Draconic names are often much harder to pronounce. Some Half Dragons who are adopted within Dragonborn clans will instead be given a Dragonborn name:</p>
+			<p>
+			<b>Male Names: </b>Arjhan, Balasar, Bharash, Donaar, Ghesh, Heskan, Kriv, Medrash, Mehen, Nadarr, Pandjed, Patrin, Rhogar, Shamash, Shedinn, Tarhun, Torinn
+			<br/>
+			<b>Female Names: </b>Akra, Biri, Daar, Farideh, Harann, Havilar, Jheri, Kava, Korinn, Mishann, Nala, Perra, Raiann, Sora, Surina, Thava, Uadjit
+			<br/>
+			<b>Childhood Names: </b>Climber, Earbender, Leaper, Pious, Shieldbiter, Zealous
+			<br/>
+			<b>Clan Names: </b>Clethtinthiallor, Daardendrian, Delmirev, Drachedandion, Fenkenkabradon, Kepeshkmolik, Kerrhylon, Kimbatuul Linxakasendalor, Myastan, Nemmonis, Norixius, Ophinshtalajiir, Prexijandilin, Shestendeliath, Turnuroth, Verthisathurgiesh, Yarjerit
+			<br/>
+			</p>
+			<h4>HALF DRAGON TRAITS</h4>
+			<p>Your draconic heritage manifests in a variety of traits you share with other Half Dragons.</p>
+			<p>
+			<span class="feature">Age.</span>Half Dragons mature at the same rate as their mortal parent's race, but they can live for hundreds of years, up to 1000 years old A few of those who have transcended into Dragonhood however, have been granted the gift of immortality. Making Dragonhood even more sought out after, but no less difficult to achieve. 
+			<br />
+			<span class="feature">Alignment.</span>Most Half Dragons are similar to Dragonborn and tend to extremes, making a conscious choice for one side or the other in the cosmic war between good and evil (represented by Bahamut and Tiamat, respectively) Most Half Dragons are good, but those who side with Tiamat can be terrible villains.
+			<br />
+			<span class="feature">Size.</span>Half Dragons are often taller and heavier than humans, standing well over 6 feet tall, with males being noticeably bigger than females. Your size is Medium.
+			<br />
+			<span class="feature">Speed.</span>Your base walking speed is 30 feet.
+			<br />
+			<span class="feature">Breath Weapon.</span>Weapon.You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can't use it again until it's recharged at the start of your turn, roll a d6. On a 6, you regain the use of your breath weapon. Otherwise, your breath weapon recharges after 1 minute. 
+			<br />
+			<span class="feature">Languages.</span>You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.
+			<br />
+			<span class="feature">Draconic Ancestry.</span>While most Half Dragons are mixed, they are always divided into a number of different colors that reflect their draconic ancestry, and provides them with unique abilities. Just like True Dragons these colors are not all equally powerful, and some colors have more niche abilities than others. However, no color is exceptionally different in power from others. These colors fall into two categories, the chromatic Black, Blue, Green, Red, and white - and the metallic - Brass, Bronze, Copper, Gold and Silver. Choose one of these subraces. Your breath weapon deals elemental damage of the type associated with your chosen subrace, and you gain Resistance against this damage type as well. In addition your Ability Score increases as described, and you gain an additional Draconic Trait.
+			<br />
+			</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Arjhan, Balasar, Bharash, Donaar, Ghesh, Heskan, Kriv, Medrash, Mehen, Nadarr, Pandjed, Patrin, Rhogar, Shamash, Shedinn, Tarhun, Torinn</set>
+			<set name="names" type="female">Akra, Biri, Daar, Farideh, Harann, Flavilar, Jheri, Kava, Korinn, Mishann, Nala, Perra, Raiann, Sora, Surina, Thava, Uadjit</set>
+			<set name="names" type="childhood">Climber, Earbender, Leaper, Pious, Shieldbiter, Zealous</set>
+			<set name="names" type="clan">Clethtinthiallor, Daardendrian, Delmirev, Drachedandion, Fenkenkabradon, Kepeshkmolik, Kerrhylon, Kimbatuul, Linxakasendalor, Myastan, Nemmonis, Norixius, Ophinshtalajiir, Prexijandilin, Shestendeliath, Turnuroth, Verthisathurgiesh, Yarjerit</set>
+			<set name="names-format">{{name}} {{clan}}</set>
+			<set name="height" modifier="2d8">6'</set>
+			<set name="weight" modifier="2d6">175 lb.</set>
+		</setters>
+		<rules>
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_BREATH_WEAPON" />
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_DAMAGE_RESISTANCE" />
+			<select type="Race Variant" name="Half Dragon Variant" supports="Half Dragon" optional="true" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY">
+		<description>
+			<p>You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.</p>
+			<h5>DRACONIC ANCESTRY</h5>
+			<table>
+				<thead>
+					<tr><td>Dragon</td><td>Damage Type / Resistance</td><td>Breath Weapon</td></tr>
+				</thead>
+				<tr><td>Black</td><td>Acid</td><td>5 by 30 ft. line (Dex. save)</td></tr>
+				<tr><td>Blue</td><td>Lightning</td><td>5 by 30 ft. line (Dex. save)</td></tr>
+				<tr><td>Brass</td><td>Fire</td><td>5 by 30 ft. line (Dex. save)</td></tr>
+				<tr><td>Bronze</td><td>Lightning</td><td>5 by 30 ft. line (Dex. save)</td></tr>
+				<tr><td>Copper</td><td>Acid</td><td>5 by 30 ft. line (Dex. save)</td></tr>
+				<tr><td>Gold</td><td>Fire</td><td>15 ft. cone (Dex. save)</td></tr>
+				<tr><td>Green</td><td>Poison</td><td>15 ft. cone (Con. save)</td></tr>
+				<tr><td>Red</td><td>Fire</td><td>15 ft. cone (Dex. save)</td></tr>
+				<tr><td>Silver</td><td>Cold</td><td>15 ft. cone (Con. save)</td></tr>
+				<tr><td>White</td><td>Cold</td><td>15 ft. cone (Con. save)</td></tr>
+			</table>
+		</description>
+		<rules>
+			<select type="Racial Trait" name="Draconic Ancestry" supports="Draconic Ancestry - Half Dragon" />
+		</rules>
+	</element>
+	<element name="Breath Weapon" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_BREATH_WEAPON">
+		<description>
+			<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases by an additional 1d6 at 5th level, 8th level, 11th level, and 17th level. After you use your breath weapon, you can't use it again until it's recharged. At the start of each of your turns, provided you already used your breath weapon, you can roll a d6. On a 6, you regain the use of your breath weapon. Otherwise, your breath weapon recharges 1 minute after you used it.</p>
+		</description>
+		<sheet action="Action" usage="Recharge 6 on 1d6 or 1 minute">
+			<description>Your breath weapon does {{breath-weapon:dice count}}d{{breath-weapon:dice size}} {{draconic-ancestry:damage type}} damage in a {{draconic-ancestry:breath}} DC {{breath-weapon:dc}} &#13;
+			After you use your breath weapon, you can't use it again until it's recharged. After you use your breath weapon, roll a d6 at the start of each of your turns, on a 6 you regain the use of your breath weapon.</description>
+		</sheet>
+		<rules>
+			<stat name="breath-weapon:dc" value="8" />
+			<stat name="breath-weapon:dc" value="constitution:modifier" />
+			<stat name="breath-weapon:dc" value="proficiency" />
+			<stat name="breath-weapon:dice size" value="6" bonus="dice" />
+			<stat name="breath-weapon:dice count" value="2" />
+			<stat name="breath-weapon:dice count" value="1" level="5" />
+			<stat name="breath-weapon:dice count" value="1" level="8" />
+			<stat name="breath-weapon:dice count" value="1" level="11" />
+			<stat name="breath-weapon:dice count" value="1" level="17" />
+		</rules>
+	</element>
+	<element name="Damage Resistance" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DAMAGE_RESISTANCE">
+		<description>
+			<p>You have resistance to the damage type associated with your draconic ancestry.</p>
+		</description>
+		<sheet>
+			<description>You have resistance to {{draconic-ancestry:damage type}}.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" requirements="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLACK||ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_COPPER" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" requirements="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLUE||ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRONZE" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" requirements="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRASS||ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_GOLD||ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_RED" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" requirements="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_GREEN" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" requirements="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_SILVER||ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_WHITE" />
+		</rules>
+	</element>
+
+
+	<!-- Ancestry Colors (Subrace) -->
+	<element name="Draconic Ancestry (Black)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLACK">
+		<supports>Draconic Ancestry - Half Dragon</supports>
+		<description>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Constitution modifier increases by 2, and your Strength modifier increases by 1.
+				<br />
+				<span class="feature">Unrelenting Force.</span>You add your Constitution modifier to the damage of your breath weapon. This value doubles while you are within your Dragon Form.
+				<br />
+			</p>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Black">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_UNRELENTING_FORCE" />
+			<stat name="constitution" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Half Dragon - Black)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Half Dragon - Black)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat inline="true" name="draconic-ancestry" value="Black"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Acid" />
+			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Blue)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLUE">
+		<supports>Draconic Ancestry - Half Dragon</supports>
+		<description>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Strength, Dexterity, and Constitution scores each increase by 1.
+				<br />
+				<span class="feature">Desert Predator.</span>You have a burrow speed of 15 feet. When you use the Hide action you may immediately burrow.
+				<br />
+			</p>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Blue">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_DESERT_PREDATOR" />
+			<stat name="dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Half Dragon - Blue)" number="3" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat inline="true" name="draconic-ancestry" value="Blue"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Lightning" />
+			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Brass)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRASS">
+		<supports>Draconic Ancestry - Half Dragon</supports>
+		<description>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Strength modifier increases by 2, and your Charisma modifier increases by 1.
+				<br />
+				<span class="feature">Boldly Talkative.</span>You have proficiency in Persuasion, and magic can’t put you to sleep.
+				<br />
+			</p>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Brass">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_BOLDLY_TALKATIVE" />
+			<stat name="strength" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Half Dragon - Brass)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Half Dragon - Brass)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat inline="true" name="draconic-ancestry" value="Brass"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Fire" />
+			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Bronze)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRONZE">
+		<supports>Draconic Ancestry - Half Dragon</supports>
+		<description>
+			<span class="feature">Ability Score Increase.</span>Your Strength, Constitution, and Charisma scores each increase by 1.
+				<br />
+				<span class="feature">Dragon of the Coast.</span>You have a swim speed of 30 feet. You can breathe air and water.
+				<br />
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Bronze">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_DRAGON_OF_THE_COAST" />
+			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Half Dragon - Bronze)" number="3" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat inline="true" name="draconic-ancestry" value="Bronze"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Lightning" />
+			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Copper)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_COPPER">
+		<supports>Draconic Ancestry - Half Dragon</supports>
+		<description>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Charisma modifier increases by 2, and your Strength  modifier increases by 1.
+				<br />
+				<span class="feature">Playful Host.</span>You have proficiency in Performance, and you know the vicious mockery cantrip. Charisma is your spell casting ability for this spell
+				<br />
+			</p>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Copper">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_PLAYFUL_HOST" />
+			<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Half Dragon - Copper)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Half Dragon - Copper)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat inline="true" name="draconic-ancestry" value="Copper"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Acid" />
+			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Gold)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_GOLD">
+		<supports>Draconic Ancestry - Half Dragon</supports>
+		<description>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Wisdom score increases by 2, and your Strength score increases by 1.
+				<br />
+				<span class="feature">Reserved Companion.</span>You have proficiency in Insight. Your racial fire damage (including that in your (true) Dragon Form) becomes radiant damage against Fiends and Undead instead.
+				<br />
+			</p>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Gold">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_RESERVED_COMPANION" />
+			<stat name="wisdom" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Half Dragon - Gold)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Half Dragon - Gold)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat inline="true" name="draconic-ancestry" value="Gold"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Fire" />
+			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Dex. save)" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Green)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_GREEN">
+		<supports>Draconic Ancestry - Half Dragon</supports>
+		<description>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Charisma score increases by 2, and your Strength score increases by 1.
+				<br />
+				<span class="feature">Gifted Trickster.</span>You have proficiency in Deception. You can cast the disguise self spell once with this trait, and regain the ability to cast it this way when you finish a short or long rest. Charisma is your spellcasting ability for this trait.
+				<br />
+			</p>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Green">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_GIFTED_TRICKSTER" />
+			<stat name="intelligence" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Half Dragon - Green)" number="3" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat inline="true" name="draconic-ancestry" value="Green"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Poison" />
+			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Con. save)" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Red)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_RED">
+		<supports>Draconic Ancestry - Half Dragon</supports>
+		<description>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Strength score increases by 2, and your Constitution score increases by 1.
+				<br />
+				<span class="feature">Indomitable.</span>You have advantage on saving throws to avoid being charmed or frightened.
+				<br />
+			</p>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Red">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_INDOMITABLE" />
+			<stat name="strength" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Half Dragon - Red)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Half Dragon - Red)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat inline="true" name="draconic-ancestry" value="Red"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Fire" />
+			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Dex. save)" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Silver)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_SILVER">
+		<supports>Draconic Ancestry - Half Dragon</supports>
+		<description>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Intelligence score increases by 2, and your Strength score increases by 1.
+				<br />
+				<span class="feature">Paralyzing Breath.</span>When using your breath weapon, you may instead choose to target a single creature within 15 feet with paralyzing gas. It doesn't suffer damage, but must succeed at the DC save or be paralyzed until the end of your next turn. Afterwards you may regain this trait after finishing a long rest.
+				<br />
+			</p>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Silver">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_FASCINATED_BY_MORTALS" />
+			<stat name="intelligence" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Half Dragon - Silver)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Half Dragon - Silver)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat inline="true" name="draconic-ancestry" value="Silver"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Cold" />
+			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Con. save)" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (White)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_WHITE">
+		<supports>Draconic Ancestry - Half Dragon</supports>
+		<description>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Constitution score increases by 2, and your Strength score increases by 1.
+				<br />
+				<span class="feature">Skilled Hunter.</span>You have proficiency in Survival. As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.
+				<br />
+			</p>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="White">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_SKILLED_HUNTER" />
+			<stat name="constitution" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Half Dragon - White)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Half Dragon - White)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat inline="true" name="draconic-ancestry" value="White"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Cold" />
+			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Con. save)" />
+		</rules>
+	</element>
+
+
+	<!-- Ancestry Abilities -->
+	<element name="Unrelenting Force" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_UNRELENTING_FORCE">
+		<description>
+			<p>You add your Constitution modifier to the damage of your breath weapon. This value doubles while you are within your Dragon Form.</p>
+		</description>
+		<sheet>
+			<description>You add {{constitution:modifier}} to the damage of your breath weapon. This value doubles while you are within your Dragon Form.</description>
+		</sheet>
+		<rules>
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+		</rules>
+	</element>
+	<element name="Desert Predator" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DESERT_PREDATOR">
+		<description>
+			<p>You gain proficiency in the Stealth skill. As part of the Hide action, you can burrow yourself into non-rock earth, just below the surface. While below the surface, you have a burrow speed of 15 feet (but you can not burrow deeper), you have vision, can breathe freely, count as having three-quarters cover, and you must spend a bonus action to emerge. While you are burrowed, creatures suffer a -5 penalty to their ability checks to find you, provided you are out of combat and not moving.</p>
+		</description>
+		<sheet>
+			<description>As part of the Hide action, you can burrow yourself into non-rock earth, just below the surface. While below the surface, you have a burrow speed of 15 feet (but you can not burrow deeper), you have vision, can breathe freely, count as having three-quarters cover, and you must spend a bonus action to emerge. While you are burrowed, creatures suffer a -5 penalty to their ability checks to find you, provided you are out of combat and not moving.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed:burrow" value="15" bonus="base" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+	<element name="Boldly Talkative" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_BOLDLY_TALKATIVE">
+		<description>
+			<p>You gain proficiency in the Persuasion skill. You can cast the tongues spell once, but only on yourself, and with a duration of 30 minutes. You regain the ability to cast the spell this way after finishing a long rest.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>You can cast the tongues spell once, but only on yourself, and with a duration of 30 minutes.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency (Boldly Talkative)" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+	<element name="Dragon of the Coast" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRAGON_OF_THE_COAST">
+		<description>
+			<p>You have a swim speed of 30 feet, and can breathe air and water. When using your breath weapon, you can instead choose to use repulsion gas with the same range and DC. This gas doesn't deal damage but instead imposes a Strength saving throw. Those who fail it are pushed back 15 feet from you. This special DC increases by 1 for each additional 1d6 damage on your breath weapon.</p>
+		</description>
+		<sheet>
+			<description>You can breathe air and water.  &#13;
+			When using your breath weapon, you can instead choose to use repulsion gas with the same range. DC {{repulsion gas:dc}}. This gas doesn't deal damage but instead imposes a Strength saving throw. On a failed save, you push the target up to 15 feet away from you.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed:swim" value="30" bonus="base" />
+			<stat name="repulsion gas:dc" value="breath-weapon:dc" />
+			<stat name="repulsion gas:dc" value="-2" />
+			<stat name="repulsion gas:dc" value="breath-weapon:dice count" />
+		</rules>
+	</element>
+	<element name="Playful Host" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_PLAYFUL_HOST">
+		<description>
+			<p>You gain proficiency in the Performance skill. You know the vicious mockery cantrip, and when you take the Dash action on your turn you can cast it as a bonus action. Charisma is your spellcasting ability for this spell.</p>
+		</description>
+		<sheet>
+			<description>When you take the Dash action on your turn you can cast vicious mockery as a bonus action. Charisma is your spell casting ability for this spell.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency (Playful Host)" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<grant type="Spell" id="ID_PHB_SPELL_VICIOUS_MOCKERY" />
+		</rules>
+	</element>
+	<element name="Reserved Companion" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_RESERVED_COMPANION">
+		<description>
+			<p>You gain proficiency in the Insight skill. Whenever you would deal fire damage to fiends and undead creatures, you deal radiant damage instead.</p>
+		</description>
+		<sheet>
+			<description>Whenever you would deal fire damage to fiends and undead creatures, you deal radiant damage instead.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency (Reserved Companion)" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+	<element name="Gifted Trickster" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_GIFTED_TRICKSTER">
+		<description>
+			<p>You gain proficiency in the Deception skill. You can cast the disguise self spell once with this trait, appearing up to 2 feet shorter or taller than normal with it, and regain the ability to cast it this way when you finish a short or long rest. Charisma is your spellcasting ability for this spell.</p>
+		</description>
+		<sheet usage="1/Short or Long Rest">
+			<description>You can cast the disguise self spell once with this trait, appearing up to 2 feet shorter or taller than normal with it. Charisma is your spellcasting ability for this spell.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency (Gifted Trickster)" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+	<element name="Indomitable" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_INDOMITABLE">
+		<description>
+			<p>You gain proficiency in the Intimidation skill. You have advantage on saving throws to avoid being charmed or frightened.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws to avoid being charmed or frightened.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency (Indomitable)" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+	<element name="Fascinated by Mortals" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_FASCINATED_BY_MORTALS">
+		<description>
+			<p>You gain proficiency in the History skill. When using your breath weapon, you can instead choose to target a single creature within 15 feet with numbing gas. The creature doesn't suffer damage, but must succeed at the saving throw or be stunned until the end of your next turn. This special DC increases by 1 for each additional 1d6 damage on your breath weapon. You can regain this trait after finishing a long rest.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>When using your breath weapon, you can instead choose to target a single creature within 15 feet with numbing gas. The creature doesn't suffer damage, but must succeed a Constitution saving throw (DC {{stun gas:dc}}) or be stunned until the end of your next turn. </description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_HISTORY" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency (Fascinated by Mortals)" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<stat name="stun gas:dc" value="breath-weapon:dc" />
+			<stat name="stun gas:dc" value="-2" />
+			<stat name="stun gas:dc" value="breath-weapon:dice count" />
+		</rules>
+	</element>
+	<element name="Skilled Hunter" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_SKILLED_HUNTER">
+		<description>
+			<p>You have proficiency in Survival. As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>You can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency (Skilled Hunter)" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+
+
+	
+</elements>
