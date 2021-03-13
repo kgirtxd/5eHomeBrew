@@ -101,21 +101,22 @@
 	</element>
 	<element name="Breath Weapon" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_BREATH_WEAPON">
 		<description>
-			<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p>
-			<p>After you use your breath weapon, you can't use it again +until it's recharged At the start of your turn, roll a d6. On a 6, you regain the use of your breath weapon. Otherwise, your breath weapon recharges after1 minute.</p>
+			<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases by an additional 1d6 at 5th level, 8th level, 11th level, and 17th level. After you use your breath weapon, you can't use it again until it's recharged. At the start of each of your turns, provided you already used your breath weapon, you can roll a d6. On a 6, you regain the use of your breath weapon. Otherwise, your breath weapon recharges 1 minute after you used it.</p>
 		</description>
 		<sheet action="Action" usage="Recharge 6 on 1d6 or 1 minute">
-			<description>Exhale destructive energy. Your breath weapon does {{breath-weapon:dice count}}d{{breath-weapon:dice size}} {{draconic-ancestry:damage type}} damage in a {{draconic-ancestry:breath}} DC {{breath-weapon:dc}}</description>
+			<description>Your breath weapon does {{breath-weapon:dice count}}d{{breath-weapon:dice size}} {{draconic-ancestry:damage type}} damage in a {{draconic-ancestry:breath}} DC {{breath-weapon:dc}} &#13;
+			After you use your breath weapon, you can't use it again until it's recharged At the start of your turn, roll a d6. On a 6, you regain the use of your breath weapon. Otherwise, your breath weapon recharges after 1 minute.</description>
 		</sheet>
 		<rules>
 			<stat name="breath-weapon:dc" value="8" />
 			<stat name="breath-weapon:dc" value="constitution:modifier" />
 			<stat name="breath-weapon:dc" value="proficiency" />
 			<stat name="breath-weapon:dice size" value="6" bonus="dice" />
-			<stat name="breath-weapon:dice count" value="2" level="1" />
-			<stat name="breath-weapon:dice count" value="1" level="6" />
+			<stat name="breath-weapon:dice count" value="2" />
+			<stat name="breath-weapon:dice count" value="1" level="5" />
+			<stat name="breath-weapon:dice count" value="1" level="8" />
 			<stat name="breath-weapon:dice count" value="1" level="11" />
-			<stat name="breath-weapon:dice count" value="1" level="16" />
+			<stat name="breath-weapon:dice count" value="1" level="17" />
 		</rules>
 	</element>
 	<element name="Damage Resistance" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DAMAGE_RESISTANCE">
@@ -300,10 +301,10 @@
 		</sheet>
 		<rules>
 			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_GIFTED_TRICKSTER" />
-			<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="intelligence" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Half Dragon - Green)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Half Dragon - Green)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Half Dragon - Green)" number="3" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<stat inline="true" name="draconic-ancestry" value="Green"/>
 			<stat inline="true" name="draconic-ancestry:damage type" value="Poison" />
 			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Con. save)" />
@@ -349,7 +350,7 @@
 			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
 		</sheet>
 		<rules>
-			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_PARALYZING_BREATH" />
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_FASCINATED_BY_MORTALS" />
 			<stat name="intelligence" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Half Dragon - Silver)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
@@ -394,24 +395,28 @@
 		<sheet>
 			<description>You add {{constitution:modifier}} to the damage of your breath weapon. This value doubles while you are within your Dragon Form.</description>
 		</sheet>
+		<rules>
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+		</rules>
 	</element>
 	<element name="Desert Predator" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DESERT_PREDATOR">
 		<description>
-			<p>You have a burrow speed of 15 feet. When you use the Hide action you may immediately burrow yourself just below the surface into sand or loose soil Creatures that attempt to detect you while you are burrowed take a -5 penalty to their ability checks to find you, as long as you remain there without moving or taking actions. While burrowed near the surface you have vision, may breathe freely, and may emerge as a bonus action.</p>
+			<p>You gain proficiency in the Stealth skill. As part of the Hide action, you can burrow yourself into non-rock earth, just below the surface. While below the surface, you have a burrow speed of 15 feet (but you can not burrow deeper), you have vision, can breathe freely, count as having three-quarters cover, and you must spend a bonus action to emerge. While you are burrowed, creatures suffer a -5 penalty to their ability checks to find you, provided you are out of combat and not moving.</p>
 		</description>
 		<sheet>
-			<description>You have a burrow speed of 15 feet. When you use the Hide action you may immediately burrow yourself just below the surface into sand or loose soil Creatures that attempt to detect you while you are burrowed take a -5 penalty to their ability checks to find you, as long as you remain there without moving or taking actions. While burrowed near the surface you have vision, may breathe freely, and may emerge as a bonus action.</description>
+			<description>As part of the Hide action, you can burrow yourself into non-rock earth, just below the surface. While below the surface, you have a burrow speed of 15 feet (but you can not burrow deeper), you have vision, can breathe freely, count as having three-quarters cover, and you must spend a bonus action to emerge. While you are burrowed, creatures suffer a -5 penalty to their ability checks to find you, provided you are out of combat and not moving.</description>
 		</sheet>
 		<rules>
 			<stat name="innate speed:burrow" value="15" bonus="base" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 		</rules>
 	</element>
 	<element name="Boldly Talkative" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_BOLDLY_TALKATIVE">
 		<description>
-			<p>You have proficiency in Persuasion, and magic can’t put you to sleep.</p>
+			<p>You gain proficiency in the Persuasion skill. You can cast the tongues spell once, but only on yourself, and with a duration of 30 minutes. You regain the ability to cast the spell this way after finishing a long rest.</p>
 		</description>
-		<sheet>
-			<description>You have proficiency in Persuasion, and magic can’t put you to sleep.</description>
+		<sheet usage="1/Long Rest">
+			<description>You can cast the tongues spell once, but only on yourself, and with a duration of 30 minutes.</description>
 		</sheet>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
@@ -420,34 +425,39 @@
 	</element>
 	<element name="Dragon of the Coast" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRAGON_OF_THE_COAST">
 		<description>
-			<p>You have a swim speed of 30 feet. You can breathe air and water.</p>
+			<p>You have a swim speed of 30 feet, and can breathe air and water. When using your breath weapon, you can instead choose to use repulsion gas with the same range and DC. This gas doesn't deal damage but instead imposes a Strength saving throw. Those who fail it are pushed back 15 feet from you. This special DC increases by 1 for each additional 1d6 damage on your breath weapon.</p>
 		</description>
 		<sheet>
-			<description>You have a swim speed of 30 feet. You can breathe air and water.</description>
+			<description>You can breathe air and water.  &#13;
+			When using your breath weapon, you can instead choose to use repulsion gas with the same range. DC {{repulsion gas:dc}}. This gas doesn't deal damage but instead imposes a Strength saving throw. Those who fail it are pushed back 15 feet from you.</description>
 		</sheet>
 		<rules>
 			<stat name="innate speed:swim" value="30" bonus="base" />
+			<stat name="repulsion gas:dc" value="breath-weapon:dc" />
+			<stat name="repulsion gas:dc" value="-2" />
+			<stat name="repulsion gas:dc" value="breath-weapon:dice count" />
 		</rules>
 	</element>
 	<element name="Playful Host" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_PLAYFUL_HOST">
 		<description>
-			<p>You have proficiency in Performance, and you know the vicious mockery cantrip. Charisma is your spell casting ability for this spell.</p>
+			<p>You gain proficiency in the Performance skill. You know the vicious mockery cantrip, and when you take the Dash action on your turn you can cast it as a bonus action. Charisma is your spellcasting ability for this spell.</p>
 		</description>
 		<sheet>
-			<description>You have proficiency in Performance, and you know the vicious mockery cantrip. Charisma is your spell casting ability for this spell.</description>
+			<description>You know the vicious mockery cantrip. Charisma is your spell casting ability for this spell. &#13;
+			When you take the Dash action on your turn you can cast it as a bonus action.</description>
 		</sheet>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 			<select type="Proficiency" name="Customized Skill Proficiency (Playful Host)" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
-			<grant type="Spell" id="ID_PHB_SPELL_VICIOUS_MOCKERY" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_VICIOUS_MOCKERY" />
 		</rules>
 	</element>
 	<element name="Reserved Companion" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_RESERVED_COMPANION">
 		<description>
-			<p>You have proficiency in Insight. Your racial fire damage (including that in your (true) Dragon Form) becomes radiant damage against Fiends and Undead instead.</p>
+			<p>You gain proficiency in the Insight skill. Whenever you would deal fire damage to fiends and undead creatures, you deal radiant damage instead.</p>
 		</description>
 		<sheet>
-			<description>You have proficiency in Insight. Your racial fire damage (including that in your (true) Dragon Form) becomes radiant damage against Fiends and Undead instead.</description>
+			<description>Whenever you would deal fire damage to fiends and undead creatures, you deal radiant damage instead.</description>
 		</sheet>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
@@ -456,39 +466,49 @@
 	</element>
 	<element name="Gifted Trickster" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_GIFTED_TRICKSTER">
 		<description>
-			<p>You have proficiency in Deception. You can cast the disguise self spell once with this trait, and regain the ability to cast it this way when you finish a short or long rest. Charisma is your spellcasting ability for this trait.</p>
+			<p>You gain proficiency in the Deception skill. You can cast the disguise self spell once with this trait, appearing up to 2 feet shorter or taller than normal with it, and regain the ability to cast it this way when you finish a short or long rest. Charisma is your spellcasting ability for this spell.</p>
 		</description>
-		<sheet>
-			<description>You have proficiency in Deception. You can cast the disguise self spell once with this trait, and regain the ability to cast it this way when you finish a short or long rest. Charisma is your spellcasting ability for this trait.</description>
+		<sheet usage="1/Short or Long Rest">
+			<description>You can cast the disguise self spell once with this trait, appearing up to 2 feet shorter or taller than normal with it. Charisma is your spellcasting ability for this spell.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_DISGUISE_SELF" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 			<select type="Proficiency" name="Customized Skill Proficiency (Gifted Trickster)" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 		</rules>
 	</element>
 	<element name="Indomitable" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_INDOMITABLE">
 		<description>
-			<p>You have advantage on saving throws to avoid being charmed or frightened.</p>
+			<p>You gain proficiency in the Intimidation skill. You have advantage on saving throws to avoid being charmed or frightened.</p>
 		</description>
 		<sheet>
 			<description>You have advantage on saving throws to avoid being charmed or frightened.</description>
 		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency (Indomitable)" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
 	</element>
-	<element name="Paralyzing Breath" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_PARALYZING_BREATH">
+	<element name="Fascinated by Mortals" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_FASCINATED_BY_MORTALS">
 		<description>
-			<p>When using your breath weapon, you may instead choose to target a single creature within 15 feet with paralyzing gas. It doesn't suffer damage, but must succeed at the DC save or be paralyzed until the end of your next turn. Afterwards you may regain this trait after finishing a long rest.</p>
+			<p>You gain proficiency in the History skill. When using your breath weapon, you can instead choose to target a single creature within 15 feet with numbing gas. The creature doesn't suffer damage, but must succeed at the saving throw or be stunned until the end of your next turn. This special DC increases by 1 for each additional 1d6 damage on your breath weapon. You can regain this trait after finishing a long rest.</p>
 		</description>
-		<sheet>
-			<description>When using your breath weapon, you may instead choose to target a single creature within 15 feet with paralyzing gas. It doesn't suffer damage, but must succeed at the DC save or be paralyzed until the end of your next turn. Afterwards you may regain this trait after finishing a long rest.</description>
+		<sheet usage="1/Long Rest">
+			<description>When using your breath weapon, you can instead choose to target a single creature within 15 feet with numbing gas. The creature doesn't suffer damage, but must succeed a Constitution saving throw (DC {{stun gas:dc}}) or be stunned until the end of your next turn. </description>
 		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_HISTORY" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency (Fascinated by Mortals)" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<stat name="stun gas:dc" value="breath-weapon:dc" />
+			<stat name="stun gas:dc" value="-2" />
+			<stat name="stun gas:dc" value="breath-weapon:dice count" />
+		</rules>
 	</element>
 	<element name="Skilled Hunter" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_SKILLED_HUNTER">
 		<description>
 			<p>You have proficiency in Survival. As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.</p>
 		</description>
-		<sheet>
-			<description>You have proficiency in Survival. As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.</description>
+		<sheet action="Bonus Action">
+			<description>You can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.</description>
 		</sheet>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
@@ -497,56 +517,5 @@
 	</element>
 
 
-	<!-- Feats -->
-	<element name="Improved Breath Weapon" type="Feat" source="Children of the Dragon" id="ID_DMSG_COTD_FEAT_IMPROVED_BREATH_WEAPON">
-		<prerequisite>Half-Dragon, 4th level</prerequisite>
-		<requirements>[level:4],ID_HB_RACE_HALF_DRAGON</requirements>
-		<description>
-			<p>Requirements: Half-Dragon, 4th Level</p>
-			<p>Extensive training has granted you greater control over your breath weapon, allowing you to use it more quickly and more frequently.</p>
-			<ul>
-				<li>You may use your breath weapon as a bonus action.</li>
-				<li>If you choose to use your action for your breath weapon instead of your bonus action, then it's damage is increased by 1d6 and it's range is doubled.</li>
-				<li>You regain the use of your breath weapon on a 5 or 6 on the d6 dice roll.</li>
-			</ul>
-			<p>You may not benefit from this feat during your True Dragon Form epic boon.</p>
-		</description>
-		<sheet>
-			<description>You may use your breath weapon as a bonus action. If you choose to use your action for your breath weapon instead of your bonus action, then it's damage is increased by 1d6 and it's range is doubled. You regain the use of your breath weapon on a 5 or 6 on the d6 dice roll. You may not benefit from this feat during your True Dragon Form epic boon.</description>
-		</sheet>
-	</element>
-	<element name="Dragon Form" type="Feat" source="Children of the Dragon" id="ID_DMSG_COTD_FEAT_DRAGON_FORM">
-		<prerequisite>Half-Dragon, 4th level</prerequisite>
-		<requirements>[level:4],ID_HB_RACE_HALF_DRAGON</requirements>
-		<description>
-			<p>Requirements: Half-Dragon, 4th Level</p>
-			<p>You are blessed by either Bahamut or Tiamat, granting you a lesser Dragon form of your Draconic Ancestry's chosen dragon.</p>
-			<ul>
-				<li>You gain 10 ft blindsight.</li>
-				<li>You can use your bonus action to change into a 8 feet tall medium sized form of your ancestral dragon. Your transformation lasts for 1 minute or until you end it as a bonus action. During this form you gain a flying speed of 30 feet, your breath weapon deals 1d6 additional damage, and you gain a bite attack as a unarmed strike which deals 1d10 piercing damage. Your bite also counts as a finesse weapon. In addition, once per turn you may deal bonus damage of your chosen damage type to a single target you've damaged, for an amount equal to your level You may regain this form when you finish a long rest. During this transformation your AC and other defensive boons remain the same (your scaled body parts can be used as your shield) however your AC cannot be lower than 15 + your dexterity modifier. Your weapons merge with you, and the magical bonuses of your equipped melee weapon(s) are transferred to your bite attack. In addition, for each minute that you haven't entered combat while in this form, you may extend it's duration by 1 minute, up to 10 minutes total.</li>
-				<li>If you ascend to Dragonhood then your True Dragon form will replace this Dragon Form. In which case you may choose a new feat immediately instead of this one.</li>
-			</ul>
-		</description>
-		<sheet>
-			<description>You gain 10 ft blindsight. You can use your bonus action to change into a 8 feet tall medium sized form of your ancestral dragon. Your transformation lasts for 1 minute or until you end it as a bonus action. During this form you gain a flying speed of 30 feet, your breath weapon deals 1d6 additional damage, and you gain a bite attack as a unarmed strike which deals ldlO piercing damage. Your bite also counts as a finesse weapon. In addition, once per turn you may deal bonus damage of your chosen damage type to a single target you've damaged, for an amount equal to your level You may regain this form when you finish a long rest. During this transformation your AC and other defensive boons remain the same (your scaled body parts can be used as your shield) however your AC cannot be lower than 15+ your dexterity modifier. Your weapons merge with you, and the magical bonuses of your equipped melee weapon(s) are transferred to your bite attack. In addition, for each minute that you haven't entered combat while in this form, you may extend it's duration by 1 minute, up to 10 minutes total.</description>
-		</sheet>
-	</element>
-	<element name="True Dragon Form" type="Feat" source="Children of the Dragon" id="ID_DMSG_COTD_FEAT_TRUE_DRAGON_FORM">
-		<prerequisite>Half-Dragon, 20th level</prerequisite>
-		<requirements>[level:20],ID_HB_RACE_HALF_DRAGON</requirements>
-		<description>
-			<p>Requirements: Half-Dragon, 20th Level</p>
-			<h4>Epic Boon: Ascending to Dragonhood</h4>
-			<p>All Half Dragons seek to ascend to their Dragonhood gaining the form and power of a true Dragon of their chosen draconic Ancestry type. The following boon is only granted with the permission of the DM, and as such the following rules are directed at him:</p>
-			<p>If you (the DM) are using the Epic Boons optional rule from the DMG, then once the half dragon player reaches level 20, you (the DM) may wish to allow them to begin research, training or tribulations which, if completed, would grant them the following Epic Boon:</p>
-			<h4>True Dragon Form</h4>
-			<ul>
-				<li>You may now cast true polymorph once without expending a spell slot, but it only targets yourself and you must change into your chosen Dragon type. You may exit this form as a bonus action, and after losing this form you regain the ability to cast the spell in this way when you finish a long rest.</li>
-				<li>This replaces your Dragon Form transformation if you have taken the Dragon Form feat.</li>
-			</ul>
-		</description>
-		<sheet>
-			<description>You may now cast true polymorph once without expending a spell slot, but it only targets yourself and you must change into your chosen Dragon type. You may exit this form as a bonus action, and after losing this form you regain the ability to cast the spell in this way when you finish a long rest.</description>
-		</sheet>
-	</element>
+	
 </elements>
