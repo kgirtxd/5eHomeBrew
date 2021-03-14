@@ -4,7 +4,7 @@
 		<name>Wildfire Circle Spells</name>
 		<description></description>
 		<author>Konard</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="Kon-OCF-Druid-WildfireSpells.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-OCF-Druid-WildfireSpells.xml" />
 		</update>
 	</info>
@@ -49,7 +49,7 @@
 		</spellcasting>
 	</element>
 
-	<element name="Druid, LV02: Wildfire Circle Spells" type="Item" source="Konard's Bag of Stuff" id="ID_WOTC_TCOE_ITEM_OCF_DRUID_ADDITIONAL_DRUID_SPELLS">
+	<element name="Druid, LV02: Wildfire Circle Spells" type="Item" source="Konard's Bag of Stuff" id="ID_WOTC_TCOE_ITEM_OCF_DRUID_WILDFIRE_CIRCLE_SPELLS">
 		<compendium display="false" />
 		<description>
 			<p>Bridges the gap between the UA and TCoE versions of the Wildfire Druid's Circle Spells feature.</p>
