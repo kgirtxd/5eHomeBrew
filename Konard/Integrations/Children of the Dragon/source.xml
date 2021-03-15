@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.1">
+			<file name="source.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/source.xml" />
+		</update>
+	</info>
+	<element name="Children of the Dragon" type="Source" source="Core" id="ID_DMSG_COTD_SOURCE_CHILDREN_OF_THE_DRAGON">
+		<description>
+			<![CDATA[<h5>Children of the Dragon, Draconic Player Races and Subclasses</h5><p>Hello everyone, this is the sequel to my Half Dragon player race homebrew, which I posted about 7 months ago. I have been working on this project for almost a year, as I wanted to combine all the dragon themed homebrew which I created and playtested over the years with everyone.</p><p>It includes the Half Dragon player race, as well as the revised Dragonborn, revised Kobold, and revised Lizardfolk player races. It also contains numerous subclasses for those that want a more dragon themed character. As well as a thoroughly playtested spell list and magical items, among others.</p><p>This project started as a gift for a friend of mine, and over time I started working more and more on it, and adding new content. It contains artworks by several talented artists, who helped bring my ideas to live. As well as several collaborations from other talented homebrew makers.</p><p>I hope you all like it, and feel that it is worth purchasing. I added that you can buy it for whatever price you feel it is worth, as I don't want to force people to pay for this. But anything you could spare would of course be greatly appreciated, and would go towards paying for the expenses of the artworks :)</p><p>Also, if you have any questions, or ideas for a future update, please don't hesitate to tell me! You can join my discord server where you can share them, as well as find my WIP's and the commissioned artwork that I used for my project: https://discord.gg/mBmKcp6E3s</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">COTD</set>
+			<set name="url">https://www.dmsguild.com/product/332923/Children-of-the-Dragon-Draconic-Player-Races-and-Subclasses</set>
+			<set name="image">https://dtrpg-public-files.s3.us-east-2.amazonaws.com/images/8957/332923.png</set>
+			<set name="author" abbreviation="NDJ">Niels de Jong</set>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+</elements>

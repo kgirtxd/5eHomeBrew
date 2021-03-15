@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Dragonforged Race</name>
+		<description>Dragonforged Race from Children of the Dragon.</description>
+		<author>Niels de Jong</author>
+		<update version="0.0.1">
+			<file name="race-dragonforged.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/Children%20of%20the%20Dragon/race-dragonforged.xml" />
+		</update>
+	</info>
+
+	<element name="Dragonforged" type="Race" source="Children of the Dragon" id="ID_DMSG_COTD_RACE_DRAGONFORGED">
+		<description>
+			<p>Dragonforged are modified warforged, and considered the pinnacle of dragonborn crafting. The creation of these dragonforged was commissioned by several legions, who sought to create loyal and stalwart sentries against enemies that relied heavily on ambush tactics and assassinations. These modifications include darkvision, a "breath weapon" which launches several metal shards, and a restoration system that allows them to be more easily revived after battle. However, this came at the cost of their specialized design, and their new restoration system had a significant flaw; it conflicted with their integrated protection, and limited restoration magic from sources other than itself, as the system saw those as an outside threat while the dragonforged was in combat. Nevertheless, this flaw was accepted as many saw it at as a way of self reliance, which is considered a great virtue among dragonborn. The legions considered the project a great success, as they became known as efficient sentries, guards, and vanguard. Once they gained sentience, the dragonborn openly welcomed them in their societies, due to the merit they had shown in their shared battles. Now these dragonforged must find their own place in this world, or they can remain in the service of their creators, which many do.</p>
+			<h4>Dragonforged Traits</h4>
+			<p></p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2, and one other ability score of your choice increases by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> A typical warforged is between two and thirty years old. The maximum warforged lifespan remains a mystery; so far, warforged have shown no signs of deterioration due to age. You are immune to magical aging effects.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Most warforged take comfort in order and discipline, tending toward law and neutrality. But some have absorbed the morality, or lack thereof, of the beings with which they served.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Your size is Medium. To set your height and weight randomly, start with rolling a size modifier:</p>
+			<p style="margin-left:10px;padding-bottom:10px;">Size modifier = 2d6<br/>Height = 5 feet + 10 inches + your size modifier in inches<br/>Weight in pounds = 270 + (4 x your size modifier)</p>
+			<p class="indent"><strong><em>Breath Weapon.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Constructed Resilience.</em></strong> You were created to have remarkable fortitude, represented by the following benefits:</p>
+			<ul>
+				<li>You have advantage on saving throws against being poisoned, and you have resistance to poison damage.</li>
+				<li>You don’t need to eat, drink, or breathe.</li>
+				<li>You are immune to disease.</li>
+				<li>You don’t need to sleep, and magic can’t put you to sleep.</li>
+			</ul>
+			<p class="indent"><strong><em>Sentry’s Rest.</em></strong> When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn’t render you unconscious, and you can see and hear as normal.</p>
+			<p class="indent"><strong><em>Integrated Protection.</em></strong> Your body has built-in defensive layers, which can be enhanced with armor:</p>
+			<ul>
+				<li>You gain a +1 bonus to Armor Class.</li>
+				<li>You can don only armor with which you have proficiency. To don armor other than shield, you must incorporate it into your body over the course of 1 hour, during which you remain in contact with the armor. To doff armor, you must spend 1 hour removing it. You can rest while donning or doffing armor in this way.</li>
+				<li>While you live, the armor incorporated into your body can’t be removed against your will.</li>
+			</ul>
+			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can only discern shades of gray in darkness.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> You go through a process every time you rest in which you shed metal on the inside and it is collected inside your "stomach". You can use your bonus action to exhale these shards of metal in a 15 foot cone. When you use your breath weapon, each creature in the area of the exhalation must make a Dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 piercing damage on a failed save, and half as much damage on a successful one. The damage increases by an additional 1d6 at 5th level, 8th level, 11th level, and 17th level. You regain the use of your breath weapon after finishing a short or long rest. While wearing magical armor, these shards count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage, and you add double the armor's magic AC bonus (if any) as additional damage to this breath weapon.</p>
+			<p class="indent"><strong><em>Flawed Restoration System.</em></strong> While you are in combat, any healing you receive from other creatures is halved. If a spell, such as raise dead, has the sole effect of restoring you to life (but not undeath), then the caster doesn't need material components to cast the spell on you. In addition, these spells can be used to resurrect you within 1 day if the original time limit was shorter (such as the revivify spell). While unconscious, when you become stable you regain 1 hit point after 1 minute.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Draconic</p>
+			<p><strong><em>You can attune to magic items that require attunement by a dragonborn.</em></strong></p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Ability Score Increase, Dragonforged" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Dragonforged)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Dragonforged)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Racial Trait" id="ID_WOTC_ERLW_RACIAL_TRAIT_WARFORGED_CONSTRUCTED_RESILIENCE" />
+			<grant type="Racial Trait" id="ID_WOTC_ERLW_RACIAL_TRAIT_WARFORGED_SENTRYS_REST" />
+			<grant type="Racial Trait" id="ID_WOTC_ERLW_RACIAL_TRAIT_WARFORGED_INTEGRATED_PROTECTION" />
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_BREATH_WEAPON" />
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_FLAWED_RESTORATION_SYSTEM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+		</rules>
+	</element>
+
+	<element name="Breath Weapon" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_BREATH_WEAPON">
+		<description>
+			<p>You go through a process every time you rest in which you shed metal on the inside and it is collected inside your "stomach". You can use your bonus action to exhale these shards of metal in a 15 foot cone. When you use your breath weapon, each creature in the area of the exhalation must make a Dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 piercing damage on a failed save, and half as much damage on a successful one. The damage increases by an additional 1d6 at 5th level, 8th level, 11th level, and 17th level. You regain the use of your breath weapon after finishing a short or long rest.</p>
+			<p>While wearing magical armor, these shards count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage, and you add double the armor's magic AC bonus (if any) as additional damage to this breath weapon.</p>
+		</description>
+		<sheet action="Bonus Action" usage="1/Short or Long Rest">
+			<description>Exhale destructive energy. Your breath weapon does {{df breath weapon:die}}d6 piercing damage in a 15ft cone DC {{df breath weapon:dc}}</description>
+		</sheet>
+		<rules>
+			<stat name="df breath weapon:dc" value="8" />
+			<stat name="df breath weapon:dc" value="proficiency" />
+			<stat name="df breath weapon:dc" value="constitution:modifier" />
+			<stat name="df breath weapon:die" value="2" />
+			<stat name="df breath weapon:die" value="1" level="5" />
+			<stat name="df breath weapon:die" value="1" level="8" />
+			<stat name="df breath weapon:die" value="1" level="11" />
+			<stat name="df breath weapon:die" value="1" level="17" />
+		</rules>
+	</element>
+
+	<element name="Flawed Restoration System" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_FLAWED_RESTORATION_SYSTEM">
+		<description>
+			<p>While you are in combat, any healing you receive from other creatures is halved.</p>
+			<p>If a spell, such as raise dead, has the sole effect of restoring you to life (but not undeath), then the caster doesn't need material components to cast the spell on you. In addition, these spells can be used to resurrect you within 1 day if the original time limit was shorter (such as the revivify spell). While unconscious, when you become stable you regain 1 hit point after 1 minute.</p>
+		</description>
+		<sheet>
+			<description>While you are in combat, any healing you receive from other creatures is halved. If a spell, such as raise dead, has the sole effect of restoring you to life (but not undeath), then the caster doesn't need material components to cast the spell on you. In addition, these spells can be used to resurrect you within 1 day if the original time limit was shorter (such as the revivify spell). While unconscious, when you become stable you regain 1 hit point after 1 minute.</description>
+		</sheet>
+	</element>
+
+
+</elements>

@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Dragonborn Revised</name>
+		<description>Dragonborn Race Revision from Children of the Dragon.</description>
+		<author>Niels de Jong</author>
+		<update version="0.0.1">
+			<file name="race-dragonborn-revised.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/Children%20of%20the%20Dragon/race-dragonborn-revised.xml" />
+		</update>
+	</info>
+	
+	<element name="Dragonborn (Revised)" type="Race" source="Children of the Dragon" id="ID_DMSG_COTD_RACE_DRAGONBORN_REVISED">
+		<description>
+			<p class="flavor">Born of dragons, as their name proclaims, the dragonborn walk proudly through a world that greets them with fearful incomprehension. Shaped by draconic gods or the dragons themselves, dragonborn were created with the essence of true dragons as a unique race, combining the best attributes of dragons and humanoids. Some dragonborn (reluctantly) serve true dragons, others form the ranks of soldiers in great wars, and still others find themselves adrift, with no clear calling in life. The blood of a dragon runs strong through all dragonborn. A dragonborn’s color imparts many traits upon them, including varying types of breath weapon, as well as scales that closely match those of their dragon ancestor — bright red, green, blue, or white, lustrous black, or gleaming metallic gold, silver, brass, copper, or bronze. In addition, each dragonborn possesses a fragment of what makes up a true dragon. Those whose fragment grants them a tail are often shunned, due to it being considered a bad omen for a dragonborn to have a tail.</p>
+			<h4>DRAGONBORN NAMES</h4>
+			<p>Dragonborn have personal names given at birth, but they put their clan names first as a mark of honor. A childhood name or nickname is often used among clutchmates as a descriptive term or a term of endearment. The name might recall an event or center on a habit.</p>
+			<p>
+			<b>Male Names: </b>Arjhan, Balasar, Bharash, Donaar, Ghesh, Heskan, Kriv, Medrash, Mehen, Nadarr, Pandjed, Patrin, Rhogar, Shamash, Shedinn, Tarhun, Torinn
+			<br/>
+			<b>Female Names: </b>Akra, Biri, Daar, Farideh, Harann, Flavilar, Jheri, Kava, Korinn, Mishann, Nala, Perra, Raiann, Sora, Surina, Thava, Uadjit
+			<br/>
+			<b>Childhood Names: </b>Climber, Earbender, Leaper, Pious, Shieldbiter, Zealous
+			<br/>
+			<b>Clan Names: </b>Clethtinthiallor, Daardendrian, Delmirev, Drachedandion, Fenkenkabradon, Kepeshkmolik, Kerrhylon, Kimbatuul, Linxakasendalor, Myastan, Nemmonis, Norixius, Ophinshtalajiir, Prexijandilin, Shestendeliath, Turnuroth, Verthisathurgiesh, Yarjerit
+			<br/>
+			</p>
+			<h4>DRAGONBORN TRAITS</h4>
+			<p></p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 2. One score, based on your draconic ancestry, increases by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Dragonborn tend to extremes, making a conscious choice for one side or the other in the cosmic war between good and evil (represented by Bahamut and Tiamat, respectively). Most dragonborn are good, but those who side with Tiamat can be terrible villains.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Draconic Ancestry.</em></strong> You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon (shape, range and damage type), damage resistance, and ability score increase are determined by the dragon type.</p>
+			<p class="indent"><strong><em>Breath Weapon.</em></strong>  You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, saving throw type, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 + your proficiency bonus damage on a failed save, and half as much damage on a successful one. The damage increases by an additional 1d6 at 5th level, 8th level, 11th level, and 17th level. You regain the use of your breath weapon after finishing a short or long rest.</p>
+			<p class="indent"><strong><em>Damage Resistance.</em></strong> You have resistance to the damage type associated with your draconic ancestry. In addition, green dragonborn have advantage on saving throws against being poisoned.</p>
+			<p class="indent"><strong><em>Natural Weapons.</em></strong> You grow retractable claws from the tips of your fingers. Extending or retracting the claws requires no action. The claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the normal bludgeoning damage for an unarmed strike. You can also use your bite, which follows the same rules as your claws, but deals 1d4 + your Strength modifier piercing damage instead.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.</p>
+			<p class="indent"><strong><em>Subrace.</em></strong> In addition to being aligned to a particular type of dragon, dragonborn also possess fragments of what makes up a true dragon. These blessings cause them to be divided into four subraces, with Dreadcaller being the most common. Murkdwellers are the only ones with a tail, and are often shunned because of it. Even while half dragons, known for their long tails, are generally accepted within dragonborn society.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Arjhan, Balasar, Bharash, Donaar, Ghesh, Heskan, Kriv, Medrash, Mehen, Nadarr, Pandjed, Patrin, Rhogar, Shamash, Shedinn, Tarhun, Torinn</set>
+			<set name="names" type="female">Akra, Biri, Daar, Farideh, Harann, Flavilar, Jheri, Kava, Korinn, Mishann, Nala, Perra, Raiann, Sora, Surina, Thava, Uadjit</set>
+			<set name="names" type="childhood">Climber, Earbender, Leaper, Pious, Shieldbiter, Zealous</set>
+			<set name="names" type="clan">Clethtinthiallor, Daardendrian, Delmirev, Drachedandion, Fenkenkabradon, Kepeshkmolik, Kerrhylon, Kimbatuul, Linxakasendalor, Myastan, Nemmonis, Norixius, Ophinshtalajiir, Prexijandilin, Shestendeliath, Turnuroth, Verthisathurgiesh, Yarjerit</set>
+			<set name="names-format">{{clan}} {{name}}</set>
+			<set name="height" modifier="2d8">5'6"</set>
+			<set name="weight" modifier="2d6">175 lb.</set>
+		</setters>
+		<rules>
+			<stat name="strength" value="2" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Dragonborn (Revised))" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+            <grant type="Language" id="ID_LANGUAGE_DRACONIC" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+            <select type="Language" name="Customized Language" supports="Custom Race Language" number="2"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_BREATH_WEAPON" />
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_DAMAGE_RESISTANCE" />
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_NATURAL_WEAPONS" />
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_DRAGONBORN_SUBRACE" />
+		</rules>
+  </element>
+	<element name="Draconic Ancestry" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY">
+		<description>
+			<p>You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon (shape, range and damage type), damage resistance, and ability score increase are determined by the dragon type.</p>
+			<h5>DRACONIC ANCESTRY</h5>
+			<table>
+				<thead>
+					<tr><td>Dragon</td><td>Damage Type</td><td>Breath Weapon</td><td>Ability Score</td></tr>
+				</thead>
+				<tr><td>Black</td><td>Acid</td><td>5 by 30 ft. line (Dex. save)</td><td>Constitution</td></tr>
+				<tr><td>Blue</td><td>Lightning</td><td>5 by 30 ft. line (Dex. save)</td><td>Constitution</td></tr>
+				<tr><td>Brass</td><td>Fire</td><td>5 by 30 ft. line (Dex. save)</td><td>Charisma</td></tr>
+				<tr><td>Bronze</td><td>Lightning</td><td>5 by 30 ft. line (Dex. save)</td><td>Charisma</td></tr>
+				<tr><td>Copper</td><td>Acid</td><td>5 by 30 ft. line (Dex. save)</td><td>Charisma</td></tr>
+				<tr><td>Gold</td><td>Fire</td><td>15 ft. cone (Dex. save)</td><td>Wisdom</td></tr>
+				<tr><td>Green</td><td>Poison</td><td>15 ft. cone (Con. save)</td><td>Intelligence</td></tr>
+				<tr><td>Red</td><td>Fire</td><td>15 ft. cone (Dex. save)</td><td>Constitution</td></tr>
+				<tr><td>Silver</td><td>Cold</td><td>15 ft. cone (Con. save)</td><td>Intelligence</td></tr>
+				<tr><td>White</td><td>Cold</td><td>15 ft. cone (Con. save)</td><td>Constitution</td></tr>
+			</table>
+		</description>
+		<rules>
+			<select type="Racial Trait" name="Draconic Ancestry" supports="Draconic Ancestry Revised" />
+		</rules>
+	</element>
+	<element name="Breath Weapon" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_BREATH_WEAPON">
+		<description>
+			<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, saving throw type, and damage type of the exhalation.</p>
+			<p>When you use your breath weapon, each creature in the area of the exhalation must make a saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 + your proficiency bonus damage on a failed save, and half as much damage on a successful one. The damage increases by an additional 1d6 at 5th level, 8th level, 11th level, and 17th level.</p>
+			<p>You regain the use of your breath weapon after finishing a short or long rest.</p>
+		</description>
+		<sheet action="Action" usage="1/Short Rest">
+			<description>Exhale destructive energy. Your breath weapon does {{breath-weapon:dice count}}d{{breath-weapon:dice size}} {{draconic-ancestry:damage type}} damage in a {{draconic-ancestry:breath}} DC {{breath-weapon:dc}}</description>
+		</sheet>
+		<rules>
+			<stat name="breath-weapon:dc" value="8" />
+			<stat name="breath-weapon:dc" value="constitution:modifier" />
+			<stat name="breath-weapon:dc" value="proficiency" />
+			<stat name="breath-weapon:dice size" value="6" bonus="dice" />
+			<stat name="breath-weapon:dice count" value="2" level="1" />
+			<stat name="breath-weapon:dice count" value="1" level="5" />
+			<stat name="breath-weapon:dice count" value="1" level="8" />
+			<stat name="breath-weapon:dice count" value="1" level="11" />
+			<stat name="breath-weapon:dice count" value="1" level="17" />
+		</rules>
+	</element>
+	<element name="Damage Resistance" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DAMAGE_RESISTANCE">
+		<description>
+			<p>You have resistance to the damage type associated with your draconic ancestry.</p>
+		</description>
+		<sheet>
+			<description>You have resistance to {{draconic-ancestry:damage type}}.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" requirements="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLACK||ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_COPPER" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" requirements="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLUE||ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRONZE" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" requirements="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRASS||ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_GOLD||ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_RED" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" requirements="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_GREEN" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" requirements="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_SILVER||ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_WHITE" />
+		</rules>
+	</element>
+	<element name="Natural Weapons" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_NATURAL_WEAPONS">
+		<description>
+			<p>You grow retractable claws from the tips of your fingers. Extending or retracting the claws requires no action. The claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the normal bludgeoning damage for an unarmed strike. You can also use your bite, which follows the same rules as your claws, but deals 1d4 + your Strength modifier piercing damage instead.</p>
+		</description>
+		<sheet>
+			<description>Your claws and bite are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing or piercing damage respectively equal to 1d4+{{strength:modifier}}, instead of the bludgeoning damage normal for an unarmed strike.</description>
+		</sheet>
+	</element>
+			
+	<element name="Draconic Ancestry (Black)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLACK">
+		<supports>Draconic Ancestry Revised</supports>
+		<description>
+			<div element="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Black">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Black"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Acid" />
+			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
+			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Black Dragonborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Blue)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLUE">
+		<supports>Draconic Ancestry Revised</supports>
+		<description>
+			<div element="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Blue">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Blue"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Lightning" />
+			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
+			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Blue Dragonborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Brass)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRASS">
+		<supports>Draconic Ancestry Revised</supports>
+		<description>
+			<div element="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Brass">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Brass"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Fire" />
+			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
+			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Brass Dragonborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Bronze)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRONZE">
+		<supports>Draconic Ancestry Revised</supports>
+		<description>
+			<div element="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Bronze">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Bronze"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Lightning" />
+			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
+			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Bronze Dragonborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Copper)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_COPPER">
+		<supports>Draconic Ancestry Revised</supports>
+		<description>
+			<div element="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Copper">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Copper"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Acid" />
+			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
+			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Copper Dragonborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Gold)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_GOLD">
+		<supports>Draconic Ancestry Revised</supports>
+		<description>
+			<div element="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Gold">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Gold"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Fire" />
+			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Dex. save)" />
+			<stat name="wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Gold Dragonborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Green)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_GREEN">
+		<supports>Draconic Ancestry Revised</supports>
+		<description>
+			<div element="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Green">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Green"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Poison" />
+			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Con. save)" />
+			<stat name="intelligence" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Green Dragonborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Red)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_RED">
+		<supports>Draconic Ancestry Revised</supports>
+		<description>
+			<div element="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Red">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Red"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Fire" />
+			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Con. save)" />
+			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Red Dragonborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Silver)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_SILVER">
+		<supports>Draconic Ancestry Revised</supports>
+		<description>
+			<div element="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Silver">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Silver"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Cold" />
+			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Con. save)" />
+			<stat name="intelligence" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Silver Dragonborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+		</rules>
+	</element> -->
+	<element name="Draconic Ancestry (White)" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY_WHITE">
+		<supports>Draconic Ancestry Revised</supports>
+		<description>
+			<div element="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="White">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="White"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Cold" />
+			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Con. save)" />
+			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (White Dragonborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+		</rules>
+	</element>
+	
+	<element name="Dragonborn Subrace" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRAGONBORN_SUBRACE">
+		<description>
+			<p>In addition to being aligned to a particular type of dragon, dragonborn also possess fragments of what makes up a true dragon. These blessings cause them to be divided into four subraces, with Dreadcaller being the most common.</p>
+			<p>Murkdwellers are the only ones with a tail, and are often shunned because of it. Even while half dragons, known for their long tails, are generally accepted within dragonborn society.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<select type="Sub Race" name="Dragonborn Subrace" supports="Dragonborn" />
+		</rules>
+	</element>
+
+	<element name="Dreadcaller Dragonborn" type="Sub Race" source="Children of the Dragon" id="ID_DMSG_COTD_SUB_RACE_DREADCALLER">
+		<supports>Dragonborn</supports>
+		<description>
+			<p>Dreadcallers are the most common of the Dragonborn subraces</p>
+			<p class="indent"><strong><em>Draconic Fear.</em></strong> You can roar as an action, forcing each creature of your choice within 30 feet of you to make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier) if it can see and hear you. On a failed save, the target is frightened of you for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. You regain the use of this trait after finishing a long rest.</p>
+			<p class="indent"><strong><em>Powerful Build.</em></strong> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+		</description>
+		<sheet display="false"/>
+		<setters></setters>
+		<rules>
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_FEAR" />
+			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_ORC_POWERFUL_BUILD" />
+		</rules>
+	</element>
+	<element name="Draconic Fear" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_FEAR">
+		<description>
+			<p>You can roar as an action, forcing each creature of your choice within 30 feet of you to make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier) if it can see and hear you. On a failed save, the target is frightened of you for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. You regain the use of this trait after finishing a long rest.</p>
+		</description>
+		<sheet>
+			<description>You roar forcing each creature of your choice within 30 feet of you to be frightened for 1 minute. (wis. save) DC {{draconic-fear:dc}}</description>
+		</sheet>
+		<rules>
+			<stat name="draconic-fear:dc" value="8" />
+			<stat name="draconic-fear:dc" value="charisma:modifier" />
+			<stat name="draconic-fear:dc" value="proficiency" />
+		</rules>
+	</element>
+	
+	<element name="Murkdweller Dragonborn" type="Sub Race" source="Children of the Dragon" id="ID_DMSG_COTD_SUB_RACE_MURKDWELLER">
+		<supports>Dragonborn</supports>
+		<description>
+			<p>Murkdwellers are the only ones with a tail, and are often shunned because of it. Even while half dragons, known for their long tails, are generally accepted within dragonborn society.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Tail Lash.</em></strong> Your tail can be used to push or trip up opponents. You can use your bonus action to shove a creature within 5 feet of you. You can use this trait a number of times equal to your Strength modifier (minimum of 1). You regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_TAIL_LASH" />
+		</rules>
+	</element>
+	<element name="Tail Lash" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_TAIL_LASH">
+		<description>
+			<p>Your tail can be used to push or trip up opponents. You can use your bonus action to shove a creature within 5 feet of you. You can use this trait a number of times equal to your Strength modifier (minimum of 1). You regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet action="Bonus Action" usage="{{strength:modifier}}/Long Rest">
+			<description>Your tail can be used to push or trip up opponents. You can use your bonus action to shove a creature within 5 feet of you.</description>
+		</sheet>
+	</element>
+	
+	<element name="Steelscale Dragonborn" type="Sub Race" source="Children of the Dragon" id="ID_DMSG_COTD_SUB_RACE_STEELSCALE">
+		<supports>Dragonborn</supports>
+		<description>
+			<p></p>
+			<p class="indent"><strong><em>Hardened Scales.</em></strong> You gain a +1 bonus to your AC while not wearing heavy armor. Instead of this bonus, you can calculate your AC as 13 + your Dexterity modifier. A shield’s benefits apply as normal on top of either option.</p>
+			<p class="indent"><strong><em>Draconic Savagery.</em></strong> When you make a melee attack on your turn, or you use your breath weapon, you can use your bonus action to make a special attack with your bite. If the attack hits, it deals its normal damage, and you can’t use this trait again until you finish a short or long rest. In addition, the damage dice of your Natural Weapons trait increase from d4 to d6.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_HARDENED_SCALES" />
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_SAVAGERY" />
+		</rules>
+	</element>
+	<element name="Hardened Scales" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_HARDENED_SCALES">
+		<description>
+			<p>You gain a +1 bonus to your AC while not wearing heavy armor. Instead of this bonus, you can calculate your AC as 13 + your Dexterity modifier. A shield’s benefits apply as normal on top of either option.</p>
+		</description>
+		<sheet>
+			<description>You gain a +1 bonus to your AC while not wearing heavy armor. Instead of this bonus, you can calculate your AC as 13 + your Dexterity modifier if you are not wearing armor of any type.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:hardened-scales:base" value="12" />
+			<stat name="ac:hardened-scales:dexterity" value="dexterity:modifier" />
+			<stat name="ac:hardened-scales" value="ac:hardened-scales:base" />
+			<stat name="ac:hardened-scales" value="ac:hardened-scales:dexterity" />
+			<stat name="ac:calculation" value="ac:hardened-scales" bonus="calculation" equipped="[armor:none]" />
+			<stat name="ac:calculation" value="1" bonus="bonus" equipped="![armor:heavy]" />
+		</rules>
+	</element>
+	<element name="Draconic Savagery" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_DRACONIC_SAVAGERY">
+		<description>
+			<p>When you make a melee attack on your turn, or you use your breath weapon, you can use your bonus action to make a special attack with your bite. If the attack hits, it deals its normal damage, and you can’t use this trait again until you finish a short or long rest. In addition, the damage dice of your Natural Weapons trait increase from d4 to d6.</p>
+		</description>
+		<sheet action="Bonus Action" usage="1/Short Rest">
+			<description>On a successful melee or breath weapon attack you may use your bite attack this deals 1d6+{{strength:modifier}} instead of the usual d4.</description>
+		</sheet>
+	</element>
+	
+	<element name="Wayfarer Dragonborn" type="Sub Race" source="Children of the Dragon" id="ID_DMSG_COTD_SUB_RACE_WATFARER">
+		<supports>Dragonborn</supports>
+		<description>
+			<p></p>
+			<p class="indent"><strong><em>Wings.</em></strong> You have draconic wings sprouting from your shoulder blades. When falling you can use your reaction to slow your descent, as if under the effects of a feather fall spell. However you can move one foot horizontally for each foot that you fall. At 6th level you can grant yourself a flying speed of 30 feet as a bonus action for a duration of 1 minute. Afterwards you must finish a long rest before you can use this flight again. At 14th level you can instead fly indefinitely at a speed of 30 feet. If you already possess a flying speed then this flying speed will instead increase by 20 feet. Your clothes and armor have to be modified to accommodate your wings, and you can't use your wings while wearing heavy armor.</p>
+			<p class="indent"><strong><em>Hardened Resistance.</em></strong> You have an echo of the toughness of a true dragon. You can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can’t use this trait again until you finish a long rest.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_WINGS" />
+			<grant type="Racial Trait" id="ID_DMSG_COTD_RACIAL_TRAIT_HARDENED_RESISTANCE" />
+		</rules>
+	</element>
+	<element name="Wings" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_WINGS">
+		<description>
+			<p>You have draconic wings sprouting from your shoulder blades. When falling you can use your reaction to slow your descent, as if under the effects of a feather fall spell. However you can move one foot horizontally for each foot that you fall. At 6th level you can grant yourself a flying speed of 30 feet as a bonus action for a duration of 1 minute. Afterwards you must finish a long rest before you can use this flight again. At 14th level you can instead fly indefinitely at a speed of 30 feet. If you already possess a flying speed then this flying speed will instead increase by 20 feet. Your clothes and armor have to be modified to accommodate your wings, and you can't use your wings while wearing heavy armor.</p>
+		</description>
+		<sheet>
+			<description>When falling you can use your reaction to slow your descent, as if under the effects of a feather fall spell. You can't use your wings while wearing heavy armor.</description>
+			<description level="6">When falling you can use your reaction to slow your descent, as if under the effects of a feather fall spell. Additonally you can grant yourself a flying speed of 30ft for 1 minute. You can't use your wings while wearing heavy armor.</description>
+			<description level="14">When falling you can use your reaction to slow your descent, as if under the effects of a feather fall spell. Additonally you can instead fly indefinitely at a speed of 30 feet. You can't use your wings while wearing heavy armor.</description>
+		</sheet>
+	</element>
+	<element name="Hardened Resistance" type="Racial Trait" source="Children of the Dragon" id="ID_DMSG_COTD_RACIAL_TRAIT_HARDENED_RESISTANCE">
+		<description>
+			<p>You have an echo of the toughness of a true dragon. You can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can’t use this trait again until you finish a long rest.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>You can reroll a saving throw that you fail, you must use that new roll.</description>
+		</sheet>
+	</element>
+</elements>
