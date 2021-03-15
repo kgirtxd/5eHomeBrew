@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Draconic Bloodline (Revised)</name>
+		<description>Draconic Bloodline (Revised) from Children of the Dragon.</description>
+		<author>Niels de Jong</author>
+		<update version="0.0.1">
+			<file name="sorcerer-draconic-bloodline-revised.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations/Children%20of%20the%20Dragon/Archetypes/sorcerer-draconic-bloodline-revised.xml" />
+		</update>
+	</info>
+
+	<element name="Draconic Bloodline (Revised)" type="Archetype" source="Children of the Dragon" id="ID_DMSG_COTD_ARCHETYPE_DRACONIC_BLOODLINE">
+		<supports>Sorcerous Origin</supports>
+		<description>
+			<p>Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors. Most often, sorcerers with this origin trace their descent back to a mighty sorcerer of ancient times who made a bargain with a dragon or who might even have claimed a dragon parent.</p>
+			<div element="ID_DMSG_COTD_ARCHETYPE_FEATURE_DRAGON_ANCESTOR"/>
+			<div element="ID_DMSG_COTD_ARCHETYPE_FEATURE_DRACONIC_RESILIENCE"/>
+			<div element="ID_DMSG_COTD_ARCHETYPE_FEATURE_ELEMENTAL_AFFINITY"/>
+			<div element="ID_DMSG_COTD_ARCHETYPE_FEATURE_DRAGON_WINGS"/>
+			<div element="ID_DMSG_COTD_ARCHETYPE_FEATURE_DRACONIC_PRESENCE"/>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_DMSG_COTD_ARCHETYPE_FEATURE_DRAGON_ANCESTOR" level="1" />
+			<grant type="Archetype Feature" id="ID_DMSG_COTD_ARCHETYPE_FEATURE_DRACONIC_RESILIENCE" level="1" />
+			<grant type="Archetype Feature" id="ID_DMSG_COTD_ARCHETYPE_FEATURE_ELEMENTAL_AFFINITY" level="6" />
+			<grant type="Archetype Feature" id="ID_DMSG_COTD_ARCHETYPE_FEATURE_DRAGON_WINGS" level="14" />
+			<grant type="Archetype Feature" id="ID_DMSG_COTD_ARCHETYPE_FEATURE_DRACONIC_PRESENCE" level="18" />
+		</rules>
+	</element>
+
+	<element name="Dragon Ancestor" type="Archetype Feature" source="Children of the Dragon" id="ID_DMSG_COTD_ARCHETYPE_FEATURE_DRAGON_ANCESTOR">
+		<description>
+			<p>At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.</p>
+			<h5 class="caption">DRACONIC ANCESTRY</h5>
+			<table>
+				<thead>
+					<tr><td>Dragon</td><td>Damage Type</td></tr>
+				</thead>
+				<tr><td>Black</td><td>Acid</td></tr>
+				<tr><td>Blue</td><td>Lightning</td></tr>
+				<tr><td>Brass</td><td>Fire</td></tr>
+				<tr><td>Bronze</td><td>Lightning</td></tr>
+				<tr><td>Copper</td><td>Acid</td></tr>
+				<tr><td>Gold</td><td>Fire</td></tr>
+				<tr><td>Green</td><td>Poison</td></tr>
+				<tr><td>Red</td><td>Fire</td></tr>
+				<tr><td>Silver</td><td>Cold</td></tr>
+				<tr><td>White</td><td>Cold</td></tr>
+			</table>
+			<p class="indent">You know the primal savagery cantrip, and when you cast it its damage type changes to the one associated with your dragon ancestor.</p>
+			<p class="indent">When you learn the burning hands, dragon's breath, fireball, and delayed blast fireball spells you can choose to change their damage type to the one associated with your dragon ancestor. If changed, they won't ignite objects.</p>
+			<p class="indent">You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check.</p>
+		</description>
+		<sheet>
+			<description>When you cast the primal savagery cantrip its damage changes to {{dragon ancestor damage type}}. &#13;
+			When you learn the burning hands, dragon's breath, fireball, and delayed blast fireball spells you can choose to change their damage type to {{dragon ancestor damage type}}. If changed, they won't ignite objects. &#13;
+			Whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check.</description>
+		</sheet>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC" />
+			<select type="Archetype Feature" name="Dragon Ancestor (Draconic Bloodline)" supports="Sorc Dragon Ancestor" />
+			<grant type="Spell" id="ID_XGTE_SPELL_PRIMAL_SAVAGERY" spellcasting="Sorcerer" />
+		</rules>
+	</element>
+	<element name="Draconic Resilience" type="Archetype Feature" source="Children of the Dragon" id="ID_DMSG_COTD_ARCHETYPE_FEATURE_DRACONIC_RESILIENCE">
+		<description>
+			<p>As magic flows through your body, it causes physical traits of your dragon ancestors to emerge. At 1st level, your hit point maximum increases by 1 and increases by 1 again whenever you gain a level in this class.</p>
+			<p class="indent">Additionally, parts of your skin are covered by a thin sheen of dragon-like scales. When not wearing armor and not wielding a shield, your AC becomes 13 + your Dexterity modifier.</p>
+		</description>
+		<sheet>
+			<description>When you aren’t wearing armor, your AC equals {{ac:draconic resilience}}.</description>
+		</sheet>
+		<rules>
+			<stat name="hp" value="level:sorcerer" />
+			<stat name="ac:draconic resilience" value="13" />
+			<stat name="ac:draconic resilience" value="dexterity:modifier" />
+			<stat name="ac:calculation" value="ac:draconic resilience" bonus="calculation" equipped="[armor:none], [shield:none]" alt="Draconic Resilience (Sorcerer)" />
+		</rules>
+	</element>
+	<element name="Elemental Affinity" type="Archetype Feature" source="Children of the Dragon" id="ID_DMSG_COTD_ARCHETYPE_FEATURE_ELEMENTAL_AFFINITY">
+		<description>
+			<p>Starting at 6th level, when you cast a spell that deals damage of the type associated with your dragon ancestor, you can add your Charisma modifier to one damage roll of that spell.</p>
+			<p class="indent">You also learn the absorb elements spell, which doesn't count against your number of sorcerer spells known, and you can use it against poison damage as well. You can cast it by spending 1 sorcery point or by expending a spell slot.</p>
+			<p class="indent">If the damage that triggers this spell is of the type associated with your dragon ancestor, then you can cast it without expending a spell slot or spending a sorcery point. If you already have resistance against this damage type when casting it this way, then you cast it at a spell level that is equal to your proficiency bonus.</p>
+		</description>
+		<sheet>
+			<description>When you cast a spell that deals {{dragon ancestor damage type}} damage, add {{charisma:modifier}} to one damage roll of that spell. At the same time, you can spend 1 sorcery point to gain {{dragon ancestor damage type}} resistance for 1 hour. &#13;
+			You also learn the absorb elements spell and you can use it against poison damage as well. You can cast it by spending 1 sorcery point or by expending a spell slot. &#13;
+			If the damage that triggers this spell {{dragon ancestor damage type}} then you can cast it without expending a spell slot or spending a sorcery point. If you already have resistance against {{dragon ancestor damage type}}, then you cast the spell at {{proficiency}}th level.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_XGTE_SPELL_ABSORB_ELEMENTS" spellcasting="Sorcerer" />
+		</rules>
+	</element>
+	<element name="Dragon Wings" type="Archetype Feature" source="Children of the Dragon" id="ID_DMSG_COTD_ARCHETYPE_FEATURE_DRAGON_WINGS">
+		<description>
+			<p>At 14th level, you gain the ability to sprout a pair of dragon wings from your back, granting you a flying speed equal to your walking speed. You can create these wings as a bonus action on your turn. They last until you dismiss them as a bonus action on your turn. Your clothes are magically changed to accommodate them, but armor has to be modified to accommodate them.</p>
+			<p class="indent">Additionally, you suffer none of the drawbacks of old age, you can't be aged magically, and your lifespan extends by 1000 years.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>Sprout a pair of dragon wings from your back, gaining a {{speed}} ft. flying speed. They last until you dismiss them as a bonus action on your turn.</description>
+		</sheet>
+	</element>
+	<element name="Draconic Presence" type="Archetype Feature" source="Children of the Dragon" id="ID_DMSG_COTD_ARCHETYPE_FEATURE_DRACONIC_PRESENCE">
+		<description>
+			<p>Beginning at 18th level, you have advantage on melee attack rolls against creatures that are frightened.</p>
+			<p class="indent">In addition, you can channel the dread presence of your dragon ancestor, causing those around you to become awestruck or frightened. As an action, you can spend 5 sorcery points to draw on this power and exude an aura of awe or fear (your choice) to a distance of 60 feet for 1 minute. The first time a Hostile creature starts its turn in this aura it must succeed on a Wisdom saving throw or be charmed (if you chose awe) or frightened (if you chose fear) until the aura ends. A creature that succeeds on this saving throw is immune to your aura for 24 hours.</p>
+		</description>
+		<sheet action="Action">
+			<description>You have advantage on melee attack rolls against creatures that are frightened. &#13;
+			You can spend 5 sorcery points to draw on this power and exude an aura of awe or fear (your choice) to a distance of 60 feet for 1 minute. The first time a Hostile creature starts its turn in this aura it must succeed on a Wisdom saving throw or be charmed (if you chose awe) or frightened (if you chose fear) until the aura ends. A creature that succeeds on this saving throw is immune to your aura for 24 hours.</description>
+		</sheet>
+	</element>
+
+	<element name="Black Dragon" type="Archetype Feature" source="Children of the Dragon" id="ID_DMSG_COTD_ARCHETYPE_FEATURE_DRAGON_ANCESTOR_BLACK">
+		<supports>Sorc Dragon Ancestor</supports>
+		<description>
+			<p>You choose the black dragon as your ancestor. The acid damage type is used by features you gain later.</p>
+		</description>
+		<sheet>
+			<description>The black dragon as your ancestor.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="dragon ancestor damage type" value="Acid" />
+		</rules>
+	</element>
+	<element name="Blue Dragon" type="Archetype Feature" source="Children of the Dragon" id="ID_DMSG_COTD_ARCHETYPE_FEATURE_DRAGON_ANCESTOR_BLUE">
+		<supports>Sorc Dragon Ancestor</supports>
+		<description>
+			<p>You choose the blue dragon as your ancestor. The lightning damage type is used by features you gain later.</p>
+		</description>
+		<sheet>
+			<description>The blue dragon as your ancestor.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="dragon ancestor damage type" value="Lightning" />
+		</rules>
+	</element>
+	<element name="Brass Dragon" type="Archetype Feature" source="Children of the Dragon" id="ID_DMSG_COTD_ARCHETYPE_FEATURE_DRAGON_ANCESTOR_BRASS">
+		<supports>Sorc Dragon Ancestor</supports>
+		<description>
+			<p>You choose the brass dragon as your ancestor. The fire damage type is used by features you gain later.</p>
+		</description>
+		<sheet>
+			<description>The brass dragon as your ancestor.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="dragon ancestor damage type" value="Fire" />
+		</rules>
+	</element>
+	<element name="Bronze Dragon" type="Archetype Feature" source="Children of the Dragon" id="ID_DMSG_COTD_ARCHETYPE_FEATURE_DRAGON_ANCESTOR_BRONZE">
+		<supports>Sorc Dragon Ancestor</supports>
+		<description>
+			<p>You choose the bronze dragon as your ancestor. The lightning damage type is used by features you gain later.</p>
+		</description>
+		<sheet>
+			<description>The bronze dragon as your ancestor.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="dragon ancestor damage type" value="Lightning" />
+		</rules>
+	</element>
+	<element name="Copper Dragon" type="Archetype Feature" source="Children of the Dragon" id="ID_DMSG_COTD_ARCHETYPE_FEATURE_DRAGON_ANCESTOR_COPPER">
+		<supports>Sorc Dragon Ancestor</supports>
+		<description>
+			<p>You choose the copper dragon as your ancestor. The acid damage type is used by features you gain later.</p>
+		</description>
+		<sheet>
+			<description>The copper dragon as your ancestor.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="dragon ancestor damage type" value="Acid" />
+		</rules>
+	</element>
+	<element name="Gold Dragon" type="Archetype Feature" source="Children of the Dragon" id="ID_DMSG_COTD_ARCHETYPE_FEATURE_DRAGON_ANCESTOR_GOLD">
+		<supports>Sorc Dragon Ancestor</supports>
+		<description>
+			<p>You choose the gold dragon as your ancestor. The fire damage type is used by features you gain later.</p>
+		</description>
+		<sheet>
+			<description>The gold dragon as your ancestor.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="dragon ancestor damage type" value="Fire" />
+		</rules>
+	</element>
+	<element name="Green Dragon" type="Archetype Feature" source="Children of the Dragon" id="ID_DMSG_COTD_ARCHETYPE_FEATURE_DRAGON_ANCESTOR_GREEN">
+		<supports>Sorc Dragon Ancestor</supports>
+		<description>
+			<p>You choose the green dragon as your ancestor. The poison damage type is used by features you gain later.</p>
+		</description>
+		<sheet>
+			<description>The green dragon as your ancestor.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="dragon ancestor damage type" value="Poison" />
+		</rules>
+	</element>
+	<element name="Red Dragon" type="Archetype Feature" source="Children of the Dragon" id="ID_DMSG_COTD_ARCHETYPE_FEATURE_DRAGON_ANCESTOR_RED">
+		<supports>Sorc Dragon Ancestor</supports>
+		<description>
+			<p>You choose the red dragon as your ancestor. The fire damage type is used by features you gain later.</p>
+		</description>
+		<sheet>
+			<description>The red dragon as your ancestor.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="dragon ancestor damage type" value="Fire" />
+		</rules>
+	</element>
+	<element name="Silver Dragon" type="Archetype Feature" source="Children of the Dragon" id="ID_DMSG_COTD_ARCHETYPE_FEATURE_DRAGON_ANCESTOR_SILVER">
+		<supports>Sorc Dragon Ancestor</supports>
+		<description>
+			<p>You choose the silver dragon as your ancestor. The cold damage type is used by features you gain later.</p>
+		</description>
+		<sheet>
+			<description>The silver dragon as your ancestor.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="dragon ancestor damage type" value="Cold" />
+		</rules>
+	</element>
+	<element name="White Dragon" type="Archetype Feature" source="Children of the Dragon" id="ID_DMSG_COTD_ARCHETYPE_FEATURE_DRAGON_ANCESTOR_WHITE">
+		<supports>Sorc Dragon Ancestor</supports>
+		<description>
+			<p>You choose the white dragon as your ancestor. The cold damage type is used by features you gain later.</p>
+		</description>
+		<sheet>
+			<description>The white dragon as your ancestor.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="dragon ancestor damage type" value="Cold" />
+		</rules>
+	</element>
+</elements>
