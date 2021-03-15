@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Wildfire Circle Spells</name>
+		<name>Vicious Mockery for all Classes</name>
 		<description></description>
 		<author>Konard</author>
 		<update version="0.0.1">
@@ -107,15 +107,15 @@
 			<set name="inventory-hidden">true</set>
 		</setters>
 		<rules>
-			<grant type="Class Feature" id="ID_KON_OCF_VICIOUS_MOCKERY_ARCANE_TRICKSTER"/>
-			<grant type="Class Feature" id="ID_KON_OCF_VICIOUS_MOCKERY_ARTIFICER"/>
-			<grant type="Class Feature" id="ID_KON_OCF_VICIOUS_MOCKERY_CLERIC"/>
-			<grant type="Class Feature" id="ID_KON_OCF_VICIOUS_MOCKERY_DRUID"/>
-			<grant type="Class Feature" id="ID_KON_OCF_VICIOUS_MOCKERY_ELDRITCH_KNIGHT"/>
-			<grant type="Class Feature" id="ID_KON_OCF_VICIOUS_MOCKERY_RANGER"/>
-			<grant type="Class Feature" id="ID_KON_OCF_VICIOUS_MOCKERY_SORCERER"/>
-			<grant type="Class Feature" id="ID_KON_OCF_VICIOUS_MOCKERY_WARLOCK"/>
-			<grant type="Class Feature" id="ID_KON_OCF_VICIOUS_MOCKERY_WIZARD"/>
+			<grant type="Class Feature" id="ID_KON_OCF_VICIOUS_MOCKERY_ARCANE_TRICKSTER" requirements="ID_WOTC_PHB_ARCHETYPE_ARCANE_TRICKSTER" />
+			<grant type="Class Feature" id="ID_KON_OCF_VICIOUS_MOCKERY_ARTIFICER" requirements="ID_WOTC_ERLW_CLASS_ARTIFICER" />
+			<grant type="Class Feature" id="ID_KON_OCF_VICIOUS_MOCKERY_CLERIC" requirements="ID_WOTC_PHB_CLASS_CLERIC" />
+			<grant type="Class Feature" id="ID_KON_OCF_VICIOUS_MOCKERY_DRUID" requirements="ID_WOTC_PHB_CLASS_DRUID" />
+			<grant type="Class Feature" id="ID_KON_OCF_VICIOUS_MOCKERY_ELDRITCH_KNIGHT" requirements="ID_WOTC_PHB_ARCHETYPE_FIGHTER_ELDRITCH_KNIGHT" />
+			<grant type="Class Feature" id="ID_KON_OCF_VICIOUS_MOCKERY_RANGER" requirements="ID_WOTC_PHB_CLASS_RANGER" />
+			<grant type="Class Feature" id="ID_KON_OCF_VICIOUS_MOCKERY_SORCERER" requirements="ID_WOTC_PHB_CLASS_SORCERER" />
+			<grant type="Class Feature" id="ID_KON_OCF_VICIOUS_MOCKERY_WARLOCK" requirements="ID_WOTC_PHB_CLASS_WARLOCK" />
+			<grant type="Class Feature" id="ID_KON_OCF_VICIOUS_MOCKERY_WIZARD" requirements="ID_WOTC_PHB_CLASS_WIZARD" />
 		</rules>
 	</element>
 </elements>
