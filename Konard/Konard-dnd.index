@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Konard's Homebrew Material</name>
-		<update version="0.1.0">
+		<update version="0.1.1">
 			<file name="Konard-dnd.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd.index" />
 		</update>
 	</info>
@@ -21,6 +21,7 @@
 		<!-- OCF -->
 		<file name="Kon-OCF-All-Vicious-Mockery.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-OCF-All-Vicious-Mockery.xml" />
 		<file name="Kon-OCF-Druid-WildfireSpells.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-OCF-Druid-WildfireSpells.xml" />
+		<file name="Kon-OCF-Sorcerer-DivineSoul-ClericExtendedSpellList.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-OCF-Sorcerer-DivineSoul-ClericExtendedSpellList.xml" />
 		<file name="Kon-OCF-Sorcerer-OriginSpells.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-OCF-Sorcerer-OriginSpells.xml" />
 		
 
