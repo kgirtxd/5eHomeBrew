@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name></name>
+		<update version="0.0.0.1">
+			<file name="Kon-Race-Beastkin.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Race-Beastkin.xml" />
+		</update>
+	</info>
+
+	<element name="Beastkin" type="Race" source="Konard's Bag of Stuff" id="ID_KON_OUROBOROS_CODEX_RACE_BEASTKIN">
+		<description>
+			<p></p>
+			<h4>HEADING</h4>
+			<p></p>
+			<p class="indent"></p>
+			<h4>HEADING</h4>
+			<p></p>
+			<p class="indent"></p>
+			<h4>name Traits</h4>
+			<p></p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> _______</p>
+			<p class="indent"><strong><em>Age.</em></strong> _______</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> _______</p>
+			<p class="indent"><strong><em>Size.</em></strong> _______</p>
+			<p class="indent"><strong><em>Speed.</em></strong> _______</p>
+			<p class="indent"><strong><em>RACIAL_TRAIT.</em></strong> _______</p>
+			<p class="indent"><strong><em>RACIAL_TRAIT.</em></strong> _______</p>
+			<p class="indent"><strong><em>Languages.</em></strong> _______</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Beastkin" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement" supports="Custom Ability Score Increase Option" 
+			requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Language, Beastkin" supports="Standard||Exotic" />
+			<select type="Proficiency" name="Beastkin Skill Proficiency" number="2" supports="ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_ANIMALHANDLING|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_SURVIVAL" />
+			<grant type="Vision" id="ID_KON_OUROBOROS_CODEX_VISION_BEAST_SENSE" />
+			<grant type="Racial Trait" id="ID_KON_OUROBOROS_CODEX_RACIAL_TRAIT_SPEAK_WITH_BEASTS" />
+			<grant type="Racial Trait" id="ID_KON_OUROBOROS_CODEX_RACIAL_TRAIT_TIRELESS" />
+			<select type="Sub Race" name="Beaskin Species" supports="Beastkin" />
+		</rules>
+	</element>
+
+	<element name="Beast Sense" type="Vision" source="Konard's Bag of Stuff" id="ID_KON_OUROBOROS_CODEX_VISION_BEAST_SENSE">
+		<description>
+			<p>You can detect the location of all living creatures within 30ft as if you can see them. </p>
+		</description>
+		<sheet>
+			<description>You can detect the location of all living creatures within 30ft as if you can see them. </description>
+		</sheet>
+	</element>
+
+	<element name="Speak with Beasts" type="Racial Trait" source="Konard's Bag of Stuff" id="ID_KON_OUROBOROS_CODEX_RACIAL_TRAIT_SPEAK_WITH_BEASTS">
+		<description>
+			<p>You can communicate with neutral and friendly animals using sounds and gestures. Animals can only handle basic concepts and are not under your control</p>
+		</description>
+		<sheet>
+			<description>You can communicate with neutral and friendly animals using sounds and gestures. Animals can only handle basic concepts and are not under your control</description>
+		</sheet>
+	</element>
+
+	<element name="Tireless" type="Racial Trait" source="Konard's Bag of Stuff" id="ID_KON_OUROBOROS_CODEX_RACIAL_TRAIT_TIRELESS">
+		<description>
+			<p>You have the energy of a beast within you.  You require little sleep, and you are always generally aware of what goes on around you when you do sleep. When asleep you get to roll perception to detect attacks and you only need to sleep 4 hours a night.</p>
+		</description>
+		<sheet>
+			<description>You require little sleep, and you are always generally aware of what goes on around you when you do sleep. When asleep you get to roll perception to detect attacks and you only need to sleep 4 hours a night.</description>
+		</sheet>
+	</element>
+
+	<!--Subraces-->
+	<element name="Wolfkin" type="Sub Race" source="Konard's Bag of Stuff" id="ID_KON_OUROBOROS_CODEX_SUB_RACE_WOLFKIN">
+		<supports>Beastkin</supports>
+		<description>
+			<p>HERE</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength or Dexterity score increases by 1.</p>
+			<p class="indent"><strong><em>Pack Tactics.</em></strong> You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<select type="Ability Score Improvement" name="Beastkin" supports="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_1|ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_KON_OUROBOROS_CODEX_RACIAL_TRAIT_PACK_TACTICS" />
+		</rules>
+	</element>
+
+	<element name="Pack Tactics" type="Racial Trait" source="Konard's Bag of Stuff" id="ID_KON_OUROBOROS_CODEX_RACIAL_TRAIT_PACK_TACTICS">
+		<description>
+			<p>You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated.</description>
+		</sheet>
+	</element>
+
+
+	
+</elements>

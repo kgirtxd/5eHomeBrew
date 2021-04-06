@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name></name>
+		<update version="0.0.1">
+			<file name="Kon-Internals.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Internals.xml" />
+		</update>
+	</info>
+
+	<element name="ASI +2, +1" type="Ability Score Improvement" source="Internal" id="ID_WOTC_OPTION_ASI21">
+		<supports>Custom Ability Score Increase Option</supports>
+		<description>
+			<p>You can select 2 different stats to add a +2 and a +1 modifier to.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2" supports="Custom Ability Score Increase 2" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1" supports="Custom Ability Score Increase 1" />
+		</rules>
+	</element>
+
+	<element name="ASI +1, +1, +1" type="Ability Score Improvement" source="Internal" id="ID_WOTC_OPTION_ASI111">
+		<supports>Custom Ability Score Increase Option</supports>
+		<description>
+			<p>You can select 3 different stats to add a +1 modifier to.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1" number="3" supports="Custom Ability Score Increase 1" />
+		</rules>
+	</element>
+</elements>
