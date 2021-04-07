@@ -32,7 +32,7 @@
 
 	<!-- +1 ASI's -->
 	<element name="Strength" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_1M">
-		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_2</requirements>
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_2M</requirements>
 		<supports>Custom Ability Score Increase 1M</supports>
 		<description>
 			<p>Your Strength increases by 1.</p>
@@ -46,7 +46,7 @@
 		</rules>
 	</element>
 	<element name="Dexterity" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_1M">
-		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_2</requirements>
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_2M</requirements>
 		<supports>Custom Ability Score Increase 1M</supports>
 		<description>
 			<p>Your Dexterity increases by 1.</p>
@@ -60,7 +60,7 @@
 		</rules>
 	</element>
 	<element name="Constitution" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_1M">
-		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_2</requirements>
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_2M</requirements>
 		<supports>Custom Ability Score Increase 1M</supports>
 		<description>
 			<p>Your Constitution increases by 1.</p>
@@ -74,7 +74,7 @@
 		</rules>
 	</element>
 	<element name="Intelligence" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_1M">
-		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_2</requirements>
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_2M</requirements>
 		<supports>Custom Ability Score Increase 1M</supports>
 		<description>
 			<p>Your Intelligence increases by 1.</p>
@@ -89,7 +89,7 @@
 	</element>
 	<element name="Wisdom" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_1M">
 		<supports>Custom Ability Score Increase 1M</supports>
-		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_2</requirements>
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_2M</requirements>
 		<description>
 			<p>Your Wisdom increases by 1.</p>
 		</description>
@@ -103,7 +103,7 @@
 	</element>
 	<element name="Charisma" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_1M">
 		<supports>Custom Ability Score Increase 1M</supports>
-		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_2</requirements>
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_2M</requirements>
 		<description>
 			<p>Your Charisma increases by 1.</p>
 		</description>
@@ -118,7 +118,7 @@
 
 	<!-- +2 ASI's -->
 	<element name="Strength" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_2M">
-		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_1</requirements>
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_1M</requirements>
 		<supports>Custom Ability Score Increase 2M</supports>
 		<description>
 			<p>Your Strength increases by 2.</p>
@@ -129,7 +129,7 @@
 		</rules>
 	</element>
 	<element name="Dexterity" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_2M">
-		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_1</requirements>
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_1M</requirements>
 		<supports>Custom Ability Score Increase 2M</supports>
 		<description>
 			<p>Your Dexterity increases by 2.</p>
@@ -140,7 +140,7 @@
 		</rules>
 	</element>
 	<element name="Constitution" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_2M">
-		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_1</requirements>
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_1M</requirements>
 		<supports>Custom Ability Score Increase 2M</supports>
 		<description>
 			<p>Your Constitution increases by 2.</p>
@@ -152,7 +152,7 @@
 	</element>
 	<element name="Intelligence" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_2M">
 		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_1M</requirements>
-		<supports>Custom Ability Score Increase 2</supports>
+		<supports>Custom Ability Score Increase 2M</supports>
 		<description>
 			<p>Your Intelligence increases by 2.</p>
 		</description>
@@ -162,7 +162,7 @@
 		</rules>
 	</element>
 	<element name="Wisdom" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_2M">
-		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_1</requirements>
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_1M</requirements>
 		<supports>Custom Ability Score Increase 2M</supports>
 		<description>
 			<p>Your Wisdom increases by 2.</p>
@@ -173,7 +173,7 @@
 		</rules>
 	</element>
 	<element name="Charisma" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_2M">
-		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_1</requirements>
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_1M</requirements>
 		<supports>Custom Ability Score Increase 2M</supports>
 		<description>
 			<p>Your Charisma increases by 2.</p>
