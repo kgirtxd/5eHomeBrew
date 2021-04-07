@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Konard's Homebrew Material</name>
-		<update version="0.1.2">
+		<update version="0.1.3">
 			<file name="Konard-dnd.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd.index" />
 		</update>
 	</info>
@@ -26,7 +26,7 @@
 
 		<!-- Race -->
 		<file name="Kon-Race-Beastkin.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Race-Beastkin.xml" />
-		<file name="Kon-Race-Oni.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/Kon-Race-Oni.xml" />
+		<file name="Kon-Race-Oni.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Race-Oni.xml" />
 
 		<!-- Other -->
 		<file name="Kon-Internals.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Internals.xml" />

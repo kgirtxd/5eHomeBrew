@@ -2,8 +2,8 @@
 <elements>
 	<info>
 		<name>Oni Race</name>
-		<update version="0.0.1">
-			<file name="Kon-Race-Oni.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/Kon-Race-Oni.xml" />
+		<update version="0.0.2">
+			<file name="Kon-Race-Oni.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Race-Oni.xml" />
 		</update>
 	</info>
 
