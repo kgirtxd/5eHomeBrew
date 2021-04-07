@@ -29,4 +29,163 @@
 			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1" number="3" supports="Custom Ability Score Increase 1" />
 		</rules>
 	</element>
+
+	<!-- +1 ASI's -->
+	<element name="Strength" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_1M">
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_2</requirements>
+		<supports>Custom Ability Score Increase 1M</supports>
+		<description>
+			<p>Your Strength increases by 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Dexterity" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_1M">
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_2</requirements>
+		<supports>Custom Ability Score Increase 1M</supports>
+		<description>
+			<p>Your Dexterity increases by 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Constitution" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_1M">
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_2</requirements>
+		<supports>Custom Ability Score Increase 1M</supports>
+		<description>
+			<p>Your Constitution increases by 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Intelligence" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_1M">
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_2</requirements>
+		<supports>Custom Ability Score Increase 1M</supports>
+		<description>
+			<p>Your Intelligence increases by 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="intelligence" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Wisdom" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_1M">
+		<supports>Custom Ability Score Increase 1M</supports>
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_2</requirements>
+		<description>
+			<p>Your Wisdom increases by 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Charisma" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_1M">
+		<supports>Custom Ability Score Increase 1M</supports>
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_2</requirements>
+		<description>
+			<p>Your Charisma increases by 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+
+	<!-- +2 ASI's -->
+	<element name="Strength" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_2M">
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_1</requirements>
+		<supports>Custom Ability Score Increase 2M</supports>
+		<description>
+			<p>Your Strength increases by 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="2" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Dexterity" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_2M">
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_1</requirements>
+		<supports>Custom Ability Score Increase 2M</supports>
+		<description>
+			<p>Your Dexterity increases by 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="2" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Constitution" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_2M">
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_1</requirements>
+		<supports>Custom Ability Score Increase 2M</supports>
+		<description>
+			<p>Your Constitution increases by 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="2" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Intelligence" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_2M">
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_1M</requirements>
+		<supports>Custom Ability Score Increase 2</supports>
+		<description>
+			<p>Your Intelligence increases by 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="intelligence" value="2" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Wisdom" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_2M">
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_1</requirements>
+		<supports>Custom Ability Score Increase 2M</supports>
+		<description>
+			<p>Your Wisdom increases by 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="2" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Charisma" type="Ability Score Improvement" source="Internal" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_2M">
+		<requirements>!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_1</requirements>
+		<supports>Custom Ability Score Increase 2M</supports>
+		<description>
+			<p>Your Charisma increases by 2.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="2" alt="Ability Score Increase" />
+		</rules>
+	</element>
+
+	<!--Conditions-->
+	<element name="Resistance (Disease)" type="Condition" source="Internal" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_DISEASE">
+		<supports>Resistance</supports>
+	</element>
 </elements>
