@@ -4,7 +4,7 @@
 		<name>Dragonborn Enhanced</name>
 		<description></description>
 		<author>Basic126</author>
-		<update version="0.0.2">
+		<update version="0.0.4">
 			<file name="B126-Race-Dragonborn-Enahnced.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Basic-dnd/B126-Race-Dragonborn-Enahnced.xml" />
 		</update>
 	</info>
@@ -65,7 +65,7 @@
 			<set name="names" type="female">Akra, Biri, Daar, Farideh, Harann, Flavilar, Jheri, Kava, Korinn, Mishann, Nala, Perra, Raiann, Sora, Surina, Thava, Uadjit</set>
 			<set name="names" type="childhood">Climber, Earbender, Leaper, Pious, Shieldbiter, Zealous</set>
 			<set name="names" type="clan">Clethtinthiallor, Daardendrian, Delmirev, Drachedandion, Fenkenkabradon, Kepeshkmolik, Kerrhylon, Kimbatuul, Linxakasendalor, Myastan, Nemmonis, Norixius, Ophinshtalajiir, Prexijandilin, Shestendeliath, Turnuroth, Verthisathurgiesh, Yarjerit</set>
-			<set name="names-format">{{name}} {{clan}}</set>
+			<set name="names-format">{{clan}} {{name}}</set>
 			<set name="height" modifier="2d8">5'6"</set>
 			<set name="weight" modifier="2d6">175 lb.</set>
 		</setters>
@@ -84,7 +84,7 @@
 			<select type="Race Variant" name="Dragonborn Variant" supports="Dragonborn" optional="true" />
 		</rules>
   </element>
-    <element name="Dragon Sight" type="Vision" source="Basics Box O' Fixes" id="ID_B126_VISION_DRAGON_SIGHT">
+    <element name="Dragon Sight" type="Vision" source="Basic's Box O' Fixes" id="ID_B126_VISION_DRAGON_SIGHT">
     <description>
       <p>Many creatures in the worlds of D&amp;D, especially those that dwell underground, have darkvision. Within a specified range, a creature with darkvision can see in darkness as if the darkness were dim light, so areas of darkness are only lightly obscured as far as that creature is concerned. However, the creature can’t discern color in darkness, only shades of gray.</p>
     </description>
@@ -95,7 +95,7 @@
       <stat name="dragonsight:range" value="30" bonus="base" />
     </rules>
   </element>
-  <element name="Dragon Talons" type="Racial Trait" source="Basics Box O' Fixes" id="ID_B126_RACIAL_TRAIT_DRAGON_TALONS">
+  <element name="Dragon Talons" type="Racial Trait" source="Basic's Box O' Fixes" id="ID_B126_RACIAL_TRAIT_DRAGON_TALONS">
 		<description>
 			<p>Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
 		</description>
@@ -103,7 +103,7 @@
 			<description>Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4+{{strength:modifier}}, instead of the bludgeoning damage normal for an unarmed strike.</description>
 		</sheet>
 	</element>
-  <element name="Breath Weapon" type="Racial Trait" source="Basics Box O' Fixes" id="ID_B126_RACIAL_TRAIT_ENHANCED_BREATH_WEAPON">
+  <element name="Breath Weapon" type="Racial Trait" source="Basic's Box O' Fixes" id="ID_B126_RACIAL_TRAIT_ENHANCED_BREATH_WEAPON">
 		<description>
 			<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p>
 			<p>When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d8 at 11th level, and 5d10 at 16th level.</p>
