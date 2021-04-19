@@ -2,12 +2,15 @@
 <index>
 	<info>
 		<name>Homebrew Campaign Material</name>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="Campaigns.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Campaigns.index" />
 		</update>
 	</info>
 	<files>	
 		<!-- DM - Ziphmose -->
 		<file name="Campaign-Labrintha.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Campaigns/Campaign-Labrintha.xml" />
+
+		<!-- DM - The Violet Rabbit (AMPS) -->
+		<file name="Campaign-Crying-Potatoes.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Campaigns/Campaign-Crying-Potatoes.xml" />
 	</files>
 </index>
