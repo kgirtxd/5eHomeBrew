@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name></name>
+		<update version="0.0.1">
+			<file name="Campaign-Crying-Potatoes.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Campaigns/Campaign-Crying-Potatoes.xml" />
+		</update>
+	</info>
+
+	<element name="Ouroboros: Crying Potatoes" type="Source" source="Core" id="ID_OBC_SOURCE_CRYING_POTATOES">
+		<description>
+			<![CDATA[<p></p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">CP</set>
+			<set name="url">https://github.com/kgirtxd/5eHomeBrew/tree/master/Konard/Campaigns</set>
+			<set name="image">https://gchs.org/wp-content/uploads/Image-Coming-Soon-Placeholder.png</set>
+			<set name="author" abbreviation="OC">Ouroboros Crew</set>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+
+	<!-- Magic Items -->
+	<element name="Oil of Stealth" type="Magic Item" source="Ouroboros: Crying Potatoes" id="ID_OBC_CP_ITEM_OIL_OF_STEALTH">
+		<description>
+			<p>Applying this oil to a suit of metal armor or the joints of a metal construct removes that armor or constructs disadvantage to stealth for 24 hours.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+
+	<element name="Concentrated Oil of Stealth" type="Magic Item" source="Ouroboros: Crying Potatoes" id="ID_OBC_CP_ITEM_CONCENTRATED_OIL_OF_STEALTH">
+		<description>
+			<p>Applying this oil to a suit of metal armor or the joints of a metal construct removes any disadvantage that the armor or construct has to stealth and applies advantage on stealth checks for 8 hours while worn or while the construct is active</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+</elements>
