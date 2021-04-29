@@ -38,6 +38,21 @@
 		</setters>
 	</element>
 
+	<element name="Pistol, Automatic (CP)" type="Weapon" source="Ouroboros: Crying Potatoes" id="ID_OBC_CP_WEAPON_PISTOL_AUTOMATIC">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD</supports>
+		<description />
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">600</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">100/300</set>
+			<set name="damage" type="piercing">2d6</set>
+			<set name="proficiency">ID_WOTC_DMG_PROFICIENCY_WEAPON_MODERN_FIREARMS_PISTOL_AUTOMATIC</set>
+			<set name="reload">15</set>
+		</setters>
+	</element>
+
 	<!-- Magic Items -->
 	<element name="Oil of Stealth" type="Magic Item" source="Ouroboros: Crying Potatoes" id="ID_OBC_CP_ITEM_OIL_OF_STEALTH">
 		<description>
@@ -66,7 +81,7 @@
 	<element name="Unstoppable Rod" type="Magic Item" source="Ouroboros: Crying Potatoes" id="ID_OBC_CP_ITEM_UNSTOPPABLE_ROD">
 		<description>
 			<p>This flat iron rod has a button on one end. You can use an action to press the button, which causes the rod to continue to move magically. Until you or another creature uses an action to push the button again, the rod continues to move at a constant speed and direction, even if it is defying gravity. 
-			The rod can handle up to 8,000 pounds of opposing force. More force causes the rod to deactivate and fall. A creature can use an action to make a DC 30 Strength check, to stop the rod for 6 seconds on a success.</p>
+			The rod can handle up to 8,000 pounds of opposing force. More force causes the rod to deactivate and fall. A creature can use an action to make a DC 30 Strength check, to alter the movement of the rod for 6 seconds on a success.</p>
 		</description>
 		<setters>
 			<set name="category">Wondrous Items</set>
@@ -77,8 +92,4 @@
 			<set name="rarity">Uncommon</set>
 		</setters>
 	</element>
-
-
-
-
 </elements>
