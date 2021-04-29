@@ -50,4 +50,19 @@
 			<set name="rarity">Legendary</set>
 		</setters>
 	</element>
+
+	<element name="Unstoppable Rod" type="Magic Item" source="Konard's Bag of Stuff" id="ID_KON_ITEM_UNSTOPPABLE_ROD">
+		<description>
+			<p>This flat iron rod has a button on one end. You can use an action to press the button, which causes the rod to continue to move magically. Until you or another creature uses an action to push the button again, the rod continues to move at a constant speed and direction, even if it is defying gravity. 
+			The rod can handle up to 8,000 pounds of opposing force. More force causes the rod to deactivate and fall. A creature can use an action to make a DC 30 Strength check, to alter the movement of the rod for 6 seconds on a success.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
 </elements>
