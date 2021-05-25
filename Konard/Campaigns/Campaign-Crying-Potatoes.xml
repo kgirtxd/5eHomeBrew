@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name></name>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="Campaign-Crying-Potatoes.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Campaigns/Campaign-Crying-Potatoes.xml" />
 		</update>
 	</info>
@@ -105,5 +105,22 @@
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">Uncommon</set>
 		</setters>
+	</element>
+
+	<element name="Cockatrice Venom" type="Item" source="Ouroboros: Crying Potatoes" id="ID_OBC_CP_ITEM_POISON_COCKATRICE_VENOM">
+		<description>
+			<p>A creature subjected to this poison must make a DC 11 Constitution saving throw. On a failed save, the creature begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified for 24 hours.</p>
+			<div class="reference">
+				<div element="ID_INTERNAL_SUPPORT_POISON_INJURY" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">poison,injury</set>
+			<set name="category">Poison</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Cockatrice Venom (Injury)" />
 	</element>
 </elements>
