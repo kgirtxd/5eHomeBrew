@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name></name>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="Campaign-Crying-Potatoes.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Campaigns/Campaign-Crying-Potatoes.xml" />
 		</update>
 	</info>
@@ -122,5 +122,134 @@
 			<set name="stackable">true</set>
 		</setters>
 		<sheet alt="Cockatrice Venom (Injury)" />
+	</element>
+
+	<!--Spells-->
+	<element name="Barricade" type="Spell" source="Ouroboros: Crying Potatoes" id="ID_OBC_CP_SPELL_BARRICADE">
+		<supports>Wizard</supports>
+		<description>
+			<p>You create a semi-transparent vertical wall made of magical force (AC 25, 10 HP). The wall is a solid object and appears within range. It lasts for the duration or until it takes damage. You can make a straight wall up to 40 feet long, 40 feet high, and 5 feet thick. The wall provides full cover to creatures on either side of it and only creatures you allow can pass through it.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 action</set>
+			<set name="duration">Up to 1 minute</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Fire Whip" type="Spell" source="Ouroboros: Crying Potatoes" id="ID_OBC_CP_SPELL_FIRE_WHIP">
+		<supports>Bard, Sorcerer, Wizard, Warlock</supports>
+		<description>
+			<p>You create a whip made of scorching flame and select one creature within range, with the intention of unbalancing it. The target must make a Dexterity saving throw. On a failed save, the target takes 5d8 fire damage. If the target is Huge or smaller you can additionally choose to knock it prone or to pull it up to 30 feet closer to your location. </p>
+			<p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 and you can pull the target an additional 5 feet for each slot level above 3rd. </p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">3</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Grim Scythe" type="Spell" source="Ouroboros: Crying Potatoes" id="ID_OBC_CP_SPELL_GRIM_SCYTHE">
+		<supports>DMSG_GRIM_Grave_Warden, Warlock, Wizard</supports>
+		<description>
+			<p>For the duration, a spectral blade forms on the end of a quarterstaff you touch. While this blade lasts, you use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using this weapon. The staff retains the damage die and bonusus of the quarterstaff used.  The weapon also becomes magical if it isn’t already and deals necrotic damage instead of bludgeoning. The spell ends if you cast it again or if you let go of the weapon.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">0</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 bonus action</set>
+			<set name="duration">1 minute</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a handful of bonemeal and a quarterstaff</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Poison Darts" type="Spell" source="Ouroboros: Crying Potatoes" id="ID_OBC_CP_SPELL_POISON_DARTS">
+		<supports>Bard, Druid, Ranger, Wizard</supports>
+		<description>
+			<p>You conjure 2d4 magical darts that last for one hour or until they are used. As an action on your turn, you may expend one of the darts to make a ranged spell attack against a creature you can see within in range. On a successful attack, you deal 2d6 poison damage to the target and force them to make a Constitution saving throw or become poisoned until the end of their next turn.</p>
+			<p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 4th level or higher, the you summon and additional 1d4 darts and they last for 1 additional hour for each slot level above 3rd. </p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">3</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 bonus action</set>
+			<set name="duration">Up to 1 hour</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Veil" type="Spell" source="Ouroboros: Crying Potatoes" id="ID_OBC_CP_SPELL_VEIL">
+		<supports>Wizard</supports>
+		<description>
+			<p>A thick pale mist radiates from you after you take damage from from a melee attack. You are treated as having total cover, but are blinded and deafened until the end of your next turn, or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">0</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 reaction, which you take when you are hit by a melee attack that deals damage</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Zen Archery" type="Spell" source="Ouroboros: Crying Potatoes" id="ID_OBC_CP_SPELL_ZEN_ARCHERY">
+		<supports>Cleric, Druid, Wizard</supports>
+		<description>
+			<p>You channel the call of the hunt to yourself or one willing creature you can see within 60 ft, guiding their ranged weapon attack. For the duration, when the target of the spell makes an attack with a ranged weapon, then can use your Spellcasting ability modifier instead of their Dexterity for all attack and damage rolls.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school">Divination</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
 	</element>
 </elements>
