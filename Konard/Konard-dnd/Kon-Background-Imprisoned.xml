@@ -14,13 +14,13 @@
 			<ul class="unstyled">
 				<li><strong>Skill Proficiencies:</strong> 2 from Athletics, Slight of Hand, Stealth, Survival </li>
 				<li><strong>Language:</strong> The language of your captors</li>
-				<li><strong>Tool Proficiencies / Language:</strong> Learned while doing time</li>
+				<li><strong>Tool Proficiency / Language:</strong> Learned while doing time</li>
 				<li><strong>Equipment:</strong> A tattoo or brand to mark where you are/were captive, ragged common clothes, small sack with 10gp</li>
 			</ul>
 			<div element="ID_KON_BACKGROUND_FEATURE_IMPRISONED_NEVER_UNARMED" />
 		</description>
 		<setters>
-			<set name="short">2 Athletics / Slight of Hand / Stealth / Survival, Gaming Set, Language</set>
+			<set name="short">2 Athletics / Slight of Hand / Stealth / Survival, Tool / Language, Language</set>
 		</setters>
 		<rules>
 			<select type="Proficiency" name="Tool (Imprisoned)" supports="ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_SLEIGHTOFHAND|ID_PROFICIENCY_SKILL_STEALTH|ID_PROFICIENCY_SKILL_SURVIVAL" number="2" />
