@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Konard's Homebrew Material</name>
-		<update version="0.1.4">
+		<update version="0.1.5">
 			<file name="Konard-dnd.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd.index" />
 		</update>
 	</info>
@@ -11,6 +11,7 @@
 	
 		<!-- backgrounds -->
 		<file name="Kon-Background-CombatMedic.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Background-CombatMedic.xml" />
+		<file name="Kon-Background-Imprisoned.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Background-Imprisoned.xml" />
 		<file name="Kon-Background-Urchin-Varient.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Background-Urchin-Varient.xml" />
 
 		<!-- Weapons/Armor -->
