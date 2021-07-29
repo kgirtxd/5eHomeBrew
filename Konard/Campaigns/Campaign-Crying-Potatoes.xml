@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name></name>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="Campaign-Crying-Potatoes.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Campaigns/Campaign-Crying-Potatoes.xml" />
 		</update>
 	</info>
@@ -208,6 +208,25 @@
 			<set name="materialComponent"></set>
 			<set name="isConcentration">false</set>
 			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Starry Rod" type="Spell" source="Ouroboros: Crying Potatoes" id="ID_OBC_CP_SPELL_STARRY_ROD">
+		<supports>Artificer, Sorcerer, Warlock, Wizard</supports>
+		<description>
+			<p>You brandish the weapon used in the spell’s casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack’s normal effects and then becomes sheathed in cosmic energy until the start of your next turn. If the target willingly moves 5 feet or more before then, the target takes 1d8 radiant damage, and the spell ends.</p>
+			<p class="indent"><strong><em>At Higher Levels.</em></strong> At 5th level, the melee attack deals an extra 1d8 radiant damage to the target on a hit, and the damage the target takes for moving increases to 2d8. Both damage rolls increase by 1d8 at 11th level (2d8 and 3d8) and again at 17th level (3d8 and 4d8).</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="range">Self (5-foot radius)</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a melee weapon worth at least 1 sp</set>
+			<set name="duration">1 round</set>
 		</setters>
 	</element>
 
