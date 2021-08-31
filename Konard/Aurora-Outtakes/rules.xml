@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Rules</name>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="rules.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Aurora-Outtakes/rules.xml" />
 		</update>
 	</info>
@@ -274,8 +274,8 @@
 				</thead>
 				<tr><td>Ring mail</td><td>30 gp</td><td>14</td><td>-</td><td>Disadvantage</td><td>40 lb.</td></tr>
 				<tr><td>Chain mail</td><td>75 gp</td><td>16</td><td>Str 13</td><td>Disadvantage</td><td>55 lb.</td></tr>
-				<tr><td>Splint</td><td>200 gp</td><td>17</td><td>Str 13</td><td>Disadvantage</td><td>60 lb.</td></tr>
-				<tr><td>Plate</td><td>1,500 gp</td><td>18</td><td>Str 13</td><td>Disadvantage</td><td>65 lb.</td></tr>
+				<tr><td>Splint</td><td>200 gp</td><td>17</td><td>Str 15</td><td>Disadvantage</td><td>60 lb.</td></tr>
+				<tr><td>Plate</td><td>1,500 gp</td><td>18</td><td>Str 15</td><td>Disadvantage</td><td>65 lb.</td></tr>
 			</table>
 			<h5>Shield</h5>
 			<table>
