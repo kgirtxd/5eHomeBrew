@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name></name>
-		<update version="0.0.6">
+		<update version="0.0.7">
 			<file name="Campaign-Crying-Potatoes.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Campaigns/Campaign-Crying-Potatoes.xml" />
 		</update>
 	</info>
@@ -122,6 +122,52 @@
 			<set name="stackable">true</set>
 		</setters>
 		<sheet alt="Cockatrice Venom (Injury)" />
+	</element>
+
+	<element name="Wand of Darkness" type="Magic Item" source="Ouroboros: Crying Potatoes" id="ID_OBC_CP_MAGIC_ITEM_WAND_OF_DARKNESS">
+		<description>
+			<p>This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the <em>darkness</em> spell from it.</p>
+			<p class="indent">The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_DARKNESS" />
+			</div>
+		</description>
+		<setters>
+			<set name="category">Wands</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wand</set>
+			<set name="rarity">Common</set>
+			<set name="charges">7</set>
+		</setters>
+	</element>
+
+	<element name="Farmer's Pack" type="Item" source="Ouroboros: Crying Potatoes" id="ID_OBC_CP_ITEM_FARMERS_PACK">
+		<description>
+			<p>1 over the shoulder bag (sachel equivalent) with 5 lbs of seeds, 1 set of iron farming tools (rake, hoe, and trowel), 1 water canteen, 1 meal kit, one set of common clothes, 2 days of rations.</p>
+		</description>
+		<setters>
+			<set name="category">Equipment Packs</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="10">10 lbs.</set>
+		</setters>
+		<!--<extract>
+			<item>ID_WOTC_PHB_ITEM_BACKPACK</item>
+			<item>ID_WOTC_PHB_ITEM_BALLBEARINGS</item>
+			<item>ID_WOTC_PHB_ITEM_STRING_10FEET</item>
+			<item>ID_WOTC_PHB_ITEM_BELL</item>
+			<item amount="5">ID_WOTC_PHB_ITEM_CANDLE</item>
+			<item>ID_WOTC_PHB_ITEM_CROWBAR</item>
+			<item>ID_WOTC_PHB_ITEM_HAMMER</item>
+			<item amount="10">ID_WOTC_PHB_ITEM_PITON</item>
+			<item>ID_WOTC_PHB_ITEM_LANTERN_HOODED</item>
+			<item amount="2">ID_WOTC_PHB_ITEM_OIL_FLASK</item>
+			<item amount="5">ID_WOTC_PHB_ITEM_RATIONS_1DAY</item>
+			<item>ID_WOTC_PHB_ITEM_TINDERBOX</item>
+			<item>ID_WOTC_PHB_ITEM_WATERSKIN</item>
+			<item>ID_WOTC_PHB_ITEM_ROPE_HEMPEN_50FEET</item>
+		</extract>-->
 	</element>
 
 	<!--Spells-->
