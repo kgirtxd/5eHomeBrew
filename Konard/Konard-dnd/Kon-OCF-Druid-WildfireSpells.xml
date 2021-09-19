@@ -4,7 +4,7 @@
 		<name>Wildfire Circle Spells</name>
 		<description></description>
 		<author>Konard</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="Kon-OCF-Druid-WildfireSpells.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-OCF-Druid-WildfireSpells.xml" />
 		</update>
 	</info>
@@ -68,40 +68,4 @@
 			<grant type="Class Feature" id="ID_KON_OCF_WILDFIRE_CIRCLE_SPELLS" requirements="[level:druid:2], ID_WOTC_TCOE_ARCHETYPE_DRUID_CIRCLE_OF_WILDFIRE"/>
 		</rules>
 	</element>
-
-	<!--Override the Circle Spells Feature-->
-	<element name="Circle Spells" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_CIRCLE_OF_WILDFIRE_CIRCLE_SPELLS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_WILDFIRE_CIRCLE_SPELLS</requirements>
-		<description>
-			<p><em>2nd-level Circle of Wildfire feature</em></p>
-			<p>You have formed a bond with a wildfire spirit, a primal being of creation and destruction. Your link with this spirit grants you access to some spells when you reach certain levels in this class, as shown on the Circle of Wildfire Spells table.</p>
-			<p class="indent">Once you gain access to one of these spells, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.</p>
-			<h5 class="caption">Circle of Wildfire Spells</h5>
-			<table>
-				<thead>
-					<tr><td>Druid Level</td><td>Spells</td></tr>
-				</thead>
-				<tr><td>2nd</td><td><em>burning hands, cure wounds</em></td></tr>
-				<tr><td>3rd</td><td><em>flaming sphere, scorching ray</em></td></tr>
-				<tr><td>5th</td><td><em>plant growth, revivify</em></td></tr>
-				<tr><td>7th</td><td><em>aura of life, fire shield</em></td></tr>
-				<tr><td>9th</td><td><em>flame strike, mass cure wounds</em></td></tr>
-			</table>
-		</description>
-		<sheet display="false" />
-		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_BURNING_HANDS" level="2" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_CURE_WOUNDS" level="2" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_FLAMING_SPHERE" level="3" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_SCORCHING_RAY" level="3" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_PLANT_GROWTH" level="5" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_REVIVIFY" level="5" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_AURA_OF_LIFE" level="7" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_FIRE_SHIELD" level="7" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_FLAME_STRIKE" level="9" spellcasting="Druid" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_MASS_CURE_WOUNDS" level="9" spellcasting="Druid" prepared="true" />
-		</rules>
-	</element>
-
-	<element name="Wildfire Circle Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_WILDFIRE_CIRCLE_SPELLS" />
 </elements>
