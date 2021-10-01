@@ -2,12 +2,12 @@
 <index>
 	<info>
 		<name>Konard's Homebrew Material</name>
-		<update version="0.1.7">
+		<update version="0.1.8">
 			<file name="Konard-dnd.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd.index" />
 		</update>
 	</info>
 	<files>
-		<file name="source.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/source.xml" />
+		<obsolete name="source.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/source.xml" />
 	
 		<!-- backgrounds -->
 		<obsolete name="Kon-Background-CombatMedic.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Background-CombatMedic.xml" />
