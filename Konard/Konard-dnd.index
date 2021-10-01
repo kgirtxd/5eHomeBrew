@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Konard's Homebrew Material</name>
-		<update version="0.1.6">
+		<update version="0.1.7">
 			<file name="Konard-dnd.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd.index" />
 		</update>
 	</info>
@@ -10,31 +10,31 @@
 		<file name="source.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/source.xml" />
 	
 		<!-- backgrounds -->
-		<file name="Kon-Background-CombatMedic.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Background-CombatMedic.xml" />
-		<file name="Kon-Background-Imprisoned.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Background-Imprisoned.xml" />
-		<file name="Kon-Background-Urchin-Varient.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Background-Urchin-Varient.xml" />
+		<obsolete name="Kon-Background-CombatMedic.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Background-CombatMedic.xml" />
+		<obsolete name="Kon-Background-Imprisoned.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Background-Imprisoned.xml" />
+		<obsolete name="Kon-Background-Urchin-Varient.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Background-Urchin-Varient.xml" />
 
 		<!-- Weapons/Armor -->
-		<file name="Kon-Items-Weapons-PolearmMaster.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Items-Weapons-PolearmMaster.xml" />
-		<file name="Kon-Items-Weapons.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Items-Weapons.xml" />
-		<file name="Kon-Items-Armor.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Items-Armor.xml" />
+		<obsolete name="Kon-Items-Weapons-PolearmMaster.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Items-Weapons-PolearmMaster.xml" />
+		<obsolete name="Kon-Items-Weapons.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Items-Weapons.xml" />
+		<obsolete name="Kon-Items-Armor.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Items-Armor.xml" />
 
 		<!-- OCF -->
-		<file name="Kon-OCF-All-Vicious-Mockery.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-OCF-All-Vicious-Mockery.xml" />
-		<file name="Kon-OCF-ATnEK-Spellcasting.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-OCF-ATnEK-Spellcasting.xml" />
-		<file name="Kon-OCF-Druid-WildfireSpells.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-OCF-Druid-WildfireSpells.xml" />
-		<file name="Kon-OCF-Sorcerer-DivineSoul-ClericExtendedSpellList.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-OCF-Sorcerer-DivineSoul-ClericExtendedSpellList.xml" />
-		<file name="Kon-OCF-Sorcerer-OriginSpells.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-OCF-Sorcerer-OriginSpells.xml" />
+		<obsolete name="Kon-OCF-All-Vicious-Mockery.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-OCF-All-Vicious-Mockery.xml" />
+		<obsolete name="Kon-OCF-ATnEK-Spellcasting.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-OCF-ATnEK-Spellcasting.xml" />
+		<obsolete name="Kon-OCF-Druid-WildfireSpells.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-OCF-Druid-WildfireSpells.xml" />
+		<obsolete name="Kon-OCF-Sorcerer-DivineSoul-ClericExtendedSpellList.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-OCF-Sorcerer-DivineSoul-ClericExtendedSpellList.xml" />
+		<obsolete name="Kon-OCF-Sorcerer-OriginSpells.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-OCF-Sorcerer-OriginSpells.xml" />
 
 		<!-- Race -->
-		<file name="Kon-Race-Beastkin.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Race-Beastkin.xml" />
-		<file name="Kon-Race-Oni.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Race-Oni.xml" />
+		<obsolete name="Kon-Race-Beastkin.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Race-Beastkin.xml" />
+		<obsolete name="Kon-Race-Oni.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Race-Oni.xml" />
 
 		<!-- Other -->
-		<file name="Kon-Internals.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Internals.xml" />
-		<file name="Kon-Deities.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Deities.xml" />
-		<file name="Kon-Feats.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Feats.xml" />
-		<file name="Kon-Items-Wondrous.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Items-Wondrous.xml" />
+		<obsolete name="Kon-Internals.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Internals.xml" />
+		<obsolete name="Kon-Deities.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Deities.xml" />
+		<obsolete name="Kon-Feats.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Feats.xml" />
+		<obsolete name="Kon-Items-Wondrous.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Items-Wondrous.xml" />
 
 		<!-- Obsolete-->
 		<obsolete name="items-weapons.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Items-Weapons-PolearmMaster.xml" />
