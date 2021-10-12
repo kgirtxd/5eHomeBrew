@@ -2,16 +2,16 @@
 <index>
 	<info>
 		<name>Basic126's Homebrew Material</name>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="Basic-dnd.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Basic-dnd.index" />
 		</update>
 	</info>
 	<files>
-		<file name="source.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Basic-dnd/source.xml" />
+		<obsolete name="source.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Basic-dnd/source.xml" />
 		
 		<!-- Races -->
 		
-		<file name="B126-Race-Dragonborn-Enahnced.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Basic-dnd/B126-Race-Dragonborn-Enahnced.xml" />
+		<obsolete name="B126-Race-Dragonborn-Enahnced.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Basic-dnd/B126-Race-Dragonborn-Enahnced.xml" />
 		
 		<!-- Classes -->
 		
@@ -23,13 +23,13 @@
 		
 		<!-- Weapons/Armor -->
 		
-		<file name="B126-Items-Weapons.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Basic-dnd/B126-Items-Weapons.xml" />
+		<obsolete name="B126-Items-Weapons.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Basic-dnd/B126-Items-Weapons.xml" />
 		
-		<file name="B126-Items-Armor.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Basic-dnd/B126-Items-Armor.xml" />
+		<obsolete name="B126-Items-Armor.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Basic-dnd/B126-Items-Armor.xml" />
 		
 		<!-- Spells -->
 		
-		<file name="B126-Spells.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Basic-dnd/B126-Spells.xml" />
+		<obsolete name="B126-Spells.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Basic-dnd/B126-Spells.xml" />
 
 		<!-- Other -->
 		
