@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="Konard.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard.index" />
 		</update>
 	</info>
 	<files>
-		<file name="Konard-DnD.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd.index" />
-		<file name="Basic-DnD.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Basic-dnd.index" />
-		<file name="Integrations.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations.index" />
-		<file name="Aurora-Outtakes.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Aurora-Outtakes.index" />
-		<file name="Campaigns.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Campaigns.index" />
+		<obsolete name="Konard-DnD.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd.index" />
+		<obsolete name="Basic-DnD.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Basic-dnd.index" />
+		<obsolete name="Integrations.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Integrations.index" />
+		<obsolete name="Aurora-Outtakes.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Aurora-Outtakes.index" />
+		<obsolete name="Campaigns.index" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Campaigns.index" />
 	</files>
 </index>
