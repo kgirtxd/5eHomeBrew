@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name></name>
-		<update version="0.0.0.1">
+		<update version="0.0.0.2">
 			<file name="Kon-Race-Beastkin.xml" url="https://raw.githubusercontent.com/kgirtxd/5eHomeBrew/master/Konard/Konard-dnd/Kon-Race-Beastkin.xml" />
 		</update>
 	</info>
@@ -23,6 +23,7 @@
 			<p class="indent"><strong><em>Alignment.</em></strong> Beastkin who live in groups tend to have a similar disposition.  When alone their alignments differ based on their circumstances.</p>
 			<p class="indent"><strong><em>Size.</em></strong> Your size is medium, anywhere beteen 4-6 feet tall depending on species.</p>
 			<p class="indent"><strong><em>Speed.</em></strong> Your speed is 30ft.</p>
+			<p class="indent"><strong><em>Creature Type.</em></strong> You are Humanoid and Beast.</p>
 			<p class="indent"><strong><em>Beast Sense.</em></strong> You can detect the location of all living creatures within 30ft as if you can see them.</p>
 			<p class="indent"><strong><em>Animal Instincts.</em></strong> You gain proficiency in 2 of Perception, Animal Handling, Survival, Nature, or Insight.</p>
 			<p class="indent"><strong><em>Speak with Beasts.</em></strong> You can communicate with neutral and friendly animals using sounds and gestures. Animals can only handle basic concepts and are not under your control.</p>
@@ -40,6 +41,7 @@
 			<select type="Language" name="Language, Beastkin" supports="Standard||Exotic" />
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Vision" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID_AND_BEAST" />
 			<grant type="Vision" id="ID_KON_OUROBOROS_CODEX_VISION_BEAST_SENSE" />
 			<grant type="Racial Trait" id="ID_KON_OUROBOROS_CODEX_VISION_ANIMAL_INSTINCTS" />
 			<grant type="Racial Trait" id="ID_KON_OUROBOROS_CODEX_RACIAL_TRAIT_SPEAK_WITH_BEASTS" />
